@@ -54,7 +54,7 @@ Python 3.12 is recommended. Run from the repository root:
 python scripts/verify_artifact.py
 ```
 
-This uses only the Python standard library. It checks the publication file hashes, the original freezes, and independent hierarchical MAE calculations for all 36 broader-comparison metric groups. It does not fit models or download data.
+This uses only the Python standard library. It checks the frozen study source/model hashes and independent hierarchical MAE calculations for all 36 broader-comparison metric groups. It does not fit models or download data.
 
 ### 2. Install the analysis environment
 
@@ -64,7 +64,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-The recorded neural runtime is CPU PyTorch 2.7.1. On a machine where pip selects a CUDA build, install its CPU wheel from the official PyTorch index instead. Exact versions used in the study are pinned in the requirements files. No GPU or model download is required for the experiment itself.
+The recorded neural runtime is CPU PyTorch 2.7.1. On a machine where pip selects a CUDA build, install its CPU wheel from the official PyTorch index instead. Exact versions used in the study are pinned in `requirements.txt`. No GPU or model download is required for the experiment itself.
 
 ### 3. Run checks and reproduce selected predictions
 
@@ -76,7 +76,7 @@ python -m research.compound.run_broad_prediction evaluate
 python -m research.compound.audit_broad_prediction
 ```
 
-The original audit verifies 240 saved trajectories and recomputes metrics. Original selected-model reproduction refits only the already-selected settings. Follow-up evaluation uses the 18 saved models; its fresh-process audit independently checks predictions and MAEs. Some audit/report commands rewrite derived audit files, so the immutable publication manifest is best checked on a clean checkout before running them. Numerical differences can occur on other software/hardware stacks.
+The original audit verifies 240 saved trajectories and recomputes metrics. Original selected-model reproduction refits only the already-selected settings. Follow-up evaluation uses the 18 saved models; its fresh-process audit independently checks predictions and MAEs. Some audit/report commands rewrite derived audit files; the frozen experimental sources and models remain checked separately. Numerical differences can occur on other software/hardware stacks.
 
 ### 4. Inspect or regenerate figures
 
@@ -111,7 +111,6 @@ output/sime_replay_v2/         Aggregate empirical replay evidence
 paper/compound/conference_8page/ Current course manuscript and figures
 scripts/                      Artifact verification and optional data acquisition
 data/                         External-data provenance and archive index
-ARTIFACT_MANIFEST.json         File-level SHA256 publication snapshot
 ```
 
 The paper uses the seven prescribed course sections. Compile `paper/compound/conference_8page/main.tex` with an IEEEtran-compatible TeX distribution, keeping its `images/` directory alongside it. The TeX file is self-contained apart from figures; `body.tex` is an assembly helper, not another submission. Existing machine-specific PDF exports, slide drafts, installed dependencies and scratch outputs are intentionally absent.
@@ -128,4 +127,4 @@ Surya Maheswaran · Yashaswini Pawar · Sohan Kori · Seema B. Hegde
 
 No external funding was received. AI assistance supported coding, analysis and manuscript preparation; authors retain responsibility for verification. No new participants were recruited. Institutional requirements for reuse of public de-identified data remain an author responsibility.
 
-External data, JuPedSim, scikit-learn, PyTorch and the other dependencies retain their original terms. The SiME dataset and accompanying study must be cited separately. A project-wide reuse licence has not been selected by all authors; GitHub visibility alone does not grant an open-source licence. `CITATION.cff` provides citation metadata for this research artifact.
+External data, JuPedSim, scikit-learn, PyTorch and the other dependencies retain their original terms. The SiME dataset and accompanying study must be cited separately. A project-wide reuse licence has not been selected by all authors; GitHub visibility alone does not grant an open-source licence.

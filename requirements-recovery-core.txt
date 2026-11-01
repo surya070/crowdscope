@@ -1,7 +1,0 @@
-# R1 tested headless core, intentionally excludes JuPedSim GUI packages.
-# Install into a separate project-local target. Original environment is unchanged.
-jupedsim==1.4.2
-shapely==2.1.2
-Deprecated==1.2.18
-wrapt==1.17.3
-# Uses bundled numpy 2.3.5; reproducibility record: research/recovery/runtime_smoke.json.
