@@ -1,0 +1,1730 @@
+[
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 2,
+    "target": 17.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 5,
+    "target": 14.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 10,
+    "target": 9.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 2,
+    "target": 17.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 5,
+    "target": 14.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 10,
+    "target": 9.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 2,
+    "target": 17.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 5,
+    "target": 14.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 10,
+    "target": 9.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 2,
+    "target": 17.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 5,
+    "target": 14.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 10,
+    "target": 9.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 2,
+    "target": 17.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 5,
+    "target": 14.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 10,
+    "target": 9.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 2,
+    "target": 17.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 5,
+    "target": 14.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 10,
+    "target": 9.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 2,
+    "target": 17.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 5,
+    "target": 14.239999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 10,
+    "target": 9.239999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 2,
+    "target": 17.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 5,
+    "target": 14.239999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 10,
+    "target": 9.239999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 2,
+    "target": 22.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 5,
+    "target": 19.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 10,
+    "target": 14.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 22.64,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 19.64,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 14.64,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 2,
+    "target": 17.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 5,
+    "target": 14.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 10,
+    "target": 9.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 2,
+    "target": 17.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 5,
+    "target": 14.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 10,
+    "target": 9.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 2,
+    "target": 15.96,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 5,
+    "target": 12.96,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 10,
+    "target": 7.960000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 2,
+    "target": 15.879999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 5,
+    "target": 12.879999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 10,
+    "target": 7.879999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 2,
+    "target": 25.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 5,
+    "target": 22.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 10,
+    "target": 17.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 2,
+    "target": 25.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 5,
+    "target": 22.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 10,
+    "target": 17.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 2,
+    "target": 26.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 5,
+    "target": 23.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 10,
+    "target": 18.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 2,
+    "target": 26.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 5,
+    "target": 23.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 10,
+    "target": 18.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 2,
+    "target": 14.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 5,
+    "target": 11.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 10,
+    "target": 6.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 2,
+    "target": 14.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 5,
+    "target": 11.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 10,
+    "target": 6.600000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 2,
+    "target": 15.760000000000002,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 5,
+    "target": 12.760000000000002,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 10,
+    "target": 7.760000000000002,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 2,
+    "target": 15.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 5,
+    "target": 12.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 10,
+    "target": 7.68,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 2,
+    "target": 18.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 5,
+    "target": 15.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 10,
+    "target": 10.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 18.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 15.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 10.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 2,
+    "target": 19.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 5,
+    "target": 16.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 10,
+    "target": 11.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 2,
+    "target": 19.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 5,
+    "target": 16.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 10,
+    "target": 11.280000000000001,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 2,
+    "target": 19.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 5,
+    "target": 16.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 10,
+    "target": 11.879999999999999,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 19.8,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 16.8,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 11.8,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 2,
+    "target": 31.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 5,
+    "target": 28.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 10,
+    "target": 23.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 2,
+    "target": 31.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 5,
+    "target": 28.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 10,
+    "target": 23.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 2,
+    "target": 31.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 5,
+    "target": 28.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 10,
+    "target": 23.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 2,
+    "target": 31.119999999999997,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 5,
+    "target": 28.119999999999997,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 10,
+    "target": 23.119999999999997,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 2,
+    "target": 37.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 5,
+    "target": 34.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 10,
+    "target": 29.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 2,
+    "target": 37.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 5,
+    "target": 34.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 10,
+    "target": 29.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 2,
+    "target": 38.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 5,
+    "target": 35.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 10,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 2,
+    "target": 38.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 5,
+    "target": 35.84,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 10,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 2,
+    "target": 33.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 5,
+    "target": 30.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 10,
+    "target": 25.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 2,
+    "target": 33.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 5,
+    "target": 30.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 10,
+    "target": 25.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 2,
+    "target": 33.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 5,
+    "target": 30.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 10,
+    "target": 25.36,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 2,
+    "target": 33.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 5,
+    "target": 30.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 10,
+    "target": 25.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 2,
+    "target": 26.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 5,
+    "target": 23.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 10,
+    "target": 18.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 2,
+    "target": 26.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 5,
+    "target": 23.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 10,
+    "target": 18.72,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 2,
+    "target": 26.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 5,
+    "target": 23.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 10,
+    "target": 18.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 2,
+    "target": 26.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 5,
+    "target": 23.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 10,
+    "target": 18.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 2,
+    "target": 30.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 5,
+    "target": 27.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 10,
+    "target": 22.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 30.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 27.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 22.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 2,
+    "target": 36.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 5,
+    "target": 33.2,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 10,
+    "target": 28.200000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 2,
+    "target": 36.16,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 5,
+    "target": 33.16,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 10,
+    "target": 28.159999999999997,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 2,
+    "target": 36.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 5,
+    "target": 33.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 10,
+    "target": 28.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 2,
+    "target": 36.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 5,
+    "target": 33.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 10,
+    "target": 28.4,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 2,
+    "target": 24.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 5,
+    "target": 21.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 10,
+    "target": 16.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 2,
+    "target": 24.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 5,
+    "target": 21.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 10,
+    "target": 16.88,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 2,
+    "target": 25.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 5,
+    "target": 22.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 10,
+    "target": 17.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 2,
+    "target": 25.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 5,
+    "target": 22.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 10,
+    "target": 17.0,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 2,
+    "target": 27.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 5,
+    "target": 24.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 10,
+    "target": 19.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 2,
+    "target": 27.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 5,
+    "target": 24.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 10,
+    "target": 19.28,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 2,
+    "target": 27.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 5,
+    "target": 24.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 10,
+    "target": 19.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 2,
+    "target": 27.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 5,
+    "target": 24.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 10,
+    "target": 19.92,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 2,
+    "target": 29.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 5,
+    "target": 26.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 10,
+    "target": 21.56,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 29.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 26.52,
+    "prediction": 17.64
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 21.52,
+    "prediction": 17.64
+  }
+]

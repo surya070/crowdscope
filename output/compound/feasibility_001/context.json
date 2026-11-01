@@ -1,0 +1,10 @@
+{
+  "verification_design_sha256": "9ea228e560bb811d40cdb1c51d084a301f48fbf509b3fbb18a13225cbac29210",
+  "source_hashes": {
+    "src/compound/cases.py": "49e969bd09c5f4e3c1bb8242a19dee2425974861b4d988480bbfa47dde2a5983",
+    "src/compound/movement.py": "16f1efb6d87ad1042a8f466fc192aa1190cbb47c2ae2ac1c0a994a672073ec14",
+    "src/compound/__init__.py": "61635bda481e92f824e962b0d6682dc9aa5d75dcdd425dd0cdd3caad5496c2f7",
+    "research/compound/verify_movement.py": "0ec2b0404480c2e98a10622fc68ac60a8d527932d750fe7ed7cac992c7ea7065"
+  },
+  "scope": "Movement feasibility only; no prediction protocol frozen, no predictors or held-out scenarios"
+}

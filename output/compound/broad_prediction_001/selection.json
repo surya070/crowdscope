@@ -1,0 +1,122 @@
+{
+  "family_settings": {
+    "ridge__A": {
+      "setting": {
+        "alpha": 0.01
+      },
+      "validation_mae_s": 1.513473030329776
+    },
+    "ridge__M": {
+      "setting": {
+        "alpha": 0.01
+      },
+      "validation_mae_s": 0.7247014002104313
+    },
+    "ridge__F": {
+      "setting": {
+        "alpha": 0.01
+      },
+      "validation_mae_s": 0.7194899238364748
+    },
+    "rbf__A": {
+      "setting": {
+        "alpha": 0.1,
+        "length": 1.0
+      },
+      "validation_mae_s": 3.017399913743676
+    },
+    "rbf__M": {
+      "setting": {
+        "alpha": 0.1,
+        "length": 1.0
+      },
+      "validation_mae_s": 3.0527578948476792
+    },
+    "rbf__F": {
+      "setting": {
+        "alpha": 0.1,
+        "length": 1.0
+      },
+      "validation_mae_s": 3.3224217665446805
+    },
+    "boosting__A": {
+      "setting": {
+        "depth": 2
+      },
+      "validation_mae_s": 1.6925414669457193
+    },
+    "boosting__M": {
+      "setting": {
+        "depth": 1
+      },
+      "validation_mae_s": 0.8962971655826741
+    },
+    "boosting__F": {
+      "setting": {
+        "depth": 1
+      },
+      "validation_mae_s": 0.9006961896423578
+    },
+    "mlp__A": {
+      "setting": {
+        "width": 32
+      },
+      "validation_mae_s": 1.5597876752594617
+    },
+    "mlp__M": {
+      "setting": {
+        "width": 64
+      },
+      "validation_mae_s": 0.7172239091079042
+    },
+    "mlp__F": {
+      "setting": {
+        "width": 64
+      },
+      "validation_mae_s": 0.8931347218908215
+    },
+    "gru__A": {
+      "setting": {
+        "width": 32
+      },
+      "validation_mae_s": 1.6790385219090294
+    },
+    "gru__M": {
+      "setting": {
+        "width": 32
+      },
+      "validation_mae_s": 1.0490454890177512
+    },
+    "gru__F": {
+      "setting": {
+        "width": 32
+      },
+      "validation_mae_s": 1.0068063185907805
+    },
+    "history_ridge__A": {
+      "setting": {
+        "alpha": 0.01
+      },
+      "validation_mae_s": 1.3173752587332914
+    },
+    "history_ridge__M": {
+      "setting": {
+        "alpha": 0.1
+      },
+      "validation_mae_s": 0.7826117434684449
+    },
+    "history_ridge__F": {
+      "setting": {
+        "alpha": 0.1
+      },
+      "validation_mae_s": 0.7744996052821033
+    }
+  },
+  "best_family": {
+    "A": "history_ridge",
+    "M": "mlp",
+    "F": "ridge"
+  },
+  "selection_data": "development validation only",
+  "training_seconds": 71.03596019744873
+}

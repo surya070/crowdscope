@@ -1,0 +1,12 @@
+{
+  "status": "specified before development replay and test acquisition",
+  "protocol_sha256": "d663386e32dd70801979047cf832ebafee3d7fa63cef17f5abf86bf42a0089e0",
+  "development": [
+    "1501",
+    "1507"
+  ],
+  "held_out": [
+    "1503",
+    "1505"
+  ]
+}

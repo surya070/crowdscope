@@ -1,0 +1,290 @@
+[
+  {
+    "run_id": "finer_dt__G3_n8_s5__independent",
+    "t": 2,
+    "target": 21.64,
+    "prediction": 21.31319605434434
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__independent",
+    "t": 5,
+    "target": 18.64,
+    "prediction": 18.21793727647451
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__independent",
+    "t": 10,
+    "target": 13.64,
+    "prediction": 13.336008204225301
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_only",
+    "t": 2,
+    "target": 21.64,
+    "prediction": 21.205650155784618
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_only",
+    "t": 5,
+    "target": 18.64,
+    "prediction": 18.499209019537815
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_only",
+    "t": 10,
+    "target": 13.64,
+    "prediction": 13.38546891497778
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__assistance_only",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 21.667251139714406
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__assistance_only",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 18.536871811405945
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__assistance_only",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 13.479595724967496
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 21.570539213409802
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 18.81725370925706
+  },
+  {
+    "run_id": "finer_dt__G3_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 13.649051232230155
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__independent",
+    "t": 2,
+    "target": 19.24,
+    "prediction": 18.357974853008372
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__independent",
+    "t": 5,
+    "target": 16.24,
+    "prediction": 15.433921790439005
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__independent",
+    "t": 10,
+    "target": 11.239999999999998,
+    "prediction": 10.65196182264971
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_only",
+    "t": 2,
+    "target": 19.22,
+    "prediction": 18.283329144742282
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_only",
+    "t": 5,
+    "target": 16.22,
+    "prediction": 15.38609650360446
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_only",
+    "t": 10,
+    "target": 11.219999999999999,
+    "prediction": 10.575644977150024
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__assistance_only",
+    "t": 2,
+    "target": 19.72,
+    "prediction": 18.794371178685047
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__assistance_only",
+    "t": 5,
+    "target": 16.72,
+    "prediction": 15.886057072706715
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__assistance_only",
+    "t": 10,
+    "target": 11.719999999999999,
+    "prediction": 10.970288726191768
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 19.7,
+    "prediction": 18.72274273074871
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 16.7,
+    "prediction": 15.800097258781532
+  },
+  {
+    "run_id": "finer_dt__G3_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 11.7,
+    "prediction": 11.060851126835278
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__independent",
+    "t": 2,
+    "target": 30.520000000000003,
+    "prediction": 29.88192269060816
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__independent",
+    "t": 5,
+    "target": 27.520000000000003,
+    "prediction": 26.71093368503186
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__independent",
+    "t": 10,
+    "target": 22.520000000000003,
+    "prediction": 21.896420562672468
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_only",
+    "t": 2,
+    "target": 30.520000000000003,
+    "prediction": 29.88470769977586
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_only",
+    "t": 5,
+    "target": 27.520000000000003,
+    "prediction": 26.67271186905983
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_only",
+    "t": 10,
+    "target": 22.520000000000003,
+    "prediction": 21.92124436186462
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__assistance_only",
+    "t": 2,
+    "target": 30.86,
+    "prediction": 29.8197519354408
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__assistance_only",
+    "t": 5,
+    "target": 27.86,
+    "prediction": 27.12474947346082
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__assistance_only",
+    "t": 10,
+    "target": 22.86,
+    "prediction": 21.829037937802124
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 30.86,
+    "prediction": 29.92557915687388
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 27.86,
+    "prediction": 27.125383551065024
+  },
+  {
+    "run_id": "finer_dt__G4_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 22.86,
+    "prediction": 22.020622855711892
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__independent",
+    "t": 2,
+    "target": 29.12,
+    "prediction": 28.16126499832543
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__independent",
+    "t": 5,
+    "target": 26.12,
+    "prediction": 25.081291983161623
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__independent",
+    "t": 10,
+    "target": 21.12,
+    "prediction": 20.063335712462674
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_only",
+    "t": 2,
+    "target": 29.1,
+    "prediction": 28.258142330711728
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_only",
+    "t": 5,
+    "target": 26.1,
+    "prediction": 25.17374187961957
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_only",
+    "t": 10,
+    "target": 21.1,
+    "prediction": 20.17025500831642
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__assistance_only",
+    "t": 2,
+    "target": 29.46,
+    "prediction": 28.473549979347514
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__assistance_only",
+    "t": 5,
+    "target": 26.46,
+    "prediction": 25.396912481539704
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__assistance_only",
+    "t": 10,
+    "target": 21.46,
+    "prediction": 20.4650083377713
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 29.46,
+    "prediction": 28.567176130676273
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 26.46,
+    "prediction": 25.463687202795448
+  },
+  {
+    "run_id": "finer_dt__G4_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 21.46,
+    "prediction": 20.54022141562664
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "causal_future_mutation": true,
+  "static_history_endpoint": true,
+  "train_blocks": 32,
+  "validation_blocks": 16,
+  "queries": 576
+}

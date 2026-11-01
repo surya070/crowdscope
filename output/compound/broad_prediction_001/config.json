@@ -1,0 +1,161 @@
+{
+  "version": "compound-prediction-1.0",
+  "horizon_s": 180,
+  "dt_s": 0.04,
+  "sample_s": 0.2,
+  "resolution": 16,
+  "checkpoints": [
+    2,
+    5,
+    10
+  ],
+  "observation_lag_s": 0.2,
+  "features": {
+    "aggregate": [
+      "remaining_count",
+      "density_room",
+      "mean_observed_speed",
+      "std_observed_speed",
+      "p10_observed_speed",
+      "fraction_speed_below_0_3",
+      "mean_distance_to_exit_plane",
+      "max_distance_to_exit_plane",
+      "count_within_2m_exit_plane",
+      "observed_exit_count_last_1s",
+      "elapsed_time_s",
+      "room_length_m",
+      "room_width_m",
+      "exit_width_m"
+    ],
+    "mobility_added": [
+      "remaining_child_fraction",
+      "remaining_older_fraction",
+      "remaining_wheelchair_fraction",
+      "mean_roster_free_speed",
+      "std_roster_free_speed",
+      "p10_roster_free_speed",
+      "mean_roster_radius",
+      "min_roster_free_speed",
+      "rearmost_roster_free_speed",
+      "mean_individual_nominal_free_time",
+      "max_individual_nominal_free_time"
+    ],
+    "links_added": [
+      "active_family_edges_per_remaining",
+      "active_assistance_edges_per_remaining",
+      "mean_family_edge_distance",
+      "max_family_edge_distance",
+      "mean_family_absolute_speed_difference",
+      "mean_assistance_edge_distance",
+      "mean_assistance_absolute_speed_difference",
+      "mean_helper_minus_client_roster_speed",
+      "fraction_assistance_clients_observed_slow"
+    ]
+  },
+  "predictors": [
+    "A",
+    "M",
+    "F",
+    "F_no_family",
+    "F_no_assistance",
+    "F_counts"
+  ],
+  "learners": {
+    "candidates": [
+      "ridge",
+      "rbf_kernel_ridge"
+    ],
+    "alpha_grid": [
+      0.01,
+      0.1,
+      1
+    ],
+    "rbf_length_grid": [
+      0.5,
+      1,
+      2
+    ]
+  },
+  "simple_references": {
+    "q_grid_per_m_s": [
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      4
+    ]
+  },
+  "profiles": {
+    "adult": {
+      "speed": [
+        1,
+        1.6
+      ],
+      "radius": 0.24
+    },
+    "child": {
+      "speed": [
+        0.7,
+        1.3
+      ],
+      "radius": 0.2
+    },
+    "older": {
+      "speed": [
+        0.45,
+        0.95
+      ],
+      "radius": 0.24
+    },
+    "wheelchair": {
+      "speed": [
+        0.55,
+        1.05
+      ],
+      "radius": 0.36
+    }
+  },
+  "geometry": [
+    {
+      "id": "G1",
+      "length": 18,
+      "width": 1.0
+    },
+    {
+      "id": "G2",
+      "length": 22,
+      "width": 1.2
+    },
+    {
+      "id": "G3",
+      "length": 20,
+      "width": 0.9
+    },
+    {
+      "id": "G4",
+      "length": 26,
+      "width": 1.1
+    },
+    {
+      "id": "G5",
+      "length": 24,
+      "width": 1.05
+    },
+    {
+      "id": "G6",
+      "length": 28,
+      "width": 1.15
+    }
+  ],
+  "conditions": [
+    "independent",
+    "family_only",
+    "assistance_only",
+    "family_and_assistance"
+  ],
+  "verification": {
+    "clearance_difference_s": 0.5,
+    "cases": "G1/G2, N8/N12, slot0, all conditions"
+  }
+}

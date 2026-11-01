@@ -1,0 +1,136 @@
+{
+  "status": "development and held-out replay evaluated",
+  "development_trials": 2,
+  "development_track_trial_count": 136,
+  "candidate_count": 18,
+  "eligible_candidates": 13,
+  "selected_parameters": {
+    "speed": 1.6,
+    "radius": 0.18,
+    "time_gap": 1.0
+  },
+  "development_mean_crossing_mae_s": 5.411816842559784,
+  "development_free_flight_mae_s": 13.42528129523739,
+  "held_out_completed_trials": 2,
+  "held_out_not_yet_acquired": [],
+  "development_numerical_sensitivity": {
+    "1501": {
+      "status": "completed",
+      "crossing_mae_s": 7.773090141287626,
+      "mae_difference_s": 0.2624707928049661,
+      "last_crossing_difference_s": -1.8796973859924861
+    },
+    "1507": {
+      "status": "completed",
+      "crossing_mae_s": 3.2330532751277654,
+      "mae_difference_s": -0.07996106150914306,
+      "last_crossing_difference_s": -0.07951185973823982
+    }
+  },
+  "audits": {
+    "1501": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661"
+    },
+    "1507": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+    },
+    "fine_1501": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661"
+    },
+    "fine_1507": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+    },
+    "held_out_1503": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "825be95760ebba137ec179fbd0ffde16b1b6a166f3010352743c6807acd0739c"
+    },
+    "held_out_fine_1503": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "825be95760ebba137ec179fbd0ffde16b1b6a166f3010352743c6807acd0739c"
+    },
+    "held_out_1505": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "5a956269ed95fc777c3581c78a6dc9ec03cc5f14297de4d1786c1013d5e23cc1"
+    },
+    "held_out_fine_1505": {
+      "status": "passed",
+      "actual_crossings_independently_reconstructed": true,
+      "metrics_match": true,
+      "identities_conserved": true,
+      "source_sha256": "5a956269ed95fc777c3581c78a6dc9ec03cc5f14297de4d1786c1013d5e23cc1"
+    }
+  },
+  "frozen_sources_unchanged": true,
+  "wall_footprint_warning_m": 0.028643780804092356,
+  "scope": "Observed-inflow-conditioned unassisted reference model with JuPedSim backend. Not validation of original compound assistance model or end-to-end evacuation forecasts.",
+  "held_out_track_trial_count": 135,
+  "held_out_mean_crossing_mae_s": 4.735723155362022,
+  "held_out_free_flight_mae_s": 13.576178865891139,
+  "held_out_numerical_sensitivity": {
+    "1503": {
+      "status": "completed",
+      "crossing_mae_s": 5.9596189704965035,
+      "mae_difference_s": 0.6167196837772684,
+      "last_crossing_difference_s": -1.2237093947734365
+    },
+    "1505": {
+      "status": "completed",
+      "crossing_mae_s": 5.206297796707018,
+      "mae_difference_s": 1.0777507727022098,
+      "last_crossing_difference_s": 3.0976990559009323
+    }
+  },
+  "held_out_trial_metrics": {
+    "1503": {
+      "n": 66,
+      "crossing_mae_s": 5.342899286719235,
+      "crossing_rmse_s": 7.771489825273257,
+      "crossing_bias_s": 4.934367040817287,
+      "observed_passage_s": 46.8495441218048,
+      "simulated_passage_s": 52.76667581633471,
+      "passage_error_s": 5.917131694529914,
+      "last_crossing_error_s": 5.629423818527769,
+      "curve_mae_people": 6.1471698113207545,
+      "crossing_rank_correlation": 0.9256445047489824
+    },
+    "1505": {
+      "n": 69,
+      "crossing_mae_s": 4.128547024004808,
+      "crossing_rmse_s": 6.349532260829698,
+      "crossing_bias_s": 2.347849679636466,
+      "observed_passage_s": 43.35813192484823,
+      "simulated_passage_s": 45.78829701368576,
+      "passage_error_s": 2.4301650888375264,
+      "last_crossing_error_s": 1.8746908446781134,
+      "curve_mae_people": 3.6652173913043478,
+      "crossing_rank_correlation": 0.9013518450858606
+    }
+  },
+  "held_out_wall_footprint_warning_m": 0.02815626208396202,
+  "held_out_relative_mae_reduction": 0.6511740746683827
+}

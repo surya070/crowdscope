@@ -1,0 +1,1730 @@
+[
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 15.572523789293431
+  },
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 12.57813167893746
+  },
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 6.788335254497348
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 15.599137735923723
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 12.559732673383259
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 6.826630907227125
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 15.624485994782706
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 12.357311848061071
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 6.8549470138923905
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 2,
+    "target": 16.12,
+    "prediction": 15.651256379492473
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 5,
+    "target": 13.120000000000001,
+    "prediction": 12.386264599800658
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "t": 10,
+    "target": 8.120000000000001,
+    "prediction": 6.888888106500101
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 2,
+    "target": 17.36,
+    "prediction": 17.344068014121138
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 5,
+    "target": 14.36,
+    "prediction": 14.153772477850977
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "t": 10,
+    "target": 9.36,
+    "prediction": 9.221747787508718
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 2,
+    "target": 17.36,
+    "prediction": 17.088756447132106
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 5,
+    "target": 14.36,
+    "prediction": 13.963809055020366
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "t": 10,
+    "target": 9.36,
+    "prediction": 9.092653396103875
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 2,
+    "target": 17.84,
+    "prediction": 17.322728032983797
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 5,
+    "target": 14.84,
+    "prediction": 14.133997832110465
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "t": 10,
+    "target": 9.84,
+    "prediction": 9.086970890741172
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 2,
+    "target": 17.84,
+    "prediction": 17.045385177439965
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 5,
+    "target": 14.84,
+    "prediction": 13.92200312072507
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "t": 10,
+    "target": 9.84,
+    "prediction": 8.924463011274968
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.84780608068406
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 14.603853961143637
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 9.34050966085176
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 17.91073977148117
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 14.560288830335661
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 9.29652039510616
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 18.126565062426106
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 14.640887889708717
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 9.190299995295371
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 2,
+    "target": 18.28,
+    "prediction": 18.03407682929163
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 5,
+    "target": 15.280000000000001,
+    "prediction": 14.589964786490594
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "t": 10,
+    "target": 10.280000000000001,
+    "prediction": 9.227558646413137
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 2,
+    "target": 17.2,
+    "prediction": 17.401119077396295
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 5,
+    "target": 14.2,
+    "prediction": 14.303091689308994
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "t": 10,
+    "target": 9.2,
+    "prediction": 8.786184812251378
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 2,
+    "target": 17.2,
+    "prediction": 17.423702332101293
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 5,
+    "target": 14.2,
+    "prediction": 14.250922911137764
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "t": 10,
+    "target": 9.2,
+    "prediction": 8.896924027002624
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 2,
+    "target": 17.24,
+    "prediction": 17.030393454481626
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 5,
+    "target": 14.239999999999998,
+    "prediction": 14.141726287631375
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "t": 10,
+    "target": 9.239999999999998,
+    "prediction": 8.765674339149683
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 2,
+    "target": 17.24,
+    "prediction": 17.119436858545818
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 5,
+    "target": 14.239999999999998,
+    "prediction": 13.998162477827917
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "t": 10,
+    "target": 9.239999999999998,
+    "prediction": 8.855168063040253
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 22.079070204795407
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 18.960580254146844
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 14.388346952340521
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 21.822827978119545
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 18.940001346308346
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 14.116576006598377
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 22.185815841863104
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 18.991100680038436
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 14.432183388705766
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 21.852188002873458
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 18.966477882234443
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 14.151891523740058
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 21.341070052548776
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 18.325853049997747
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 13.501957119182297
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 21.63042586834505
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 19.0531786373078
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 13.645366660138862
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 2,
+    "target": 22.68,
+    "prediction": 21.503108461027214
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 5,
+    "target": 19.68,
+    "prediction": 18.44984926664553
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "t": 10,
+    "target": 14.68,
+    "prediction": 13.715379616355971
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 22.64,
+    "prediction": 21.76466258669185
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 19.64,
+    "prediction": 18.864531923250542
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 14.64,
+    "prediction": 13.620197729437592
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 2,
+    "target": 17.68,
+    "prediction": 17.05047863329998
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 5,
+    "target": 14.68,
+    "prediction": 14.065364890835799
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "t": 10,
+    "target": 9.68,
+    "prediction": 10.84400146060553
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 2,
+    "target": 17.6,
+    "prediction": 17.311361742248355
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 5,
+    "target": 14.600000000000001,
+    "prediction": 13.896772702736515
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "t": 10,
+    "target": 9.600000000000001,
+    "prediction": 11.061341563970814
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 2,
+    "target": 15.96,
+    "prediction": 16.659028578531796
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 5,
+    "target": 12.96,
+    "prediction": 13.712968564205541
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "t": 10,
+    "target": 7.960000000000001,
+    "prediction": 10.020547221128023
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 2,
+    "target": 15.879999999999999,
+    "prediction": 16.743847493397894
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 5,
+    "target": 12.879999999999999,
+    "prediction": 13.82124323221893
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "t": 10,
+    "target": 7.879999999999999,
+    "prediction": 10.033866266679878
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 2,
+    "target": 25.92,
+    "prediction": 22.3087153734556
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 5,
+    "target": 22.92,
+    "prediction": 19.507201105149797
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "t": 10,
+    "target": 17.92,
+    "prediction": 16.198455731562856
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 2,
+    "target": 25.92,
+    "prediction": 22.454158209157864
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 5,
+    "target": 22.92,
+    "prediction": 19.470702587136834
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "t": 10,
+    "target": 17.92,
+    "prediction": 16.15903486316344
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 2,
+    "target": 26.12,
+    "prediction": 22.50893894655518
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 5,
+    "target": 23.12,
+    "prediction": 19.677883800923134
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "t": 10,
+    "target": 18.12,
+    "prediction": 16.169471881224315
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 2,
+    "target": 26.12,
+    "prediction": 22.68164784947205
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 5,
+    "target": 23.12,
+    "prediction": 19.661493970478396
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "t": 10,
+    "target": 18.12,
+    "prediction": 16.507940278780005
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 21.59852135017928
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 18.52917605254614
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 14.09987595918778
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 21.7733992650162
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 18.557543290913
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 14.213672603597562
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 21.62063680331065
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 18.560917429318053
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 14.504250947228826
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 2,
+    "target": 24.0,
+    "prediction": 21.703276913898378
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 5,
+    "target": 21.0,
+    "prediction": 18.584944848941277
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "t": 10,
+    "target": 16.0,
+    "prediction": 14.504250947228826
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 2,
+    "target": 14.600000000000001,
+    "prediction": 15.11319320522382
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 5,
+    "target": 11.600000000000001,
+    "prediction": 12.06795669221378
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "t": 10,
+    "target": 6.600000000000001,
+    "prediction": 7.049607591395979
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 2,
+    "target": 14.600000000000001,
+    "prediction": 15.058587678319093
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 5,
+    "target": 11.600000000000001,
+    "prediction": 12.516474194513416
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "t": 10,
+    "target": 6.600000000000001,
+    "prediction": 6.809285352841124
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 2,
+    "target": 15.760000000000002,
+    "prediction": 15.405193868933404
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 5,
+    "target": 12.760000000000002,
+    "prediction": 12.049196951546387
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "t": 10,
+    "target": 7.760000000000002,
+    "prediction": 8.355962875159511
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 2,
+    "target": 15.68,
+    "prediction": 15.488453256960282
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 5,
+    "target": 12.68,
+    "prediction": 12.29880199372025
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "t": 10,
+    "target": 7.68,
+    "prediction": 8.660154036138145
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 16.950289237463462
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 13.730233162876367
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 8.925301407143769
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 16.98855062562301
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 13.706403384273765
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 8.925301407143769
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 2,
+    "target": 18.36,
+    "prediction": 16.99222403026363
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 5,
+    "target": 15.36,
+    "prediction": 13.902346406591871
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "t": 10,
+    "target": 10.36,
+    "prediction": 8.444399654856765
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 18.36,
+    "prediction": 17.084573437174797
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 15.36,
+    "prediction": 13.814433502688344
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 10.36,
+    "prediction": 8.444399654856765
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 2,
+    "target": 19.36,
+    "prediction": 18.48426775082953
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 5,
+    "target": 16.36,
+    "prediction": 15.933064304271218
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "t": 10,
+    "target": 11.36,
+    "prediction": 10.928686558812885
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 2,
+    "target": 19.28,
+    "prediction": 18.369848311693268
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 5,
+    "target": 16.28,
+    "prediction": 16.041253879352894
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "t": 10,
+    "target": 11.280000000000001,
+    "prediction": 10.916018733904767
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 2,
+    "target": 19.88,
+    "prediction": 18.746012288479726
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 5,
+    "target": 16.88,
+    "prediction": 15.985524096014714
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "t": 10,
+    "target": 11.879999999999999,
+    "prediction": 10.984488295675993
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 19.8,
+    "prediction": 18.619342984747874
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 16.8,
+    "prediction": 16.08445385724643
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 11.8,
+    "prediction": 10.99541104641327
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 2,
+    "target": 31.28,
+    "prediction": 30.285469082865724
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 5,
+    "target": 28.28,
+    "prediction": 26.93391343177284
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "t": 10,
+    "target": 23.28,
+    "prediction": 22.377061753595044
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 2,
+    "target": 31.28,
+    "prediction": 30.57061122181674
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 5,
+    "target": 28.28,
+    "prediction": 26.980307475159595
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "t": 10,
+    "target": 23.28,
+    "prediction": 22.960261484625615
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 2,
+    "target": 31.08,
+    "prediction": 30.30903342814782
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 5,
+    "target": 28.08,
+    "prediction": 26.879231707261102
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "t": 10,
+    "target": 23.08,
+    "prediction": 22.425985131604175
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 2,
+    "target": 31.119999999999997,
+    "prediction": 30.59263971271558
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 5,
+    "target": 28.119999999999997,
+    "prediction": 26.92437022963297
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "t": 10,
+    "target": 23.119999999999997,
+    "prediction": 22.776789581428098
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 2,
+    "target": 37.72,
+    "prediction": 33.81064563625727
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 5,
+    "target": 34.72,
+    "prediction": 30.715040404047656
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "t": 10,
+    "target": 29.72,
+    "prediction": 26.79508493258642
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 2,
+    "target": 37.72,
+    "prediction": 33.873774140333126
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 5,
+    "target": 34.72,
+    "prediction": 30.772896887616017
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "t": 10,
+    "target": 29.72,
+    "prediction": 26.505660104636636
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 2,
+    "target": 38.84,
+    "prediction": 33.86655031225717
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 5,
+    "target": 35.84,
+    "prediction": 30.80154568035915
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "t": 10,
+    "target": 30.840000000000003,
+    "prediction": 26.729415589432314
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 2,
+    "target": 38.84,
+    "prediction": 33.86500256354046
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 5,
+    "target": 35.84,
+    "prediction": 30.863068660751924
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "t": 10,
+    "target": 30.840000000000003,
+    "prediction": 26.61139787292061
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 2,
+    "target": 33.28,
+    "prediction": 31.56177893432913
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 5,
+    "target": 30.28,
+    "prediction": 28.37616174022969
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "t": 10,
+    "target": 25.28,
+    "prediction": 23.91610997937287
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 2,
+    "target": 33.28,
+    "prediction": 31.918018268066213
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 5,
+    "target": 30.28,
+    "prediction": 28.47090409225664
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "t": 10,
+    "target": 25.28,
+    "prediction": 23.860288979465096
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 2,
+    "target": 33.36,
+    "prediction": 31.710919538803235
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 5,
+    "target": 30.36,
+    "prediction": 28.486025069413973
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "t": 10,
+    "target": 25.36,
+    "prediction": 24.003648963178975
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 2,
+    "target": 33.4,
+    "prediction": 32.35488245289111
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 5,
+    "target": 30.4,
+    "prediction": 28.678543103801182
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "t": 10,
+    "target": 25.4,
+    "prediction": 24.047420547364112
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 2,
+    "target": 26.72,
+    "prediction": 26.49776272672886
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 5,
+    "target": 23.72,
+    "prediction": 23.26997736591919
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "t": 10,
+    "target": 18.72,
+    "prediction": 18.376413918313073
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 2,
+    "target": 26.72,
+    "prediction": 26.69578780123656
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 5,
+    "target": 23.72,
+    "prediction": 23.251569365280357
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "t": 10,
+    "target": 18.72,
+    "prediction": 18.169327064600218
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 2,
+    "target": 26.88,
+    "prediction": 26.451740952089292
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 5,
+    "target": 23.88,
+    "prediction": 23.35697211443822
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "t": 10,
+    "target": 18.88,
+    "prediction": 18.31959156928825
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 2,
+    "target": 26.88,
+    "prediction": 26.653342695584747
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 5,
+    "target": 23.88,
+    "prediction": 23.296526048985477
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "t": 10,
+    "target": 18.88,
+    "prediction": 18.09263144267082
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.958431945182095
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.624724226365633
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.5089422645291
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 30.22481311537792
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.418347465169127
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.442356929611805
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.48840721905665
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.221988433263572
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.10148868281739
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.568593152421613
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.449425490064826
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.180647066334764
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 29.933772410351512
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 27.01678177034457
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 22.618265823750658
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 29.940445479609867
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 26.869107532852205
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 22.389361215371345
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 2,
+    "target": 30.92,
+    "prediction": 29.717193771775456
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 5,
+    "target": 27.92,
+    "prediction": 27.079529349471283
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "t": 10,
+    "target": 22.92,
+    "prediction": 21.68779093388659
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 30.92,
+    "prediction": 29.95227179469627
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 27.92,
+    "prediction": 27.215852041543243
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 22.92,
+    "prediction": 21.756365260794226
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 2,
+    "target": 36.2,
+    "prediction": 32.54829692349832
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 5,
+    "target": 33.2,
+    "prediction": 29.890830749440195
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "t": 10,
+    "target": 28.200000000000003,
+    "prediction": 24.950474754852245
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 2,
+    "target": 36.16,
+    "prediction": 32.55469993355146
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 5,
+    "target": 33.16,
+    "prediction": 30.034239622269837
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "t": 10,
+    "target": 28.159999999999997,
+    "prediction": 25.07774040817236
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 2,
+    "target": 36.4,
+    "prediction": 32.98415772629438
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 5,
+    "target": 33.4,
+    "prediction": 30.004740392956336
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "t": 10,
+    "target": 28.4,
+    "prediction": 24.886686296709463
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 2,
+    "target": 36.4,
+    "prediction": 32.8714304378783
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 5,
+    "target": 33.4,
+    "prediction": 29.917261115031494
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "t": 10,
+    "target": 28.4,
+    "prediction": 25.299694973815434
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 2,
+    "target": 24.88,
+    "prediction": 24.797709626061803
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 5,
+    "target": 21.88,
+    "prediction": 21.98912288036195
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "t": 10,
+    "target": 16.88,
+    "prediction": 16.356558526236732
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 2,
+    "target": 24.88,
+    "prediction": 24.657273602168292
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 5,
+    "target": 21.88,
+    "prediction": 21.923459396645526
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "t": 10,
+    "target": 16.88,
+    "prediction": 16.36921235347645
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 2,
+    "target": 25.0,
+    "prediction": 25.13047597197086
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 5,
+    "target": 22.0,
+    "prediction": 21.79618556240412
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "t": 10,
+    "target": 17.0,
+    "prediction": 16.33309145479714
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 2,
+    "target": 25.0,
+    "prediction": 24.992202760319188
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 5,
+    "target": 22.0,
+    "prediction": 21.694941653958008
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "t": 10,
+    "target": 17.0,
+    "prediction": 16.34746928273868
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 31.1590124595359
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 28.455704502081144
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 23.632332321183213
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 31.375984793500518
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 28.610636582934482
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 23.447399691507176
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 30.868036090048918
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 28.27311417696006
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 23.33619200921081
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 2,
+    "target": 33.44,
+    "prediction": 30.943319770658125
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 5,
+    "target": 30.439999999999998,
+    "prediction": 28.49007024350229
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "t": 10,
+    "target": 25.439999999999998,
+    "prediction": 22.97306211643832
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 2,
+    "target": 27.28,
+    "prediction": 26.8466753210608
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 5,
+    "target": 24.28,
+    "prediction": 23.83152623293997
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "t": 10,
+    "target": 19.28,
+    "prediction": 18.69964594340693
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 2,
+    "target": 27.28,
+    "prediction": 26.632121115753506
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 5,
+    "target": 24.28,
+    "prediction": 23.695397855248807
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "t": 10,
+    "target": 19.28,
+    "prediction": 18.63456981502528
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 2,
+    "target": 27.92,
+    "prediction": 26.70148025693446
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 5,
+    "target": 24.92,
+    "prediction": 23.72085620126647
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "t": 10,
+    "target": 19.92,
+    "prediction": 19.56881492087907
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 2,
+    "target": 27.92,
+    "prediction": 26.466626248263406
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 5,
+    "target": 24.92,
+    "prediction": 23.51172527365711
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "t": 10,
+    "target": 19.92,
+    "prediction": 19.116496247500354
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.424214706238644
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.581578551235996
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.303780164417258
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.69043184999855
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.54051004016484
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.490399334172054
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.333522214211246
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.392220674132126
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 20.959073274363952
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.520345885748227
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.727325522662767
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.042860078856865
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 28.248315940281344
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 25.118299465475346
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 20.03534779301283
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 28.300610788672277
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 25.14938534051159
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 20.08532506033597
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 2,
+    "target": 29.56,
+    "prediction": 28.304804458522156
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 5,
+    "target": 26.56,
+    "prediction": 25.22434361022335
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "t": 10,
+    "target": 21.56,
+    "prediction": 20.445977807943436
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 29.52,
+    "prediction": 28.33429798930268
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 26.52,
+    "prediction": 25.339620822121354
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 21.52,
+    "prediction": 20.465393339483533
+  }
+]

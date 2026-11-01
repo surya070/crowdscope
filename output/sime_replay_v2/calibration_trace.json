@@ -1,0 +1,254 @@
+[
+  {
+    "candidate": 0,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.18,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 5.636187839720203,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 1,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 8.547812282723807,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 2,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.22,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 7.878239926480853,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 3,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.22,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 17.581905146524008,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 4,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.24,
+      "time_gap": 0.6
+    },
+    "eligible": false,
+    "score_s": null,
+    "trial_statuses": [
+      "failed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 5,
+    "params": {
+      "speed": 1.2,
+      "radius": 0.24,
+      "time_gap": 1.0
+    },
+    "eligible": false,
+    "score_s": null,
+    "trial_statuses": [
+      "failed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 6,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.18,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 5.65965171165423,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 7,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 6.675903224970917,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 8,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.22,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 6.380935828600904,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 9,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.22,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 15.145695674709469,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 10,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.24,
+      "time_gap": 0.6
+    },
+    "eligible": false,
+    "score_s": null,
+    "trial_statuses": [
+      "failed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 11,
+    "params": {
+      "speed": 1.4,
+      "radius": 0.24,
+      "time_gap": 1.0
+    },
+    "eligible": false,
+    "score_s": null,
+    "trial_statuses": [
+      "failed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 12,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 5.7217609748916445,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 13,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 5.411816842559784,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 14,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.22,
+      "time_gap": 0.6
+    },
+    "eligible": true,
+    "score_s": 5.9139849189740445,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 15,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.22,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 11.643580590304465,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 16,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.24,
+      "time_gap": 0.6
+    },
+    "eligible": false,
+    "score_s": null,
+    "trial_statuses": [
+      "failed",
+      "completed"
+    ]
+  },
+  {
+    "candidate": 17,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.24,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 19.6825595410576,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  }
+]

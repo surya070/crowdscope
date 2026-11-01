@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-02",
+  "scope": "current eight-page course manuscript only",
+  "selection_basis": "post-experiment relevance revision authorised by user; not reconstructed historical PRISMA screening",
+  "source_count": 18,
+  "original_retained": 9,
+  "added": 9,
+  "original_review_sha256": "927a27604322746f13550f26176328ce2909ecfda49707a88b610a80496f5dd3",
+  "original_records_preserved": true,
+  "removed": [
+    {
+      "citation_key": "L04",
+      "reason": "Overlapping group-evacuation context; retain original experiment and meta-analysis instead.",
+      "original_review_record": {
+        "id": "L04",
+        "year": 2017,
+        "authors": "von Kruchten, Cornelia and Schadschneider, Andreas",
+        "title": "Empirical study on social groups in pedestrian evacuation dynamics",
+        "venue": "Physica A",
+        "doi": "10.1016/j.physa.2017.02.004",
+        "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378437117301188",
+        "theme": "groups",
+        "evidence_level": "publisher indexed abstract; full page blocked",
+        "finding": "Empirical group-configuration study relevant to group descriptors.",
+        "limitation": "Full methods and numerical conclusions not verified.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L05",
+      "reason": "Overlapping group experiment/simulation context.",
+      "original_review_record": {
+        "id": "L05",
+        "year": 2021,
+        "authors": "Xie, Wei and Lee, Eric Wai Ming and Li, Tao and Shi, Meng and Cao, Ruifeng and Zhang, Yuchun",
+        "title": "A study of group effects in pedestrian crowd evacuation: Experiments, modelling and simulation",
+        "venue": "Safety Science",
+        "doi": "10.1016/j.ssci.2020.105029",
+        "source_url": "https://scholars.cityu.edu.hk/en/publications/a-study-of-group-effects-in-pedestrian-crowd-evacuation-experimen/",
+        "theme": "groups",
+        "evidence_level": "institutional abstract",
+        "finding": "Calibrated social-force group model; effects depend on geometry and behaviour.",
+        "limitation": "Not evidence that group membership always increases clearance time.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L06",
+      "reason": "Additional bottleneck group study; narrower core retained.",
+      "original_review_record": {
+        "id": "L06",
+        "year": 2022,
+        "authors": "Fu, Libi and Shi, Qingxin and Qin, Huigui and Zhang, Ying and Shi, Yongqian",
+        "title": "Analysis of movement behavior of pedestrian social groups through a bottleneck",
+        "venue": "Physica A",
+        "doi": "10.1016/j.physa.2022.128257",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0378437122008159",
+        "theme": "groups",
+        "evidence_level": "publisher indexed preview; full page blocked",
+        "finding": "Controlled bottleneck experiment examines group size, width, and splitting/rejoining.",
+        "limitation": "Raw data and detailed analysis not inspected.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L07",
+      "reason": "Additional operational-flow study; group meta-analysis retained.",
+      "original_review_record": {
+        "id": "L07",
+        "year": 2021,
+        "authors": "Hu, Yanghui and Zhang, Jun and Song, Weiguo and Bode, Nikolai W. F.",
+        "title": "Social groups barely change the speed-density relationship in unidirectional pedestrian flow, but affect operational behaviours",
+        "venue": "Safety Science",
+        "doi": "10.1016/j.ssci.2021.105259",
+        "source_url": "https://research-information.bris.ac.uk/en/publications/social-groups-barely-change-the-speed-density-relationship-in-uni/",
+        "theme": "groups",
+        "evidence_level": "institutional abstract",
+        "finding": "Group differences were more evident in operational behaviours than the speed-density relationship.",
+        "limitation": "Normal unidirectional flow; incremental forecasting value remains to be tested.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L11",
+      "reason": "YOLO perception component was not implemented.",
+      "original_review_record": {
+        "id": "L11",
+        "year": 2016,
+        "authors": "Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali",
+        "title": "You Only Look Once: Unified, Real-Time Object Detection",
+        "venue": "CVPR",
+        "doi": "",
+        "source_url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf",
+        "theme": "peripheral vision",
+        "evidence_level": "official proceedings indexed PDF",
+        "finding": "Object detection component background.",
+        "limitation": "No clearance-time or demographic-risk validation.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L12",
+      "reason": "Deep SORT tracking component was not implemented.",
+      "original_review_record": {
+        "id": "L12",
+        "year": 2017,
+        "authors": "Wojke, Nicolai and Bewley, Alex and Paulus, Dietrich",
+        "title": "Simple Online and Realtime Tracking with a Deep Association Metric",
+        "venue": "ICIP",
+        "doi": "",
+        "source_url": "https://arxiv.org/abs/1703.07402",
+        "theme": "peripheral vision",
+        "evidence_level": "author preprint abstract",
+        "finding": "Appearance-assisted tracking background.",
+        "limitation": "Tracking accuracy does not establish companion identity.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L13",
+      "reason": "CSRNet counting component was not implemented.",
+      "original_review_record": {
+        "id": "L13",
+        "year": 2018,
+        "authors": "Li, Yuhong and Zhang, Xiaofan and Chen, Deming",
+        "title": "CSRNet: Dilated Convolutional Neural Networks for Understanding the Highly Congested Scenes",
+        "venue": "CVPR",
+        "doi": "",
+        "source_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Li_CSRNet_Dilated_Convolutional_CVPR_2018_paper.html",
+        "theme": "peripheral vision",
+        "evidence_level": "official proceedings abstract",
+        "finding": "Density-map and counting background.",
+        "limitation": "Correct first-author attribution is Li, not Zhang; not a clearance predictor.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L16",
+      "reason": "Graph/BIM surrogate was not implemented; retain closer RSET and explainable-prediction work.",
+      "original_review_record": {
+        "id": "L16",
+        "year": 2025,
+        "authors": "Berggold, P. and Borrmann, A. and Nousias, S.",
+        "title": "Graph neural networks for building evacuation prediction: integrating real-time pedestrian flow simulation into BIM workflows",
+        "venue": "EG-ICE",
+        "doi": "10.17868/strath.00093235",
+        "source_url": "https://strathprints.strath.ac.uk/93235/7/Berggold-etal-EG-ICE-2025-Graph-neural-networks-for-building-evacuation-prediction.pdf",
+        "theme": "nearest prediction",
+        "evidence_level": "author repository PDF sections",
+        "finding": "Graph-based temporal density-class prediction is an existing evacuation surrogate.",
+        "limitation": "Not a direct group-conditioned remaining-clearance baseline; node classification target differs.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    },
+    {
+      "citation_key": "L18",
+      "reason": "Group detector was not implemented; links are supplied.",
+      "original_review_record": {
+        "id": "L18",
+        "year": 2024,
+        "authors": "Choubey, Nipun and Verma, Ashish and Chakraborty, Anirban",
+        "title": "An unsupervised group detection method for understanding group dynamics in crowds",
+        "venue": "Physica A",
+        "doi": "10.1016/j.physa.2024.130195",
+        "source_url": "https://www.sciencedirect.com/science/article/pii/S0378437124007040",
+        "theme": "nearest grouping",
+        "evidence_level": "publisher indexed abstract",
+        "finding": "Adaptive rankSBP group association is prior art beyond simple velocity matching.",
+        "limitation": "Full implementation not inspected; prefer publisher DOI over conflicting secondary citation.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "citation_key": "r1",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{r1} M. Moussa\\\"id, N. Perozo, S. Garnier, D. Helbing, and G. Theraulaz, ``The walking behaviour of pedestrian social groups and its impact on crowd dynamics,'' \\emph{PLOS ONE}, vol. 5, no. 4, Art. no. e10047, 2010, doi: \\href{https://doi.org/10.1371/journal.pone.0010047}{10.1371/journal.pone.0010047}.",
+      "original_review_record": {
+        "id": "L02",
+        "year": 2010,
+        "authors": "Moussaid, Mehdi and Perozo, Niriaska and Garnier, Simon and Helbing, Dirk and Theraulaz, Guy",
+        "title": "The Walking Behaviour of Pedestrian Social Groups and Its Impact on Crowd Dynamics",
+        "venue": "PLOS ONE",
+        "doi": "10.1371/journal.pone.0010047",
+        "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010047",
+        "theme": "groups",
+        "evidence_level": "full HTML sections",
+        "finding": "Observed formations motivate persistent group features.",
+        "limitation": "Social ties cannot be inferred from proximity alone; natural walking differs from evacuation.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "r2",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{r2} N. W. F. Bode, S. Holl, W. Mehner, and A. Seyfried, ``Disentangling the impact of social groups on response times and movement dynamics in evacuations,'' \\emph{PLOS ONE}, vol. 10, no. 3, Art. no. e0121227, 2015, doi: \\href{https://doi.org/10.1371/journal.pone.0121227}{10.1371/journal.pone.0121227}.",
+      "original_review_record": {
+        "id": "L03",
+        "year": 2015,
+        "authors": "Bode, Nikolai W. F. and Holl, Stefan and Mehner, Wolfgang and Seyfried, Armin",
+        "title": "Disentangling the Impact of Social Groups on Response Times and Movement Dynamics in Evacuations",
+        "venue": "PLOS ONE",
+        "doi": "10.1371/journal.pone.0121227",
+        "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0121227",
+        "theme": "groups",
+        "evidence_level": "full HTML sections",
+        "finding": "Reported delay differences mainly in response and approach stages, not directly before exits.",
+        "limitation": "Do not assume a universal bottleneck friction penalty. Supplementary data are advertised, not audited here.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L17",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L17} Y. Hu and N. W. F. Bode, ``A systematic review and meta-analysis on the effect social groups have on the egress times of pedestrian crowds,'' \\emph{Transportmetrica A: Transport Science}, published online Nov. 9, 2021. doi: \\href{https://doi.org/10.1080/23249935.2021.1998243}{10.1080/23249935.2021.1998243}.",
+      "original_review_record": {
+        "id": "L17",
+        "year": 2021,
+        "authors": "Hu, Yanghui and Bode, Nikolai W. F.",
+        "title": "A systematic review and meta-analysis on the effect social groups have on the egress times of pedestrian crowds",
+        "venue": "Transportmetrica A: Transport Science",
+        "doi": "10.1080/23249935.2021.1998243",
+        "source_url": "https://research-information.bris.ac.uk/en/publications/a-systematic-review-and-meta-analysis-on-the-effect-social-groups/",
+        "theme": "counterevidence",
+        "evidence_level": "institutional abstract; publisher indexed sections",
+        "finding": "Six comparable studies; aggregated evidence insufficient to reject no group effect.",
+        "limitation": "Online year is used; final issue metadata not checked. Supports cautious hypotheses and independent samples.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L01",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L01} D. Helbing and P. Molnar, ``Social force model for pedestrian dynamics,'' \\emph{Physical Review E}, vol. 51, no. 5, pp. 4282--4286, 1995. doi: \\href{https://doi.org/10.1103/PhysRevE.51.4282}{10.1103/PhysRevE.51.4282}.",
+      "original_review_record": {
+        "id": "L01",
+        "year": 1995,
+        "authors": "Helbing, Dirk and Molnar, Peter",
+        "title": "Social force model for pedestrian dynamics",
+        "venue": "Physical Review E",
+        "doi": "10.1103/PhysRevE.51.4282",
+        "source_url": "https://doi.org/10.1103/PhysRevE.51.4282",
+        "theme": "foundation",
+        "evidence_level": "publisher abstract",
+        "finding": "Social-force motion model; not a clearance-time forecasting benchmark.",
+        "limitation": "No support for the draft demographic coefficients.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L08",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L08} E. D. Kuligowski, R. D. Peacock, E. Wiess, and B. Hoskins, ``Stair evacuation of older adults and people with mobility impairments,'' \\emph{Fire Safety Journal}, vol. 62, pp. 230--237, 2013. doi: \\href{https://doi.org/10.1016/j.firesaf.2013.09.027}{10.1016/j.firesaf.2013.09.027}.",
+      "original_review_record": {
+        "id": "L08",
+        "year": 2013,
+        "authors": "Kuligowski, Erica D. and Peacock, Richard D. and Wiess, Emily and Hoskins, Bryan",
+        "title": "Stair evacuation of older adults and people with mobility impairments",
+        "venue": "Fire Safety Journal",
+        "doi": "10.1016/j.firesaf.2013.09.027",
+        "source_url": "https://www.nist.gov/publications/stair-evacuation-older-adults-and-people-mobility-impairments",
+        "theme": "mobility",
+        "evidence_level": "NIST author abstract",
+        "finding": "Observed evacuation mobility variation supports studying measured movement.",
+        "limitation": "Stair evidence cannot calibrate flat-corridor coefficients without justification.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L09",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L09} C. Feliciani, H. Murakami, K. Shimura, and K. Nishinari, ``Efficiently informing crowds - Experiments and simulations on route choice and decision making in pedestrian crowds with wheelchair users,'' \\emph{Transportation Research Part C}, vol. 114, pp. 484--503, 2020. doi: \\href{https://doi.org/10.1016/j.trc.2020.02.019}{10.1016/j.trc.2020.02.019}.",
+      "original_review_record": {
+        "id": "L09",
+        "year": 2020,
+        "authors": "Feliciani, Claudio and Murakami, Hisashi and Shimura, Kenichiro and Nishinari, Katsuhiro",
+        "title": "Efficiently informing crowds - Experiments and simulations on route choice and decision making in pedestrian crowds with wheelchair users",
+        "venue": "Transportation Research Part C",
+        "doi": "10.1016/j.trc.2020.02.019",
+        "source_url": "https://sites.google.com/site/claudiofeliciani/research-crowds",
+        "theme": "mobility",
+        "evidence_level": "author bibliography and publisher indexed preview",
+        "finding": "Studies information, route choice and wheelchair-inclusive evacuation.",
+        "limitation": "Do not transfer its results to fixed footprint multipliers; full methods not inspected.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L10",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L10} H. Li, J. Zhang, L. Xia, L. Yang, W. Song, and K. K. R. Yuen, ``Characteristic time in highly motivated movements of children and adults through bottlenecks,'' \\emph{Scientific Reports}, 2021. doi: \\href{https://doi.org/10.1038/s41598-021-84324-4}{10.1038/s41598-021-84324-4}.",
+      "original_review_record": {
+        "id": "L10",
+        "year": 2021,
+        "authors": "Li, Hongliu and Zhang, Jun and Xia, Long and Yang, Libing and Song, Weiguo and Yuen, Kwok Kit Richard",
+        "title": "Characteristic time in highly motivated movements of children and adults through bottlenecks",
+        "venue": "Scientific Reports",
+        "doi": "10.1038/s41598-021-84324-4",
+        "source_url": "https://www.nature.com/articles/s41598-021-84324-4",
+        "theme": "mobility",
+        "evidence_level": "publisher indexed methods/results",
+        "finding": "Compares child and adult bottleneck motion and timing.",
+        "limitation": "Not validation of appearance-based age labels or a fixed parental protective bubble.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "WU",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{WU} W. Wu, W. Yi, J. Li, M. Chen, and X. Zheng, ``Simulating the evacuation process involving multitype disabled pedestrians,'' \\emph{IEEE Trans. Computational Social Systems}, vol. 10, no. 5, pp. 2400--2410, Oct. 2023, doi: \\href{https://doi.org/10.1109/TCSS.2022.3190685}{10.1109/TCSS.2022.3190685}.",
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L14",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L14} F. K. Alqahtani, M. Sherif, A. Ghanem, and M. Abdelhafeez, ``Inclusive crowd evacuation modeling under heterogeneous mobility constraints,'' \\emph{Scientific Reports}, 2025. doi: \\href{https://doi.org/10.1038/s41598-025-19403-x}{10.1038/s41598-025-19403-x}.",
+      "original_review_record": {
+        "id": "L14",
+        "year": 2025,
+        "authors": "Alqahtani, Fahad K. and Sherif, Mohamed and Ghanem, Amr and Abdelhafeez, Mostafa",
+        "title": "Inclusive crowd evacuation modeling under heterogeneous mobility constraints",
+        "venue": "Scientific Reports",
+        "doi": "10.1038/s41598-025-19403-x",
+        "source_url": "https://www.nature.com/articles/s41598-025-19403-x",
+        "theme": "nearest mobility",
+        "evidence_level": "publisher indexed PDF and PMC indexed sections",
+        "finding": "Existing inclusive social-force simulation directly overlaps broad mobility-aware modelling claims.",
+        "limitation": "Calibration and internal consistency require deeper appraisal; cannot treat all reported settings as validated constants.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "r3",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{r3} S. Sarmady, F. Haron, and A. Z. Talib, ``Simulation of wheelchair movements in crowd using fine grid cellular automata,'' arXiv:2010.00082, 2020, doi: \\href{https://doi.org/10.48550/arXiv.2010.00082}{10.48550/arXiv.2010.00082}.",
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "r4",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{r4} Thunderhead Engineering, ``Assisted evacuation,'' \\emph{Pathfinder Technical Reference}. Accessed: Oct. 29, 2026. [Online]. Available: \\url{https://www.thunderheadeng.com/docs/latest/pathfinder/advanced/assisted-evacuation/tech-ref/}",
+      "source_role": "method/software"
+    },
+    {
+      "citation_key": "r5",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{r5} O. Uhlik, P. Okrinova, A. Tokarevskikh, T. Apeltauer, and J. Apeltauer, ``Real-time RSET prediction across three types of geometries and simulation training dataset: A comparative study of machine learning models,'' \\emph{Developments in the Built Environment}, vol. 18, Art. no. 100461, 2024, doi: \\href{https://doi.org/10.1016/j.dibe.2024.100461}{10.1016/j.dibe.2024.100461}.",
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "L15",
+      "selection": "retained from original review",
+      "bibliography_tex": "\\bibitem{L15} E. Smania Testa and S. Raupp Musse, ``Predicting and Optimizing Crowd Evacuations: An Explainable AI Approach,'' \\emph{Computer Animation and Virtual Worlds}, vol. 36, no. 5, Art. no. e70061, 2025. doi: \\href{https://doi.org/10.1002/cav.70061}{10.1002/cav.70061}.",
+      "original_review_record": {
+        "id": "L15",
+        "year": 2025,
+        "authors": "Smania Testa, Estevao and Raupp Musse, Soraia",
+        "title": "Predicting and Optimizing Crowd Evacuations: An Explainable AI Approach",
+        "venue": "Computer Animation and Virtual Worlds",
+        "doi": "10.1002/cav.70061",
+        "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/cav.70061",
+        "theme": "nearest prediction",
+        "evidence_level": "full HTML sections",
+        "finding": "Simulation-trained ANN predicts evacuation quantities and uses explainability for design.",
+        "limitation": "Different from online remaining-time prediction; data are on request, not audited as downloadable.",
+        "screened_on": "2026-10-29",
+        "decision": "include for bounded synthesis"
+      },
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "SIME",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{SIME} P. Geoerg, J. Schumann, M. Boltes, and M. Kinateder, ``How people with disabilities influence crowd dynamics of pedestrian movement through bottlenecks,'' \\emph{Scientific Reports}, vol. 12, Art. no. 14273, 2022, doi: \\href{https://doi.org/10.1038/s41598-022-18142-7}{10.1038/s41598-022-18142-7}. Data: \\url{https://doi.org/10.34735/ped.2017.1}.",
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "CFS",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{CFS} A. Tordeux, M. Chraibi, and A. Seyfried, ``Collision-free speed model for pedestrian dynamics,'' in \\emph{Traffic and Granular Flow '15}, V. Knoop and W. Daamen, Eds. Springer, 2016, doi: \\href{https://doi.org/10.1007/978-3-319-33482-0_29}{10.1007/978-3-319-33482-0\\_29}.",
+      "source_role": "substantive research/data/model"
+    },
+    {
+      "citation_key": "r6",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{r6} B. Efron, ``Bootstrap methods: Another look at the jackknife,'' \\emph{The Annals of Statistics}, vol. 7, no. 1, pp. 1--26, 1979, doi: \\href{https://doi.org/10.1214/aos/1176344552}{10.1214/aos/1176344552}.",
+      "source_role": "method/software"
+    },
+    {
+      "citation_key": "SKLEARN",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{SKLEARN} F. Pedregosa \\emph{et al.}, ``Scikit-learn: Machine learning in Python,'' \\emph{Journal of Machine Learning Research}, vol. 12, no. 85, pp. 2825--2830, 2011. [Online]. Available: \\url{https://www.jmlr.org/papers/v12/pedregosa11a.html}.",
+      "source_role": "method/software"
+    },
+    {
+      "citation_key": "TORCH",
+      "selection": "added for direct use in completed project",
+      "bibliography_tex": "\\bibitem{TORCH} A. Paszke \\emph{et al.}, ``PyTorch: An imperative style, high-performance deep learning library,'' in \\emph{Advances in Neural Information Processing Systems}, vol. 32, 2019. [Online]. Available: \\url{https://arxiv.org/abs/1912.01703}.",
+      "source_role": "method/software"
+    }
+  ]
+}

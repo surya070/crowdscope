@@ -1,0 +1,9 @@
+{
+  "status": "prospective; before study simulation or fitting",
+  "files": {
+    "research/compound/prediction_protocol_v1.md": "965657826f45f42ce128bbf3c4b4425499dc6207759bb8ee4c587921f97931fd",
+    "research/compound/prediction_config_v1.json": "1a03296672666655b6d18a6bb29c1a365e3927c22499b2ca213eb5436dbae60a",
+    "research/compound/prediction_manifest_v1.json": "2f30f7520b858020204a1a36361507776276fda5f15ad38f8b945b3dad77608d"
+  },
+  "prior_feasibility_validation_sha256": "09826549965a801d07f57ed5b0ef79962db2b4ed33c0541ffd65e88c8cb584ce"
+}

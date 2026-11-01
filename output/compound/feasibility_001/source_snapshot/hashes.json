@@ -1,0 +1,10 @@
+{
+  "src/compound/cases.py": "49e969bd09c5f4e3c1bb8242a19dee2425974861b4d988480bbfa47dde2a5983",
+  "src/compound/movement.py": "16f1efb6d87ad1042a8f466fc192aa1190cbb47c2ae2ac1c0a994a672073ec14",
+  "src/compound/__init__.py": "61635bda481e92f824e962b0d6682dc9aa5d75dcdd425dd0cdd3caad5496c2f7",
+  "research/compound/verify_movement.py": "0ec2b0404480c2e98a10622fc68ac60a8d527932d750fe7ed7cac992c7ea7065",
+  "tests_compound/test_movement.py": "3e4b6ad4913dd9ce46e6b1b7aeca4cf0c085dd30ed4936123b343f49ac359d20",
+  "research/compound/verification_design.md": "9ea228e560bb811d40cdb1c51d084a301f48fbf509b3fbb18a13225cbac29210",
+  "research/compound/report_movement.py": "1910181caedd7f53935f655549eb9777d9a297ff876537eb5a3219884c1d8ba3",
+  "research/compound/plot_movement.py": "516590e79b5f445e2ab36b103595207ec999976c06dfc1bce4049a738372a885"
+}

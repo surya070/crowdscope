@@ -1,0 +1,839 @@
+{
+  "url": "https://ped.fz-juelich.de/data/experiments/2017.06.10_Wermelskirchen_SiME/data/2017sime/2017sime_trajectories_txt.zip",
+  "archive_bytes": 138606857,
+  "members": [
+    {
+      "name": "100.txt",
+      "size": 13629068,
+      "compressed_size": 2970595,
+      "crc32": 3503223503,
+      "offset": 0
+    },
+    {
+      "name": "101.txt",
+      "size": 3536635,
+      "compressed_size": 1114758,
+      "crc32": 1217918117,
+      "offset": 2970680
+    },
+    {
+      "name": "102.txt",
+      "size": 3449278,
+      "compressed_size": 1094083,
+      "crc32": 3438630414,
+      "offset": 4085523
+    },
+    {
+      "name": "103.txt",
+      "size": 3356841,
+      "compressed_size": 1067525,
+      "crc32": 4030900199,
+      "offset": 5179691
+    },
+    {
+      "name": "104.txt",
+      "size": 3161289,
+      "compressed_size": 1004867,
+      "crc32": 1587088421,
+      "offset": 6247301
+    },
+    {
+      "name": "105.txt",
+      "size": 2971488,
+      "compressed_size": 951340,
+      "crc32": 2297973570,
+      "offset": 7252253
+    },
+    {
+      "name": "106.txt",
+      "size": 2944497,
+      "compressed_size": 942436,
+      "crc32": 2519064099,
+      "offset": 8203678
+    },
+    {
+      "name": "107.txt",
+      "size": 2790342,
+      "compressed_size": 895355,
+      "crc32": 3675040386,
+      "offset": 9146199
+    },
+    {
+      "name": "108.txt",
+      "size": 2800253,
+      "compressed_size": 892656,
+      "crc32": 97992830,
+      "offset": 10041639
+    },
+    {
+      "name": "201.txt",
+      "size": 3474700,
+      "compressed_size": 1050426,
+      "crc32": 3072421392,
+      "offset": 10934380
+    },
+    {
+      "name": "202.txt",
+      "size": 3651254,
+      "compressed_size": 1100562,
+      "crc32": 733899730,
+      "offset": 11984891
+    },
+    {
+      "name": "203.txt",
+      "size": 3525430,
+      "compressed_size": 1065485,
+      "crc32": 3013695495,
+      "offset": 13085538
+    },
+    {
+      "name": "204.txt",
+      "size": 3081619,
+      "compressed_size": 942795,
+      "crc32": 3481534938,
+      "offset": 14151108
+    },
+    {
+      "name": "205.txt",
+      "size": 2943382,
+      "compressed_size": 901135,
+      "crc32": 506326176,
+      "offset": 15093988
+    },
+    {
+      "name": "206.txt",
+      "size": 2928890,
+      "compressed_size": 903561,
+      "crc32": 3632282759,
+      "offset": 15995208
+    },
+    {
+      "name": "207.txt",
+      "size": 2742680,
+      "compressed_size": 837964,
+      "crc32": 2638006671,
+      "offset": 16898854
+    },
+    {
+      "name": "208.txt",
+      "size": 2659101,
+      "compressed_size": 825011,
+      "crc32": 300828346,
+      "offset": 17736903
+    },
+    {
+      "name": "300.txt",
+      "size": 21387330,
+      "compressed_size": 4342428,
+      "crc32": 1938599825,
+      "offset": 18561999
+    },
+    {
+      "name": "301.txt",
+      "size": 4529765,
+      "compressed_size": 1423327,
+      "crc32": 2505044806,
+      "offset": 22904512
+    },
+    {
+      "name": "302.txt",
+      "size": 4246693,
+      "compressed_size": 1342420,
+      "crc32": 2543196013,
+      "offset": 24327924
+    },
+    {
+      "name": "303.txt",
+      "size": 4184444,
+      "compressed_size": 1325786,
+      "crc32": 3020403368,
+      "offset": 25670429
+    },
+    {
+      "name": "304.txt",
+      "size": 4299979,
+      "compressed_size": 1357608,
+      "crc32": 1487230409,
+      "offset": 26996300
+    },
+    {
+      "name": "305.txt",
+      "size": 4022466,
+      "compressed_size": 1263740,
+      "crc32": 4155873277,
+      "offset": 28353993
+    },
+    {
+      "name": "306.txt",
+      "size": 3947126,
+      "compressed_size": 1233054,
+      "crc32": 4292578476,
+      "offset": 29617818
+    },
+    {
+      "name": "307.txt",
+      "size": 3866408,
+      "compressed_size": 1224434,
+      "crc32": 1755643429,
+      "offset": 30850957
+    },
+    {
+      "name": "308.txt",
+      "size": 3708780,
+      "compressed_size": 1176065,
+      "crc32": 935732542,
+      "offset": 32075476
+    },
+    {
+      "name": "401.txt",
+      "size": 5360411,
+      "compressed_size": 1554852,
+      "crc32": 2818398095,
+      "offset": 33251626
+    },
+    {
+      "name": "402.txt",
+      "size": 4898590,
+      "compressed_size": 1438636,
+      "crc32": 1925411984,
+      "offset": 34806563
+    },
+    {
+      "name": "403.txt",
+      "size": 4525523,
+      "compressed_size": 1347248,
+      "crc32": 1507878138,
+      "offset": 36245284
+    },
+    {
+      "name": "404.txt",
+      "size": 4416279,
+      "compressed_size": 1312191,
+      "crc32": 625833724,
+      "offset": 37592617
+    },
+    {
+      "name": "405.txt",
+      "size": 4938084,
+      "compressed_size": 1454966,
+      "crc32": 1691290131,
+      "offset": 38904893
+    },
+    {
+      "name": "406.txt",
+      "size": 4239930,
+      "compressed_size": 1278163,
+      "crc32": 3065568259,
+      "offset": 40359944
+    },
+    {
+      "name": "407.txt",
+      "size": 4084982,
+      "compressed_size": 1209079,
+      "crc32": 690075408,
+      "offset": 41638192
+    },
+    {
+      "name": "408.txt",
+      "size": 3537142,
+      "compressed_size": 1077423,
+      "crc32": 271969092,
+      "offset": 42847356
+    },
+    {
+      "name": "500.txt",
+      "size": 15410159,
+      "compressed_size": 3177783,
+      "crc32": 720587990,
+      "offset": 43924864
+    },
+    {
+      "name": "501.txt",
+      "size": 4011780,
+      "compressed_size": 1254290,
+      "crc32": 2947147858,
+      "offset": 47102732
+    },
+    {
+      "name": "502.txt",
+      "size": 4878764,
+      "compressed_size": 1500647,
+      "crc32": 377832855,
+      "offset": 48357107
+    },
+    {
+      "name": "503.txt",
+      "size": 3619824,
+      "compressed_size": 1139159,
+      "crc32": 2688574619,
+      "offset": 49857839
+    },
+    {
+      "name": "504.txt",
+      "size": 3546672,
+      "compressed_size": 1112084,
+      "crc32": 1625793778,
+      "offset": 50997083
+    },
+    {
+      "name": "505.txt",
+      "size": 4531955,
+      "compressed_size": 1413274,
+      "crc32": 242310019,
+      "offset": 52109252
+    },
+    {
+      "name": "506.txt",
+      "size": 3661316,
+      "compressed_size": 1150761,
+      "crc32": 3806156086,
+      "offset": 53522611
+    },
+    {
+      "name": "507.txt",
+      "size": 4439277,
+      "compressed_size": 1378709,
+      "crc32": 1255411097,
+      "offset": 54673457
+    },
+    {
+      "name": "508.txt",
+      "size": 3539871,
+      "compressed_size": 1111332,
+      "crc32": 400512332,
+      "offset": 56052251
+    },
+    {
+      "name": "601.txt",
+      "size": 6068178,
+      "compressed_size": 1690979,
+      "crc32": 4124820243,
+      "offset": 57163668
+    },
+    {
+      "name": "602.txt",
+      "size": 4478727,
+      "compressed_size": 1286875,
+      "crc32": 140128894,
+      "offset": 58854732
+    },
+    {
+      "name": "603.txt",
+      "size": 6320708,
+      "compressed_size": 1736168,
+      "crc32": 3909922219,
+      "offset": 60141692
+    },
+    {
+      "name": "604.txt",
+      "size": 4588155,
+      "compressed_size": 1328359,
+      "crc32": 1228886022,
+      "offset": 61877945
+    },
+    {
+      "name": "605.txt",
+      "size": 4891338,
+      "compressed_size": 1404365,
+      "crc32": 585725770,
+      "offset": 63206389
+    },
+    {
+      "name": "606.txt",
+      "size": 4368481,
+      "compressed_size": 1279383,
+      "crc32": 124358143,
+      "offset": 64610839
+    },
+    {
+      "name": "607.txt",
+      "size": 5410115,
+      "compressed_size": 1584048,
+      "crc32": 3984667518,
+      "offset": 65890307
+    },
+    {
+      "name": "608.txt",
+      "size": 4527169,
+      "compressed_size": 1319282,
+      "crc32": 2792352485,
+      "offset": 67474440
+    },
+    {
+      "name": "700.txt",
+      "size": 12660758,
+      "compressed_size": 2749192,
+      "crc32": 1882555755,
+      "offset": 68793807
+    },
+    {
+      "name": "701.txt",
+      "size": 3478621,
+      "compressed_size": 1099183,
+      "crc32": 2434387409,
+      "offset": 71543084
+    },
+    {
+      "name": "702.txt",
+      "size": 3647483,
+      "compressed_size": 1154160,
+      "crc32": 3232683162,
+      "offset": 72642352
+    },
+    {
+      "name": "703.txt",
+      "size": 3184186,
+      "compressed_size": 1009783,
+      "crc32": 902539944,
+      "offset": 73796597
+    },
+    {
+      "name": "704.txt",
+      "size": 3137952,
+      "compressed_size": 995496,
+      "crc32": 4289572539,
+      "offset": 74806465
+    },
+    {
+      "name": "705.txt",
+      "size": 2741371,
+      "compressed_size": 871035,
+      "crc32": 654923769,
+      "offset": 75802046
+    },
+    {
+      "name": "706.txt",
+      "size": 2625559,
+      "compressed_size": 832035,
+      "crc32": 2695116368,
+      "offset": 76673166
+    },
+    {
+      "name": "707.txt",
+      "size": 3032945,
+      "compressed_size": 956250,
+      "crc32": 1876177307,
+      "offset": 77505286
+    },
+    {
+      "name": "708.txt",
+      "size": 2670769,
+      "compressed_size": 853812,
+      "crc32": 4183250530,
+      "offset": 78461621
+    },
+    {
+      "name": "801.txt",
+      "size": 3886832,
+      "compressed_size": 1148683,
+      "crc32": 2874410769,
+      "offset": 79315518
+    },
+    {
+      "name": "802.txt",
+      "size": 4161482,
+      "compressed_size": 1232634,
+      "crc32": 433060172,
+      "offset": 80464286
+    },
+    {
+      "name": "803.txt",
+      "size": 3829162,
+      "compressed_size": 1134279,
+      "crc32": 2997875782,
+      "offset": 81697005
+    },
+    {
+      "name": "804.txt",
+      "size": 3784152,
+      "compressed_size": 1135661,
+      "crc32": 3990436689,
+      "offset": 82831369
+    },
+    {
+      "name": "805.txt",
+      "size": 3279014,
+      "compressed_size": 997552,
+      "crc32": 77520467,
+      "offset": 83967115
+    },
+    {
+      "name": "806.txt",
+      "size": 3108154,
+      "compressed_size": 943151,
+      "crc32": 3099029915,
+      "offset": 84964752
+    },
+    {
+      "name": "807.txt",
+      "size": 3122812,
+      "compressed_size": 958931,
+      "crc32": 4221830652,
+      "offset": 85907988
+    },
+    {
+      "name": "808.txt",
+      "size": 3158104,
+      "compressed_size": 962827,
+      "crc32": 3371528744,
+      "offset": 86867004
+    },
+    {
+      "name": "900.txt",
+      "size": 14858183,
+      "compressed_size": 3112987,
+      "crc32": 741749768,
+      "offset": 87829916
+    },
+    {
+      "name": "901.txt",
+      "size": 3064541,
+      "compressed_size": 964228,
+      "crc32": 2911779833,
+      "offset": 90942988
+    },
+    {
+      "name": "902.txt",
+      "size": 4694397,
+      "compressed_size": 1437299,
+      "crc32": 2690632806,
+      "offset": 91907301
+    },
+    {
+      "name": "903.txt",
+      "size": 3301424,
+      "compressed_size": 1016196,
+      "crc32": 2052847239,
+      "offset": 93344685
+    },
+    {
+      "name": "904.txt",
+      "size": 3299140,
+      "compressed_size": 1029328,
+      "crc32": 3825685466,
+      "offset": 94360966
+    },
+    {
+      "name": "905.txt",
+      "size": 3201457,
+      "compressed_size": 1006026,
+      "crc32": 1960073113,
+      "offset": 95390379
+    },
+    {
+      "name": "906.txt",
+      "size": 3128551,
+      "compressed_size": 984303,
+      "crc32": 561073899,
+      "offset": 96396490
+    },
+    {
+      "name": "907.txt",
+      "size": 2807437,
+      "compressed_size": 887483,
+      "crc32": 1976047270,
+      "offset": 97380878
+    },
+    {
+      "name": "908.txt",
+      "size": 2407327,
+      "compressed_size": 760771,
+      "crc32": 1724105513,
+      "offset": 98268446
+    },
+    {
+      "name": "1001.txt",
+      "size": 4155892,
+      "compressed_size": 1193084,
+      "crc32": 1173279739,
+      "offset": 99029302
+    },
+    {
+      "name": "1002.txt",
+      "size": 4717498,
+      "compressed_size": 1331534,
+      "crc32": 1711966214,
+      "offset": 100222472
+    },
+    {
+      "name": "1003.txt",
+      "size": 3472939,
+      "compressed_size": 1031971,
+      "crc32": 2262594878,
+      "offset": 101554092
+    },
+    {
+      "name": "1004.txt",
+      "size": 3765779,
+      "compressed_size": 1108747,
+      "crc32": 3971707604,
+      "offset": 102586149
+    },
+    {
+      "name": "1005.txt",
+      "size": 3726975,
+      "compressed_size": 1094775,
+      "crc32": 434267753,
+      "offset": 103694982
+    },
+    {
+      "name": "1006.txt",
+      "size": 3552139,
+      "compressed_size": 1047378,
+      "crc32": 2243144905,
+      "offset": 104789843
+    },
+    {
+      "name": "1007.txt",
+      "size": 4338740,
+      "compressed_size": 1270202,
+      "crc32": 3268056694,
+      "offset": 105837307
+    },
+    {
+      "name": "1008.txt",
+      "size": 3575095,
+      "compressed_size": 1054557,
+      "crc32": 2687708194,
+      "offset": 107107595
+    },
+    {
+      "name": "1300.txt",
+      "size": 15718917,
+      "compressed_size": 3319702,
+      "crc32": 3276279092,
+      "offset": 108162238
+    },
+    {
+      "name": "1301.txt",
+      "size": 3403012,
+      "compressed_size": 1059314,
+      "crc32": 4205580319,
+      "offset": 111482026
+    },
+    {
+      "name": "1302.txt",
+      "size": 3008166,
+      "compressed_size": 946661,
+      "crc32": 1947052871,
+      "offset": 112541426
+    },
+    {
+      "name": "1303.txt",
+      "size": 3163752,
+      "compressed_size": 998946,
+      "crc32": 3702612208,
+      "offset": 113488173
+    },
+    {
+      "name": "1304.txt",
+      "size": 3171095,
+      "compressed_size": 999232,
+      "crc32": 3314595642,
+      "offset": 114487205
+    },
+    {
+      "name": "1305.txt",
+      "size": 2860203,
+      "compressed_size": 904897,
+      "crc32": 2550015112,
+      "offset": 115486523
+    },
+    {
+      "name": "1306.txt",
+      "size": 2678783,
+      "compressed_size": 843280,
+      "crc32": 404159768,
+      "offset": 116391506
+    },
+    {
+      "name": "1307.txt",
+      "size": 2578021,
+      "compressed_size": 819209,
+      "crc32": 2535332492,
+      "offset": 117234872
+    },
+    {
+      "name": "1308.txt",
+      "size": 2454705,
+      "compressed_size": 776572,
+      "crc32": 3818973533,
+      "offset": 118054167
+    },
+    {
+      "name": "1401.txt",
+      "size": 3737925,
+      "compressed_size": 1097307,
+      "crc32": 3373246148,
+      "offset": 118830825
+    },
+    {
+      "name": "1402.txt",
+      "size": 3422760,
+      "compressed_size": 1018120,
+      "crc32": 818454300,
+      "offset": 119928218
+    },
+    {
+      "name": "1403.txt",
+      "size": 3257702,
+      "compressed_size": 993285,
+      "crc32": 999518968,
+      "offset": 120946424
+    },
+    {
+      "name": "1404.txt",
+      "size": 2943500,
+      "compressed_size": 895842,
+      "crc32": 855054969,
+      "offset": 121939795
+    },
+    {
+      "name": "1405.txt",
+      "size": 2940987,
+      "compressed_size": 896055,
+      "crc32": 2692918108,
+      "offset": 122835723
+    },
+    {
+      "name": "1406.txt",
+      "size": 2843914,
+      "compressed_size": 869735,
+      "crc32": 3359810426,
+      "offset": 123731864
+    },
+    {
+      "name": "1407.txt",
+      "size": 2522899,
+      "compressed_size": 779562,
+      "crc32": 1133914649,
+      "offset": 124601685
+    },
+    {
+      "name": "1408.txt",
+      "size": 2556661,
+      "compressed_size": 786663,
+      "crc32": 3325895359,
+      "offset": 125381333
+    },
+    {
+      "name": "1500.txt",
+      "size": 11393742,
+      "compressed_size": 2422271,
+      "crc32": 585684144,
+      "offset": 126168082
+    },
+    {
+      "name": "1501.txt",
+      "size": 2180585,
+      "compressed_size": 694742,
+      "crc32": 4194119774,
+      "offset": 128590439
+    },
+    {
+      "name": "1502.txt",
+      "size": 2110935,
+      "compressed_size": 670027,
+      "crc32": 978844825,
+      "offset": 129285267
+    },
+    {
+      "name": "1503.txt",
+      "size": 1936037,
+      "compressed_size": 615460,
+      "crc32": 3016331905,
+      "offset": 129955380
+    },
+    {
+      "name": "1504.txt",
+      "size": 1875662,
+      "compressed_size": 595059,
+      "crc32": 2593994030,
+      "offset": 130570926
+    },
+    {
+      "name": "1505.txt",
+      "size": 1995996,
+      "compressed_size": 635051,
+      "crc32": 2446434341,
+      "offset": 131166071
+    },
+    {
+      "name": "1506.txt",
+      "size": 1852849,
+      "compressed_size": 590380,
+      "crc32": 1973860782,
+      "offset": 131801208
+    },
+    {
+      "name": "1507.txt",
+      "size": 1829896,
+      "compressed_size": 581177,
+      "crc32": 3546615591,
+      "offset": 132391674
+    },
+    {
+      "name": "1508.txt",
+      "size": 1645384,
+      "compressed_size": 526557,
+      "crc32": 1562923215,
+      "offset": 132972937
+    },
+    {
+      "name": "1601.txt",
+      "size": 2357070,
+      "compressed_size": 720123,
+      "crc32": 242065561,
+      "offset": 133499580
+    },
+    {
+      "name": "1602.txt",
+      "size": 2340243,
+      "compressed_size": 706554,
+      "crc32": 3407275348,
+      "offset": 134219789
+    },
+    {
+      "name": "1603.txt",
+      "size": 2124667,
+      "compressed_size": 648166,
+      "crc32": 1963710027,
+      "offset": 134926429
+    },
+    {
+      "name": "1604.txt",
+      "size": 2010317,
+      "compressed_size": 613758,
+      "crc32": 3737609275,
+      "offset": 135574681
+    },
+    {
+      "name": "1605.txt",
+      "size": 2216723,
+      "compressed_size": 678022,
+      "crc32": 2822171769,
+      "offset": 136188525
+    },
+    {
+      "name": "1606.txt",
+      "size": 2020534,
+      "compressed_size": 619661,
+      "crc32": 3962024043,
+      "offset": 136866633
+    },
+    {
+      "name": "1607.txt",
+      "size": 1843608,
+      "compressed_size": 570913,
+      "crc32": 4269658167,
+      "offset": 137486380
+    },
+    {
+      "name": "1608.txt",
+      "size": 1731068,
+      "compressed_size": 539213,
+      "crc32": 3230494238,
+      "offset": 138057379
+    }
+  ]
+}

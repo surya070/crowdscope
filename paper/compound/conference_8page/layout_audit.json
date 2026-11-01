@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "purpose": "eight-page course version in the existing editor",
+  "pages": 8,
+  "page_count_source": "XDV layout pass; no separate PDF exported",
+  "sections": [
+    "Introduction",
+    "Literature Review and Related Work",
+    "Research Problem, Objectives and Hypotheses",
+    "Research Methodology",
+    "Results",
+    "Discussion",
+    "Conclusion and Future Work"
+  ],
+  "references": 18,
+  "first_figure": "Overall research procedure",
+  "comparative_literature_matrix": true,
+  "fonts_and_margins": "standard IEEEtran",
+  "overfull_hbox_count": 0,
+  "source_sha256": "31f3445a92750587eb9d1bea2ddf5744dacd8536171651887681f55edc3812e0",
+  "old_exported_pdf_is_previous_conference_version": true,
+  "unresolved_inputs": [
+    "Institutional emails and author confirmations",
+    "Original PRISMA search exports and screening denominators unavailable"
+  ],
+  "retained_original_review_sources": 9,
+  "added_directly_used_sources": 9,
+  "source_selection": "revised after experiments; not reconstructed PRISMA screening",
+  "model_comparison_chart_restored": true,
+  "figure_count": 3,
+  "condensed_repeated_explanation_words": 343,
+  "github_url": "https://github.com/surya070/mobility-relationship-clearance",
+  "future_scope_expanded": true,
+  "short_declaration": true
+}

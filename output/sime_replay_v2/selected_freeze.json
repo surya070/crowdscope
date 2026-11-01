@@ -1,0 +1,32 @@
+{
+  "status": "selected on development only, before test acquisition/evaluation",
+  "selected": {
+    "candidate": 13,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "eligible": true,
+    "score_s": 5.411816842559784,
+    "trial_statuses": [
+      "completed",
+      "completed"
+    ]
+  },
+  "files": {
+    "src/sime_replay.py": "0f4e1d31638d1fc421126c89e888e36ff4261f6b31bb2f26ce9a737bb71ca432",
+    "research/compound/sime_replay_protocol_v2.md": "d663386e32dd70801979047cf832ebafee3d7fa63cef17f5abf86bf42a0089e0",
+    "research/compound/sime_replay_implementation_note_v2.md": "ae67efc79846a4007c7000c1d6e98777ea02a748a0b7bcaa574138493a9a1433",
+    "research/compound/run_sime_replay.py": "71e872d55c76c67cc1a7c3c9c27eb634d1120d71f837d695975f991f33472bad"
+  },
+  "development_sources": {
+    "1501": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661",
+    "1507": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+  },
+  "test_trials": [
+    "1503",
+    "1505"
+  ],
+  "limitations": "Held-out runs and intermediate widths; not proven independent participants. Observed future inlet events are exogenous inputs, not end-to-end forecasts."
+}

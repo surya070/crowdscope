@@ -1,0 +1,3074 @@
+[
+  {
+    "run_id": "main__G1_n8_s0__independent",
+    "block_id": "G1_n8_s0",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1499276477,
+      "placement": 96494460,
+      "gain": 3839027985,
+      "corruption": 3649866085
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s0__family_only",
+    "block_id": "G1_n8_s0",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1499276477,
+      "placement": 96494460,
+      "gain": 3839027985,
+      "corruption": 3649866085
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s0__assistance_only",
+    "block_id": "G1_n8_s0",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1499276477,
+      "placement": 96494460,
+      "gain": 3839027985,
+      "corruption": 3649866085
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s0__family_and_assistance",
+    "block_id": "G1_n8_s0",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1499276477,
+      "placement": 96494460,
+      "gain": 3839027985,
+      "corruption": 3649866085
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s1__independent",
+    "block_id": "G1_n8_s1",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 966115890,
+      "placement": 2942471109,
+      "gain": 1184424811,
+      "corruption": 1640969255
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s1__family_only",
+    "block_id": "G1_n8_s1",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 966115890,
+      "placement": 2942471109,
+      "gain": 1184424811,
+      "corruption": 1640969255
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s1__assistance_only",
+    "block_id": "G1_n8_s1",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 966115890,
+      "placement": 2942471109,
+      "gain": 1184424811,
+      "corruption": 1640969255
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s1__family_and_assistance",
+    "block_id": "G1_n8_s1",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 966115890,
+      "placement": 2942471109,
+      "gain": 1184424811,
+      "corruption": 1640969255
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s2__independent",
+    "block_id": "G1_n8_s2",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3535443498,
+      "placement": 1875768886,
+      "gain": 1292109541,
+      "corruption": 2629774066
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s2__family_only",
+    "block_id": "G1_n8_s2",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3535443498,
+      "placement": 1875768886,
+      "gain": 1292109541,
+      "corruption": 2629774066
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s2__assistance_only",
+    "block_id": "G1_n8_s2",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3535443498,
+      "placement": 1875768886,
+      "gain": 1292109541,
+      "corruption": 2629774066
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s2__family_and_assistance",
+    "block_id": "G1_n8_s2",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3535443498,
+      "placement": 1875768886,
+      "gain": 1292109541,
+      "corruption": 2629774066
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s3__independent",
+    "block_id": "G1_n8_s3",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 283778089,
+      "placement": 1357357687,
+      "gain": 2828518033,
+      "corruption": 2583803242
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s3__family_only",
+    "block_id": "G1_n8_s3",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 283778089,
+      "placement": 1357357687,
+      "gain": 2828518033,
+      "corruption": 2583803242
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s3__assistance_only",
+    "block_id": "G1_n8_s3",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 283778089,
+      "placement": 1357357687,
+      "gain": 2828518033,
+      "corruption": 2583803242
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s3__family_and_assistance",
+    "block_id": "G1_n8_s3",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 283778089,
+      "placement": 1357357687,
+      "gain": 2828518033,
+      "corruption": 2583803242
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s4__independent",
+    "block_id": "G1_n8_s4",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 969587161,
+      "placement": 1947860474,
+      "gain": 4291483814,
+      "corruption": 2766018761
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s4__family_only",
+    "block_id": "G1_n8_s4",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 969587161,
+      "placement": 1947860474,
+      "gain": 4291483814,
+      "corruption": 2766018761
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s4__assistance_only",
+    "block_id": "G1_n8_s4",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 969587161,
+      "placement": 1947860474,
+      "gain": 4291483814,
+      "corruption": 2766018761
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s4__family_and_assistance",
+    "block_id": "G1_n8_s4",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 969587161,
+      "placement": 1947860474,
+      "gain": 4291483814,
+      "corruption": 2766018761
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s5__independent",
+    "block_id": "G1_n8_s5",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 790676654,
+      "placement": 4146494520,
+      "gain": 4085962298,
+      "corruption": 452411369
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s5__family_only",
+    "block_id": "G1_n8_s5",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 790676654,
+      "placement": 4146494520,
+      "gain": 4085962298,
+      "corruption": 452411369
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s5__assistance_only",
+    "block_id": "G1_n8_s5",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 790676654,
+      "placement": 4146494520,
+      "gain": 4085962298,
+      "corruption": 452411369
+    }
+  },
+  {
+    "run_id": "main__G1_n8_s5__family_and_assistance",
+    "block_id": "G1_n8_s5",
+    "geometry": "G1",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 790676654,
+      "placement": 4146494520,
+      "gain": 4085962298,
+      "corruption": 452411369
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s0__independent",
+    "block_id": "G1_n12_s0",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1697870739,
+      "placement": 2864501878,
+      "gain": 444716522,
+      "corruption": 1378085924
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s0__family_only",
+    "block_id": "G1_n12_s0",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1697870739,
+      "placement": 2864501878,
+      "gain": 444716522,
+      "corruption": 1378085924
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s0__assistance_only",
+    "block_id": "G1_n12_s0",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1697870739,
+      "placement": 2864501878,
+      "gain": 444716522,
+      "corruption": 1378085924
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s0__family_and_assistance",
+    "block_id": "G1_n12_s0",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1697870739,
+      "placement": 2864501878,
+      "gain": 444716522,
+      "corruption": 1378085924
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s1__independent",
+    "block_id": "G1_n12_s1",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 681655764,
+      "placement": 2082673605,
+      "gain": 2084851802,
+      "corruption": 4044862060
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s1__family_only",
+    "block_id": "G1_n12_s1",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 681655764,
+      "placement": 2082673605,
+      "gain": 2084851802,
+      "corruption": 4044862060
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s1__assistance_only",
+    "block_id": "G1_n12_s1",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 681655764,
+      "placement": 2082673605,
+      "gain": 2084851802,
+      "corruption": 4044862060
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s1__family_and_assistance",
+    "block_id": "G1_n12_s1",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 681655764,
+      "placement": 2082673605,
+      "gain": 2084851802,
+      "corruption": 4044862060
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s2__independent",
+    "block_id": "G1_n12_s2",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3746687507,
+      "placement": 2418264496,
+      "gain": 479085005,
+      "corruption": 2421143734
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s2__family_only",
+    "block_id": "G1_n12_s2",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3746687507,
+      "placement": 2418264496,
+      "gain": 479085005,
+      "corruption": 2421143734
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s2__assistance_only",
+    "block_id": "G1_n12_s2",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3746687507,
+      "placement": 2418264496,
+      "gain": 479085005,
+      "corruption": 2421143734
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s2__family_and_assistance",
+    "block_id": "G1_n12_s2",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3746687507,
+      "placement": 2418264496,
+      "gain": 479085005,
+      "corruption": 2421143734
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s3__independent",
+    "block_id": "G1_n12_s3",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1677362346,
+      "placement": 1666392330,
+      "gain": 1507562267,
+      "corruption": 1677085644
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s3__family_only",
+    "block_id": "G1_n12_s3",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1677362346,
+      "placement": 1666392330,
+      "gain": 1507562267,
+      "corruption": 1677085644
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s3__assistance_only",
+    "block_id": "G1_n12_s3",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1677362346,
+      "placement": 1666392330,
+      "gain": 1507562267,
+      "corruption": 1677085644
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s3__family_and_assistance",
+    "block_id": "G1_n12_s3",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1677362346,
+      "placement": 1666392330,
+      "gain": 1507562267,
+      "corruption": 1677085644
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s4__independent",
+    "block_id": "G1_n12_s4",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2651432191,
+      "placement": 1341270554,
+      "gain": 950302808,
+      "corruption": 739401685
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s4__family_only",
+    "block_id": "G1_n12_s4",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2651432191,
+      "placement": 1341270554,
+      "gain": 950302808,
+      "corruption": 739401685
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s4__assistance_only",
+    "block_id": "G1_n12_s4",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2651432191,
+      "placement": 1341270554,
+      "gain": 950302808,
+      "corruption": 739401685
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s4__family_and_assistance",
+    "block_id": "G1_n12_s4",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2651432191,
+      "placement": 1341270554,
+      "gain": 950302808,
+      "corruption": 739401685
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s5__independent",
+    "block_id": "G1_n12_s5",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2032019895,
+      "placement": 1651889515,
+      "gain": 2688452233,
+      "corruption": 646384658
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s5__family_only",
+    "block_id": "G1_n12_s5",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2032019895,
+      "placement": 1651889515,
+      "gain": 2688452233,
+      "corruption": 646384658
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s5__assistance_only",
+    "block_id": "G1_n12_s5",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2032019895,
+      "placement": 1651889515,
+      "gain": 2688452233,
+      "corruption": 646384658
+    }
+  },
+  {
+    "run_id": "main__G1_n12_s5__family_and_assistance",
+    "block_id": "G1_n12_s5",
+    "geometry": "G1",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2032019895,
+      "placement": 1651889515,
+      "gain": 2688452233,
+      "corruption": 646384658
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s0__independent",
+    "block_id": "G2_n8_s0",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 802063805,
+      "placement": 528357469,
+      "gain": 769651468,
+      "corruption": 56510020
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s0__family_only",
+    "block_id": "G2_n8_s0",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 802063805,
+      "placement": 528357469,
+      "gain": 769651468,
+      "corruption": 56510020
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s0__assistance_only",
+    "block_id": "G2_n8_s0",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 802063805,
+      "placement": 528357469,
+      "gain": 769651468,
+      "corruption": 56510020
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s0__family_and_assistance",
+    "block_id": "G2_n8_s0",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 802063805,
+      "placement": 528357469,
+      "gain": 769651468,
+      "corruption": 56510020
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s1__independent",
+    "block_id": "G2_n8_s1",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2988256591,
+      "placement": 3624879025,
+      "gain": 655101793,
+      "corruption": 4050069522
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s1__family_only",
+    "block_id": "G2_n8_s1",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2988256591,
+      "placement": 3624879025,
+      "gain": 655101793,
+      "corruption": 4050069522
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s1__assistance_only",
+    "block_id": "G2_n8_s1",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2988256591,
+      "placement": 3624879025,
+      "gain": 655101793,
+      "corruption": 4050069522
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s1__family_and_assistance",
+    "block_id": "G2_n8_s1",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2988256591,
+      "placement": 3624879025,
+      "gain": 655101793,
+      "corruption": 4050069522
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s2__independent",
+    "block_id": "G2_n8_s2",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2019484877,
+      "placement": 2815778970,
+      "gain": 2383371674,
+      "corruption": 4049847528
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s2__family_only",
+    "block_id": "G2_n8_s2",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2019484877,
+      "placement": 2815778970,
+      "gain": 2383371674,
+      "corruption": 4049847528
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s2__assistance_only",
+    "block_id": "G2_n8_s2",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2019484877,
+      "placement": 2815778970,
+      "gain": 2383371674,
+      "corruption": 4049847528
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s2__family_and_assistance",
+    "block_id": "G2_n8_s2",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2019484877,
+      "placement": 2815778970,
+      "gain": 2383371674,
+      "corruption": 4049847528
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s3__independent",
+    "block_id": "G2_n8_s3",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4047584035,
+      "placement": 1625576863,
+      "gain": 3509337325,
+      "corruption": 4159295167
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s3__family_only",
+    "block_id": "G2_n8_s3",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4047584035,
+      "placement": 1625576863,
+      "gain": 3509337325,
+      "corruption": 4159295167
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s3__assistance_only",
+    "block_id": "G2_n8_s3",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4047584035,
+      "placement": 1625576863,
+      "gain": 3509337325,
+      "corruption": 4159295167
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s3__family_and_assistance",
+    "block_id": "G2_n8_s3",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4047584035,
+      "placement": 1625576863,
+      "gain": 3509337325,
+      "corruption": 4159295167
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s4__independent",
+    "block_id": "G2_n8_s4",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1057654159,
+      "placement": 1972395096,
+      "gain": 4207904770,
+      "corruption": 3625122923
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s4__family_only",
+    "block_id": "G2_n8_s4",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1057654159,
+      "placement": 1972395096,
+      "gain": 4207904770,
+      "corruption": 3625122923
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s4__assistance_only",
+    "block_id": "G2_n8_s4",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1057654159,
+      "placement": 1972395096,
+      "gain": 4207904770,
+      "corruption": 3625122923
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s4__family_and_assistance",
+    "block_id": "G2_n8_s4",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1057654159,
+      "placement": 1972395096,
+      "gain": 4207904770,
+      "corruption": 3625122923
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s5__independent",
+    "block_id": "G2_n8_s5",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1571107475,
+      "placement": 2059509065,
+      "gain": 3280060568,
+      "corruption": 1160891302
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s5__family_only",
+    "block_id": "G2_n8_s5",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1571107475,
+      "placement": 2059509065,
+      "gain": 3280060568,
+      "corruption": 1160891302
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s5__assistance_only",
+    "block_id": "G2_n8_s5",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1571107475,
+      "placement": 2059509065,
+      "gain": 3280060568,
+      "corruption": 1160891302
+    }
+  },
+  {
+    "run_id": "main__G2_n8_s5__family_and_assistance",
+    "block_id": "G2_n8_s5",
+    "geometry": "G2",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1571107475,
+      "placement": 2059509065,
+      "gain": 3280060568,
+      "corruption": 1160891302
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s0__independent",
+    "block_id": "G2_n12_s0",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2742195528,
+      "placement": 2580603979,
+      "gain": 3121180466,
+      "corruption": 1342334750
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s0__family_only",
+    "block_id": "G2_n12_s0",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2742195528,
+      "placement": 2580603979,
+      "gain": 3121180466,
+      "corruption": 1342334750
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s0__assistance_only",
+    "block_id": "G2_n12_s0",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2742195528,
+      "placement": 2580603979,
+      "gain": 3121180466,
+      "corruption": 1342334750
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s0__family_and_assistance",
+    "block_id": "G2_n12_s0",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2742195528,
+      "placement": 2580603979,
+      "gain": 3121180466,
+      "corruption": 1342334750
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s1__independent",
+    "block_id": "G2_n12_s1",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1946843924,
+      "placement": 3683599544,
+      "gain": 137510154,
+      "corruption": 1665998529
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s1__family_only",
+    "block_id": "G2_n12_s1",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1946843924,
+      "placement": 3683599544,
+      "gain": 137510154,
+      "corruption": 1665998529
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s1__assistance_only",
+    "block_id": "G2_n12_s1",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1946843924,
+      "placement": 3683599544,
+      "gain": 137510154,
+      "corruption": 1665998529
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s1__family_and_assistance",
+    "block_id": "G2_n12_s1",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1946843924,
+      "placement": 3683599544,
+      "gain": 137510154,
+      "corruption": 1665998529
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s2__independent",
+    "block_id": "G2_n12_s2",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3910473764,
+      "placement": 34695920,
+      "gain": 1943802777,
+      "corruption": 4287494116
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s2__family_only",
+    "block_id": "G2_n12_s2",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3910473764,
+      "placement": 34695920,
+      "gain": 1943802777,
+      "corruption": 4287494116
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s2__assistance_only",
+    "block_id": "G2_n12_s2",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3910473764,
+      "placement": 34695920,
+      "gain": 1943802777,
+      "corruption": 4287494116
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s2__family_and_assistance",
+    "block_id": "G2_n12_s2",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3910473764,
+      "placement": 34695920,
+      "gain": 1943802777,
+      "corruption": 4287494116
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s3__independent",
+    "block_id": "G2_n12_s3",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 492961474,
+      "placement": 3130706101,
+      "gain": 3389821162,
+      "corruption": 569122279
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s3__family_only",
+    "block_id": "G2_n12_s3",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 492961474,
+      "placement": 3130706101,
+      "gain": 3389821162,
+      "corruption": 569122279
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s3__assistance_only",
+    "block_id": "G2_n12_s3",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 492961474,
+      "placement": 3130706101,
+      "gain": 3389821162,
+      "corruption": 569122279
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s3__family_and_assistance",
+    "block_id": "G2_n12_s3",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 492961474,
+      "placement": 3130706101,
+      "gain": 3389821162,
+      "corruption": 569122279
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s4__independent",
+    "block_id": "G2_n12_s4",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1813422300,
+      "placement": 4143781735,
+      "gain": 1770906959,
+      "corruption": 1268456318
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s4__family_only",
+    "block_id": "G2_n12_s4",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1813422300,
+      "placement": 4143781735,
+      "gain": 1770906959,
+      "corruption": 1268456318
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s4__assistance_only",
+    "block_id": "G2_n12_s4",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1813422300,
+      "placement": 4143781735,
+      "gain": 1770906959,
+      "corruption": 1268456318
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s4__family_and_assistance",
+    "block_id": "G2_n12_s4",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1813422300,
+      "placement": 4143781735,
+      "gain": 1770906959,
+      "corruption": 1268456318
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s5__independent",
+    "block_id": "G2_n12_s5",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1073468381,
+      "placement": 2617619691,
+      "gain": 3008731592,
+      "corruption": 4194896277
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s5__family_only",
+    "block_id": "G2_n12_s5",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1073468381,
+      "placement": 2617619691,
+      "gain": 3008731592,
+      "corruption": 4194896277
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s5__assistance_only",
+    "block_id": "G2_n12_s5",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1073468381,
+      "placement": 2617619691,
+      "gain": 3008731592,
+      "corruption": 4194896277
+    }
+  },
+  {
+    "run_id": "main__G2_n12_s5__family_and_assistance",
+    "block_id": "G2_n12_s5",
+    "geometry": "G2",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1073468381,
+      "placement": 2617619691,
+      "gain": 3008731592,
+      "corruption": 4194896277
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s0__independent",
+    "block_id": "G3_n8_s0",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4144179091,
+      "placement": 3706514463,
+      "gain": 2399847128,
+      "corruption": 3308465888
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_only",
+    "block_id": "G3_n8_s0",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4144179091,
+      "placement": 3706514463,
+      "gain": 2399847128,
+      "corruption": 3308465888
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s0__assistance_only",
+    "block_id": "G3_n8_s0",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4144179091,
+      "placement": 3706514463,
+      "gain": 2399847128,
+      "corruption": 3308465888
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s0__family_and_assistance",
+    "block_id": "G3_n8_s0",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4144179091,
+      "placement": 3706514463,
+      "gain": 2399847128,
+      "corruption": 3308465888
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s1__independent",
+    "block_id": "G3_n8_s1",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2551642673,
+      "placement": 2005014065,
+      "gain": 2513956908,
+      "corruption": 1548409715
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_only",
+    "block_id": "G3_n8_s1",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2551642673,
+      "placement": 2005014065,
+      "gain": 2513956908,
+      "corruption": 1548409715
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s1__assistance_only",
+    "block_id": "G3_n8_s1",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2551642673,
+      "placement": 2005014065,
+      "gain": 2513956908,
+      "corruption": 1548409715
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s1__family_and_assistance",
+    "block_id": "G3_n8_s1",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2551642673,
+      "placement": 2005014065,
+      "gain": 2513956908,
+      "corruption": 1548409715
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s2__independent",
+    "block_id": "G3_n8_s2",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3734051656,
+      "placement": 3022592377,
+      "gain": 2460770273,
+      "corruption": 1228956407
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_only",
+    "block_id": "G3_n8_s2",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3734051656,
+      "placement": 3022592377,
+      "gain": 2460770273,
+      "corruption": 1228956407
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s2__assistance_only",
+    "block_id": "G3_n8_s2",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3734051656,
+      "placement": 3022592377,
+      "gain": 2460770273,
+      "corruption": 1228956407
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s2__family_and_assistance",
+    "block_id": "G3_n8_s2",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3734051656,
+      "placement": 3022592377,
+      "gain": 2460770273,
+      "corruption": 1228956407
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s3__independent",
+    "block_id": "G3_n8_s3",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 665257925,
+      "placement": 772865052,
+      "gain": 1826112801,
+      "corruption": 3704485431
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_only",
+    "block_id": "G3_n8_s3",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 665257925,
+      "placement": 772865052,
+      "gain": 1826112801,
+      "corruption": 3704485431
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s3__assistance_only",
+    "block_id": "G3_n8_s3",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 665257925,
+      "placement": 772865052,
+      "gain": 1826112801,
+      "corruption": 3704485431
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s3__family_and_assistance",
+    "block_id": "G3_n8_s3",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 665257925,
+      "placement": 772865052,
+      "gain": 1826112801,
+      "corruption": 3704485431
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s4__independent",
+    "block_id": "G3_n8_s4",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1264369891,
+      "placement": 4205039558,
+      "gain": 2917635840,
+      "corruption": 2491693549
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_only",
+    "block_id": "G3_n8_s4",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1264369891,
+      "placement": 4205039558,
+      "gain": 2917635840,
+      "corruption": 2491693549
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s4__assistance_only",
+    "block_id": "G3_n8_s4",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1264369891,
+      "placement": 4205039558,
+      "gain": 2917635840,
+      "corruption": 2491693549
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s4__family_and_assistance",
+    "block_id": "G3_n8_s4",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1264369891,
+      "placement": 4205039558,
+      "gain": 2917635840,
+      "corruption": 2491693549
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s5__independent",
+    "block_id": "G3_n8_s5",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2191692127,
+      "placement": 1113543821,
+      "gain": 1278408267,
+      "corruption": 1308420186
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_only",
+    "block_id": "G3_n8_s5",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2191692127,
+      "placement": 1113543821,
+      "gain": 1278408267,
+      "corruption": 1308420186
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s5__assistance_only",
+    "block_id": "G3_n8_s5",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2191692127,
+      "placement": 1113543821,
+      "gain": 1278408267,
+      "corruption": 1308420186
+    }
+  },
+  {
+    "run_id": "main__G3_n8_s5__family_and_assistance",
+    "block_id": "G3_n8_s5",
+    "geometry": "G3",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 2191692127,
+      "placement": 1113543821,
+      "gain": 1278408267,
+      "corruption": 1308420186
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s0__independent",
+    "block_id": "G3_n12_s0",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 399494751,
+      "placement": 3933811059,
+      "gain": 2765658278,
+      "corruption": 121200904
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_only",
+    "block_id": "G3_n12_s0",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 399494751,
+      "placement": 3933811059,
+      "gain": 2765658278,
+      "corruption": 121200904
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s0__assistance_only",
+    "block_id": "G3_n12_s0",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 399494751,
+      "placement": 3933811059,
+      "gain": 2765658278,
+      "corruption": 121200904
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s0__family_and_assistance",
+    "block_id": "G3_n12_s0",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 399494751,
+      "placement": 3933811059,
+      "gain": 2765658278,
+      "corruption": 121200904
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s1__independent",
+    "block_id": "G3_n12_s1",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2016739270,
+      "placement": 319287174,
+      "gain": 627758908,
+      "corruption": 48393694
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_only",
+    "block_id": "G3_n12_s1",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2016739270,
+      "placement": 319287174,
+      "gain": 627758908,
+      "corruption": 48393694
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s1__assistance_only",
+    "block_id": "G3_n12_s1",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2016739270,
+      "placement": 319287174,
+      "gain": 627758908,
+      "corruption": 48393694
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s1__family_and_assistance",
+    "block_id": "G3_n12_s1",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2016739270,
+      "placement": 319287174,
+      "gain": 627758908,
+      "corruption": 48393694
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s2__independent",
+    "block_id": "G3_n12_s2",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 911829089,
+      "placement": 542452983,
+      "gain": 1700787989,
+      "corruption": 761561516
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_only",
+    "block_id": "G3_n12_s2",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 911829089,
+      "placement": 542452983,
+      "gain": 1700787989,
+      "corruption": 761561516
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s2__assistance_only",
+    "block_id": "G3_n12_s2",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 911829089,
+      "placement": 542452983,
+      "gain": 1700787989,
+      "corruption": 761561516
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s2__family_and_assistance",
+    "block_id": "G3_n12_s2",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 911829089,
+      "placement": 542452983,
+      "gain": 1700787989,
+      "corruption": 761561516
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s3__independent",
+    "block_id": "G3_n12_s3",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3494790898,
+      "placement": 1813849536,
+      "gain": 2781436402,
+      "corruption": 1263321085
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_only",
+    "block_id": "G3_n12_s3",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3494790898,
+      "placement": 1813849536,
+      "gain": 2781436402,
+      "corruption": 1263321085
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s3__assistance_only",
+    "block_id": "G3_n12_s3",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3494790898,
+      "placement": 1813849536,
+      "gain": 2781436402,
+      "corruption": 1263321085
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s3__family_and_assistance",
+    "block_id": "G3_n12_s3",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3494790898,
+      "placement": 1813849536,
+      "gain": 2781436402,
+      "corruption": 1263321085
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s4__independent",
+    "block_id": "G3_n12_s4",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3355551876,
+      "placement": 3420483172,
+      "gain": 3991951596,
+      "corruption": 4747670
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_only",
+    "block_id": "G3_n12_s4",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3355551876,
+      "placement": 3420483172,
+      "gain": 3991951596,
+      "corruption": 4747670
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s4__assistance_only",
+    "block_id": "G3_n12_s4",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3355551876,
+      "placement": 3420483172,
+      "gain": 3991951596,
+      "corruption": 4747670
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s4__family_and_assistance",
+    "block_id": "G3_n12_s4",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3355551876,
+      "placement": 3420483172,
+      "gain": 3991951596,
+      "corruption": 4747670
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s5__independent",
+    "block_id": "G3_n12_s5",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 433757762,
+      "placement": 3456048485,
+      "gain": 516582586,
+      "corruption": 86235541
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_only",
+    "block_id": "G3_n12_s5",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 433757762,
+      "placement": 3456048485,
+      "gain": 516582586,
+      "corruption": 86235541
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s5__assistance_only",
+    "block_id": "G3_n12_s5",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 433757762,
+      "placement": 3456048485,
+      "gain": 516582586,
+      "corruption": 86235541
+    }
+  },
+  {
+    "run_id": "main__G3_n12_s5__family_and_assistance",
+    "block_id": "G3_n12_s5",
+    "geometry": "G3",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 433757762,
+      "placement": 3456048485,
+      "gain": 516582586,
+      "corruption": 86235541
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s0__independent",
+    "block_id": "G4_n8_s0",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1348996116,
+      "placement": 2342456301,
+      "gain": 2432879237,
+      "corruption": 2461511834
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_only",
+    "block_id": "G4_n8_s0",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1348996116,
+      "placement": 2342456301,
+      "gain": 2432879237,
+      "corruption": 2461511834
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s0__assistance_only",
+    "block_id": "G4_n8_s0",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1348996116,
+      "placement": 2342456301,
+      "gain": 2432879237,
+      "corruption": 2461511834
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s0__family_and_assistance",
+    "block_id": "G4_n8_s0",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1348996116,
+      "placement": 2342456301,
+      "gain": 2432879237,
+      "corruption": 2461511834
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s1__independent",
+    "block_id": "G4_n8_s1",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1345244220,
+      "placement": 11825263,
+      "gain": 3637271645,
+      "corruption": 1324456010
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_only",
+    "block_id": "G4_n8_s1",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1345244220,
+      "placement": 11825263,
+      "gain": 3637271645,
+      "corruption": 1324456010
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s1__assistance_only",
+    "block_id": "G4_n8_s1",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1345244220,
+      "placement": 11825263,
+      "gain": 3637271645,
+      "corruption": 1324456010
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s1__family_and_assistance",
+    "block_id": "G4_n8_s1",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 1345244220,
+      "placement": 11825263,
+      "gain": 3637271645,
+      "corruption": 1324456010
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s2__independent",
+    "block_id": "G4_n8_s2",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2532760854,
+      "placement": 1199024660,
+      "gain": 2767823916,
+      "corruption": 1231187662
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_only",
+    "block_id": "G4_n8_s2",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2532760854,
+      "placement": 1199024660,
+      "gain": 2767823916,
+      "corruption": 1231187662
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s2__assistance_only",
+    "block_id": "G4_n8_s2",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2532760854,
+      "placement": 1199024660,
+      "gain": 2767823916,
+      "corruption": 1231187662
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s2__family_and_assistance",
+    "block_id": "G4_n8_s2",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2532760854,
+      "placement": 1199024660,
+      "gain": 2767823916,
+      "corruption": 1231187662
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s3__independent",
+    "block_id": "G4_n8_s3",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 838597845,
+      "placement": 2936559600,
+      "gain": 2336804690,
+      "corruption": 3462083984
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_only",
+    "block_id": "G4_n8_s3",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 838597845,
+      "placement": 2936559600,
+      "gain": 2336804690,
+      "corruption": 3462083984
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s3__assistance_only",
+    "block_id": "G4_n8_s3",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 838597845,
+      "placement": 2936559600,
+      "gain": 2336804690,
+      "corruption": 3462083984
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s3__family_and_assistance",
+    "block_id": "G4_n8_s3",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 838597845,
+      "placement": 2936559600,
+      "gain": 2336804690,
+      "corruption": 3462083984
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s4__independent",
+    "block_id": "G4_n8_s4",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 677782105,
+      "placement": 2633436719,
+      "gain": 1394487557,
+      "corruption": 2053971307
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_only",
+    "block_id": "G4_n8_s4",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 677782105,
+      "placement": 2633436719,
+      "gain": 1394487557,
+      "corruption": 2053971307
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s4__assistance_only",
+    "block_id": "G4_n8_s4",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 677782105,
+      "placement": 2633436719,
+      "gain": 1394487557,
+      "corruption": 2053971307
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s4__family_and_assistance",
+    "block_id": "G4_n8_s4",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 677782105,
+      "placement": 2633436719,
+      "gain": 1394487557,
+      "corruption": 2053971307
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s5__independent",
+    "block_id": "G4_n8_s5",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 773767718,
+      "placement": 2439278486,
+      "gain": 805833604,
+      "corruption": 3278806046
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_only",
+    "block_id": "G4_n8_s5",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 773767718,
+      "placement": 2439278486,
+      "gain": 805833604,
+      "corruption": 3278806046
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s5__assistance_only",
+    "block_id": "G4_n8_s5",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 773767718,
+      "placement": 2439278486,
+      "gain": 805833604,
+      "corruption": 3278806046
+    }
+  },
+  {
+    "run_id": "main__G4_n8_s5__family_and_assistance",
+    "block_id": "G4_n8_s5",
+    "geometry": "G4",
+    "n": 8,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 773767718,
+      "placement": 2439278486,
+      "gain": 805833604,
+      "corruption": 3278806046
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s0__independent",
+    "block_id": "G4_n12_s0",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 0,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2252824785,
+      "placement": 1318173529,
+      "gain": 549495123,
+      "corruption": 905978042
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_only",
+    "block_id": "G4_n12_s0",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2252824785,
+      "placement": 1318173529,
+      "gain": 549495123,
+      "corruption": 905978042
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s0__assistance_only",
+    "block_id": "G4_n12_s0",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 0,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2252824785,
+      "placement": 1318173529,
+      "gain": 549495123,
+      "corruption": 905978042
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s0__family_and_assistance",
+    "block_id": "G4_n12_s0",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 0,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 2252824785,
+      "placement": 1318173529,
+      "gain": 549495123,
+      "corruption": 905978042
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s1__independent",
+    "block_id": "G4_n12_s1",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 1,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 794494704,
+      "placement": 2789555050,
+      "gain": 602921342,
+      "corruption": 560804807
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_only",
+    "block_id": "G4_n12_s1",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 794494704,
+      "placement": 2789555050,
+      "gain": 602921342,
+      "corruption": 560804807
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s1__assistance_only",
+    "block_id": "G4_n12_s1",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 1,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 794494704,
+      "placement": 2789555050,
+      "gain": 602921342,
+      "corruption": 560804807
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s1__family_and_assistance",
+    "block_id": "G4_n12_s1",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 1,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 794494704,
+      "placement": 2789555050,
+      "gain": 602921342,
+      "corruption": 560804807
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s2__independent",
+    "block_id": "G4_n12_s2",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 2,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4083032137,
+      "placement": 606884391,
+      "gain": 1224391480,
+      "corruption": 1557137823
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_only",
+    "block_id": "G4_n12_s2",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4083032137,
+      "placement": 606884391,
+      "gain": 1224391480,
+      "corruption": 1557137823
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s2__assistance_only",
+    "block_id": "G4_n12_s2",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 2,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4083032137,
+      "placement": 606884391,
+      "gain": 1224391480,
+      "corruption": 1557137823
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s2__family_and_assistance",
+    "block_id": "G4_n12_s2",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 2,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 4083032137,
+      "placement": 606884391,
+      "gain": 1224391480,
+      "corruption": 1557137823
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s3__independent",
+    "block_id": "G4_n12_s3",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 3,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3667977606,
+      "placement": 1447380461,
+      "gain": 374837502,
+      "corruption": 1877785189
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_only",
+    "block_id": "G4_n12_s3",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3667977606,
+      "placement": 1447380461,
+      "gain": 374837502,
+      "corruption": 1877785189
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s3__assistance_only",
+    "block_id": "G4_n12_s3",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 3,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3667977606,
+      "placement": 1447380461,
+      "gain": 374837502,
+      "corruption": 1877785189
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s3__family_and_assistance",
+    "block_id": "G4_n12_s3",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 3,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "train",
+    "seeds": {
+      "capability": 3667977606,
+      "placement": 1447380461,
+      "gain": 374837502,
+      "corruption": 1877785189
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s4__independent",
+    "block_id": "G4_n12_s4",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 4,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3726522966,
+      "placement": 4135296047,
+      "gain": 685953061,
+      "corruption": 1775683510
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_only",
+    "block_id": "G4_n12_s4",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3726522966,
+      "placement": 4135296047,
+      "gain": 685953061,
+      "corruption": 1775683510
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s4__assistance_only",
+    "block_id": "G4_n12_s4",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 4,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3726522966,
+      "placement": 4135296047,
+      "gain": 685953061,
+      "corruption": 1775683510
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s4__family_and_assistance",
+    "block_id": "G4_n12_s4",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 4,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 3726522966,
+      "placement": 4135296047,
+      "gain": 685953061,
+      "corruption": 1775683510
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s5__independent",
+    "block_id": "G4_n12_s5",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 5,
+    "condition": "independent",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1377925474,
+      "placement": 2445629837,
+      "gain": 3107741519,
+      "corruption": 1065245398
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_only",
+    "block_id": "G4_n12_s5",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1377925474,
+      "placement": 2445629837,
+      "gain": 3107741519,
+      "corruption": 1065245398
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s5__assistance_only",
+    "block_id": "G4_n12_s5",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 5,
+    "condition": "assistance_only",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1377925474,
+      "placement": 2445629837,
+      "gain": 3107741519,
+      "corruption": 1065245398
+    }
+  },
+  {
+    "run_id": "main__G4_n12_s5__family_and_assistance",
+    "block_id": "G4_n12_s5",
+    "geometry": "G4",
+    "n": 12,
+    "slot": 5,
+    "condition": "family_and_assistance",
+    "variant": "main",
+    "partition": "validation",
+    "seeds": {
+      "capability": 1377925474,
+      "placement": 2445629837,
+      "gain": 3107741519,
+      "corruption": 1065245398
+    }
+  }
+]

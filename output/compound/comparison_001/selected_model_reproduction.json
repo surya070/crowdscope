@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "A",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 6.73594513500575e-12
+    },
+    {
+      "model": "A",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 6.743050562363351e-12
+    },
+    {
+      "model": "A",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 6.838973831690964e-12
+    },
+    {
+      "model": "A",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 1.5276668818842154e-13
+    },
+    {
+      "model": "M",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "model": "M",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "model": "M",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 5.684341886080802e-14
+    },
+    {
+      "model": "M",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 2.1316282072803006e-14
+    },
+    {
+      "model": "F",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 7.105427357601002e-15
+    },
+    {
+      "model": "F",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 7.105427357601002e-15
+    },
+    {
+      "model": "F",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 7.105427357601002e-15
+    },
+    {
+      "model": "F",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 7.105427357601002e-15
+    },
+    {
+      "model": "F_no_family",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_no_family",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_no_family",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 4.973799150320701e-14
+    },
+    {
+      "model": "F_no_family",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 3.907985046680551e-14
+    },
+    {
+      "model": "F_no_assistance",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 3.907985046680551e-14
+    },
+    {
+      "model": "F_no_assistance",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_no_assistance",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 4.618527782440651e-14
+    },
+    {
+      "model": "F_no_assistance",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_counts",
+      "variant": "finer_dt",
+      "partition": "held_out_geometry_test",
+      "predictions": 48,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_counts",
+      "variant": "gain_stress",
+      "partition": "held_out_geometry_test",
+      "predictions": 96,
+      "max_difference": 3.552713678800501e-14
+    },
+    {
+      "model": "F_counts",
+      "variant": "main",
+      "partition": "held_out_geometry_test",
+      "predictions": 288,
+      "max_difference": 4.618527782440651e-14
+    },
+    {
+      "model": "F_counts",
+      "variant": "main",
+      "partition": "test",
+      "predictions": 96,
+      "max_difference": 3.552713678800501e-14
+    }
+  ],
+  "prediction_values_reproduced": 3168,
+  "max_difference": 6.838973831690964e-12,
+  "hyperparameters_retuned": false,
+  "prior_test_results_seen": true,
+  "scope": "Internal same-runtime reproduction at fixed saved settings, not independent external validation",
+  "source_sha256": "c8db77913834438d249060c2cc4fa2d5a0ac849f4917070f2e86decce9c2d03b"
+}

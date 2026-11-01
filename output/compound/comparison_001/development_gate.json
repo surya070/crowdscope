@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "comparisons": [
+    {
+      "run_id": "main__G1_n8_s0__independent",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0600000000000005,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n8_s0__family_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0600000000000005,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n8_s0__assistance_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.040000000000000924,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n8_s0__family_and_assistance",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.040000000000000924,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n12_s0__independent",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n12_s0__family_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n12_s0__assistance_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "run_id": "main__G1_n12_s0__family_and_assistance",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n8_s0__independent",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0799999999999983,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n8_s0__family_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.08000000000000185,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n8_s0__assistance_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.0799999999999983,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n8_s0__family_and_assistance",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.08000000000000185,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n12_s0__independent",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.019999999999999574,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n12_s0__family_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.019999999999999574,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n12_s0__assistance_only",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.019999999999999574,
+      "passed": true
+    },
+    {
+      "run_id": "main__G2_n12_s0__family_and_assistance",
+      "coarse_complete": true,
+      "fine_complete": true,
+      "difference_s": 0.019999999999999574,
+      "passed": true
+    }
+  ]
+}

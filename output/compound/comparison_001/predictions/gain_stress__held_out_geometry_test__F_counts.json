@@ -1,0 +1,578 @@
+[
+  {
+    "run_id": "gain_stress__G3_n8_s4__independent",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 21.96881867537239
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__independent",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 18.841259534152407
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__independent",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 14.25264439640028
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_only",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 21.7401510953462
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_only",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 18.847783027347006
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_only",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 14.008534730735693
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__assistance_only",
+    "t": 2,
+    "target": 22.56,
+    "prediction": 22.197426375963445
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__assistance_only",
+    "t": 5,
+    "target": 19.56,
+    "prediction": 19.074641334486593
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__assistance_only",
+    "t": 10,
+    "target": 14.559999999999999,
+    "prediction": 14.508099371588543
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 22.52,
+    "prediction": 21.95947602784579
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 19.52,
+    "prediction": 19.07689171533045
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 14.52,
+    "prediction": 14.2547069378325
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__independent",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 21.229977024447926
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__independent",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 18.198144741048136
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__independent",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 13.355966630352478
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_only",
+    "t": 2,
+    "target": 21.72,
+    "prediction": 21.542448552753683
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_only",
+    "t": 5,
+    "target": 18.72,
+    "prediction": 18.964033080917943
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_only",
+    "t": 10,
+    "target": 13.719999999999999,
+    "prediction": 13.516587019125817
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__assistance_only",
+    "t": 2,
+    "target": 24.04,
+    "prediction": 21.697238829379014
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__assistance_only",
+    "t": 5,
+    "target": 21.04,
+    "prediction": 18.915651408422132
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__assistance_only",
+    "t": 10,
+    "target": 16.04,
+    "prediction": 13.942508223145731
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 24.04,
+    "prediction": 21.970841865415913
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 21.04,
+    "prediction": 19.2965066122538
+  },
+  {
+    "run_id": "gain_stress__G3_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 16.04,
+    "prediction": 14.103040637771958
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__independent",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 16.815685600834808
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__independent",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 13.583267662803115
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__independent",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 8.664184030489231
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_only",
+    "t": 2,
+    "target": 18.12,
+    "prediction": 16.800375630638044
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_only",
+    "t": 5,
+    "target": 15.120000000000001,
+    "prediction": 13.611089866267196
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_only",
+    "t": 10,
+    "target": 10.120000000000001,
+    "prediction": 8.664184030489231
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__assistance_only",
+    "t": 2,
+    "target": 18.32,
+    "prediction": 17.001113489670864
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__assistance_only",
+    "t": 5,
+    "target": 15.32,
+    "prediction": 14.066896916087128
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__assistance_only",
+    "t": 10,
+    "target": 10.32,
+    "prediction": 8.692279779688057
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 18.32,
+    "prediction": 16.98292995606349
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 15.32,
+    "prediction": 13.979138280150783
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 10.32,
+    "prediction": 8.692279779688057
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__independent",
+    "t": 2,
+    "target": 19.36,
+    "prediction": 18.341212030255637
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__independent",
+    "t": 5,
+    "target": 16.36,
+    "prediction": 15.78962966567381
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__independent",
+    "t": 10,
+    "target": 11.36,
+    "prediction": 10.727731191033303
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_only",
+    "t": 2,
+    "target": 19.28,
+    "prediction": 18.26739035325692
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_only",
+    "t": 5,
+    "target": 16.28,
+    "prediction": 15.943818528113892
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_only",
+    "t": 10,
+    "target": 11.280000000000001,
+    "prediction": 10.749031985539673
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__assistance_only",
+    "t": 2,
+    "target": 21.52,
+    "prediction": 18.946106762135024
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__assistance_only",
+    "t": 5,
+    "target": 18.52,
+    "prediction": 16.183902475508532
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__assistance_only",
+    "t": 10,
+    "target": 13.52,
+    "prediction": 11.99469181760096
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 21.44,
+    "prediction": 18.862891282394827
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 18.44,
+    "prediction": 16.168644123941704
+  },
+  {
+    "run_id": "gain_stress__G3_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 13.440000000000001,
+    "prediction": 11.86722941189404
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__independent",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.842287986322145
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__independent",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.49727717973594
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__independent",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.370339235877363
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 30.137297002473105
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.3214130720031
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.330382657507002
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__assistance_only",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.686335278077248
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__assistance_only",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.471954972458033
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__assistance_only",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.025031178135457
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.08,
+    "prediction": 29.71565667417715
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.08,
+    "prediction": 26.379271416230072
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.08,
+    "prediction": 21.140272546296384
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__independent",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 29.807559215665883
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__independent",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 26.874836611989554
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__independent",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 22.495493634721406
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_only",
+    "t": 2,
+    "target": 30.6,
+    "prediction": 29.8895275855243
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_only",
+    "t": 5,
+    "target": 27.6,
+    "prediction": 26.7563962371497
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_only",
+    "t": 10,
+    "target": 22.6,
+    "prediction": 22.261183179403908
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__assistance_only",
+    "t": 2,
+    "target": 31.0,
+    "prediction": 29.861003927433934
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__assistance_only",
+    "t": 5,
+    "target": 28.0,
+    "prediction": 27.175270112789846
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__assistance_only",
+    "t": 10,
+    "target": 23.0,
+    "prediction": 21.76442791689059
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_and_assistance",
+    "t": 2,
+    "target": 31.0,
+    "prediction": 29.956393501244403
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_and_assistance",
+    "t": 5,
+    "target": 28.0,
+    "prediction": 27.17298942306898
+  },
+  {
+    "run_id": "gain_stress__G4_n8_s5__family_and_assistance",
+    "t": 10,
+    "target": 23.0,
+    "prediction": 21.855961283333347
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__independent",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.30702726893527
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__independent",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.458740631647167
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__independent",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.15180217935177
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.42398212566911
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.417106753076055
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.35625489926387
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__assistance_only",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.576725920479614
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__assistance_only",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.338362273033727
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__assistance_only",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 21.858538569461768
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_and_assistance",
+    "t": 2,
+    "target": 30.840000000000003,
+    "prediction": 29.91251272230034
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_and_assistance",
+    "t": 5,
+    "target": 27.840000000000003,
+    "prediction": 26.4742375764331
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s4__family_and_assistance",
+    "t": 10,
+    "target": 22.840000000000003,
+    "prediction": 22.267022289664048
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__independent",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 28.144930725335044
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__independent",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 24.999814612929683
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__independent",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 19.906397938333306
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_only",
+    "t": 2,
+    "target": 29.24,
+    "prediction": 28.252323514382184
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_only",
+    "t": 5,
+    "target": 26.24,
+    "prediction": 25.088287203676533
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_only",
+    "t": 10,
+    "target": 21.24,
+    "prediction": 20.00104723467907
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__assistance_only",
+    "t": 2,
+    "target": 30.159999999999997,
+    "prediction": 28.609379310899524
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__assistance_only",
+    "t": 5,
+    "target": 27.159999999999997,
+    "prediction": 25.440827288973793
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__assistance_only",
+    "t": 10,
+    "target": 22.159999999999997,
+    "prediction": 20.680405574414785
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_and_assistance",
+    "t": 2,
+    "target": 30.159999999999997,
+    "prediction": 28.62011765831421
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_and_assistance",
+    "t": 5,
+    "target": 27.159999999999997,
+    "prediction": 25.470998633396942
+  },
+  {
+    "run_id": "gain_stress__G4_n12_s5__family_and_assistance",
+    "t": 10,
+    "target": 22.159999999999997,
+    "prediction": 20.804860848911012
+  }
+]

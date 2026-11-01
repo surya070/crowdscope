@@ -1,0 +1,620 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "case": "single_pedestrian",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 5.2,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 5.2
+    },
+    {
+      "case": "single_pedestrian",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 5.2,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 5.2
+    },
+    {
+      "case": "single_pedestrian",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 5.2,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 5.2
+    },
+    {
+      "case": "single_pedestrian",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 5.2,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 5.2
+    },
+    {
+      "case": "single_wheelchair",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 7.96,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 7.95
+    },
+    {
+      "case": "single_wheelchair",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 7.96,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 7.95
+    },
+    {
+      "case": "single_wheelchair",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 7.95,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 7.95
+    },
+    {
+      "case": "single_wheelchair",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 7.95,
+      "initial_occupants": 1,
+      "exited": 1,
+      "remaining": 0,
+      "analytic_s": 7.95
+    },
+    {
+      "case": "attached_pair_free",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.2,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "attached_pair_free",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.2,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "attached_pair_free",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.19,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "attached_pair_free",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.19,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "accessible_doorway",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.2,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "accessible_doorway",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.2,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "accessible_doorway",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.19,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "accessible_doorway",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 6.19,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 6.19
+    },
+    {
+      "case": "inaccessible_doorway",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": false,
+      "completion_s": null,
+      "initial_occupants": 2,
+      "exited": 0,
+      "remaining": 2,
+      "analytic_s": null
+    },
+    {
+      "case": "inaccessible_doorway",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": false,
+      "completion_s": null,
+      "initial_occupants": 2,
+      "exited": 0,
+      "remaining": 2,
+      "analytic_s": null
+    },
+    {
+      "case": "inaccessible_doorway",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": false,
+      "completion_s": null,
+      "initial_occupants": 2,
+      "exited": 0,
+      "remaining": 2,
+      "analytic_s": null
+    },
+    {
+      "case": "inaccessible_doorway",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": false,
+      "completion_s": null,
+      "initial_occupants": 2,
+      "exited": 0,
+      "remaining": 2,
+      "analytic_s": null
+    },
+    {
+      "case": "right_angle_turn",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 10.6,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 10.560997495541976
+    },
+    {
+      "case": "right_angle_turn",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 10.58,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 10.560997495541976
+    },
+    {
+      "case": "right_angle_turn",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 10.57,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 10.560997495541976
+    },
+    {
+      "case": "right_angle_turn",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 10.57,
+      "initial_occupants": 2,
+      "exited": 2,
+      "remaining": 0,
+      "analytic_s": 10.560997495541976
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "dt": 0.04,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 11.92,
+      "initial_occupants": 7,
+      "exited": 7,
+      "remaining": 0,
+      "analytic_s": null
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "dt": 0.02,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 11.84,
+      "initial_occupants": 7,
+      "exited": 7,
+      "remaining": 0,
+      "analytic_s": null
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "dt": 0.01,
+      "resolution": 16,
+      "passed": true,
+      "complete": true,
+      "completion_s": 11.83,
+      "initial_occupants": 7,
+      "exited": 7,
+      "remaining": 0,
+      "analytic_s": null
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "dt": 0.01,
+      "resolution": 32,
+      "passed": true,
+      "complete": true,
+      "completion_s": 11.83,
+      "initial_occupants": 7,
+      "exited": 7,
+      "remaining": 0,
+      "analytic_s": null
+    }
+  ],
+  "stability": [
+    {
+      "case": "single_pedestrian",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "single_pedestrian",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "single_pedestrian",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "single_wheelchair",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "single_wheelchair",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.009999999999999787,
+      "passed": true
+    },
+    {
+      "case": "single_wheelchair",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "attached_pair_free",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "attached_pair_free",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.009999999999999787,
+      "passed": true
+    },
+    {
+      "case": "attached_pair_free",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "accessible_doorway",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "accessible_doorway",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.009999999999999787,
+      "passed": true
+    },
+    {
+      "case": "accessible_doorway",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "inaccessible_doorway",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": null,
+      "passed": true
+    },
+    {
+      "case": "inaccessible_doorway",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": null,
+      "passed": true
+    },
+    {
+      "case": "inaccessible_doorway",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": null,
+      "passed": true
+    },
+    {
+      "case": "right_angle_turn",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.019999999999999574,
+      "passed": true
+    },
+    {
+      "case": "right_angle_turn",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.009999999999999787,
+      "passed": true
+    },
+    {
+      "case": "right_angle_turn",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "first": [
+        0.04,
+        16
+      ],
+      "second": [
+        0.02,
+        16
+      ],
+      "difference_s": 0.08000000000000007,
+      "passed": true
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "first": [
+        0.02,
+        16
+      ],
+      "second": [
+        0.01,
+        16
+      ],
+      "difference_s": 0.009999999999999787,
+      "passed": true
+    },
+    {
+      "case": "mixed_single_lane_queue",
+      "first": [
+        0.01,
+        16
+      ],
+      "second": [
+        0.01,
+        32
+      ],
+      "difference_s": 0.0,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "original_inputs_unchanged": true,
+  "study_predictors_fitted": 0,
+  "revised_prediction_protocol_frozen": false
+}

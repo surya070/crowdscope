@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "trajectory_hashes_verified": 240,
+  "completed": 240,
+  "censored": 0,
+  "saved_frames_accounted": 31143,
+  "checkpoint_rows": 720,
+  "metric_groups_recomputed": 32,
+  "max_production_refinement_difference_s": 0.16000000000000014,
+  "refinement_status_agrees": true,
+  "primary": {
+    "reduction_s": -1.1743797748518394,
+    "conditional_interval_s": [
+      -1.486181105253361,
+      -0.8821469345050024
+    ],
+    "block_count": 24,
+    "refitting_in_bootstrap": false,
+    "interpretation": "conditional descriptive; no fitting/selection or generator uncertainty"
+  },
+  "compound_frozen_inputs_unchanged": true,
+  "audit_did_not_refit": true,
+  "audit_source_sha256": "a661f2ef7a8edddab2731611aa2b2bbac38cedcf5aa010c19fdcfcb55e215693",
+  "scope": "Internal saved-result audit; not independent empirical validation"
+}

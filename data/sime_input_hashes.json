@@ -1,0 +1,10 @@
+{
+  "metadata_sha256": "823872e63a3dfa227081efa48ea7434e5febfd0cae38de5abbf5af12eb6ad16f",
+  "trials": {
+    "1501": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661",
+    "1507": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb",
+    "1503": "825be95760ebba137ec179fbd0ffde16b1b6a166f3010352743c6807acd0739c",
+    "1505": "5a956269ed95fc777c3581c78a6dc9ec03cc5f14297de4d1786c1013d5e23cc1"
+  },
+  "metadata_url": "https://ped.fz-juelich.de/data/experiments/2017.06.10_Wermelskirchen_SiME/data/2017sime/2017sime_metadata.json"
+}

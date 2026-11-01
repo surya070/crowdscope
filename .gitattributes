@@ -1,0 +1,5 @@
+# Frozen experiment hashes depend on exact bytes on every platform.
+* -text
+*.png binary
+*.pkl binary
+*.npy binary

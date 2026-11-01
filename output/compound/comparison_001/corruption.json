@@ -1,0 +1,976 @@
+[
+  {
+    "mode": "drop_one_each_type",
+    "mae": 2.4698680190907685,
+    "attained_supplied_link_corruption": [
+      {
+        "run_id": "main__G3_n8_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      }
+    ],
+    "refitted": false
+  },
+  {
+    "mode": "rewire_one_each_type",
+    "mae": 2.2272922994166087,
+    "attained_supplied_link_corruption": [
+      {
+        "run_id": "main__G3_n8_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n8_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n8_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n8_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G3_n12_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G3_n12_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G3_n12_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n8_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n8_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n8_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s0__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s0__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s0__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s0__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s1__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s1__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s1__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s1__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s2__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s2__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s2__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s2__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s3__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s3__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s3__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s3__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s4__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s4__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s4__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s4__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      },
+      {
+        "run_id": "main__G4_n12_s5__independent",
+        "selected": 0,
+        "changed": 0
+      },
+      {
+        "run_id": "main__G4_n12_s5__family_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s5__assistance_only",
+        "selected": 1,
+        "changed": 1
+      },
+      {
+        "run_id": "main__G4_n12_s5__family_and_assistance",
+        "selected": 2,
+        "changed": 2
+      }
+    ],
+    "refitted": false
+  }
+]

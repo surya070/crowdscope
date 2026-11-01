@@ -1,0 +1,443 @@
+[
+  {
+    "family": "ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 1.513473030329776
+  },
+  {
+    "family": "ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 1.7254434607908233
+  },
+  {
+    "family": "ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 1.9534056586244164
+  },
+  {
+    "family": "ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 0.7247014002104313
+  },
+  {
+    "family": "ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 0.7869853507402481
+  },
+  {
+    "family": "ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 1.153673067724673
+  },
+  {
+    "family": "ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 0.7194899238364748
+  },
+  {
+    "family": "ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 0.7785588388486493
+  },
+  {
+    "family": "ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 1.147510993072863
+  },
+  {
+    "family": "rbf",
+    "information": "A",
+    "setting": {
+      "alpha": 0.1,
+      "length": 0.5
+    },
+    "validation_mae_s": 3.7391037465332477
+  },
+  {
+    "family": "rbf",
+    "information": "A",
+    "setting": {
+      "alpha": 0.1,
+      "length": 1.0
+    },
+    "validation_mae_s": 3.017399913743676
+  },
+  {
+    "family": "rbf",
+    "information": "A",
+    "setting": {
+      "alpha": 0.1,
+      "length": 2.0
+    },
+    "validation_mae_s": 3.6375570992630846
+  },
+  {
+    "family": "rbf",
+    "information": "M",
+    "setting": {
+      "alpha": 0.1,
+      "length": 0.5
+    },
+    "validation_mae_s": 4.046500680984147
+  },
+  {
+    "family": "rbf",
+    "information": "M",
+    "setting": {
+      "alpha": 0.1,
+      "length": 1.0
+    },
+    "validation_mae_s": 3.0527578948476792
+  },
+  {
+    "family": "rbf",
+    "information": "M",
+    "setting": {
+      "alpha": 0.1,
+      "length": 2.0
+    },
+    "validation_mae_s": 3.6740719424636614
+  },
+  {
+    "family": "rbf",
+    "information": "F",
+    "setting": {
+      "alpha": 0.1,
+      "length": 0.5
+    },
+    "validation_mae_s": 4.260116093530519
+  },
+  {
+    "family": "rbf",
+    "information": "F",
+    "setting": {
+      "alpha": 0.1,
+      "length": 1.0
+    },
+    "validation_mae_s": 3.3224217665446805
+  },
+  {
+    "family": "rbf",
+    "information": "F",
+    "setting": {
+      "alpha": 0.1,
+      "length": 2.0
+    },
+    "validation_mae_s": 3.9543027192269347
+  },
+  {
+    "family": "boosting",
+    "information": "A",
+    "setting": {
+      "depth": 1
+    },
+    "validation_mae_s": 1.7121095903538879
+  },
+  {
+    "family": "boosting",
+    "information": "A",
+    "setting": {
+      "depth": 2
+    },
+    "validation_mae_s": 1.6925414669457193
+  },
+  {
+    "family": "boosting",
+    "information": "A",
+    "setting": {
+      "depth": 3
+    },
+    "validation_mae_s": 1.6930038759112813
+  },
+  {
+    "family": "boosting",
+    "information": "M",
+    "setting": {
+      "depth": 1
+    },
+    "validation_mae_s": 0.8962971655826741
+  },
+  {
+    "family": "boosting",
+    "information": "M",
+    "setting": {
+      "depth": 2
+    },
+    "validation_mae_s": 0.9059775541605526
+  },
+  {
+    "family": "boosting",
+    "information": "M",
+    "setting": {
+      "depth": 3
+    },
+    "validation_mae_s": 0.9377435708042434
+  },
+  {
+    "family": "boosting",
+    "information": "F",
+    "setting": {
+      "depth": 1
+    },
+    "validation_mae_s": 0.9006961896423578
+  },
+  {
+    "family": "boosting",
+    "information": "F",
+    "setting": {
+      "depth": 2
+    },
+    "validation_mae_s": 0.9162300969612682
+  },
+  {
+    "family": "boosting",
+    "information": "F",
+    "setting": {
+      "depth": 3
+    },
+    "validation_mae_s": 0.9289691162236884
+  },
+  {
+    "family": "mlp",
+    "information": "A",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 1.693604410504963
+  },
+  {
+    "family": "mlp",
+    "information": "A",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 1.5597876752594617
+  },
+  {
+    "family": "mlp",
+    "information": "A",
+    "setting": {
+      "width": 64
+    },
+    "validation_mae_s": 1.6695907744129364
+  },
+  {
+    "family": "mlp",
+    "information": "M",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 1.0667534612414142
+  },
+  {
+    "family": "mlp",
+    "information": "M",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 0.8889158638645778
+  },
+  {
+    "family": "mlp",
+    "information": "M",
+    "setting": {
+      "width": 64
+    },
+    "validation_mae_s": 0.7172239091079042
+  },
+  {
+    "family": "mlp",
+    "information": "F",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 0.9913806469999848
+  },
+  {
+    "family": "mlp",
+    "information": "F",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 1.0278805862283065
+  },
+  {
+    "family": "mlp",
+    "information": "F",
+    "setting": {
+      "width": 64
+    },
+    "validation_mae_s": 0.8931347218908215
+  },
+  {
+    "family": "gru",
+    "information": "A",
+    "setting": {
+      "width": 8
+    },
+    "validation_mae_s": 1.6879347784294256
+  },
+  {
+    "family": "gru",
+    "information": "A",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 1.8028515890907566
+  },
+  {
+    "family": "gru",
+    "information": "A",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 1.6790385219090294
+  },
+  {
+    "family": "gru",
+    "information": "M",
+    "setting": {
+      "width": 8
+    },
+    "validation_mae_s": 1.3038770416847665
+  },
+  {
+    "family": "gru",
+    "information": "M",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 1.1906066475198602
+  },
+  {
+    "family": "gru",
+    "information": "M",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 1.0490454890177512
+  },
+  {
+    "family": "gru",
+    "information": "F",
+    "setting": {
+      "width": 8
+    },
+    "validation_mae_s": 1.2257773344844243
+  },
+  {
+    "family": "gru",
+    "information": "F",
+    "setting": {
+      "width": 16
+    },
+    "validation_mae_s": 1.070236194026597
+  },
+  {
+    "family": "gru",
+    "information": "F",
+    "setting": {
+      "width": 32
+    },
+    "validation_mae_s": 1.0068063185907805
+  },
+  {
+    "family": "history_ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 1.3173752587332914
+  },
+  {
+    "family": "history_ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 1.4561118990379618
+  },
+  {
+    "family": "history_ridge",
+    "information": "A",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 1.7351293041248859
+  },
+  {
+    "family": "history_ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 0.8761679014808568
+  },
+  {
+    "family": "history_ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 0.7826117434684449
+  },
+  {
+    "family": "history_ridge",
+    "information": "M",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 0.8587980340135811
+  },
+  {
+    "family": "history_ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 0.01
+    },
+    "validation_mae_s": 0.8944363078892852
+  },
+  {
+    "family": "history_ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 0.1
+    },
+    "validation_mae_s": 0.7744996052821033
+  },
+  {
+    "family": "history_ridge",
+    "information": "F",
+    "setting": {
+      "alpha": 1.0
+    },
+    "validation_mae_s": 0.8534702775833517
+  }
+]

@@ -1,0 +1,12 @@
+test_duplicate_occupants_are_rejected (test_movement.MovementTests.test_duplicate_occupants_are_rejected) ... ok
+test_inaccessible_door_retains_full_pair (test_movement.MovementTests.test_inaccessible_door_retains_full_pair) ... ok
+test_rotation_reserves_arc_not_just_endpoints (test_movement.MovementTests.test_rotation_reserves_arc_not_just_endpoints) ... ok
+test_rotation_sweep_encloses_dense_intermediate_poses (test_movement.MovementTests.test_rotation_sweep_encloses_dense_intermediate_poses) ... ok
+test_separate_exit_events_and_conservation_during_outflow (test_movement.MovementTests.test_separate_exit_events_and_conservation_during_outflow) ... ok
+test_simulation_blocks_tunnelling_through_stationary_occupant (test_movement.MovementTests.test_simulation_blocks_tunnelling_through_stationary_occupant) ... ok
+test_translation_reserves_intermediate_space (test_movement.MovementTests.test_translation_reserves_intermediate_space) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.417s
+
+OK

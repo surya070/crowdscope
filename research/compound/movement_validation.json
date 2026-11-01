@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "scenario_checks": 28,
+  "stability_comparisons": 21,
+  "software_checks": 7,
+  "maximum_clearance_difference_s": 0.08000000000000007,
+  "max_pair_separation_error_m": 4.440892098500626e-16,
+  "maximum_total_clearance_spread_s": 0.08999999999999986,
+  "max_member_speed_excess_m_s": 2.353672812205332e-14,
+  "max_family_gap_m": 0.75,
+  "source_hashes": {
+    "src/compound/cases.py": "49e969bd09c5f4e3c1bb8242a19dee2425974861b4d988480bbfa47dde2a5983",
+    "src/compound/movement.py": "16f1efb6d87ad1042a8f466fc192aa1190cbb47c2ae2ac1c0a994a672073ec14",
+    "src/compound/__init__.py": "61635bda481e92f824e962b0d6682dc9aa5d75dcdd425dd0cdd3caad5496c2f7",
+    "research/compound/verify_movement.py": "0ec2b0404480c2e98a10622fc68ac60a8d527932d750fe7ed7cac992c7ea7065"
+  },
+  "trajectory_hashes": {
+    "output/compound/feasibility_001/single_pedestrian__dt0.04__q16.json": "9ab06b79a3695a3d289d3b87f14798cd264ca3dc0bcbd052b163cd32eb1d7377",
+    "output/compound/feasibility_001/single_pedestrian__dt0.02__q16.json": "b293046890ca6b9a73bf0d78b3ee9fba140ad78d4939e292c0358ae9e01aaadf",
+    "output/compound/feasibility_001/single_pedestrian__dt0.01__q16.json": "28aaec4ae002e214e7c3bc1495b3e1c5bd87f3411816bdfddcd4fa09b03f2593",
+    "output/compound/feasibility_001/single_pedestrian__dt0.01__q32.json": "f47fea78b99f8d633b43692b5305e36176c0d6e4a2ca7beb4db044d4cf669f29",
+    "output/compound/feasibility_001/single_wheelchair__dt0.04__q16.json": "e3b28c1b0bdf1b3771ca3b45b7f8aa8add68feedebd8f363effc8c4f8b2962c9",
+    "output/compound/feasibility_001/single_wheelchair__dt0.02__q16.json": "6a2028ecaa665dce50ab2b57859271d1a18083a10fb0551eced903e03b3419a2",
+    "output/compound/feasibility_001/single_wheelchair__dt0.01__q16.json": "d345ea383a93ca3868597b66576c38200e2c4ebaf94a88e0cf3cc67ca9b9d648",
+    "output/compound/feasibility_001/single_wheelchair__dt0.01__q32.json": "29d1f711c95d87db2da136acceb1b98db5b0e5e9054ae6dcd4cf91cbe86c4b57",
+    "output/compound/feasibility_001/attached_pair_free__dt0.04__q16.json": "570da228488af0431d3c5820445db6782a9c5b9423e0f37a6391d495b9d9b6af",
+    "output/compound/feasibility_001/attached_pair_free__dt0.02__q16.json": "27d3bc76b746aa4bf3fefa34025385f9aac34a31fb1bde5b748a3a0c104b8d00",
+    "output/compound/feasibility_001/attached_pair_free__dt0.01__q16.json": "dcb56ec5b65a8795f0d2cc05d60cd22e8be83733a96a3c3a0091236ecdd761c1",
+    "output/compound/feasibility_001/attached_pair_free__dt0.01__q32.json": "502ed5e9e53931a19346c96d7d063294f717c91f01d22365d14945a5cb93888c",
+    "output/compound/feasibility_001/accessible_doorway__dt0.04__q16.json": "40c994b67845a853c6240933508bf6903a019fddcdfc50f2ff2752171c200282",
+    "output/compound/feasibility_001/accessible_doorway__dt0.02__q16.json": "c9bb399f8e2d06384e4d03d336197dbdbb4a6c32a0fa3473e47f85ddb7019949",
+    "output/compound/feasibility_001/accessible_doorway__dt0.01__q16.json": "9ab8e3289b2d0ce84827737fa4b567a36c921a59b5b1c7fe9f73cd322bb04110",
+    "output/compound/feasibility_001/accessible_doorway__dt0.01__q32.json": "cbce4c5eb0e85f6bbb87e95aea43f14b321f1ea7526f037689f63977dead6d5e",
+    "output/compound/feasibility_001/inaccessible_doorway__dt0.04__q16.json": "cae6f2c4cade5e8503fbcf2c4a082779be4c4adb9a5497ba8b8c44beeb55087e",
+    "output/compound/feasibility_001/inaccessible_doorway__dt0.02__q16.json": "413868f1928d3f1490f98dd21cbe0bc0a4ae33157b8335a845613811fb1e88e5",
+    "output/compound/feasibility_001/inaccessible_doorway__dt0.01__q16.json": "b0a26d9b436522a9ac602cd24287771f919c036c204717fdf1f6f69e6e28ff9b",
+    "output/compound/feasibility_001/inaccessible_doorway__dt0.01__q32.json": "db4feadc3e107ed0e3af78861e975eb49dc513c661f56389a12a832be4f9be19",
+    "output/compound/feasibility_001/right_angle_turn__dt0.04__q16.json": "9bee88b67943f9018ecb450f9e90f4080014e516d2a982a4989448f993e60605",
+    "output/compound/feasibility_001/right_angle_turn__dt0.02__q16.json": "76f39607b7d8065cd45c7cd161d8a3d5b54acff3648098bbc137ceb45555581e",
+    "output/compound/feasibility_001/right_angle_turn__dt0.01__q16.json": "c395eb92841b8dbca966626badaa1265c865d399905d82a3f46a49bcfa590afc",
+    "output/compound/feasibility_001/right_angle_turn__dt0.01__q32.json": "c6ee6fb1ec664e5849c4a2ac7af85b0d82b0d84302b640cb3fc879434d604435",
+    "output/compound/feasibility_001/mixed_single_lane_queue__dt0.04__q16.json": "52d18d76f2c0bd2fc9c57432225ca7f69e183395a036c0fa3aab3867ae661bfc",
+    "output/compound/feasibility_001/mixed_single_lane_queue__dt0.02__q16.json": "c86678a429fc662efb884271c83ef4b23347e050480f4fdbe137acb321bf61c0",
+    "output/compound/feasibility_001/mixed_single_lane_queue__dt0.01__q16.json": "7a61c1d36d50071e6b0da6eff4d072daf00dea3aa810ed81513be32b8d9b18f6",
+    "output/compound/feasibility_001/mixed_single_lane_queue__dt0.01__q32.json": "3e3a6e3655ae538e16aac37046f755c3c1c36b2e155aaf68f9245e33e1267789"
+  },
+  "test_source_hashes": {
+    "tests_compound/test_movement.py": "3e4b6ad4913dd9ce46e6b1b7aeca4cf0c085dd30ed4936123b343f49ac359d20"
+  },
+  "revised_prediction_protocol_frozen": false,
+  "study_predictors_fitted": 0,
+  "disposition": "Movement feasibility passed for the declared fixtures only. Pause before revised protocol freeze."
+}

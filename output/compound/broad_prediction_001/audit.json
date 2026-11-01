@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "new_trajectories": 144,
+  "new_matched_blocks": 36,
+  "new_queries": 432,
+  "models": 18,
+  "candidates": 54,
+  "independent_mae_max_difference_s": 8.881784197001252e-16,
+  "fresh_process_prediction_max_difference_s": 0,
+  "minimum_candidate_selection_gap_s": 0.00046240896556204447,
+  "original_test_data_reclassified_as_development": true,
+  "model_freeze_before_fresh_outcomes": true,
+  "source_and_trajectory_hashes_verified": true,
+  "input_checks": {
+    "causal_future_mutation": true,
+    "static_history_endpoint": true,
+    "train_blocks": 32,
+    "validation_blocks": 16,
+    "queries": 576
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.3.5",
+    "scipy": "1.16.1",
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cpu",
+    "shapely": "2.1.2"
+  },
+  "limitations": [
+    "Exploratory synthetic follow-up; no real evacuation forecast validation",
+    "Two new length-width combinations, same prescribed topology",
+    "Conditional fixed-model intervals exclude fitting and generator uncertainty",
+    "No multiplicity-adjusted population test or universal learner ranking"
+  ]
+}

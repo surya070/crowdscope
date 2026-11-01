@@ -1,0 +1,9 @@
+{
+  "src/broad_prediction.py": "295bf6bbf536807357067e380ba7a773bdac4747e154a1b8b9c855a701230508",
+  "research/compound/run_broad_prediction.py": "3b0f254759ac949adc28d3dc555c6e44cee495c80a41d0e193eafa1deeeeabb0",
+  "research/compound/broad_prediction_protocol_v1.md": "554e09f3d3f0a21059433aad6ee0d6334c11705c7cea6dd7dda259217356d473",
+  "src/compound/study.py": "e9242f086883d3d7e4583b3f4494912ef5065d651e7726dff3f9e5cb04e8d9d9",
+  "src/compound/movement.py": "16f1efb6d87ad1042a8f466fc192aa1190cbb47c2ae2ac1c0a994a672073ec14",
+  "src/recovery/models.py": "ab5e43af7576e762057057e37f79887b4e289f25ce93a793e8ae3e9da581a7c6",
+  "src/recovery/evaluation.py": "64ccab7fa3f5b88005b726d0a6170dec20ade89d1a25fb659f10107fe634c5a9"
+}
