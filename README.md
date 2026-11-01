@@ -1,4 +1,4 @@
-# Mobility & Relationship Information for Clearance Forecasting
+# Crowd Clearance Forecasting
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![Study](https://img.shields.io/badge/Study-exploratory_simulation-167D9A)
@@ -6,7 +6,7 @@
 
 **Do family and assistance relationships improve clearance-time predictions once individual mobility is known?**
 
-Research artifacts for *Mobility and Relationship Information for Single-Lane Clearance Forecasting: An Exploratory Simulation Study*, developed for Research Methodology at RV University.
+Research artifacts for *Mobility and Relationship Information for Single-Lane Crowd Clearance Forecasting: An Exploratory Simulation Study*, developed for Research Methodology at RV University.
 
 [Paper source](paper/compound/conference_8page/main.tex) · [Original protocol](research/compound/prediction_protocol_v1.md) · [Broader comparison](output/compound/broad_prediction_001/report.md) · [SiME replay](output/sime_replay_v2/report.md) · [Reproduce the results](#reproduce-the-results)
 

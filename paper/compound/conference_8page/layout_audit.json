@@ -17,7 +17,7 @@
   "comparative_literature_matrix": true,
   "fonts_and_margins": "standard IEEEtran",
   "overfull_hbox_count": 0,
-  "source_sha256": "0b6f9d8e1eafe2abba8953e4124df4338c6c30ef3e51bd4ef4f4ae6a1b283706",
+  "source_sha256": "7287d05ea47e99a9c8e764ba0356d71bdab83e56c5a4b82ea5123ef769456666",
   "old_exported_pdf_is_previous_conference_version": true,
   "unresolved_inputs": [
     "Institutional emails and author confirmations",
@@ -29,9 +29,10 @@
   "model_comparison_chart_restored": true,
   "figure_count": 3,
   "condensed_repeated_explanation_words": 343,
-  "github_url": "https://github.com/surya070/mobility-relationship-clearance",
+  "github_url": "https://github.com/surya070/crowd-clearance-forecasting",
   "future_scope_expanded": true,
   "short_declaration": true,
   "repository_visibility": "private",
-  "repository_access": "invitation required"
+  "repository_access": "invitation required",
+  "paper_title": "Mobility and Relationship Information for Single-Lane Crowd Clearance Forecasting: An Exploratory Simulation Study"
 }
