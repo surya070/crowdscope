@@ -12,6 +12,6 @@ The separate empirical replay uses **SiME 2017**:
 
 Run `python scripts/fetch_sime.py` from the repository root to obtain the original metadata and these four trajectory files. The script checks the expected metadata/trajectory hashes and the original ZIP-member CRCs. Source changes cause a failure rather than silently accepting different inputs. The archive index is included for provenance; original data are downloaded from the publisher's host, not mirrored here.
 
-Consult the dataset's applicable terms and institutional reuse requirements before downloading or using it. No project-wide licence is asserted over these external data. Raw human tracks and participant-level crossing records are excluded from this public artifact. Aggregate replay summaries and calibration traces are included.
+Consult the dataset's applicable terms and institutional reuse requirements before downloading or using it. No project-wide licence is asserted over these external data. Raw human tracks and participant-level crossing records are excluded from this repository artifact. Aggregate replay summaries and calibration traces are included.
 
 The reference replay uses only unassisted trials and observed inlet schedules. Wheelchair identities documented in other inspected trials do not establish assistant links or individual ages. The replay cannot validate the compound wheelchair–helper controller or end-to-end forecasts.

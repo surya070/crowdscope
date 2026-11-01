@@ -12,6 +12,8 @@ Research artifacts for *Mobility and Relationship Information for Single-Lane Cl
 
 ![Six-family comparison](paper/compound/conference_8page/images/learner_comparison.png)
 
+> This repository is private. Access to the manuscript link requires an invitation from the owner.
+
 ## What this project tests
 
 The same observed movement is represented with three information sets:
@@ -126,4 +128,4 @@ Surya Maheswaran · Yashaswini Pawar · Sohan Kori · Seema B. Hegde
 
 No external funding was received. AI assistance supported coding, analysis and manuscript preparation; authors retain responsibility for verification. No new participants were recruited. Institutional requirements for reuse of public de-identified data remain an author responsibility.
 
-External data, JuPedSim, scikit-learn, PyTorch and the other dependencies retain their original terms. The SiME dataset and accompanying study must be cited separately. A project-wide reuse licence has not been selected by all authors; public visibility alone does not grant an open-source licence. `CITATION.cff` provides citation metadata for this research artifact.
+External data, JuPedSim, scikit-learn, PyTorch and the other dependencies retain their original terms. The SiME dataset and accompanying study must be cited separately. A project-wide reuse licence has not been selected by all authors; GitHub visibility alone does not grant an open-source licence. `CITATION.cff` provides citation metadata for this research artifact.
