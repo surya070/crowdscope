@@ -1,0 +1,11 @@
+{
+  "main_runs": 192,
+  "fine_runs": 48,
+  "movement_records_verified": true,
+  "predictions": 1632,
+  "unique_prediction_keys": true,
+  "evaluation_only_predictions": true,
+  "targets_match": true,
+  "metric_groups": 68,
+  "predictions_sha256": "df8335a1566d648643b255ad31ed17d877206c00c8b5575a944f0ecf8fd0da12"
+}

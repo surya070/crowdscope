@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "scope": "pre-benchmark zero-gain numerical development check",
+  "gain": 1.0,
+  "steps": [
+    0.02,
+    0.01,
+    0.005
+  ],
+  "parameters": {
+    "strength_neighbor_repulsion": 2.6
+  },
+  "controller": "threshold",
+  "engine_sha256": "7cf67368a7c5540769b7b84e759456ff1632a1416314dfaf4596f3e94b84664a",
+  "criteria": "unchanged full six-case movement/timing gate; nominal gain reproduction check"
+}

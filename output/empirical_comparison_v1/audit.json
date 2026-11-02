@@ -1,0 +1,8 @@
+{
+  "predictions": 792,
+  "all_targets_match": true,
+  "all_conditions_cover_33_queries": true,
+  "unique_predictions": true,
+  "summary_groups": 24,
+  "predictions_sha256": "871ee1fc356f52b858359edd217880bda9a7c65ba8b08d1db405513f70d2896d"
+}

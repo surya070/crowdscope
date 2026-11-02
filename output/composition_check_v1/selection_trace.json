@@ -1,0 +1,3474 @@
+[
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.145613875395783
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.450057098109394
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.588570654580472
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 12.022883662050557
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.74737840618549
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.465747179134643
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.473507609971993
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.666474527828203
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.778397641428434
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.640461741916551
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.72060102351385
+  },
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.707528747328336
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 1.8629591654297586
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 2.401921977467043
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.6076778079171192
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.094164552002695
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.500659804265237
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.107250151490627
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.8568022327107245
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.740312045267331
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.93806606158198
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.937440470466095
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.035261425121098
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.019238278427568
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 2.275946918172052
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 2.7843774317117864
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.7458165803819514
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.093222634557156
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.503964669664136
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.2238045621800975
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.704262972158153
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.761894367777386
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.146956701117171
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.04797829798136
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.528170915150131
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.531228303330625
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 2.0945191333384736
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 1.9092653902834242
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.1958437964928716
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.366526277144333
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.415036928822186
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.1284118411183846
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.759425193872726
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.403703990495909
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.768519393027109
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.644807584267989
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.344999197401481
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.313369923183769
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 2.1966256271108198
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 2.3750113311843046
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.2150124052167373
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 9.036766017603712
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.301672275983653
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.989427194284615
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.528554324396708
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.139544462294763
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.550434003825478
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.435452917406573
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.013286218803145
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 4.981033564945658
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.040171598712162
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.331799656717046
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.191039127549514
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.498945403850481
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.603941786041272
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.299100194358125
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.269433771560351
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.75485411844319
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.940774671913986
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.83816992109681
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.149476352349385
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.120558801165494
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 2.620204802694484
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 2.255814914742881
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.0621890018489237
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 8.30419705814512
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.7970583240409095
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.545697207488484
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.698896552786408
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.369154210242035
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 5.879923869842851
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 5.77946611576458
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 4.987191019543413
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 4.958326394310218
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.694618327273879
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.9924327011496645
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.868929237960803
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 12.736854365698253
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 13.676339125900967
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 12.123251627356229
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 13.173652760064126
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.829645924035635
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.459934013731868
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.309527462904049
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 12.35158480313282
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 12.314669236719824
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.764638876856004
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.0031398441379147
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.044115097397929
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.88064578927671
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.967445021954921
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.420633563400957
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 12.021633554447689
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.558285299816484
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.701402551125168
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.507867210127941
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.281814622705681
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.22908943886288
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.817033651024715
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.2864995522750853
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.146597293617277
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.033885619347544
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.783776965488746
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.580326370302082
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.727926432017773
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.226531359891728
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.158532845979938
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.952031684175672
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.960413804928695
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.922786458686009
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.140815409440037
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.300195413409627
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.665844398709883
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.21337131586966
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.447396990281172
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.311343653864848
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.121777753309098
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.089977127999479
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.638840965452943
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.554689573446211
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.22236370817621
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.20444549403678
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.320739209851039
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.4260023130834174
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.011081946640837
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.11458061651275
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.141345075224493
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.115680431660675
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.417952821893032
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.343148918994352
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.673363958027497
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.545776438977107
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.091886139573063
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.074461193766581
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.729552889891644
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.9625576766411026
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.3957589540230995
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.980078987873679
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 12.01744395954112
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.565631762584209
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.793308048021682
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.891333179279602
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.465485733700394
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.306407343122718
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.617469152501958
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.557792839168307
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.175267132792262
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.49081363529723
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.717867083601663
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 9.156932985702888
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.345475737910398
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.567835517019605
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.694466172536728
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.66839564675427
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.061301935897625
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.990064390217195
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.428128620408359
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.400551291744502
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 7.546635919423383
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 7.91972946452059
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 7.5949161627769
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 14.047879727926249
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 15.90526053899595
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 13.757813987636629
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 15.300265712639087
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 14.181404709837018
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 13.417247246657244
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 13.226614087737781
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 14.293059093818346
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 14.202273640895564
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.620800615873154
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.695814910833738
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 5.688879068990277
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 13.061098065658562
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.774289210914521
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.512416528627046
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.276814457146257
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.981781125965616
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.378053818279167
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.353558846294852
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.024752914152987
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.004365573019424
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.689809299566846
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.786511988789366
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.81045936723927
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.859697701867773
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.084415361098882
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.866779449316557
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.7433751659917
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.730378756027271
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.795512503314026
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.777165253315884
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.04060063039888
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.02514770950359
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 6.239879355470736
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.443064265181909
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.928459379177834
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 12.32564428790758
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.523933762648552
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.565831168110153
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.93200404675951
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.862228618986649
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.789998032385057
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.83078496655339
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.1233933587568
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.14214089848685
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.611505112749471
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.9743537020871442
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.022777978388676
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.75575453704257
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.496549018867336
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.811734192453104
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.173879989808762
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.11479889747185
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.875006479216085
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 10.851553097532875
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.983469663195853
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 11.012697407099736
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 10.123660446803408
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 9.08558698831406
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 7.9678865915253665
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 12.236557746990718
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 11.106517409238403
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.57644166792845
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.546640972140345
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.303305617832148
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.163107448263762
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.040342311869974
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.793530593398327
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.782042957041416
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 6.887100877197985
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.929605486920149
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.607978161282263
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 9.88082940595952
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.928323674290233
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.57879030829733
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.476087156596876
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.851300508827334
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.272351543893606
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.210037087835962
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.724423939872151
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.718662021528422
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 7.764470609762197
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 7.748219905632466
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 6.330414638955996
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 11.142908234982471
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.158764700007684
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.846998530435272
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.08709053185591
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.033456212818313
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.289313166785773
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.322629514824358
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.762403075523089
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 8.74714611763005
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.061554583633866
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.122552857543364
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.441431680471644
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 10.121858862413191
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.686844607424383
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.46480059413669
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.011909792883607
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.967402810253752
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.758947685478925
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.787843186483724
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.251187417232185
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.272729761278405
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.266297240170956
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.6061255085983595
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.5591165641968865
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 8.916220005394743
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.935663334459987
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.658820004359242
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.90121828810985
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.9425701766926275
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.557566042890695
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.58802410985104
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.709264494657052
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.712844751980127
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.461628983823516
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.547822538989539
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 4.34109840658709
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 9.607638093163676
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.642912253105018
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.351390998751108
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 8.049800069985162
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.200114246431735
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.519084052220774
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.612786877494679
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.35562430999176
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.382369651545243
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 4.566359534888637
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 3.4563349651647317
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.2083265683946807
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 8.001946691352277
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.6614943238612945
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.372241002512112
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.983812551054241
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.1365388959711975
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.732938900565205
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.884232840689859
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.05373165051592
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.062415987712416
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 8.314752384196687
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 8.065582202066146
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 6.274142200268289
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 9.163749555419496
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.223962065189674
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.155003659055492
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 10.365077245975884
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.691788104660585
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.293892009286166
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.333182450473224
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 9.998451982766609
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 9.961285831620941
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_mae": 5.079826309295825
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_mae": 4.02870115317044
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_mae": 3.699468408215955
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_mae": 7.042388384186207
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.923980078208105
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.9155487974767285
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.813352833152085
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.1649425293987905
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_mae": 7.005101561882526
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_mae": 7.06472934975735
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_mae": 6.842837646268566
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_mae": 6.839379238242753
+  }
+]

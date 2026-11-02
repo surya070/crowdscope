@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "history_s": 1,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "cases": [
+    [
+      "missing_zero_fill",
+      0.25
+    ],
+    [
+      "missing_zero_fill",
+      0.5
+    ],
+    [
+      "missing_zero_fill",
+      0.75
+    ],
+    [
+      "symmetric_flip",
+      0.1
+    ],
+    [
+      "symmetric_flip",
+      0.25
+    ]
+  ],
+  "scope": "fixed clean-trained selected M; deployment-only label perturbation",
+  "missing_handling": "unknown labels receive zero-positive contribution; denominator remains full cohort; no uncertainty-aware retraining",
+  "sampling": "stable SHA256-based trial/track mask, shared across checkpoints; not independent-person randomisation",
+  "selection": "reuse existing selected model hyperparameters; no noise tuning",
+  "features_sha256": "c76870e63fd62e958bba2bdc9a15c6738469bafe3ded9ff471926c8db5311d3a",
+  "original_predictions_sha256": "871ee1fc356f52b858359edd217880bda9a7c65ba8b08d1db405513f70d2896d",
+  "runner_sha256": "2592bf31a501109d25303987b51f9d4b6ff65d0c2ee3902eb39d69b2f0345b5b"
+}

@@ -1,3 +1,9 @@
+# Active study update — 2 November 2026
+
+The current manuscript is `paper/real_and_linkage/main.tex`: seven pages and 18 references. The current root README and requirements describe this revised empirical-plus-escort study. Existing compound-study files remain historical; their prior environment is preserved in Git history. Raw human trajectories, participant mappings and local backups are excluded.
+
+## Historical package notes
+
 # Publication scope
 
 This repository is a curated copy of the completed compound-clearance study and broader prediction follow-up. Frozen simulator, feature, model and protocol files retain their original bytes and hashes. The larger local workspace also contained earlier independent empirical/recovery attempts, intermediate manuscripts and course slides; those are not part of this repository package.

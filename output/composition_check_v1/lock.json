@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-02",
+  "scope": "post-result exploratory confound/feature-engineering analysis; no causal identification",
+  "history": 1,
+  "variants": {
+    "H": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width"
+    ],
+    "H_presence": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "wheelchair_present"
+    ],
+    "H_counts": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "wheelchair_count",
+      "wheelchair_fraction",
+      "wheelchair_present"
+    ],
+    "H_group_motion": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "wheelchair_mean_speed",
+      "wheelchair_max_distance"
+    ],
+    "H_M": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "wheelchair_count",
+      "wheelchair_fraction",
+      "wheelchair_mean_speed",
+      "wheelchair_max_distance",
+      "wheelchair_present"
+    ],
+    "H_anonymous": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "rear_observed_speed",
+      "minimum_person_speed",
+      "max_person_travel_estimate_floor_0_1",
+      "max_person_travel_estimate_floor_0_2",
+      "max_person_travel_estimate_floor_0_3"
+    ],
+    "H_anonymous_M": [
+      "count",
+      "mean_x",
+      "std_x",
+      "mean_y",
+      "std_y",
+      "mean_distance",
+      "max_distance",
+      "p90_distance",
+      "mean_speed",
+      "std_speed",
+      "p10_speed",
+      "p90_speed",
+      "stopped_fraction",
+      "mean_speed_change",
+      "mean_nearest_distance",
+      "past_exit_count",
+      "elapsed_s",
+      "bottleneck_width",
+      "corridor_width",
+      "rear_observed_speed",
+      "minimum_person_speed",
+      "max_person_travel_estimate_floor_0_1",
+      "max_person_travel_estimate_floor_0_2",
+      "max_person_travel_estimate_floor_0_3",
+      "wheelchair_count",
+      "wheelchair_fraction",
+      "wheelchair_mean_speed",
+      "wheelchair_max_distance",
+      "wheelchair_present"
+    ]
+  },
+  "grid": [
+    {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    {
+      "family": "ridge",
+      "alpha": 1
+    },
+    {
+      "family": "ridge",
+      "alpha": 10
+    },
+    {
+      "family": "ridge",
+      "alpha": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    }
+  ],
+  "folds": [
+    {
+      "evaluation_width": 0.9,
+      "training_trials": [
+        "503",
+        "504",
+        "505",
+        "506",
+        "508",
+        "1503",
+        "1505",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "501",
+        "502",
+        "1501"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "505",
+            "506",
+            "508",
+            "1505",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "508",
+            "1503",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "505",
+            "506",
+            "1503",
+            "1505"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.0,
+      "training_trials": [
+        "501",
+        "502",
+        "505",
+        "506",
+        "508",
+        "1501",
+        "1505",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "503",
+        "504",
+        "1503"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "505",
+            "506",
+            "508",
+            "1505",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "508",
+            "1501",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "505",
+            "506",
+            "1501",
+            "1505"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.1,
+      "training_trials": [
+        "501",
+        "502",
+        "503",
+        "504",
+        "508",
+        "1501",
+        "1503",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "505",
+        "506",
+        "1505"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "508",
+            "1503",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "508",
+            "1501",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "503",
+            "504",
+            "1501",
+            "1503"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.2,
+      "training_trials": [
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "1501",
+        "1503",
+        "1505"
+      ],
+      "evaluation_trials": [
+        "508",
+        "1507"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "505",
+            "506",
+            "1503",
+            "1505"
+          ]
+        },
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "505",
+            "506",
+            "1501",
+            "1505"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "503",
+            "504",
+            "1501",
+            "1503"
+          ]
+        }
+      ]
+    }
+  ],
+  "feature_hash": "c76870e63fd62e958bba2bdc9a15c6738469bafe3ded9ff471926c8db5311d3a",
+  "code_hash": "72907ca5131605bc647c283eba522fdc43533f1478a92f9d2bb7b188946d59ce",
+  "subgroup_reporting": [
+    "wheelchair trials",
+    "reference trials"
+  ],
+  "independent_people": false
+}

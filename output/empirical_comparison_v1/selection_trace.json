@@ -1,0 +1,3266 @@
+[
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 5.387131018045807
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.493072084093523
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 5.500991568405006
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 12.593923888490782
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.274672835688968
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.070950746161111
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.765800039071753
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.054331596292002
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.071709340421151
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.98462010059453
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.655023908265807
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.641705214828772
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 3.045517946107692
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 2.809501951939492
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.5460437509727125
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 9.418979835260657
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.137880048606375
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.78411156609187
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.941586925279815
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.510272708127149
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.4943241853567635
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.4535706441995515
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.4419968289357055
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.401675843843368
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 5.515144275585873
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.820440308653454
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 5.039134683958968
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 13.0304515992101
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 14.144380335153862
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.678747810501564
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.460261257551519
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.81772996769435
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.666393248283436
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.493853866032019
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.176556347787024
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.121953798582215
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.394376836550479
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.085332899931899
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.320804345406049
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.246681287135608
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.349945628601006
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.113323434663883
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.121140672738193
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.20998855308345
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.506475544848108
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.441483131422796
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.30993170834636
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.297598551658531
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 6.551287930492931
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 7.02294793080418
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 7.390507258034971
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 13.89648148415709
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 16.02006230158934
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 14.235234556775929
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 16.475740095492366
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 15.372347333017105
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.35289334958226
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.133576829919345
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 15.379638282374309
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 15.30561892983086
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 6.155735013550271
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.3712462828362213
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.8957529297077356
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.585706804625096
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.333787052719359
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.494375437904708
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.106791960632702
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.836915251063175
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.448678466751925
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.497820863384703
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.853190452884641
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.879715848035325
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 6.588692061597274
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 6.942754326421645
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 5.88307636687389
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 11.125622742013503
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.541248630220897
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.10698784950016
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.730074843522576
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.853008226438723
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.902537708003068
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.907496745517587
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.651404992116516
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.629373334618382
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.412962968461825
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 2.889695715181924
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 2.975906789659253
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 7.873716063049077
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.04385179729804
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.030837456600583
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.243144563850883
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.629000346734963
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.757790902128765
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.851628950126875
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.515105234473572
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.533916470145133
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.145613875395783
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.450057098109394
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.588570654580472
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 12.022883662050557
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.74737840618549
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.465747179134643
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.473507609971993
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.666474527828203
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.778397641428434
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.640461741916551
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.72060102351385
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.707528747328336
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 2.1966256271108198
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 2.3750113311843046
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.2150124052167373
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 9.036766017603712
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.301672275983653
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.989427194284615
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.528554324396708
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.139544462294763
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.550434003825478
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.435452917406573
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.013286218803145
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 4.981033564945658
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 5.694618327273879
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.9924327011496645
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.868929237960803
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 12.736854365698253
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.676339125900967
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.123251627356229
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.173652760064126
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.829645924035635
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.459934013731868
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.309527462904049
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 12.35158480313282
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.314669236719824
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 5.320739209851039
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.4260023130834174
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.011081946640837
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.11458061651275
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.141345075224493
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.115680431660675
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.417952821893032
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.343148918994352
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.673363958027497
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.545776438977107
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.091886139573063
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.074461193766581
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 7.546635919423383
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 7.91972946452059
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 7.5949161627769
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 14.047879727926249
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 15.90526053899595
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.757813987636629
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 15.300265712639087
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 14.181404709837018
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.417247246657244
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.226614087737781
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 14.293059093818346
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 14.202273640895564
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 5.611505112749471
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.9743537020871442
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.022777978388676
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.75575453704257
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.496549018867336
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.811734192453104
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.173879989808762
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.11479889747185
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.875006479216085
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.851553097532875
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.983469663195853
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.012697407099736
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 7.764470609762197
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 7.748219905632466
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 6.330414638955996
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 11.142908234982471
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.158764700007684
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.846998530435272
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.08709053185591
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.033456212818313
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.289313166785773
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.322629514824358
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.762403075523089
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.74714611763005
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.566359534888637
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.4563349651647317
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.2083265683946807
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 8.001946691352277
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.6614943238612945
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.372241002512112
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.983812551054241
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.1365388959711975
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.732938900565205
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.884232840689859
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.05373165051592
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.062415987712416
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.5047158168775425
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.7496403673384195
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.566530673906622
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 12.147828125878355
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.856067295968591
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.463591729546518
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.549595684785732
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.799698399914698
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.018718109320318
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 7.885233456774862
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.958512177629085
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.944904109852398
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 2.212906122942152
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 2.3751621991427583
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.2049576064953555
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 9.139194397085243
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.16265861423865
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.8677599544700065
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.020129869165791
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.729181841988392
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.528198897256813
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.466634277426756
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 5.594520016770922
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 5.565809151360408
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 6.112789067523906
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.758413005629385
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 4.694096606835544
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 12.843732376634087
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.737760230963413
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.144752100250983
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 14.015445936465103
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 12.908792398860157
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.520408247973162
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.343747805321287
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 11.97187484460359
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 11.92757277115285
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.463609340476742
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.166255965500185
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.83093855327803
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.135950581455583
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.030544529847974
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.819375500388814
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.157639351370205
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.486801077496343
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.632835475685834
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.56749401344003
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 9.800616654798459
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.791748627043244
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 8.38526000312843
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 7.054425002721778
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 7.142830987978295
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 14.142559930278122
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 15.677432390833722
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.518112179727702
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 16.78956891271284
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 16.024904307303203
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 13.76849337416191
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 13.605006322769187
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 15.874757320963313
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 15.808088587153692
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 6.248929362046464
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 4.270658810135432
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 3.9360778987456744
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 10.809870220205054
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.690322114276432
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.426564755146154
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.940001120964165
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.621739410847637
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.183675553397093
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.11288037240216
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.315083301046016
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 10.322661805561335
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 8.495046236243951
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 7.8321136323067595
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 6.320631570528666
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 11.150057705519023
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.108838347165772
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.909111430179001
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 10.276339760864644
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 9.183643832319248
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.516618390666777
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.487126074938208
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.650319329406216
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 8.61544246654986
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    "inner_trial_mae": 4.3212059485298235
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    },
+    "inner_trial_mae": 3.068866541030892
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    },
+    "inner_trial_mae": 2.960699350082498
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 100
+    },
+    "inner_trial_mae": 7.975978843978729
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 7.864863085421174
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.614638028865544
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 8.06928748641736
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.821468471627142
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.429908420915399
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.441593111273985
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "inner_trial_mae": 6.517447637066524
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "inner_trial_mae": 6.494915023310291
+  }
+]

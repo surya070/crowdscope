@@ -1,0 +1,10 @@
+{
+  "screen_runs": 72,
+  "verification_runs": 36,
+  "selected_candidate_runs": 54,
+  "identity_union_checks": 3630,
+  "all_selected_runs_complete_and_reported_movement_checks_pass": true,
+  "verification_cases": 12,
+  "max_verification_spread_s": 0.009999999999999787,
+  "independent_full_step_geometry_reimplementation": false
+}

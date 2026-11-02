@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "status": "implementation locked before benchmark generation",
+  "files": {
+    "research/assistance/generate_linkage.py": "54024a3c3eae53cc6c3ee5d8a1ba2b5c05b437571324fc03d24610a8ce2aae32",
+    "research/assistance/linkage_features.py": "8c12341695f0c2185227d8471bda94b94cf955b8e83d865f6832d8ba814ee035",
+    "research/assistance/fit_linkage.py": "5917efd82af7104f9f0f14e21e1b976191d44d1b4017b8c0dcff4aa31e5540e8",
+    "research/run_empirical_comparison.py": "fd01f5ab1a1863c9bcfc48187f35ae29d4ae454f40982f6e0febfbac5350e88c"
+  },
+  "clarifications": {
+    "distance": "known-route projected distance to plane plus supplied radius",
+    "speed": "one-second displacement; recent change uses .4s and .6s subdivisions",
+    "selection": "training-only fits; validation selects; no train+validation refit",
+    "missing_edge_mask": "fixed per block/edge/seed across checkpoints and gains"
+  }
+}

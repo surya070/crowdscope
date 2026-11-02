@@ -1,130 +1,67 @@
 # Crowd Clearance Forecasting
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Study](https://img.shields.io/badge/Study-exploratory_simulation-167D9A)
-![Evidence](https://img.shields.io/badge/Results-negative_%2F_inconclusive-BD6946)
+**Do mobility information and assistance relationships improve forecasts beyond observed movement?**
 
-**Do family and assistance relationships improve clearance-time predictions once individual mobility is known?**
+A Research Methodology project at RV University combining recorded SiME bottleneck trajectories with a separate JuPedSim assistance-link experiment.
 
-Research artifacts for *Mobility and Relationship Information for Single-Lane Crowd Clearance Forecasting: An Exploratory Simulation Study*, developed for Research Methodology at RV University.
+[Current paper](paper/real_and_linkage/main.tex) · [Empirical results](output/empirical_comparison_v1/report.md) · [Assistance-link results](output/linkage_benchmark_v1/report.md) · [Research plan](plan.md)
 
-[Paper source](paper/compound/conference_8page/main.tex) · [Original protocol](research/compound/prediction_protocol_v1.md) · [Broader comparison](output/compound/broad_prediction_001/report.md) · [SiME replay](output/sime_replay_v2/report.md) · [Reproduce the results](#reproduce-the-results)
+## Current paper
 
-![Six-family comparison](paper/compound/conference_8page/images/learner_comparison.png)
+*Mobility and Assistance-Link Information for Crowd Passage-Time Forecasting: An Exploratory Empirical and Simulation Study*
 
-> This repository is private. Access to the manuscript link requires an invitation from the owner.
+Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Seema B. Hegde.
 
-## What this project tests
+The IEEE-style course draft has seven pages, 18 cited references and the seven required course sections. Compile `paper/real_and_linkage/main.tex` with its supporting `images/` folder. Author declarations and data-use requirements still need confirmation before submission.
 
-The same observed movement is represented with three information sets:
+## Findings
 
-- **A — Aggregate:** crowd counts, observed motion, exit distances and geometry.
-- **M — Mobility:** A plus an exact nominal mobility roster, including profile and speed summaries.
-- **F — Relationships:** M plus supplied family and helper–wheelchair link summaries.
+- **Recorded SiME data:** supplied wheelchair information reduced primary one-second-history MAE from **4.278 s to 2.591 s** across eleven selected trials. Seven wheelchair users repeat across configurations; this is exploratory configuration transfer within a shared population.
+- **Label quality:** artificial label flips sharply worsened predictions. Supplied labels are not a tested recognition system. [Report](output/label_sensitivity_v1/report.md)
+- **Composition:** crowd-condition information explains part of the predictive benefit; this does not isolate a causal individual-mobility effect. [Report](output/composition_check_v1/report.md)
+- **Separate synthetic benchmark:** at zero assumed assistance speed gain, mobility/history MAE was **0.198 s** and correct-link MAE **0.208 s**. Correct assignments showed no consistent advantage over mobility/history, counts and shuffled controls. Negative results are retained.
 
-The simulator keeps wheelchair users and helpers as separately counted occupants while reserving a shared compound footprint. Parent–child relationships impose a shared pace. Comparisons use matched conditions, causal observation cutoffs and blockwise partitions.
+![Empirical errors across held-out width configurations](paper/real_and_linkage/images/empirical_width.png)
 
-## Main findings
-
-| Evaluation | A MAE | M MAE | F MAE |
-| --- | ---: | ---: | ---: |
-| Original held-out configurations | 2.660 s | **1.222 s** | 2.397 s |
-| Follow-up: new configurations | 2.584 s | **1.437 s** | 1.500 s |
-| Follow-up: known configurations, fresh seeds | 1.877 s | 0.785 s | **0.705 s** |
-
-Original mobility error is 54.0% lower than the aggregate reference. The anticipated additional relationship advantage is unsupported in that experiment. The follow-up compares ridge, RBF ridge, boosting, MLP, GRU and history ridge. Its reported systems are selected using validation data, before fresh test generation. Both selected M-minus-F conditional intervals span zero: **the follow-up leaves incremental relationship value inconclusive**.
-
-The experiments use different development partitions. Their scores cannot isolate an architecture effect. Three candidate settings per family are a bounded search, not exhaustive optimisation.
-
-### Three evidence layers
-
-1. **Movement verification:** 28 scenario checks, 21 stability comparisons and seven software checks on declared limiting cases.
-2. **Synthetic prediction:** 240 original trajectories / 720 queries, followed by 144 fresh trajectories / 432 queries. The original frozen sources and outputs are preserved.
-3. **Separate empirical reference replay:** a JuPedSim unassisted model under observed SiME inflows. Equal-trial individual crossing MAE is 4.736 s versus 13.576 s for a no-interaction free-flight reference.
-
-**The SiME replay does not validate the rigid assistance simulator or the A/M/F forecasts.** It supplies recorded future inlet arrivals, so it is conditional replay rather than an end-to-end evacuation forecast. Capability ranges are synthetic assumptions; real assistance effects, demographic realism and operational safety remain unvalidated.
-
-## Reproduce the results
-
-### 1. Verify the published artifact — no installation needed
-
-Python 3.12 is recommended. Run from the repository root:
-
-```bash
-python scripts/verify_artifact.py
-```
-
-This uses only the Python standard library. It checks the frozen study source/model hashes and independent hierarchical MAE calculations for all 36 broader-comparison metric groups. It does not fit models or download data.
-
-### 2. Install the analysis environment
-
-```bash
-python -m venv .venv
-# Activate .venv using the command for your operating system.
-python -m pip install -r requirements.txt
-```
-
-The recorded neural runtime is CPU PyTorch 2.7.1. On a machine where pip selects a CUDA build, install its CPU wheel from the official PyTorch index instead. Exact versions used in the study are pinned in `requirements.txt`. No GPU or model download is required for the experiment itself.
-
-### 3. Run checks and reproduce selected predictions
-
-```bash
-python -m unittest discover -s tests_compound -v
-python -m research.compound.audit_comparisons
-python -m research.compound.reproduce_selected
-python -m research.compound.run_broad_prediction evaluate
-python -m research.compound.audit_broad_prediction
-```
-
-The original audit verifies 240 saved trajectories and recomputes metrics. Original selected-model reproduction refits only the already-selected settings. Follow-up evaluation uses the 18 saved models; its fresh-process audit independently checks predictions and MAEs. Some audit/report commands rewrite derived audit files; the frozen experimental sources and models remain checked separately. Numerical differences can occur on other software/hardware stacks.
-
-### 4. Inspect or regenerate figures
-
-```bash
-python -m research.compound.plot_comparisons
-python -m research.compound.report_broad_prediction
-```
-
-Use a fresh copy for research extensions. The archived `train`, `generate` and original production entry points deliberately reject or preserve existing frozen attempts. Do not overwrite protocols or delete a freeze to reuse reported tests for model selection. The simplest reproducible path is the saved-output and fixed-model evaluation above.
-
-### 5. Optional: replay SiME from its original release
-
-```bash
-python scripts/fetch_sime.py
-python scripts/replay_sime.py
-python -m research.compound.report_sime_replay
-```
-
-The fetcher obtains metadata and four required trials from the original host, checking recorded hashes/ZIP CRCs. The replay evaluates the already-frozen parameters; it does not select new parameters. Raw human trajectories and participant-level replay records are not redistributed in this repository. Aggregate summaries and calibration traces are included. See [data provenance](data/README.md) before acquiring the original data.
+The empirical target is the last downstream **head-centre passage of an observed cohort**. The synthetic target is the last **full-circle exit of a known roster**. Their errors cannot be pooled. The circular-agent escort prototype does not represent mechanical wheelchair pushing. Numerical checks do not establish behavioural realism or operational evacuation safety.
 
 ## Repository guide
 
-```text
-src/compound/                  Compound-footprint simulator and original study
-src/broad_prediction.py        Six learner families and causal histories
-src/sime_replay.py             Separate observed-inflow reference model
-tests_compound/                Movement, feature and replay contract checks
-research/compound/             Frozen protocols, runners, reports and audits
-research/literature/           Revised 18-source selection and historical records
-output/compound/               Saved synthetic trajectories, models and results
-output/sime_replay_v2/         Aggregate empirical replay evidence
-paper/compound/conference_8page/ Current course manuscript and figures
-scripts/                      Artifact verification and optional data acquisition
-data/                         External-data provenance and archive index
+- `paper/real_and_linkage/`: active manuscript, figure and guideline audit.
+- `research/`: modelling, saved-output audits and protocols.
+- `research/assistance/`: JuPedSim escort controller, frozen benchmark and audits.
+- `research/data/forecast_bundle/`: aggregate model inputs and manifest.
+- `research/literature/`: scoped searches, evidence status and reference checks.
+- Current result folders: `output/empirical_comparison_v1/`, `output/label_sensitivity_v1/`, `output/composition_check_v1/` and `output/linkage_benchmark_v1/`.
+- `requirements.txt`: one dependency file for the current study.
+
+The private repository also retains the **historical compound study** under `src/`, `scripts/`, `tests_compound/`, `research/compound/`, `research/recovery/`, `paper/compound/`, `output/compound/` and `output/sime_replay_v2/`. Those results and environments are separate from the current manuscript. Historical dependency pins are available in Git history before this update. Other older literature records remain historical.
+
+## Inspect and reproduce
+
+Python 3.12 is recommended. From the repository root:
+
+```bash
+python -m venv .venv
+# Activate the environment for your operating system.
+python -m pip install -r requirements.txt
 ```
 
-The paper uses the seven prescribed course sections. Compile `paper/compound/conference_8page/main.tex` with an IEEEtran-compatible TeX distribution, keeping its `images/` directory alongside it. The TeX file is self-contained apart from figures; `body.tex` is an assembly helper, not another submission. Existing machine-specific PDF exports, slide drafts, installed dependencies and scratch outputs are intentionally absent.
+Reconstruct saved comparisons:
 
-## Literature and interpretation
+```bash
+python research/audit_empirical_comparison.py
+python research/audit_label_sensitivity.py
+python research/audit_composition_check.py
+python research/assistance/audit_linkage.py
+```
 
-The final course bibliography has **18 sources**, comprising nine retained original-review sources and nine directly used modelling, data, software or statistical references. This is a documented post-experiment relevance revision, **not a reconstruction of unavailable historical PRISMA screening counts**. Methods/documentation are not relabelled as empirical mobility studies. See the [selection record](research/literature/revised_course_review_18.md).
+These audits read saved inputs/predictions and rewrite derived metric/audit files. They do not retrain models. Aggregate empirical inputs support saved-output reconstruction; rebuilding features requires obtaining the original SiME release and configuring local source paths. Some extraction scripts refer to the original local backup, which is intentionally not distributed.
 
-Conditional intervals resample matched blocks within fixed configurations while holding fitted models fixed. They exclude fitting, selection, generator and population uncertainty. These artifacts support internal computational repeatability; they do not establish independent researcher replication, a novel learning algorithm or indexed-publication acceptance.
+The synthetic study includes 192 main runs and 48 finer replays from 48 matched blocks. Frozen generation/fitting commands deliberately reject existing admission/prediction outputs. Use a separate experimental copy for extensions and preserve the recorded protocol; do not delete a freeze to retune on reported evaluation data.
 
-## Authors, attribution and reuse
+## Data and access
 
-Surya Maheswaran · Yashaswini Pawar · Sohan Kori · Seema B. Hegde
+SiME source: [Influence of individual characteristics](https://doi.org/10.34735/ped.2017.1). Credit remains with its investigators. Raw human trajectories and participant mappings are not mirrored. Backups, dependencies, temporary files and stale PDF exports are excluded from this update. No redistribution licence or new ethics exemption is inferred.
 
-No external funding was received. AI assistance supported coding, analysis and manuscript preparation; authors retain responsibility for verification. No new participants were recruited. Institutional requirements for reuse of public de-identified data remain an author responsibility.
-
-External data, JuPedSim, scikit-learn, PyTorch and the other dependencies retain their original terms. The SiME dataset and accompanying study must be cited separately. A project-wide reuse licence has not been selected by all authors; GitHub visibility alone does not grant an open-source licence.
+This repository remains **private**. This is an exploratory research artifact, not a validated crowd-safety product or an accepted publication.

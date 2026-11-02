@@ -1,0 +1,13 @@
+{
+  "main_runs": 192,
+  "fine_runs": 48,
+  "source_and_output_hashes_match": true,
+  "identity_checks": 15883,
+  "eligible_queries": 576,
+  "ineligible_queries": [],
+  "correct_and_shuffled_prefix_checks": 1152,
+  "unchanged_M_under_shuffled_links": true,
+  "maximum_fine_clearance_difference_s": 0.005000000000002558,
+  "all_movement_records_pass": true,
+  "learner_fitted": false
+}

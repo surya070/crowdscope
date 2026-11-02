@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "selection": "cfs_lower_repulsion passed initial unchanged six-case gate",
+  "parameters": {
+    "strength_neighbor_repulsion": 2.6
+  },
+  "controller": "threshold",
+  "steps": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "cases": [
+    "single_mixed_regression",
+    "two_serial_door_1m",
+    "two_serial_door_1_2m",
+    "staggered_merge",
+    "two_pair_turn",
+    "unequal_paces",
+    "original_free_pair",
+    "original_doorway",
+    "original_right_angle_turn",
+    "original_mixed_queue",
+    "mixed_y_shift_-0.05",
+    "mixed_y_shift_0.05"
+  ],
+  "tolerances": "unchanged",
+  "development": true,
+  "source_sha256": "1a8fe667d931810b41e2b19ad5340432bd0ecf1366ad639ba5ef7c161ec6bcf2",
+  "module_sha256": "0c0d22eb581f5e25bb60129c177f2949d0244a8e3029a629972a8a73b62fe94f"
+}

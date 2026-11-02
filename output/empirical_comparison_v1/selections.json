@@ -1,0 +1,998 @@
+[
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 0.4,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 1.0,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 0.9,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.2
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.0,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.2
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.1,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.2
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "H",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "selected",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "ridge",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "M",
+    "reported_family": "boosting",
+    "candidate": {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "constant",
+    "candidate": {
+      "family": "constant"
+    }
+  },
+  {
+    "history_s": 2.0,
+    "evaluation_width": 1.2,
+    "condition": "baseline",
+    "reported_family": "travel",
+    "candidate": {
+      "family": "travel",
+      "floor": 0.2
+    }
+  }
+]

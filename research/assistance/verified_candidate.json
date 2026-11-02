@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "status": "verified development candidate; not empirical calibration or forecasting protocol",
+  "engine": "CollisionFreeSpeedModelV2",
+  "jupedsim_version": "1.4.2",
+  "parameters": {
+    "strength_neighbor_repulsion": 2.6
+  },
+  "other_native_parameters": "installed defaults, helper time gap .3 s and others .8 s",
+  "controller": "threshold",
+  "dt_s": 0.005,
+  "module_sha256": "0c0d22eb581f5e25bb60129c177f2949d0244a8e3029a629972a8a73b62fe94f",
+  "full_verification_suite_passed": true,
+  "empirical_assistance_validated": false,
+  "physical_wheelchair_pushing": false
+}

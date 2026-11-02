@@ -1,0 +1,26 @@
+[
+  {
+    "candidate": "cfs_default",
+    "movement_cases": 6,
+    "stable_cases": 5,
+    "passed": false
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "movement_cases": 6,
+    "stable_cases": 6,
+    "passed": true
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "movement_cases": 3,
+    "stable_cases": 3,
+    "passed": false
+  },
+  {
+    "candidate": "avm_default",
+    "movement_cases": 3,
+    "stable_cases": 3,
+    "passed": false
+  }
+]

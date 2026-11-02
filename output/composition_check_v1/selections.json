@@ -1,0 +1,226 @@
+[
+  {
+    "width": 0.9,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 0.9,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.0,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 1
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.1,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_presence",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 0.1
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_counts",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_group_motion",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  },
+  {
+    "width": 1.2,
+    "variant": "H_anonymous_M",
+    "candidate": {
+      "family": "ridge",
+      "alpha": 10
+    }
+  }
+]

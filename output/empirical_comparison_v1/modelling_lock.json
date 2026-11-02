@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-02",
+  "scope": "exploratory real-data observed-cohort passage; shared participants",
+  "features_sha256": "c76870e63fd62e958bba2bdc9a15c6738469bafe3ded9ff471926c8db5311d3a",
+  "manifest_sha256": "5fa96b61db8d795b1366aba92698ab0f1c4a5c2c9bf1a38ecda9c8e4f2140a6d",
+  "runner_sha256": "fd01f5ab1a1863c9bcfc48187f35ae29d4ae454f40982f6e0febfbac5350e88c",
+  "sklearn": "1.7.2",
+  "candidates": [
+    {
+      "family": "ridge",
+      "alpha": 0.1
+    },
+    {
+      "family": "ridge",
+      "alpha": 1
+    },
+    {
+      "family": "ridge",
+      "alpha": 10
+    },
+    {
+      "family": "ridge",
+      "alpha": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    {
+      "family": "boosting",
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    }
+  ],
+  "histories": [
+    0.4,
+    1.0,
+    2.0
+  ],
+  "primary_history": 1.0,
+  "primary_metric": "equal-trial MAE",
+  "selection": "inner leave-width-out pooled trial MAE; deterministic candidate order breaks ties",
+  "primary_contrast": "H minus M MAE for validation-selected models",
+  "matched_family_contrasts": [
+    "ridge",
+    "boosting"
+  ],
+  "baselines": [
+    "training median",
+    "max_distance/max(mean_observed_speed,floor), inner-selected floor [.1,.2,.3]"
+  ],
+  "prediction_clip": "lower bound zero for learned predictors",
+  "intervals": "none: small repeated-population sample; report trial and width differences",
+  "noise_sensitivity": "deferred, not part of this initial H/M run",
+  "simulator_used": false,
+  "prospective_independent_test": false
+}

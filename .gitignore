@@ -22,3 +22,12 @@ output/sime_replay_v2/held_out_[0-9]*.json
 output/sime_replay_v2/held_out_fine_*.json
 .DS_Store
 Thumbs.db
+
+# Local-only current research files
+backups/
+tmp/
+data/raw/
+research/data/label_audit.csv
+research/data/track_coverage.csv
+research/data/expansion/labels.csv
+research/data/queries/cohort_records.json

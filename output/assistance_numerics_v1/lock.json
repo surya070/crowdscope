@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-02",
+  "scope": "development operational-model screen; not empirical calibration",
+  "candidates": [
+    {
+      "name": "cfs_default",
+      "engine": "cfs",
+      "parameters": {}
+    },
+    {
+      "name": "cfs_lower_repulsion",
+      "engine": "cfs",
+      "parameters": {
+        "strength_neighbor_repulsion": 2.6
+      }
+    },
+    {
+      "name": "cfs_wider_interaction",
+      "engine": "cfs",
+      "parameters": {
+        "strength_neighbor_repulsion": 2.6,
+        "range_neighbor_repulsion": 0.3
+      }
+    },
+    {
+      "name": "avm_default",
+      "engine": "avm",
+      "parameters": {}
+    }
+  ],
+  "controller": "threshold",
+  "steps": [
+    0.02,
+    0.01,
+    0.005
+  ],
+  "cases": [
+    "single_mixed_regression",
+    "two_serial_door_1m",
+    "two_serial_door_1_2m",
+    "staggered_merge",
+    "two_pair_turn",
+    "unequal_paces"
+  ],
+  "selection": "all movement and timing gates in full suite; if multiple pass prefer least parameter change; retain all failures",
+  "module_sha256": "0c0d22eb581f5e25bb60129c177f2949d0244a8e3029a629972a8a73b62fe94f",
+  "runner_sha256": "bc9d40a3b600b9f597a32d91279b96c47d2ea74f86e5e5e5b79174cd0d647e84"
+}

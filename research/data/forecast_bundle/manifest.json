@@ -1,0 +1,403 @@
+{
+  "status": "exploratory extraction/split specification; not confirmatory preregistration",
+  "date": "2026-11-02",
+  "target": "remaining passage of currently observed eligible cohort",
+  "H": [
+    "count",
+    "mean_x",
+    "std_x",
+    "mean_y",
+    "std_y",
+    "mean_distance",
+    "max_distance",
+    "p90_distance",
+    "mean_speed",
+    "std_speed",
+    "p10_speed",
+    "p90_speed",
+    "stopped_fraction",
+    "mean_speed_change",
+    "mean_nearest_distance",
+    "past_exit_count",
+    "elapsed_s",
+    "bottleneck_width",
+    "corridor_width"
+  ],
+  "M_additions": [
+    "wheelchair_count",
+    "wheelchair_fraction",
+    "wheelchair_mean_speed",
+    "wheelchair_max_distance",
+    "wheelchair_present"
+  ],
+  "non_features": [
+    "trial",
+    "time_s",
+    "history_s",
+    "target_s"
+  ],
+  "folds": [
+    {
+      "evaluation_width": 0.9,
+      "training_trials": [
+        "503",
+        "504",
+        "505",
+        "506",
+        "508",
+        "1503",
+        "1505",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "501",
+        "502",
+        "1501"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "505",
+            "506",
+            "508",
+            "1505",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "508",
+            "1503",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "505",
+            "506",
+            "1503",
+            "1505"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.0,
+      "training_trials": [
+        "501",
+        "502",
+        "505",
+        "506",
+        "508",
+        "1501",
+        "1505",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "503",
+        "504",
+        "1503"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "505",
+            "506",
+            "508",
+            "1505",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "508",
+            "1501",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "505",
+            "506",
+            "1501",
+            "1505"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.1,
+      "training_trials": [
+        "501",
+        "502",
+        "503",
+        "504",
+        "508",
+        "1501",
+        "1503",
+        "1507"
+      ],
+      "evaluation_trials": [
+        "505",
+        "506",
+        "1505"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "508",
+            "1503",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "508",
+            "1501",
+            "1507"
+          ]
+        },
+        {
+          "validation_width": 1.2,
+          "validation_trials": [
+            "508",
+            "1507"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "503",
+            "504",
+            "1501",
+            "1503"
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_width": 1.2,
+      "training_trials": [
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "506",
+        "1501",
+        "1503",
+        "1505"
+      ],
+      "evaluation_trials": [
+        "508",
+        "1507"
+      ],
+      "inner_folds": [
+        {
+          "validation_width": 0.9,
+          "validation_trials": [
+            "501",
+            "502",
+            "1501"
+          ],
+          "training_trials": [
+            "503",
+            "504",
+            "505",
+            "506",
+            "1503",
+            "1505"
+          ]
+        },
+        {
+          "validation_width": 1.0,
+          "validation_trials": [
+            "503",
+            "504",
+            "1503"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "505",
+            "506",
+            "1501",
+            "1505"
+          ]
+        },
+        {
+          "validation_width": 1.1,
+          "validation_trials": [
+            "505",
+            "506",
+            "1505"
+          ],
+          "training_trials": [
+            "501",
+            "502",
+            "503",
+            "504",
+            "1501",
+            "1503"
+          ]
+        }
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "trial": "501",
+      "role": "exposed development",
+      "count": 88,
+      "wheelchair_count": 7,
+      "width": 0.9
+    },
+    {
+      "trial": "502",
+      "role": "exposed development",
+      "count": 88,
+      "wheelchair_count": 7,
+      "width": 0.9
+    },
+    {
+      "trial": "503",
+      "role": "exposed development",
+      "count": 87,
+      "wheelchair_count": 7,
+      "width": 1.0
+    },
+    {
+      "trial": "504",
+      "role": "exposed development",
+      "count": 87,
+      "wheelchair_count": 7,
+      "width": 1.0
+    },
+    {
+      "trial": "505",
+      "role": "exposed development",
+      "count": 90,
+      "wheelchair_count": 7,
+      "width": 1.1
+    },
+    {
+      "trial": "506",
+      "role": "exposed development",
+      "count": 90,
+      "wheelchair_count": 7,
+      "width": 1.1
+    },
+    {
+      "trial": "508",
+      "role": "exposed development",
+      "count": 90,
+      "wheelchair_count": 7,
+      "width": 1.2
+    },
+    {
+      "trial": "1501",
+      "role": "exposed development",
+      "count": 67,
+      "wheelchair_count": 0,
+      "width": 0.9
+    },
+    {
+      "trial": "1503",
+      "role": "exposed development",
+      "count": 66,
+      "wheelchair_count": 0,
+      "width": 1.0
+    },
+    {
+      "trial": "1505",
+      "role": "exposed development",
+      "count": 69,
+      "wheelchair_count": 0,
+      "width": 1.1
+    },
+    {
+      "trial": "1507",
+      "role": "exposed development",
+      "count": 69,
+      "wheelchair_count": 0,
+      "width": 1.2
+    }
+  ],
+  "source_sha256": {
+    "501": "f2e2d973594303d56fcdc5c4bb71b14a1e213f9fdbdeada0dff82a5869ad8128",
+    "502": "a6448968c45043cfa0b5d287f2dc1ba22c191ebbcf15be9a3d05cc83494f6e8c",
+    "503": "30d01aea82ff4d4031df3cc04be15a447288ee310fd82f8cccb29cc45db11380",
+    "504": "9a65ad0b2a2214812b4e3150e6988d7538c06858fd038f9afeb856718f79de6d",
+    "505": "b408b109811a2728807f4691d592e12c94c0e673cc68963e95c2c383f0567b31",
+    "506": "4ae98badb2c54ffb488f06d781b1087544f855f86396d50223f335d87f89b823",
+    "508": "722ee9eb09549c050e379e5b6d617bde0a9bcff84437cc71b9b767a518c6fe06",
+    "1501": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661",
+    "1503": "825be95760ebba137ec179fbd0ffde16b1b6a166f3010352743c6807acd0739c",
+    "1505": "5a956269ed95fc777c3581c78a6dc9ec03cc5f14297de4d1786c1013d5e23cc1",
+    "1507": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+  },
+  "code_sha256": "3fa929a82c21294ae935620e55630322ad6685472ffdb130cc8da30c1d5c5d3d",
+  "features_sha256": "c76870e63fd62e958bba2bdc9a15c6738469bafe3ded9ff471926c8db5311d3a",
+  "rows": 99,
+  "queries": 33,
+  "prefix_invariance_checks": 99,
+  "fitted": false,
+  "unseen_person_claim": false
+}

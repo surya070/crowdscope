@@ -1,0 +1,21 @@
+{
+  "pages": 7,
+  "main_sections": 7,
+  "references": 18,
+  "source_sha256": "cb85d843b3e190a5a380cccb22020a30c5944e7f03788c46bf3d4a89c9c37881",
+  "all_pages_visually_reviewed": false,
+  "overfull_boxes": false,
+  "undefined_references": false,
+  "status": "working draft; literature/data-use/author declarations pending",
+  "previous_export": {
+    "path": "output/pdf/Crowd_Passage_Forecasting_Draft.pdf",
+    "pages": 5,
+    "pdf_sha256": "7ebddc05be10cc3a8e3659501304e0e2f833df4454fa2c6af5cdac7df618e228",
+    "status": "predates guideline revision; not re-exported"
+  },
+  "desktop_compile": "success",
+  "guideline_audit_date": "2026-11-02",
+  "abstract_word_count": 180,
+  "all_references_cited": true,
+  "references_in_first_appearance_order": true
+}

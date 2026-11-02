@@ -1,0 +1,8 @@
+{
+  "unique_rows": 3300,
+  "target_matches": true,
+  "queries_per_seed_case": 33,
+  "cases": 5,
+  "seeds": 20,
+  "interval_interpretation": "min/max over artificial corruptions; not population confidence intervals"
+}

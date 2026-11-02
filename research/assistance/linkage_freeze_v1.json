@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "status": "design and movement-source freeze; benchmark implementation pending",
+  "files": {
+    "research/assistance/linkage_protocol_v1.md": "31c3d12a448333e7733a385c8f4c4941e759ec0392de655d60ca105be5a9cf43",
+    "research/assistance/linkage_manifest_v1.json": "f8e88d8e6f17a0563e8689aa589bf9b8ea8ddf70476424e3cccda15e0b76ed3e",
+    "research/assistance/linkage_engine.py": "7cf67368a7c5540769b7b84e759456ff1632a1416314dfaf4596f3e94b84664a",
+    "research/assistance/verified_candidate.json": "91727171667a161b39cc0117bac09545f56d55affbe5e4ededd067334bc4e3d0",
+    "output/assistance_linkage_design/zero_gain_gate.json": "4e0be8fd8ce7afbba7311bd0ec1d5e781f5c7fed19cf81834afbe8630eb6a40b"
+  },
+  "blocks": 48,
+  "planned_runs": 192,
+  "planned_fine_runs": 48,
+  "model_results_generated": false
+}

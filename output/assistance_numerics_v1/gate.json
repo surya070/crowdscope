@@ -1,0 +1,290 @@
+[
+  {
+    "candidate": "cfs_default",
+    "case": "single_mixed_regression",
+    "clearances": [
+      17.14,
+      15.32,
+      14.605
+    ],
+    "movement": true,
+    "spread_s": 2.535,
+    "stable": false
+  },
+  {
+    "candidate": "cfs_default",
+    "case": "two_serial_door_1m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_default",
+    "case": "two_serial_door_1_2m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_default",
+    "case": "staggered_merge",
+    "clearances": [
+      13.32,
+      13.32,
+      13.31
+    ],
+    "movement": true,
+    "spread_s": 0.009999999999999787,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_default",
+    "case": "two_pair_turn",
+    "clearances": [
+      16.12,
+      16.12,
+      16.115000000000002
+    ],
+    "movement": true,
+    "spread_s": 0.004999999999999005,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_default",
+    "case": "unequal_paces",
+    "clearances": [
+      15.32,
+      15.32,
+      15.315
+    ],
+    "movement": true,
+    "spread_s": 0.005000000000000782,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "single_mixed_regression",
+    "clearances": [
+      12.280000000000001,
+      12.280000000000001,
+      12.280000000000001
+    ],
+    "movement": true,
+    "spread_s": 0.0,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "two_serial_door_1m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "two_serial_door_1_2m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "staggered_merge",
+    "clearances": [
+      13.34,
+      13.34,
+      13.335
+    ],
+    "movement": true,
+    "spread_s": 0.004999999999999005,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "two_pair_turn",
+    "clearances": [
+      16.080000000000002,
+      16.080000000000002,
+      16.075
+    ],
+    "movement": true,
+    "spread_s": 0.005000000000002558,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_lower_repulsion",
+    "case": "unequal_paces",
+    "clearances": [
+      15.32,
+      15.32,
+      15.315
+    ],
+    "movement": true,
+    "spread_s": 0.005000000000000782,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "single_mixed_regression",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "two_serial_door_1m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "two_serial_door_1_2m",
+    "clearances": [
+      13.280000000000001,
+      13.27,
+      13.27
+    ],
+    "movement": true,
+    "spread_s": 0.010000000000001563,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "staggered_merge",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "two_pair_turn",
+    "clearances": [
+      16.06,
+      16.06,
+      16.055
+    ],
+    "movement": true,
+    "spread_s": 0.004999999999999005,
+    "stable": true
+  },
+  {
+    "candidate": "cfs_wider_interaction",
+    "case": "unequal_paces",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "avm_default",
+    "case": "single_mixed_regression",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "avm_default",
+    "case": "two_serial_door_1m",
+    "clearances": [
+      13.34,
+      13.34,
+      13.34
+    ],
+    "movement": true,
+    "spread_s": 0.0,
+    "stable": true
+  },
+  {
+    "candidate": "avm_default",
+    "case": "two_serial_door_1_2m",
+    "clearances": [
+      13.32,
+      13.33,
+      13.325000000000001
+    ],
+    "movement": true,
+    "spread_s": 0.009999999999999787,
+    "stable": true
+  },
+  {
+    "candidate": "avm_default",
+    "case": "staggered_merge",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "avm_default",
+    "case": "two_pair_turn",
+    "clearances": [
+      null,
+      null,
+      null
+    ],
+    "movement": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "candidate": "avm_default",
+    "case": "unequal_paces",
+    "clearances": [
+      15.36,
+      15.36,
+      15.365
+    ],
+    "movement": true,
+    "spread_s": 0.005000000000000782,
+    "stable": true
+  }
+]

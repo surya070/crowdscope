@@ -1,0 +1,15 @@
+# JuPedSim assistance prototype — development gate
+
+2 November 2026. Separate synthetic development branch; real-data results are unchanged.
+
+Initial controller is a **coordinated escort approximation**, not a mechanical wheelchair-pushing model. Two circular JuPedSim agents retain separate identities and native collision avoidance. Client follows an exit route; helper targets a point .85 m behind client along the prescribed route. Client waits if separation exceeds 1.2 m and resumes below 1.0 m. Helper waits inside .70 m. Close coordination permits a hypothetical 15% desired-speed gain, capped by helper pace. These are transparent test assumptions, not SiME-calibrated values. Pair can detach only after client has fully crossed the measurement plane; remaining helper completes its own exit. No teleportation or rigid position correction.
+
+Operational model: installed JuPedSim 1.4.2 CollisionFreeSpeedModelV2, with direct-steering targets and mutable desired speed. Documented API: https://www.jupedsim.org/v1.4.2/api/jupedsim/index.html . Direct steering retains native operational interactions: https://www.jupedsim.org/stable/concepts/routing.html . Engine capability is not validation of assistance dynamics.
+
+Cases: free pair, 1 m doorway, right-angle corridor, mixed queue. Run all at dt .02/.01/.005 s. Gate limits chosen before initial execution: finite positions; exact occupant accounting; all full-circle crossings within 60 s; sampled disk overlap <=.001 m; sampled nominal disk wall penetration <=.005 m; active-pair centre distance between sum of radii minus .001 m and 1.4 m; measured displacement speed <= assigned ceiling +.02 m/s. Clearance spread across time steps <=max(.2 s,1% of fine-step clearance).
+
+All spatial/accounting checks occur every integration step. Native model positions are never overwritten. Full-circle crossing uses x-radius>=plane or y-radius>=plane; marked agents are removed only after this event. Reports distinguish active centres from exited identities. Wheelchair radius .30 m and helper .22 m are simplified circular representations; they do not model wheel rotation, elongated chair footprints, physical pushing, fatigue or cognitive behaviour.
+
+Passing this gate would permit limited development, not empirical validation or a frozen forecasting study. Failure must be retained and explained before revision. No prediction comparison until movement passes. A later physical-push model needs additional mechanics/geometry evidence and a separate gate.
+
+Development amendment after initial execution: v1 failed turn completion and queue stability. V2 replaced route-offset targeting with native steering toward the current client and reduced helper time gap to .3 s. Original four cases and tolerances were retained. V2 fixed the turn but failed coarse queue stability. Additional queue time-step refinements are logged separately rather than replacing the failed coarse gate; last three fine steps met the existing tolerance. These are adaptive development checks, not preregistered independent validation.

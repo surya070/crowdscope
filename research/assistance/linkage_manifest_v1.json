@@ -1,0 +1,4465 @@
+{
+  "date": "2026-11-02",
+  "blocks": [
+    {
+      "block": "two_serial_door_1m_00",
+      "layout": "two_serial_door_1m",
+      "seed": 41000,
+      "slot": 0,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.010721462478309178
+          ],
+          "helper_start": [
+            -0.85,
+            0.010721462478309178
+          ],
+          "client_nominal_speed": 0.9205668767402863,
+          "helper_nominal_speed": 1.215212630129225
+        },
+        {
+          "client_start": [
+            -2,
+            -0.002797211137835723
+          ],
+          "helper_start": [
+            -2.85,
+            -0.002797211137835723
+          ],
+          "client_nominal_speed": 0.8897552729279337,
+          "helper_nominal_speed": 1.2344859489347093
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_01",
+      "layout": "two_serial_door_1m",
+      "seed": 41001,
+      "slot": 1,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.017056797677457554
+          ],
+          "helper_start": [
+            -0.85,
+            -0.017056797677457554
+          ],
+          "client_nominal_speed": 0.7948366308189292,
+          "helper_nominal_speed": 1.2398106248177811
+        },
+        {
+          "client_start": [
+            -2,
+            0.006640947715074574
+          ],
+          "helper_start": [
+            -2.85,
+            0.006640947715074574
+          ],
+          "client_nominal_speed": 0.7717069497961206,
+          "helper_nominal_speed": 1.2567791578091558
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_02",
+      "layout": "two_serial_door_1m",
+      "seed": 41002,
+      "slot": 2,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.014463754871169032
+          ],
+          "helper_start": [
+            -0.85,
+            0.014463754871169032
+          ],
+          "client_nominal_speed": 0.8217743183365848,
+          "helper_nominal_speed": 1.2473307678978405
+        },
+        {
+          "client_start": [
+            -2,
+            -0.010747896103972452
+          ],
+          "helper_start": [
+            -2.85,
+            -0.010747896103972452
+          ],
+          "client_nominal_speed": 0.7328052631152767,
+          "helper_nominal_speed": 1.1417432267312941
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_03",
+      "layout": "two_serial_door_1m",
+      "seed": 41003,
+      "slot": 3,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.008446724938758737
+          ],
+          "helper_start": [
+            -0.85,
+            0.008446724938758737
+          ],
+          "client_nominal_speed": 0.8792593288879321,
+          "helper_nominal_speed": 1.1382597385413618
+        },
+        {
+          "client_start": [
+            -2,
+            0.01856299164517895
+          ],
+          "helper_start": [
+            -2.85,
+            0.01856299164517895
+          ],
+          "client_nominal_speed": 0.7501599945515934,
+          "helper_nominal_speed": 1.1151966747385444
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_04",
+      "layout": "two_serial_door_1m",
+      "seed": 41004,
+      "slot": 4,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.008850286357586846
+          ],
+          "helper_start": [
+            -0.85,
+            -0.008850286357586846
+          ],
+          "client_nominal_speed": 0.737228579943635,
+          "helper_nominal_speed": 1.1414346725677937
+        },
+        {
+          "client_start": [
+            -2,
+            -0.012592666952627968
+          ],
+          "helper_start": [
+            -2.85,
+            -0.012592666952627968
+          ],
+          "client_nominal_speed": 0.8168920588215784,
+          "helper_nominal_speed": 1.1794608405316191
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_05",
+      "layout": "two_serial_door_1m",
+      "seed": 41005,
+      "slot": 5,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.0054007010489870895
+          ],
+          "helper_start": [
+            -0.85,
+            -0.0054007010489870895
+          ],
+          "client_nominal_speed": 0.926639871551553,
+          "helper_nominal_speed": 1.1255515002450074
+        },
+        {
+          "client_start": [
+            -2,
+            -0.012088251881752471
+          ],
+          "helper_start": [
+            -2.85,
+            -0.012088251881752471
+          ],
+          "client_nominal_speed": 0.8466560302851635,
+          "helper_nominal_speed": 1.2312828066330217
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_06",
+      "layout": "two_serial_door_1m",
+      "seed": 41006,
+      "slot": 6,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.013755026828293528
+          ],
+          "helper_start": [
+            -0.85,
+            -0.013755026828293528
+          ],
+          "client_nominal_speed": 0.8293385927739986,
+          "helper_nominal_speed": 1.1426815999537434
+        },
+        {
+          "client_start": [
+            -2,
+            0.01552176882255402
+          ],
+          "helper_start": [
+            -2.85,
+            0.01552176882255402
+          ],
+          "client_nominal_speed": 0.8197027506806827,
+          "helper_nominal_speed": 1.2238676647222166
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_07",
+      "layout": "two_serial_door_1m",
+      "seed": 41007,
+      "slot": 7,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.0041704375129088395
+          ],
+          "helper_start": [
+            -0.85,
+            -0.0041704375129088395
+          ],
+          "client_nominal_speed": 0.938746649590268,
+          "helper_nominal_speed": 1.1337756289108891
+        },
+        {
+          "client_start": [
+            -2,
+            -0.018403630490950368
+          ],
+          "helper_start": [
+            -2.85,
+            -0.018403630490950368
+          ],
+          "client_nominal_speed": 0.9148740708811681,
+          "helper_nominal_speed": 1.2498510528915094
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_08",
+      "layout": "two_serial_door_1m",
+      "seed": 41008,
+      "slot": 8,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.014403974503294514
+          ],
+          "helper_start": [
+            -0.85,
+            0.014403974503294514
+          ],
+          "client_nominal_speed": 0.930961902438513,
+          "helper_nominal_speed": 1.1646173500992851
+        },
+        {
+          "client_start": [
+            -2,
+            0.008135971360532266
+          ],
+          "helper_start": [
+            -2.85,
+            0.008135971360532266
+          ],
+          "client_nominal_speed": 0.8305776653137538,
+          "helper_nominal_speed": 1.2107976769404036
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_09",
+      "layout": "two_serial_door_1m",
+      "seed": 41009,
+      "slot": 9,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.015367846441190703
+          ],
+          "helper_start": [
+            -0.85,
+            0.015367846441190703
+          ],
+          "client_nominal_speed": 0.9122211388807642,
+          "helper_nominal_speed": 1.2547688671635293
+        },
+        {
+          "client_start": [
+            -2,
+            -0.013361111838278133
+          ],
+          "helper_start": [
+            -2.85,
+            -0.013361111838278133
+          ],
+          "client_nominal_speed": 0.7301288218417454,
+          "helper_nominal_speed": 1.1034316959931292
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_10",
+      "layout": "two_serial_door_1m",
+      "seed": 41010,
+      "slot": 10,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.010922266943617247
+          ],
+          "helper_start": [
+            -0.85,
+            0.010922266943617247
+          ],
+          "client_nominal_speed": 0.8014987113420663,
+          "helper_nominal_speed": 1.1605506019386302
+        },
+        {
+          "client_start": [
+            -2,
+            0.013543816550878936
+          ],
+          "helper_start": [
+            -2.85,
+            0.013543816550878936
+          ],
+          "client_nominal_speed": 0.9146710328973764,
+          "helper_nominal_speed": 1.1983275729637919
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1m_11",
+      "layout": "two_serial_door_1m",
+      "seed": 41011,
+      "slot": 11,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.0069383806849454555
+          ],
+          "helper_start": [
+            -0.85,
+            0.0069383806849454555
+          ],
+          "client_nominal_speed": 0.7471927154604883,
+          "helper_nominal_speed": 1.1513871157487652
+        },
+        {
+          "client_start": [
+            -2,
+            0.00683716183046541
+          ],
+          "helper_start": [
+            -2.85,
+            0.00683716183046541
+          ],
+          "client_nominal_speed": 0.8458644123506106,
+          "helper_nominal_speed": 1.2682399107121132
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_00",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41100,
+      "slot": 0,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.0172824243515154
+          ],
+          "helper_start": [
+            -0.85,
+            0.0172824243515154
+          ],
+          "client_nominal_speed": 0.8958457016188366,
+          "helper_nominal_speed": 1.2749603511884082
+        },
+        {
+          "client_start": [
+            -2,
+            0.016073575195658985
+          ],
+          "helper_start": [
+            -2.85,
+            0.016073575195658985
+          ],
+          "client_nominal_speed": 0.9154560140064841,
+          "helper_nominal_speed": 1.2342792225199206
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_01",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41101,
+      "slot": 1,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.0020372638409045206
+          ],
+          "helper_start": [
+            -0.85,
+            0.0020372638409045206
+          ],
+          "client_nominal_speed": 0.7040312256574808,
+          "helper_nominal_speed": 1.2164458915030532
+        },
+        {
+          "client_start": [
+            -2,
+            0.01948258540137
+          ],
+          "helper_start": [
+            -2.85,
+            0.01948258540137
+          ],
+          "client_nominal_speed": 0.9299693430558782,
+          "helper_nominal_speed": 1.2588054700172537
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_02",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41102,
+      "slot": 2,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.019730849078174205
+          ],
+          "helper_start": [
+            -0.85,
+            -0.019730849078174205
+          ],
+          "client_nominal_speed": 0.8786902815112985,
+          "helper_nominal_speed": 1.1277298897252013
+        },
+        {
+          "client_start": [
+            -2,
+            0.007399132487026137
+          ],
+          "helper_start": [
+            -2.85,
+            0.007399132487026137
+          ],
+          "client_nominal_speed": 0.8594100930028735,
+          "helper_nominal_speed": 1.116574214245168
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_03",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41103,
+      "slot": 3,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.013744947010266096
+          ],
+          "helper_start": [
+            -0.85,
+            -0.013744947010266096
+          ],
+          "client_nominal_speed": 0.8024948321737642,
+          "helper_nominal_speed": 1.1399844512235275
+        },
+        {
+          "client_start": [
+            -2,
+            0.019875537547149043
+          ],
+          "helper_start": [
+            -2.85,
+            0.019875537547149043
+          ],
+          "client_nominal_speed": 0.7320833445600167,
+          "helper_nominal_speed": 1.1189480590364196
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_04",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41104,
+      "slot": 4,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.016921002029689883
+          ],
+          "helper_start": [
+            -0.85,
+            0.016921002029689883
+          ],
+          "client_nominal_speed": 0.758912594081434,
+          "helper_nominal_speed": 1.1536190869868497
+        },
+        {
+          "client_start": [
+            -2,
+            -0.01880525054774057
+          ],
+          "helper_start": [
+            -2.85,
+            -0.01880525054774057
+          ],
+          "client_nominal_speed": 0.8415794373213412,
+          "helper_nominal_speed": 1.131772891731377
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_05",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41105,
+      "slot": 5,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.019130928094772858
+          ],
+          "helper_start": [
+            -0.85,
+            0.019130928094772858
+          ],
+          "client_nominal_speed": 0.7402542069915667,
+          "helper_nominal_speed": 1.1565726565908008
+        },
+        {
+          "client_start": [
+            -2,
+            -0.00823998569988027
+          ],
+          "helper_start": [
+            -2.85,
+            -0.00823998569988027
+          ],
+          "client_nominal_speed": 0.832881766284369,
+          "helper_nominal_speed": 1.1654606638548206
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_06",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41106,
+      "slot": 6,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.016668705755689496
+          ],
+          "helper_start": [
+            -0.85,
+            -0.016668705755689496
+          ],
+          "client_nominal_speed": 0.8129351920587224,
+          "helper_nominal_speed": 1.1110597415398356
+        },
+        {
+          "client_start": [
+            -2,
+            -0.016321068005233096
+          ],
+          "helper_start": [
+            -2.85,
+            -0.016321068005233096
+          ],
+          "client_nominal_speed": 0.7745959796172507,
+          "helper_nominal_speed": 1.145292316525192
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_07",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41107,
+      "slot": 7,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.009919095216495363
+          ],
+          "helper_start": [
+            -0.85,
+            0.009919095216495363
+          ],
+          "client_nominal_speed": 0.8994756281412918,
+          "helper_nominal_speed": 1.2636410536070803
+        },
+        {
+          "client_start": [
+            -2,
+            -0.005208060775085932
+          ],
+          "helper_start": [
+            -2.85,
+            -0.005208060775085932
+          ],
+          "client_nominal_speed": 0.9066674229103575,
+          "helper_nominal_speed": 1.232630017675486
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_08",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41108,
+      "slot": 8,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.010218213648351168
+          ],
+          "helper_start": [
+            -0.85,
+            0.010218213648351168
+          ],
+          "client_nominal_speed": 0.8921045976442821,
+          "helper_nominal_speed": 1.2812075869148696
+        },
+        {
+          "client_start": [
+            -2,
+            0.012485636534793659
+          ],
+          "helper_start": [
+            -2.85,
+            0.012485636534793659
+          ],
+          "client_nominal_speed": 0.7599782211834475,
+          "helper_nominal_speed": 1.1038891722381168
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_09",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41109,
+      "slot": 9,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.011578078870513027
+          ],
+          "helper_start": [
+            -0.85,
+            -0.011578078870513027
+          ],
+          "client_nominal_speed": 0.8050387406894437,
+          "helper_nominal_speed": 1.2590351772384416
+        },
+        {
+          "client_start": [
+            -2,
+            0.0002292862935971765
+          ],
+          "helper_start": [
+            -2.85,
+            0.0002292862935971765
+          ],
+          "client_nominal_speed": 0.7686351633497825,
+          "helper_nominal_speed": 1.1160286579126928
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_10",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41110,
+      "slot": 10,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.018973482997268594
+          ],
+          "helper_start": [
+            -0.85,
+            -0.018973482997268594
+          ],
+          "client_nominal_speed": 0.7437834671675658,
+          "helper_nominal_speed": 1.1284214385039109
+        },
+        {
+          "client_start": [
+            -2,
+            -0.01392169200911286
+          ],
+          "helper_start": [
+            -2.85,
+            -0.01392169200911286
+          ],
+          "client_nominal_speed": 0.7085577547233137,
+          "helper_nominal_speed": 1.2798717036379479
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_serial_door_1_2m_11",
+      "layout": "two_serial_door_1_2m",
+      "seed": 41111,
+      "slot": 11,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.016475658228077113
+          ],
+          "helper_start": [
+            -0.85,
+            0.016475658228077113
+          ],
+          "client_nominal_speed": 0.8823831167493694,
+          "helper_nominal_speed": 1.2027671593056266
+        },
+        {
+          "client_start": [
+            -2,
+            0.011535960545329575
+          ],
+          "helper_start": [
+            -2.85,
+            0.011535960545329575
+          ],
+          "client_nominal_speed": 0.7146868812237925,
+          "helper_nominal_speed": 1.2638385078265315
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.6, 7 0.6, 7 2, 13 2, 13 -2, 7 -2, 7 -0.6, 5 -0.6, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.2,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_00",
+      "layout": "staggered_merge",
+      "seed": 41200,
+      "slot": 0,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5533471751676678
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5533471751676678
+          ],
+          "client_nominal_speed": 0.8945976972750506,
+          "helper_nominal_speed": 1.1747417056296934
+        },
+        {
+          "client_start": [
+            -1,
+            0.5318594042750031
+          ],
+          "helper_start": [
+            -1.85,
+            0.5318594042750031
+          ],
+          "client_nominal_speed": 0.8577282003889964,
+          "helper_nominal_speed": 1.1196399103505306
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_01",
+      "layout": "staggered_merge",
+      "seed": 41201,
+      "slot": 1,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5506712938194508
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5506712938194508
+          ],
+          "client_nominal_speed": 0.8334893433399648,
+          "helper_nominal_speed": 1.2691042923263611
+        },
+        {
+          "client_start": [
+            -1,
+            0.5675032179135204
+          ],
+          "helper_start": [
+            -1.85,
+            0.5675032179135204
+          ],
+          "client_nominal_speed": 0.7701800044692766,
+          "helper_nominal_speed": 1.1813731463038668
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_02",
+      "layout": "staggered_merge",
+      "seed": 41202,
+      "slot": 2,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.537070517559009
+          ],
+          "helper_start": [
+            -0.85,
+            -0.537070517559009
+          ],
+          "client_nominal_speed": 0.9310374713557207,
+          "helper_nominal_speed": 1.1127343496558983
+        },
+        {
+          "client_start": [
+            -1,
+            0.5366567655690577
+          ],
+          "helper_start": [
+            -1.85,
+            0.5366567655690577
+          ],
+          "client_nominal_speed": 0.7618140579807742,
+          "helper_nominal_speed": 1.1523119797895511
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_03",
+      "layout": "staggered_merge",
+      "seed": 41203,
+      "slot": 3,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5466478791221283
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5466478791221283
+          ],
+          "client_nominal_speed": 0.7099677609108919,
+          "helper_nominal_speed": 1.2774559894213018
+        },
+        {
+          "client_start": [
+            -1,
+            0.5536725716379997
+          ],
+          "helper_start": [
+            -1.85,
+            0.5536725716379997
+          ],
+          "client_nominal_speed": 0.9498735605674008,
+          "helper_nominal_speed": 1.1321390434797036
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_04",
+      "layout": "staggered_merge",
+      "seed": 41204,
+      "slot": 4,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5585076665896764
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5585076665896764
+          ],
+          "client_nominal_speed": 0.8860080372290164,
+          "helper_nominal_speed": 1.2355519275833482
+        },
+        {
+          "client_start": [
+            -1,
+            0.5611898127173218
+          ],
+          "helper_start": [
+            -1.85,
+            0.5611898127173218
+          ],
+          "client_nominal_speed": 0.9078735107942675,
+          "helper_nominal_speed": 1.218391023894292
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_05",
+      "layout": "staggered_merge",
+      "seed": 41205,
+      "slot": 5,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5336279846055955
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5336279846055955
+          ],
+          "client_nominal_speed": 0.8912085443967512,
+          "helper_nominal_speed": 1.2068110586946088
+        },
+        {
+          "client_start": [
+            -1,
+            0.549134015051184
+          ],
+          "helper_start": [
+            -1.85,
+            0.549134015051184
+          ],
+          "client_nominal_speed": 0.9404355297589745,
+          "helper_nominal_speed": 1.1089823424271414
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_06",
+      "layout": "staggered_merge",
+      "seed": 41206,
+      "slot": 6,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5436670547360505
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5436670547360505
+          ],
+          "client_nominal_speed": 0.7083548672564974,
+          "helper_nominal_speed": 1.2762967346347582
+        },
+        {
+          "client_start": [
+            -1,
+            0.5455174037798987
+          ],
+          "helper_start": [
+            -1.85,
+            0.5455174037798987
+          ],
+          "client_nominal_speed": 0.7786102966389152,
+          "helper_nominal_speed": 1.2600364265124058
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_07",
+      "layout": "staggered_merge",
+      "seed": 41207,
+      "slot": 7,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5611579876582469
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5611579876582469
+          ],
+          "client_nominal_speed": 0.7994179825541704,
+          "helper_nominal_speed": 1.1847256204653867
+        },
+        {
+          "client_start": [
+            -1,
+            0.5381039351622456
+          ],
+          "helper_start": [
+            -1.85,
+            0.5381039351622456
+          ],
+          "client_nominal_speed": 0.836326769514129,
+          "helper_nominal_speed": 1.219361202695705
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_08",
+      "layout": "staggered_merge",
+      "seed": 41208,
+      "slot": 8,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5594323959984739
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5594323959984739
+          ],
+          "client_nominal_speed": 0.7010138916789138,
+          "helper_nominal_speed": 1.277109782139677
+        },
+        {
+          "client_start": [
+            -1,
+            0.5488941858983679
+          ],
+          "helper_start": [
+            -1.85,
+            0.5488941858983679
+          ],
+          "client_nominal_speed": 0.8007879200553251,
+          "helper_nominal_speed": 1.196147327211512
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_09",
+      "layout": "staggered_merge",
+      "seed": 41209,
+      "slot": 9,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5578116652785196
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5578116652785196
+          ],
+          "client_nominal_speed": 0.867103548472586,
+          "helper_nominal_speed": 1.2092817573823422
+        },
+        {
+          "client_start": [
+            -1,
+            0.5393770496074688
+          ],
+          "helper_start": [
+            -1.85,
+            0.5393770496074688
+          ],
+          "client_nominal_speed": 0.762663825950264,
+          "helper_nominal_speed": 1.1721106698808756
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_10",
+      "layout": "staggered_merge",
+      "seed": 41210,
+      "slot": 10,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5465104985154393
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5465104985154393
+          ],
+          "client_nominal_speed": 0.888548619623947,
+          "helper_nominal_speed": 1.2473719870232625
+        },
+        {
+          "client_start": [
+            -1,
+            0.563269554465106
+          ],
+          "helper_start": [
+            -1.85,
+            0.563269554465106
+          ],
+          "client_nominal_speed": 0.740705520797261,
+          "helper_nominal_speed": 1.1585048268966713
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "staggered_merge_11",
+      "layout": "staggered_merge",
+      "seed": 41211,
+      "slot": 11,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.5648598400390623
+          ],
+          "helper_start": [
+            -0.85,
+            -0.5648598400390623
+          ],
+          "client_nominal_speed": 0.8938127340470668,
+          "helper_nominal_speed": 1.1218554611424643
+        },
+        {
+          "client_start": [
+            -1,
+            0.5561103418321898
+          ],
+          "helper_start": [
+            -1.85,
+            0.5561103418321898
+          ],
+          "client_nominal_speed": 0.7624214910421446,
+          "helper_nominal_speed": 1.2363583470751893
+        }
+      ],
+      "extras": [
+        [
+          2.5,
+          0
+        ],
+        [
+          3.5,
+          0.5
+        ]
+      ],
+      "geometry_wkt": "POLYGON ((5 -2, -6 -2, -6 2, 5 2, 5 0.5, 7 0.5, 7 2, 13 2, 13 -2, 7 -2, 7 -0.5, 5 -0.5, 5 -2))",
+      "goal": [
+        11.5,
+        0
+      ],
+      "exit_axis": 0,
+      "exit_plane": 10,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          11.5,
+          0
+        ]
+      ],
+      "bottleneck_width_m": 1.0,
+      "corridor_width_m": 4.0
+    },
+    {
+      "block": "two_pair_turn_00",
+      "layout": "two_pair_turn",
+      "seed": 41300,
+      "slot": 0,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.012614081315257156
+          ],
+          "helper_start": [
+            -0.85,
+            -0.012614081315257156
+          ],
+          "client_nominal_speed": 0.7733183758265006,
+          "helper_nominal_speed": 1.2313146452009645
+        },
+        {
+          "client_start": [
+            -2,
+            -0.017374352865353524
+          ],
+          "helper_start": [
+            -2.85,
+            -0.017374352865353524
+          ],
+          "client_nominal_speed": 0.8913170167404588,
+          "helper_nominal_speed": 1.2402461001170997
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_01",
+      "layout": "two_pair_turn",
+      "seed": 41301,
+      "slot": 1,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.01684664275040683
+          ],
+          "helper_start": [
+            -0.85,
+            -0.01684664275040683
+          ],
+          "client_nominal_speed": 0.8434010125279239,
+          "helper_nominal_speed": 1.127818178500191
+        },
+        {
+          "client_start": [
+            -2,
+            -0.003526239547444389
+          ],
+          "helper_start": [
+            -2.85,
+            -0.003526239547444389
+          ],
+          "client_nominal_speed": 0.7079437202192354,
+          "helper_nominal_speed": 1.1179953423294866
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_02",
+      "layout": "two_pair_turn",
+      "seed": 41302,
+      "slot": 2,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.00464334490796308
+          ],
+          "helper_start": [
+            -0.85,
+            0.00464334490796308
+          ],
+          "client_nominal_speed": 0.7621039369123279,
+          "helper_nominal_speed": 1.166673471106841
+        },
+        {
+          "client_start": [
+            -2,
+            0.009818203330291021
+          ],
+          "helper_start": [
+            -2.85,
+            0.009818203330291021
+          ],
+          "client_nominal_speed": 0.7060402871481599,
+          "helper_nominal_speed": 1.2069700224916338
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_03",
+      "layout": "two_pair_turn",
+      "seed": 41303,
+      "slot": 3,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.009141402653697726
+          ],
+          "helper_start": [
+            -0.85,
+            -0.009141402653697726
+          ],
+          "client_nominal_speed": 0.7506330900224999,
+          "helper_nominal_speed": 1.1072482543285678
+        },
+        {
+          "client_start": [
+            -2,
+            -0.009754995335735966
+          ],
+          "helper_start": [
+            -2.85,
+            -0.009754995335735966
+          ],
+          "client_nominal_speed": 0.9181647288032391,
+          "helper_nominal_speed": 1.182644419111485
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_04",
+      "layout": "two_pair_turn",
+      "seed": 41304,
+      "slot": 4,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.0013975458982623742
+          ],
+          "helper_start": [
+            -0.85,
+            -0.0013975458982623742
+          ],
+          "client_nominal_speed": 0.9164006287371401,
+          "helper_nominal_speed": 1.2876419486354431
+        },
+        {
+          "client_start": [
+            -2,
+            0.01899950619990524
+          ],
+          "helper_start": [
+            -2.85,
+            0.01899950619990524
+          ],
+          "client_nominal_speed": 0.7886052873795556,
+          "helper_nominal_speed": 1.1158249212881446
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_05",
+      "layout": "two_pair_turn",
+      "seed": 41305,
+      "slot": 5,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.016672535619359805
+          ],
+          "helper_start": [
+            -0.85,
+            -0.016672535619359805
+          ],
+          "client_nominal_speed": 0.916418620145272,
+          "helper_nominal_speed": 1.2562464337714538
+        },
+        {
+          "client_start": [
+            -2,
+            -0.015499992360330244
+          ],
+          "helper_start": [
+            -2.85,
+            -0.015499992360330244
+          ],
+          "client_nominal_speed": 0.7196047237768809,
+          "helper_nominal_speed": 1.276826370280217
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_06",
+      "layout": "two_pair_turn",
+      "seed": 41306,
+      "slot": 6,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.012459379532619939
+          ],
+          "helper_start": [
+            -0.85,
+            -0.012459379532619939
+          ],
+          "client_nominal_speed": 0.7456626040143531,
+          "helper_nominal_speed": 1.2276245342307393
+        },
+        {
+          "client_start": [
+            -2,
+            -0.013525650025212093
+          ],
+          "helper_start": [
+            -2.85,
+            -0.013525650025212093
+          ],
+          "client_nominal_speed": 0.738334227471127,
+          "helper_nominal_speed": 1.1219532527604916
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_07",
+      "layout": "two_pair_turn",
+      "seed": 41307,
+      "slot": 7,
+      "split": "train",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.0004843589517772133
+          ],
+          "helper_start": [
+            -0.85,
+            -0.0004843589517772133
+          ],
+          "client_nominal_speed": 0.7073165824058222,
+          "helper_nominal_speed": 1.1252004636971706
+        },
+        {
+          "client_start": [
+            -2,
+            0.002705176390432964
+          ],
+          "helper_start": [
+            -2.85,
+            0.002705176390432964
+          ],
+          "client_nominal_speed": 0.8257094783248052,
+          "helper_nominal_speed": 1.1594049256994186
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_08",
+      "layout": "two_pair_turn",
+      "seed": 41308,
+      "slot": 8,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.0029295011122645598
+          ],
+          "helper_start": [
+            -0.85,
+            -0.0029295011122645598
+          ],
+          "client_nominal_speed": 0.8860269416942234,
+          "helper_nominal_speed": 1.2294449044067512
+        },
+        {
+          "client_start": [
+            -2,
+            -0.017390943383360346
+          ],
+          "helper_start": [
+            -2.85,
+            -0.017390943383360346
+          ],
+          "client_nominal_speed": 0.7534405792261417,
+          "helper_nominal_speed": 1.2296138508851584
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_09",
+      "layout": "two_pair_turn",
+      "seed": 41309,
+      "slot": 9,
+      "split": "validation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.018381322475865724
+          ],
+          "helper_start": [
+            -0.85,
+            -0.018381322475865724
+          ],
+          "client_nominal_speed": 0.8907781644600152,
+          "helper_nominal_speed": 1.188402211053696
+        },
+        {
+          "client_start": [
+            -2,
+            -0.0027272223035675613
+          ],
+          "helper_start": [
+            -2.85,
+            -0.0027272223035675613
+          ],
+          "client_nominal_speed": 0.8242609836988462,
+          "helper_nominal_speed": 1.1738137712096257
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_10",
+      "layout": "two_pair_turn",
+      "seed": 41310,
+      "slot": 10,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            -0.004604891805909039
+          ],
+          "helper_start": [
+            -0.85,
+            -0.004604891805909039
+          ],
+          "client_nominal_speed": 0.8066134307943159,
+          "helper_nominal_speed": 1.1632875006383054
+        },
+        {
+          "client_start": [
+            -2,
+            -0.019589971221224335
+          ],
+          "helper_start": [
+            -2.85,
+            -0.019589971221224335
+          ],
+          "client_nominal_speed": 0.8931991570105192,
+          "helper_nominal_speed": 1.2217787714419888
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    },
+    {
+      "block": "two_pair_turn_11",
+      "layout": "two_pair_turn",
+      "seed": 41311,
+      "slot": 11,
+      "split": "evaluation",
+      "pairs": [
+        {
+          "client_start": [
+            0,
+            0.014959584715680495
+          ],
+          "helper_start": [
+            -0.85,
+            0.014959584715680495
+          ],
+          "client_nominal_speed": 0.9055687970764008,
+          "helper_nominal_speed": 1.1479521187498911
+        },
+        {
+          "client_start": [
+            -2,
+            -0.005646960560603804
+          ],
+          "helper_start": [
+            -2.85,
+            -0.005646960560603804
+          ],
+          "client_nominal_speed": 0.8034224217426952,
+          "helper_nominal_speed": 1.292495729337264
+        }
+      ],
+      "extras": [],
+      "geometry_wkt": "POLYGON ((7 -1, 5 -1, -6 -1, -6 1, 5 1, 5 11, 7 11, 7 1, 7 -1))",
+      "goal": [
+        6,
+        9.5
+      ],
+      "exit_axis": 1,
+      "exit_plane": 8,
+      "known_route": [
+        [
+          -6,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          9.5
+        ]
+      ],
+      "bottleneck_width_m": 2.0,
+      "corridor_width_m": 2.0
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "two_serial_door_1m_00_independent_g1.0",
+      "block": "two_serial_door_1m_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_00_independent_g1.15",
+      "block": "two_serial_door_1m_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_00_threshold_g1.0",
+      "block": "two_serial_door_1m_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_00_threshold_g1.15",
+      "block": "two_serial_door_1m_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_01_independent_g1.0",
+      "block": "two_serial_door_1m_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_01_independent_g1.15",
+      "block": "two_serial_door_1m_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_01_threshold_g1.0",
+      "block": "two_serial_door_1m_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_01_threshold_g1.15",
+      "block": "two_serial_door_1m_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_02_independent_g1.0",
+      "block": "two_serial_door_1m_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_02_independent_g1.15",
+      "block": "two_serial_door_1m_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_02_threshold_g1.0",
+      "block": "two_serial_door_1m_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_02_threshold_g1.15",
+      "block": "two_serial_door_1m_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_03_independent_g1.0",
+      "block": "two_serial_door_1m_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_03_independent_g1.15",
+      "block": "two_serial_door_1m_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_03_threshold_g1.0",
+      "block": "two_serial_door_1m_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_03_threshold_g1.15",
+      "block": "two_serial_door_1m_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_04_independent_g1.0",
+      "block": "two_serial_door_1m_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_04_independent_g1.15",
+      "block": "two_serial_door_1m_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_04_threshold_g1.0",
+      "block": "two_serial_door_1m_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_04_threshold_g1.15",
+      "block": "two_serial_door_1m_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_05_independent_g1.0",
+      "block": "two_serial_door_1m_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_05_independent_g1.15",
+      "block": "two_serial_door_1m_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_05_threshold_g1.0",
+      "block": "two_serial_door_1m_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_05_threshold_g1.15",
+      "block": "two_serial_door_1m_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_06_independent_g1.0",
+      "block": "two_serial_door_1m_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_06_independent_g1.15",
+      "block": "two_serial_door_1m_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_06_threshold_g1.0",
+      "block": "two_serial_door_1m_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_06_threshold_g1.15",
+      "block": "two_serial_door_1m_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_07_independent_g1.0",
+      "block": "two_serial_door_1m_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_07_independent_g1.15",
+      "block": "two_serial_door_1m_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_07_threshold_g1.0",
+      "block": "two_serial_door_1m_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_07_threshold_g1.15",
+      "block": "two_serial_door_1m_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_08_independent_g1.0",
+      "block": "two_serial_door_1m_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_08_independent_g1.15",
+      "block": "two_serial_door_1m_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_08_threshold_g1.0",
+      "block": "two_serial_door_1m_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_08_threshold_g1.15",
+      "block": "two_serial_door_1m_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_09_independent_g1.0",
+      "block": "two_serial_door_1m_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_09_independent_g1.15",
+      "block": "two_serial_door_1m_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_09_threshold_g1.0",
+      "block": "two_serial_door_1m_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_09_threshold_g1.15",
+      "block": "two_serial_door_1m_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_10_independent_g1.0",
+      "block": "two_serial_door_1m_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_10_independent_g1.15",
+      "block": "two_serial_door_1m_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_10_threshold_g1.0",
+      "block": "two_serial_door_1m_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_10_threshold_g1.15",
+      "block": "two_serial_door_1m_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1m_11_independent_g1.0",
+      "block": "two_serial_door_1m_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_11_independent_g1.15",
+      "block": "two_serial_door_1m_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_11_threshold_g1.0",
+      "block": "two_serial_door_1m_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1m_11_threshold_g1.15",
+      "block": "two_serial_door_1m_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_00_independent_g1.0",
+      "block": "two_serial_door_1_2m_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_00_independent_g1.15",
+      "block": "two_serial_door_1_2m_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_00_threshold_g1.0",
+      "block": "two_serial_door_1_2m_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_00_threshold_g1.15",
+      "block": "two_serial_door_1_2m_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_01_independent_g1.0",
+      "block": "two_serial_door_1_2m_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_01_independent_g1.15",
+      "block": "two_serial_door_1_2m_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_01_threshold_g1.0",
+      "block": "two_serial_door_1_2m_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_01_threshold_g1.15",
+      "block": "two_serial_door_1_2m_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_02_independent_g1.0",
+      "block": "two_serial_door_1_2m_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_02_independent_g1.15",
+      "block": "two_serial_door_1_2m_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_02_threshold_g1.0",
+      "block": "two_serial_door_1_2m_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_02_threshold_g1.15",
+      "block": "two_serial_door_1_2m_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_03_independent_g1.0",
+      "block": "two_serial_door_1_2m_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_03_independent_g1.15",
+      "block": "two_serial_door_1_2m_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_03_threshold_g1.0",
+      "block": "two_serial_door_1_2m_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_03_threshold_g1.15",
+      "block": "two_serial_door_1_2m_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_04_independent_g1.0",
+      "block": "two_serial_door_1_2m_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_04_independent_g1.15",
+      "block": "two_serial_door_1_2m_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_04_threshold_g1.0",
+      "block": "two_serial_door_1_2m_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_04_threshold_g1.15",
+      "block": "two_serial_door_1_2m_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_05_independent_g1.0",
+      "block": "two_serial_door_1_2m_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_05_independent_g1.15",
+      "block": "two_serial_door_1_2m_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_05_threshold_g1.0",
+      "block": "two_serial_door_1_2m_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_05_threshold_g1.15",
+      "block": "two_serial_door_1_2m_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_06_independent_g1.0",
+      "block": "two_serial_door_1_2m_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_06_independent_g1.15",
+      "block": "two_serial_door_1_2m_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_06_threshold_g1.0",
+      "block": "two_serial_door_1_2m_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_06_threshold_g1.15",
+      "block": "two_serial_door_1_2m_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_07_independent_g1.0",
+      "block": "two_serial_door_1_2m_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_07_independent_g1.15",
+      "block": "two_serial_door_1_2m_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_07_threshold_g1.0",
+      "block": "two_serial_door_1_2m_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_07_threshold_g1.15",
+      "block": "two_serial_door_1_2m_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_08_independent_g1.0",
+      "block": "two_serial_door_1_2m_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_08_independent_g1.15",
+      "block": "two_serial_door_1_2m_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_08_threshold_g1.0",
+      "block": "two_serial_door_1_2m_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_08_threshold_g1.15",
+      "block": "two_serial_door_1_2m_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_09_independent_g1.0",
+      "block": "two_serial_door_1_2m_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_09_independent_g1.15",
+      "block": "two_serial_door_1_2m_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_09_threshold_g1.0",
+      "block": "two_serial_door_1_2m_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_09_threshold_g1.15",
+      "block": "two_serial_door_1_2m_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_10_independent_g1.0",
+      "block": "two_serial_door_1_2m_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_10_independent_g1.15",
+      "block": "two_serial_door_1_2m_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_10_threshold_g1.0",
+      "block": "two_serial_door_1_2m_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_10_threshold_g1.15",
+      "block": "two_serial_door_1_2m_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_serial_door_1_2m_11_independent_g1.0",
+      "block": "two_serial_door_1_2m_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_11_independent_g1.15",
+      "block": "two_serial_door_1_2m_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_11_threshold_g1.0",
+      "block": "two_serial_door_1_2m_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_serial_door_1_2m_11_threshold_g1.15",
+      "block": "two_serial_door_1_2m_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_00_independent_g1.0",
+      "block": "staggered_merge_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_00_independent_g1.15",
+      "block": "staggered_merge_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_00_threshold_g1.0",
+      "block": "staggered_merge_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_00_threshold_g1.15",
+      "block": "staggered_merge_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_01_independent_g1.0",
+      "block": "staggered_merge_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_01_independent_g1.15",
+      "block": "staggered_merge_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_01_threshold_g1.0",
+      "block": "staggered_merge_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_01_threshold_g1.15",
+      "block": "staggered_merge_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_02_independent_g1.0",
+      "block": "staggered_merge_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_02_independent_g1.15",
+      "block": "staggered_merge_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_02_threshold_g1.0",
+      "block": "staggered_merge_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_02_threshold_g1.15",
+      "block": "staggered_merge_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_03_independent_g1.0",
+      "block": "staggered_merge_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_03_independent_g1.15",
+      "block": "staggered_merge_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_03_threshold_g1.0",
+      "block": "staggered_merge_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_03_threshold_g1.15",
+      "block": "staggered_merge_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_04_independent_g1.0",
+      "block": "staggered_merge_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_04_independent_g1.15",
+      "block": "staggered_merge_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_04_threshold_g1.0",
+      "block": "staggered_merge_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_04_threshold_g1.15",
+      "block": "staggered_merge_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_05_independent_g1.0",
+      "block": "staggered_merge_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_05_independent_g1.15",
+      "block": "staggered_merge_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_05_threshold_g1.0",
+      "block": "staggered_merge_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_05_threshold_g1.15",
+      "block": "staggered_merge_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_06_independent_g1.0",
+      "block": "staggered_merge_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_06_independent_g1.15",
+      "block": "staggered_merge_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_06_threshold_g1.0",
+      "block": "staggered_merge_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_06_threshold_g1.15",
+      "block": "staggered_merge_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_07_independent_g1.0",
+      "block": "staggered_merge_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_07_independent_g1.15",
+      "block": "staggered_merge_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_07_threshold_g1.0",
+      "block": "staggered_merge_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_07_threshold_g1.15",
+      "block": "staggered_merge_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_08_independent_g1.0",
+      "block": "staggered_merge_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_08_independent_g1.15",
+      "block": "staggered_merge_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_08_threshold_g1.0",
+      "block": "staggered_merge_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_08_threshold_g1.15",
+      "block": "staggered_merge_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_09_independent_g1.0",
+      "block": "staggered_merge_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_09_independent_g1.15",
+      "block": "staggered_merge_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_09_threshold_g1.0",
+      "block": "staggered_merge_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_09_threshold_g1.15",
+      "block": "staggered_merge_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_10_independent_g1.0",
+      "block": "staggered_merge_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_10_independent_g1.15",
+      "block": "staggered_merge_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_10_threshold_g1.0",
+      "block": "staggered_merge_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_10_threshold_g1.15",
+      "block": "staggered_merge_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "staggered_merge_11_independent_g1.0",
+      "block": "staggered_merge_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_11_independent_g1.15",
+      "block": "staggered_merge_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_11_threshold_g1.0",
+      "block": "staggered_merge_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "staggered_merge_11_threshold_g1.15",
+      "block": "staggered_merge_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_00_independent_g1.0",
+      "block": "two_pair_turn_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_00_independent_g1.15",
+      "block": "two_pair_turn_00",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_00_threshold_g1.0",
+      "block": "two_pair_turn_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_00_threshold_g1.15",
+      "block": "two_pair_turn_00",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_01_independent_g1.0",
+      "block": "two_pair_turn_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_01_independent_g1.15",
+      "block": "two_pair_turn_01",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_01_threshold_g1.0",
+      "block": "two_pair_turn_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_01_threshold_g1.15",
+      "block": "two_pair_turn_01",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_02_independent_g1.0",
+      "block": "two_pair_turn_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_02_independent_g1.15",
+      "block": "two_pair_turn_02",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_02_threshold_g1.0",
+      "block": "two_pair_turn_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_02_threshold_g1.15",
+      "block": "two_pair_turn_02",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_03_independent_g1.0",
+      "block": "two_pair_turn_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_03_independent_g1.15",
+      "block": "two_pair_turn_03",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_03_threshold_g1.0",
+      "block": "two_pair_turn_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_03_threshold_g1.15",
+      "block": "two_pair_turn_03",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_04_independent_g1.0",
+      "block": "two_pair_turn_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_04_independent_g1.15",
+      "block": "two_pair_turn_04",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_04_threshold_g1.0",
+      "block": "two_pair_turn_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_04_threshold_g1.15",
+      "block": "two_pair_turn_04",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_05_independent_g1.0",
+      "block": "two_pair_turn_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_05_independent_g1.15",
+      "block": "two_pair_turn_05",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_05_threshold_g1.0",
+      "block": "two_pair_turn_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_05_threshold_g1.15",
+      "block": "two_pair_turn_05",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_06_independent_g1.0",
+      "block": "two_pair_turn_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_06_independent_g1.15",
+      "block": "two_pair_turn_06",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_06_threshold_g1.0",
+      "block": "two_pair_turn_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_06_threshold_g1.15",
+      "block": "two_pair_turn_06",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_07_independent_g1.0",
+      "block": "two_pair_turn_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_07_independent_g1.15",
+      "block": "two_pair_turn_07",
+      "split": "train",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_07_threshold_g1.0",
+      "block": "two_pair_turn_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_07_threshold_g1.15",
+      "block": "two_pair_turn_07",
+      "split": "train",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_08_independent_g1.0",
+      "block": "two_pair_turn_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_08_independent_g1.15",
+      "block": "two_pair_turn_08",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_08_threshold_g1.0",
+      "block": "two_pair_turn_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_08_threshold_g1.15",
+      "block": "two_pair_turn_08",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_09_independent_g1.0",
+      "block": "two_pair_turn_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_09_independent_g1.15",
+      "block": "two_pair_turn_09",
+      "split": "validation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_09_threshold_g1.0",
+      "block": "two_pair_turn_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_09_threshold_g1.15",
+      "block": "two_pair_turn_09",
+      "split": "validation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_10_independent_g1.0",
+      "block": "two_pair_turn_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_10_independent_g1.15",
+      "block": "two_pair_turn_10",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_10_threshold_g1.0",
+      "block": "two_pair_turn_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_10_threshold_g1.15",
+      "block": "two_pair_turn_10",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": true
+    },
+    {
+      "run_id": "two_pair_turn_11_independent_g1.0",
+      "block": "two_pair_turn_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_11_independent_g1.15",
+      "block": "two_pair_turn_11",
+      "split": "evaluation",
+      "mode": "independent",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_11_threshold_g1.0",
+      "block": "two_pair_turn_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.0,
+      "dt": 0.005,
+      "fine_step_audit": false
+    },
+    {
+      "run_id": "two_pair_turn_11_threshold_g1.15",
+      "block": "two_pair_turn_11",
+      "split": "evaluation",
+      "mode": "threshold",
+      "gain": 1.15,
+      "dt": 0.005,
+      "fine_step_audit": false
+    }
+  ],
+  "query_times_s": [
+    2,
+    5,
+    8
+  ],
+  "history_s": 1.0,
+  "fine_audit_dt": 0.0025,
+  "gain_primary": 1.0,
+  "noise_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ]
+}
