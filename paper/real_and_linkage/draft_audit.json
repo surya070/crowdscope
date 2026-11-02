@@ -1,8 +1,8 @@
 {
-  "pages": 7,
+  "pages": 8,
   "main_sections": 7,
   "references": 18,
-  "source_sha256": "cb85d843b3e190a5a380cccb22020a30c5944e7f03788c46bf3d4a89c9c37881",
+  "source_sha256": "7c2d6540c69e44322fee2b2293957313039a279d04bd51f212a8f2a12f103c0a",
   "all_pages_visually_reviewed": false,
   "overfull_boxes": false,
   "undefined_references": false,
@@ -15,7 +15,10 @@
   },
   "desktop_compile": "success",
   "guideline_audit_date": "2026-11-02",
-  "abstract_word_count": 180,
+  "abstract_word_count": 199,
   "all_references_cited": true,
-  "references_in_first_appearance_order": true
+  "references_in_first_appearance_order": true,
+  "followup_predictions": 1806,
+  "followup_metric_groups": 50,
+  "updated": "2026-11-03"
 }

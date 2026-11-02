@@ -1,0 +1,4802 @@
+[
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      4.145613875395783
+    ],
+    "validation_mae": 4.145613875395783
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      4.450057098109394
+    ],
+    "validation_mae": 4.450057098109394
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      4.588570654580472
+    ],
+    "validation_mae": 4.588570654580472
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      12.022883662050557
+    ],
+    "validation_mae": 12.022883662050557
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      12.617430797294613
+    ],
+    "validation_mae": 12.617430797294613
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      35.92284451280821
+    ],
+    "validation_mae": 35.92284451280821
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      28.62588529762148
+    ],
+    "validation_mae": 28.62588529762148
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      49.53398328895372
+    ],
+    "validation_mae": 49.53398328895372
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.465747179134643
+    ],
+    "validation_mae": 8.465747179134643
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.666474527828203
+    ],
+    "validation_mae": 8.666474527828203
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      7.640461741916551
+    ],
+    "validation_mae": 7.640461741916551
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.707528747328336
+    ],
+    "validation_mae": 8.707528747328336
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.168273567575696
+    ],
+    "validation_mae": 9.168273567575696
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      10.674559916921494
+    ],
+    "validation_mae": 10.674559916921494
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.16033470397457
+    ],
+    "validation_mae": 9.16033470397457
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      10.674559916921494
+    ],
+    "validation_mae": 10.674559916921494
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.7383802253559715,
+      4.388482249973691,
+      4.5513327111620985
+    ],
+    "validation_mae": 4.5593983954972535
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      4.4408693419689085,
+      4.368602374206512,
+      4.482782819642633
+    ],
+    "validation_mae": 4.430751511939351
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.287990856192622,
+      4.336096968802332,
+      4.62783418744467
+    ],
+    "validation_mae": 4.417307337479875
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      4.391566651902148,
+      4.5028589637138,
+      4.389391275808135
+    ],
+    "validation_mae": 4.427938963808027
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      2.1966256271108198
+    ],
+    "validation_mae": 2.1966256271108198
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      2.3750113311843046
+    ],
+    "validation_mae": 2.3750113311843046
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      3.2150124052167373
+    ],
+    "validation_mae": 3.2150124052167373
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      9.036766017603712
+    ],
+    "validation_mae": 9.036766017603712
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      10.423256381372251
+    ],
+    "validation_mae": 10.423256381372251
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      38.200331336818316
+    ],
+    "validation_mae": 38.200331336818316
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      29.694701154930673
+    ],
+    "validation_mae": 29.694701154930673
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      50.572970531921996
+    ],
+    "validation_mae": 50.572970531921996
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      5.989427194284615
+    ],
+    "validation_mae": 5.989427194284615
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      5.139544462294763
+    ],
+    "validation_mae": 5.139544462294763
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      5.435452917406573
+    ],
+    "validation_mae": 5.435452917406573
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      4.981033564945658
+    ],
+    "validation_mae": 4.981033564945658
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      5.476047521532905
+    ],
+    "validation_mae": 5.476047521532905
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      6.623742625888335
+    ],
+    "validation_mae": 6.623742625888335
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      5.446217043655036
+    ],
+    "validation_mae": 5.446217043655036
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      6.623742625888335
+    ],
+    "validation_mae": 6.623742625888335
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      2.1737511727648564,
+      2.03820092478727,
+      2.074857084375351
+    ],
+    "validation_mae": 2.0956030606424925
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      2.4848169172635552,
+      2.559188082398858,
+      2.488279053782942
+    ],
+    "validation_mae": 2.5107613511484517
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      1.982236487011975,
+      1.9058990864180307,
+      1.7233031680589084
+    ],
+    "validation_mae": 1.8704795804963048
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      2.5718639069000955,
+      2.5930397019366014,
+      2.5495161483153126
+    ],
+    "validation_mae": 2.571473252384003
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      5.694618327273879
+    ],
+    "validation_mae": 5.694618327273879
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      3.9924327011496645
+    ],
+    "validation_mae": 3.9924327011496645
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      4.868929237960803
+    ],
+    "validation_mae": 4.868929237960803
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      12.736854365698253
+    ],
+    "validation_mae": 12.736854365698253
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      17.670813792081056
+    ],
+    "validation_mae": 17.670813792081056
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      40.70167277689967
+    ],
+    "validation_mae": 40.70167277689967
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      32.52540723592807
+    ],
+    "validation_mae": 32.52540723592807
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      53.39207107277211
+    ],
+    "validation_mae": 53.39207107277211
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      12.123251627356229
+    ],
+    "validation_mae": 12.123251627356229
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      11.829645924035635
+    ],
+    "validation_mae": 11.829645924035635
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      11.309527462904049
+    ],
+    "validation_mae": 11.309527462904049
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      12.314669236719824
+    ],
+    "validation_mae": 12.314669236719824
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      11.771903738002756
+    ],
+    "validation_mae": 11.771903738002756
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      13.188088173712519
+    ],
+    "validation_mae": 13.188088173712519
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      11.704383250740172
+    ],
+    "validation_mae": 11.704383250740172
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      13.188088173712519
+    ],
+    "validation_mae": 13.188088173712519
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.162819835430483,
+      3.977088330246903,
+      3.800008194255392
+    ],
+    "validation_mae": 3.979972119977593
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.943322306487534,
+      3.8916795113771983,
+      3.830198180358341
+    ],
+    "validation_mae": 3.888399999407691
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.38188368820809,
+      3.812482474907246,
+      3.888784876568101
+    ],
+    "validation_mae": 4.027717013227813
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.7770275281538215,
+      3.6563381220903617,
+      4.013411614867286
+    ],
+    "validation_mae": 3.8155924217038226
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      5.320739209851039
+    ],
+    "validation_mae": 5.320739209851039
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      3.4260023130834174
+    ],
+    "validation_mae": 3.4260023130834174
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      4.011081946640837
+    ],
+    "validation_mae": 4.011081946640837
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      10.11458061651275
+    ],
+    "validation_mae": 10.11458061651275
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      16.105903121610627
+    ],
+    "validation_mae": 16.105903121610627
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      42.85993668953148
+    ],
+    "validation_mae": 42.85993668953148
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      33.37946418547583
+    ],
+    "validation_mae": 33.37946418547583
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      54.38418853895642
+    ],
+    "validation_mae": 54.38418853895642
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      9.115680431660675
+    ],
+    "validation_mae": 9.115680431660675
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      9.343148918994352
+    ],
+    "validation_mae": 9.343148918994352
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.545776438977107
+    ],
+    "validation_mae": 8.545776438977107
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      9.074461193766581
+    ],
+    "validation_mae": 9.074461193766581
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.305394869818427
+    ],
+    "validation_mae": 9.305394869818427
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      10.211657948842422
+    ],
+    "validation_mae": 10.211657948842422
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.377945772449502
+    ],
+    "validation_mae": 9.377945772449502
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      10.211657948842422
+    ],
+    "validation_mae": 10.211657948842422
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.187801191130201,
+      4.578329678541534,
+      3.4331619098270103
+    ],
+    "validation_mae": 4.0664309264995815
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      2.9284621968448796,
+      2.9765702234262763,
+      2.967112598428355
+    ],
+    "validation_mae": 2.957381672899837
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.199412632524556,
+      4.31665853532465,
+      4.397749857522671
+    ],
+    "validation_mae": 4.304607008457292
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.0335496612758366,
+      3.0941578751591186,
+      3.098979498040676
+    ],
+    "validation_mae": 3.0755623448252103
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      7.546635919423383
+    ],
+    "validation_mae": 7.546635919423383
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      7.91972946452059
+    ],
+    "validation_mae": 7.91972946452059
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      7.5949161627769
+    ],
+    "validation_mae": 7.5949161627769
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      14.047879727926249
+    ],
+    "validation_mae": 14.047879727926249
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      13.588016442374265
+    ],
+    "validation_mae": 13.588016442374265
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      36.924385297095725
+    ],
+    "validation_mae": 36.924385297095725
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      32.29627920315162
+    ],
+    "validation_mae": 32.29627920315162
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      53.092717913441014
+    ],
+    "validation_mae": 53.092717913441014
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      13.757813987636629
+    ],
+    "validation_mae": 13.757813987636629
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      14.181404709837018
+    ],
+    "validation_mae": 14.181404709837018
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      13.226614087737781
+    ],
+    "validation_mae": 13.226614087737781
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      14.202273640895564
+    ],
+    "validation_mae": 14.202273640895564
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      13.722505352006696
+    ],
+    "validation_mae": 13.722505352006696
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      14.879150626199742
+    ],
+    "validation_mae": 14.879150626199742
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      13.577827972377793
+    ],
+    "validation_mae": 13.577827972377793
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      14.879150626199742
+    ],
+    "validation_mae": 14.879150626199742
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      7.169820874450223,
+      8.762115305868733,
+      8.84915965708307
+    ],
+    "validation_mae": 8.260365279134009
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      7.536878781844678,
+      7.9322676221490305,
+      7.945896328209486
+    ],
+    "validation_mae": 7.805014244067731
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      7.298956700135336,
+      8.25954569752506,
+      7.3444001610696406
+    ],
+    "validation_mae": 7.634300852910012
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      7.982863132702119,
+      7.909644446477098,
+      7.737268287704362
+    ],
+    "validation_mae": 7.876591955627859
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      5.611505112749471
+    ],
+    "validation_mae": 5.611505112749471
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      3.9743537020871442
+    ],
+    "validation_mae": 3.9743537020871442
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      4.022777978388676
+    ],
+    "validation_mae": 4.022777978388676
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      10.75575453704257
+    ],
+    "validation_mae": 10.75575453704257
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      12.543309473870387
+    ],
+    "validation_mae": 12.543309473870387
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      39.85832996609208
+    ],
+    "validation_mae": 39.85832996609208
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      33.34211785655697
+    ],
+    "validation_mae": 33.34211785655697
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      54.35292096109619
+    ],
+    "validation_mae": 54.35292096109619
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      10.811734192453104
+    ],
+    "validation_mae": 10.811734192453104
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      11.11479889747185
+    ],
+    "validation_mae": 11.11479889747185
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      10.851553097532875
+    ],
+    "validation_mae": 10.851553097532875
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      11.012697407099736
+    ],
+    "validation_mae": 11.012697407099736
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.336607999013733
+    ],
+    "validation_mae": 9.336607999013733
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      9.692218039621526
+    ],
+    "validation_mae": 9.692218039621526
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      9.29504648982688
+    ],
+    "validation_mae": 9.29504648982688
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      9.692218039621526
+    ],
+    "validation_mae": 9.692218039621526
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      5.439561978100503,
+      4.818966189260584,
+      5.2182299680043185
+    ],
+    "validation_mae": 5.158919378455135
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.7822748937021116,
+      3.8241544282381894,
+      3.481081888235599
+    ],
+    "validation_mae": 3.695837070058633
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      5.373514999346185,
+      5.6553205518313785,
+      5.895509649635962
+    ],
+    "validation_mae": 5.641448400271176
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      4.107561625406366,
+      3.9313564263756478,
+      4.1179939102440555
+    ],
+    "validation_mae": 4.052303987342023
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      7.764470609762197
+    ],
+    "validation_mae": 7.764470609762197
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      7.748219905632466
+    ],
+    "validation_mae": 7.748219905632466
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      6.330414638955996
+    ],
+    "validation_mae": 6.330414638955996
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      11.142908234982471
+    ],
+    "validation_mae": 11.142908234982471
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      13.487995221072985
+    ],
+    "validation_mae": 13.487995221072985
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      40.43555737149384
+    ],
+    "validation_mae": 40.43555737149384
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      30.79880249028147
+    ],
+    "validation_mae": 30.79880249028147
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      55.61008815681353
+    ],
+    "validation_mae": 55.61008815681353
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.846998530435272
+    ],
+    "validation_mae": 8.846998530435272
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      9.033456212818313
+    ],
+    "validation_mae": 9.033456212818313
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.322629514824358
+    ],
+    "validation_mae": 8.322629514824358
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      8.74714611763005
+    ],
+    "validation_mae": 8.74714611763005
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      8.913162395479711
+    ],
+    "validation_mae": 8.913162395479711
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      9.748485468355986
+    ],
+    "validation_mae": 9.748485468355986
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      8.920044008311727
+    ],
+    "validation_mae": 8.920044008311727
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      9.748485468355986
+    ],
+    "validation_mae": 9.748485468355986
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      6.860562131195746,
+      6.868736576847988,
+      7.051185071688463
+    ],
+    "validation_mae": 6.926827926577399
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      6.553290495680118,
+      6.842456106316167,
+      6.951863726330061
+    ],
+    "validation_mae": 6.782536776108782
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      6.700786729939813,
+      6.702066923429686,
+      7.392083650771233
+    ],
+    "validation_mae": 6.93164576804691
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      6.858507782615401,
+      6.918487411791506,
+      6.758214631974115
+    ],
+    "validation_mae": 6.845069942127008
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      4.566359534888637
+    ],
+    "validation_mae": 4.566359534888637
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      3.4563349651647317
+    ],
+    "validation_mae": 3.4563349651647317
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      3.2083265683946807
+    ],
+    "validation_mae": 3.2083265683946807
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      8.001946691352277
+    ],
+    "validation_mae": 8.001946691352277
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      11.754716184211706
+    ],
+    "validation_mae": 11.754716184211706
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      42.72235009690578
+    ],
+    "validation_mae": 42.72235009690578
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      31.879789149060784
+    ],
+    "validation_mae": 31.879789149060784
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      56.83554870826656
+    ],
+    "validation_mae": 56.83554870826656
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      6.372241002512112
+    ],
+    "validation_mae": 6.372241002512112
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      7.1365388959711975
+    ],
+    "validation_mae": 7.1365388959711975
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      6.884232840689859
+    ],
+    "validation_mae": 6.884232840689859
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      7.062415987712416
+    ],
+    "validation_mae": 7.062415987712416
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      6.5339714514254785
+    ],
+    "validation_mae": 6.5339714514254785
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      7.227426343478793
+    ],
+    "validation_mae": 7.227426343478793
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      6.5447073753158165
+    ],
+    "validation_mae": 6.5447073753158165
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      7.227426343478793
+    ],
+    "validation_mae": 7.227426343478793
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      3.8443181571841794,
+      4.164951546842683,
+      4.360851497574432
+    ],
+    "validation_mae": 4.123373733867099
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.2136253624816518,
+      3.335912483212818,
+      3.2546657293557804
+    ],
+    "validation_mae": 3.2680678583500833
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      4.170636541673643,
+      4.351306750876516,
+      4.622707040570551
+    ],
+    "validation_mae": 4.381550111040236
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      3.4206908825325835,
+      3.3805549499398504,
+      3.4068903862449407
+    ],
+    "validation_mae": 3.4027120729057914
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.20073562107892515
+    ],
+    "validation_mae": 0.20073562107892515
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.2357960420469912
+    ],
+    "validation_mae": 0.2357960420469912
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.25729785389571547
+    ],
+    "validation_mae": 0.25729785389571547
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.492329706421195
+    ],
+    "validation_mae": 0.492329706421195
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.6741446789152662
+    ],
+    "validation_mae": 0.6741446789152662
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      2.108519807730344
+    ],
+    "validation_mae": 2.108519807730344
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.142325091745634
+    ],
+    "validation_mae": 2.142325091745634
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      6.97003629185623
+    ],
+    "validation_mae": 6.97003629185623
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.5025725626039446
+    ],
+    "validation_mae": 0.5025725626039446
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.4082105124309699
+    ],
+    "validation_mae": 0.4082105124309699
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.36340740118991666
+    ],
+    "validation_mae": 0.36340740118991666
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3623693119739446
+    ],
+    "validation_mae": 0.3623693119739446
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.593615004516322
+    ],
+    "validation_mae": 0.593615004516322
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.5972300171129512
+    ],
+    "validation_mae": 0.5972300171129512
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.4234010416666678
+    ],
+    "validation_mae": 0.4234010416666678
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.48851460552757503
+    ],
+    "validation_mae": 0.48851460552757503
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.10965002733146419,
+      0.19649846922913805,
+      0.15856298766087684
+    ],
+    "validation_mae": 0.15490382807382636
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.2156708144879172,
+      0.21098261233629229,
+      0.2096640489205837
+    ],
+    "validation_mae": 0.21210582524826438
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.13508581880450587,
+      0.13446183805228137,
+      0.1159922940620964
+    ],
+    "validation_mae": 0.12851331697296123
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.21461542475685025,
+      0.2125459341079639,
+      0.21481715807121807
+    ],
+    "validation_mae": 0.2139928389786774
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.20073562107892276
+    ],
+    "validation_mae": 0.20073562107892276
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.23579604204699212
+    ],
+    "validation_mae": 0.23579604204699212
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.25729785389571525
+    ],
+    "validation_mae": 0.25729785389571525
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.4923297064211952
+    ],
+    "validation_mae": 0.4923297064211952
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.6741446789152663
+    ],
+    "validation_mae": 0.6741446789152663
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      2.1085198077303446
+    ],
+    "validation_mae": 2.1085198077303446
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.142325091745634
+    ],
+    "validation_mae": 2.142325091745634
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      6.97003629185623
+    ],
+    "validation_mae": 6.97003629185623
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.5014384150613981
+    ],
+    "validation_mae": 0.5014384150613981
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.4112518668177507
+    ],
+    "validation_mae": 0.4112518668177507
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3544153774626452
+    ],
+    "validation_mae": 0.3544153774626452
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.37565077117737444
+    ],
+    "validation_mae": 0.37565077117737444
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5932994009628969
+    ],
+    "validation_mae": 0.5932994009628969
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.59272854446717
+    ],
+    "validation_mae": 0.59272854446717
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.41849270833333374
+    ],
+    "validation_mae": 0.41849270833333374
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.48733385054471123
+    ],
+    "validation_mae": 0.48733385054471123
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.15434033111783524,
+      0.1309551943834804,
+      0.14652500888353218
+    ],
+    "validation_mae": 0.1439401781282826
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.2125862042395263,
+      0.21599475867560264,
+      0.21491319457331365
+    ],
+    "validation_mae": 0.2144980524961475
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.13160208931935977,
+      0.0865636455224413,
+      0.12809017450786436
+    ],
+    "validation_mae": 0.11541863644988848
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.2163394701714634,
+      0.21345965658519517,
+      0.21462674887360872
+    ],
+    "validation_mae": 0.21480862521008906
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.21359263662011327
+    ],
+    "validation_mae": 0.21359263662011327
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.26379017445198166
+    ],
+    "validation_mae": 0.26379017445198166
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.280726929533208
+    ],
+    "validation_mae": 0.280726929533208
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.4767380322971265
+    ],
+    "validation_mae": 0.4767380322971265
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.7617110066237831
+    ],
+    "validation_mae": 0.7617110066237831
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      2.7836556942885156
+    ],
+    "validation_mae": 2.7836556942885156
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.1381598146054817
+    ],
+    "validation_mae": 2.1381598146054817
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      7.930689939125009
+    ],
+    "validation_mae": 7.930689939125009
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.492004579889022
+    ],
+    "validation_mae": 0.492004579889022
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3838002876918791
+    ],
+    "validation_mae": 0.3838002876918791
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.4070074465562979
+    ],
+    "validation_mae": 0.4070074465562979
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.36278951404713955
+    ],
+    "validation_mae": 0.36278951404713955
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5854066236904417
+    ],
+    "validation_mae": 0.5854066236904417
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.5892566429393764
+    ],
+    "validation_mae": 0.5892566429393764
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.454092708333336
+    ],
+    "validation_mae": 0.454092708333336
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.49266052213122546
+    ],
+    "validation_mae": 0.49266052213122546
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.20077256372773145,
+      0.17878519244413113,
+      0.10971829290860709
+    ],
+    "validation_mae": 0.16309201636015655
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.23385604632898327,
+      0.20973260958180898,
+      0.20816763314165676
+    ],
+    "validation_mae": 0.21725209635081633
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.2304894066697759,
+      0.13723644718938122,
+      0.18102110979474778
+    ],
+    "validation_mae": 0.18291565455130163
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.23001197401343898,
+      0.2290123282564993,
+      0.2295911699201054
+    ],
+    "validation_mae": 0.22953849073001456
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.18422110768667666
+    ],
+    "validation_mae": 0.18422110768667666
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.23360233207335063
+    ],
+    "validation_mae": 0.23360233207335063
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.2626449466332138
+    ],
+    "validation_mae": 0.2626449466332138
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.4586920672295981
+    ],
+    "validation_mae": 0.4586920672295981
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.8289621278493778
+    ],
+    "validation_mae": 0.8289621278493778
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      3.0765844203666006
+    ],
+    "validation_mae": 3.0765844203666006
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.3954954825561736
+    ],
+    "validation_mae": 2.3954954825561736
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      8.239008964911314
+    ],
+    "validation_mae": 8.239008964911314
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.4780288824989041
+    ],
+    "validation_mae": 0.4780288824989041
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3602156589186356
+    ],
+    "validation_mae": 0.3602156589186356
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.34628063464274894
+    ],
+    "validation_mae": 0.34628063464274894
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3356209577506287
+    ],
+    "validation_mae": 0.3356209577506287
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5828448183578201
+    ],
+    "validation_mae": 0.5828448183578201
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.5891647749967751
+    ],
+    "validation_mae": 0.5891647749967751
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.42979583333333604
+    ],
+    "validation_mae": 0.42979583333333604
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.48473566579254235
+    ],
+    "validation_mae": 0.48473566579254235
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.1434318111008789,
+      0.15906694203360722,
+      0.11116830941966857
+    ],
+    "validation_mae": 0.1378890208513849
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.2171555858346673,
+      0.20246977716575376,
+      0.21687186083500243
+    ],
+    "validation_mae": 0.2121657412784745
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.09854824826205313,
+      0.10728452940205273,
+      0.14046254805093317
+    ],
+    "validation_mae": 0.11543177523834634
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.22297947698603837,
+      0.22182691211603373,
+      0.21741790668307392
+    ],
+    "validation_mae": 0.22074143192838203
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.19375739101014072
+    ],
+    "validation_mae": 0.19375739101014072
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.2242383268321947
+    ],
+    "validation_mae": 0.2242383268321947
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.24306376807913624
+    ],
+    "validation_mae": 0.24306376807913624
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.4540564551023849
+    ],
+    "validation_mae": 0.4540564551023849
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.6007280637695023
+    ],
+    "validation_mae": 0.6007280637695023
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      1.8612727234893198
+    ],
+    "validation_mae": 1.8612727234893198
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      1.9249944104500682
+    ],
+    "validation_mae": 1.9249944104500682
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      6.143178335503536
+    ],
+    "validation_mae": 6.143178335503536
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.40433824840520766
+    ],
+    "validation_mae": 0.40433824840520766
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3261648650167861
+    ],
+    "validation_mae": 0.3261648650167861
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.26094206933886377
+    ],
+    "validation_mae": 0.26094206933886377
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.2582945425895256
+    ],
+    "validation_mae": 0.2582945425895256
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5089391872871144
+    ],
+    "validation_mae": 0.5089391872871144
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.51078715795072
+    ],
+    "validation_mae": 0.51078715795072
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.3741229166666681
+    ],
+    "validation_mae": 0.3741229166666681
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.41753195174039115
+    ],
+    "validation_mae": 0.41753195174039115
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.09668844787620186,
+      0.11528007436659049,
+      0.11518298734542469
+    ],
+    "validation_mae": 0.10905050319607235
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.18722899087120226,
+      0.19043284914595215,
+      0.18301500072831922
+    ],
+    "validation_mae": 0.18689228024849122
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.1302932305384633,
+      0.13095280050815145,
+      0.09632306309091788
+    ],
+    "validation_mae": 0.11918969804584421
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.18864169943547032,
+      0.1872937200285627,
+      0.18956416625428368
+    ],
+    "validation_mae": 0.18849986190610557
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.19375739101014883
+    ],
+    "validation_mae": 0.19375739101014883
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.2242383268321942
+    ],
+    "validation_mae": 0.2242383268321942
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.24306376807913652
+    ],
+    "validation_mae": 0.24306376807913652
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.4540564551023851
+    ],
+    "validation_mae": 0.4540564551023851
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.600728063769502
+    ],
+    "validation_mae": 0.600728063769502
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      1.86127272348932
+    ],
+    "validation_mae": 1.86127272348932
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      1.9249944104500685
+    ],
+    "validation_mae": 1.9249944104500685
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      6.143178335503536
+    ],
+    "validation_mae": 6.143178335503536
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.40305852508840506
+    ],
+    "validation_mae": 0.40305852508840506
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3175227199676331
+    ],
+    "validation_mae": 0.3175227199676331
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.26789121692062573
+    ],
+    "validation_mae": 0.26789121692062573
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.2730690316524661
+    ],
+    "validation_mae": 0.2730690316524661
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.500624574735601
+    ],
+    "validation_mae": 0.500624574735601
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.5009200232390576
+    ],
+    "validation_mae": 0.5009200232390576
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.35956458333333463
+    ],
+    "validation_mae": 0.35956458333333463
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.42485506442342585
+    ],
+    "validation_mae": 0.42485506442342585
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.12509066254616408,
+      0.13687256767144534,
+      0.11862786872383939
+    ],
+    "validation_mae": 0.1268636996471496
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.18840012514775378,
+      0.19247865721584925,
+      0.185671644296082
+    ],
+    "validation_mae": 0.18885014221989502
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.11951138949577902,
+      0.11448492284003914,
+      0.09457921843979242
+    ],
+    "validation_mae": 0.10952517692520353
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.1887295896219303,
+      0.1855729244754063,
+      0.1887087642603035
+    ],
+    "validation_mae": 0.18767042611921336
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.8482909367411308
+    ],
+    "validation_mae": 0.8482909367411308
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.6534572849633764
+    ],
+    "validation_mae": 0.6534572849633764
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.3101968738676916
+    ],
+    "validation_mae": 0.3101968738676916
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.48811144584224025
+    ],
+    "validation_mae": 0.48811144584224025
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      1.0022406940275455
+    ],
+    "validation_mae": 1.0022406940275455
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      2.7499034640213007
+    ],
+    "validation_mae": 2.7499034640213007
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.2623144610468895
+    ],
+    "validation_mae": 2.2623144610468895
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      7.071499476956983
+    ],
+    "validation_mae": 7.071499476956983
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.4054155624735256
+    ],
+    "validation_mae": 0.4054155624735256
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.34832315972431505
+    ],
+    "validation_mae": 0.34832315972431505
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.2989842103720616
+    ],
+    "validation_mae": 0.2989842103720616
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.26296419417647604
+    ],
+    "validation_mae": 0.26296419417647604
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5005357436260491
+    ],
+    "validation_mae": 0.5005357436260491
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.5013239740637345
+    ],
+    "validation_mae": 0.5013239740637345
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.3957385416666671
+    ],
+    "validation_mae": 0.3957385416666671
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.4340459141755242
+    ],
+    "validation_mae": 0.4340459141755242
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.21307060222943103,
+      0.1914125705002464,
+      0.6586925308451257
+    ],
+    "validation_mae": 0.354391901191601
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.4306801509105989,
+      0.20855476883775156,
+      0.41327308408138697
+    ],
+    "validation_mae": 0.35083600127657916
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.3084019762697679,
+      0.5926665431951107,
+      0.15301124117772855
+    ],
+    "validation_mae": 0.35135992021420237
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.40508405177957996,
+      0.39196108088853443,
+      0.43303856774554944
+    ],
+    "validation_mae": 0.4100279001378879
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "seed_scores": [
+      0.17419690701282495
+    ],
+    "validation_mae": 0.17419690701282495
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "seed_scores": [
+      0.21989291274115982
+    ],
+    "validation_mae": 0.21989291274115982
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "seed_scores": [
+      0.25253359257008123
+    ],
+    "validation_mae": 0.25253359257008123
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 100
+    },
+    "seed_scores": [
+      0.42801800608916135
+    ],
+    "validation_mae": 0.42801800608916135
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      0.7342248332717749
+    ],
+    "validation_mae": 0.7342248332717749
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      2.8100544647897623
+    ],
+    "validation_mae": 2.8100544647897623
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.01
+    },
+    "seed_scores": [
+      2.1394266769065933
+    ],
+    "validation_mae": 2.1394266769065933
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 10,
+      "gamma": 0.1
+    },
+    "seed_scores": [
+      7.186466528349819
+    ],
+    "validation_mae": 7.186466528349819
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3940666522213272
+    ],
+    "validation_mae": 0.3940666522213272
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.3401837891904781
+    ],
+    "validation_mae": 0.3401837891904781
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.252194708453487
+    ],
+    "validation_mae": 0.252194708453487
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "seed_scores": [
+      0.2818494756217125
+    ],
+    "validation_mae": 0.2818494756217125
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.5068170817475617
+    ],
+    "validation_mae": 0.5068170817475617
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.506375403858118
+    ],
+    "validation_mae": 0.506375403858118
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "seed_scores": [
+      0.3869843749999984
+    ],
+    "validation_mae": 0.3869843749999984
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 3
+    },
+    "seed_scores": [
+      0.42689093789890764
+    ],
+    "validation_mae": 0.42689093789890764
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.10243943624598623,
+      0.1477319912083635,
+      0.08342626899780195
+    ],
+    "validation_mae": 0.11119923215071721
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.1926022893511753,
+      0.18805026607596992,
+      0.18419810374174286
+    ],
+    "validation_mae": 0.18828355305629604
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "seed_scores": [
+      0.07201274229739385,
+      0.1303103140396345,
+      0.11302714971238977
+    ],
+    "validation_mae": 0.10511673534980603
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "seed_scores": [
+      0.19418776771006302,
+      0.1940737639991058,
+      0.1852939806692745
+    ],
+    "validation_mae": 0.1911851707928144
+  }
+]

@@ -12,9 +12,12 @@ A Research Methodology project at RV University combining recorded SiME bottlene
 
 Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Seema B. Hegde.
 
-The IEEE-style course draft has seven pages, 18 cited references and the seven required course sections. Compile `paper/real_and_linkage/main.tex` with its supporting `images/` folder. Author declarations and data-use requirements still need confirmation before submission.
+The IEEE-style course draft has eight pages, 18 cited references and the seven required course sections. Compile `paper/real_and_linkage/main.tex` with its supporting `images/` folder. Author declarations and data-use requirements still need confirmation before submission.
 
 ## Findings
+
+The [five-family exploratory follow-up](output/model_followup_v1/report.md) compares ridge, RBF kernel ridge, boosting, random forest and a small MLP. All five retain the empirical H-to-M benefit; ridge remains lowest on real-data evaluation. MLP is strongest for synthetic mobility-only forecasts, but correct-link benefits are small and condition-dependent. Three MLP seeds and all family results are retained.
+
 
 - **Recorded SiME data:** supplied wheelchair information reduced primary one-second-history MAE from **4.278 s to 2.591 s** across eleven selected trials. Seven wheelchair users repeat across configurations; this is exploratory configuration transfer within a shared population.
 - **Label quality:** artificial label flips sharply worsened predictions. Supplied labels are not a tested recognition system. [Report](output/label_sensitivity_v1/report.md)
@@ -54,6 +57,7 @@ python research/audit_empirical_comparison.py
 python research/audit_label_sensitivity.py
 python research/audit_composition_check.py
 python research/assistance/audit_linkage.py
+python research/audit_model_followup.py
 ```
 
 These audits read saved inputs/predictions and rewrite derived metric/audit files. They do not retrain models. Aggregate empirical inputs support saved-output reconstruction; rebuilding features requires obtaining the original SiME release and configuring local source paths. Some extraction scripts refer to the original local backup, which is intentionally not distributed.

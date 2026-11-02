@@ -1,0 +1,930 @@
+[
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 4.145613875395783
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 12.617430797294613
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 7.640461741916551
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 9.16033470397457
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 4.417307337479875
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 2.1966256271108198
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 10.423256381372251
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 4.981033564945658
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 5.446217043655036
+  },
+  {
+    "study": "empirical",
+    "group": "0.9",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 1.8704795804963048
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "validation_mae": 3.9924327011496645
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 17.670813792081056
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 11.309527462904049
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 11.704383250740172
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 3.8155924217038226
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "validation_mae": 3.4260023130834174
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 16.105903121610627
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 8.545776438977107
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 9.305394869818427
+  },
+  {
+    "study": "empirical",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 2.957381672899837
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 7.546635919423383
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 13.588016442374265
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 13.226614087737781
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 13.577827972377793
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 7.634300852910012
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 1
+    },
+    "validation_mae": 3.9743537020871442
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 12.543309473870387
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 10.811734192453104
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 9.29504648982688
+  },
+  {
+    "study": "empirical",
+    "group": "1.1",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 3.695837070058633
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "validation_mae": 6.330414638955996
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 13.487995221072985
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 8.322629514824358
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 8.913162395479711
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "H",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 6.782536776108782
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "validation_mae": 3.2083265683946807
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 11.754716184211706
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 6.372241002512112
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 6.5339714514254785
+  },
+  {
+    "study": "empirical",
+    "group": "1.2",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 3.2680678583500833
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.20073562107892515
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.6741446789152662
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.3623693119739446
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.4234010416666678
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.12851331697296123
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.20073562107892276
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.6741446789152663
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.3544153774626452
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.41849270833333374
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.11541863644988848
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.21359263662011327
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.7617110066237831
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.36278951404713955
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.454092708333336
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.16309201636015655
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.18422110768667666
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.8289621278493778
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.3356209577506287
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.42979583333333604
+  },
+  {
+    "study": "synthetic",
+    "group": "1.0",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.11543177523834634
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.19375739101014072
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.6007280637695023
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.2582945425895256
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.3741229166666681
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "M",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.10905050319607235
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.19375739101014883
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.600728063769502
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.26789121692062573
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.35956458333333463
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_counts",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.10952517692520353
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 10
+    },
+    "validation_mae": 0.3101968738676916
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 1.0022406940275455
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.26296419417647604
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.3957385416666671
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_correct",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        8
+      ],
+      "alpha": 1.0
+    },
+    "validation_mae": 0.35083600127657916
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "ridge",
+    "candidate": {
+      "alpha": 0.1
+    },
+    "validation_mae": 0.17419690701282495
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "rbf",
+    "candidate": {
+      "alpha": 1,
+      "gamma": 0.01
+    },
+    "validation_mae": 0.7342248332717749
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "boosting",
+    "candidate": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    "validation_mae": 0.252194708453487
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "forest",
+    "candidate": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "validation_mae": 0.3869843749999984
+  },
+  {
+    "study": "synthetic",
+    "group": "1.15",
+    "variant": "F_shuffled",
+    "family": "mlp",
+    "candidate": {
+      "hidden_layer_sizes": [
+        16
+      ],
+      "alpha": 0.01
+    },
+    "validation_mae": 0.10511673534980603
+  }
+]

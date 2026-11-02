@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-02",
+  "exploratory": true,
+  "prior_evaluation_outcomes_exposed": true,
+  "grid": {
+    "ridge": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1
+      },
+      {
+        "alpha": 10
+      },
+      {
+        "alpha": 100
+      }
+    ],
+    "rbf": [
+      {
+        "alpha": 1,
+        "gamma": 0.01
+      },
+      {
+        "alpha": 1,
+        "gamma": 0.1
+      },
+      {
+        "alpha": 10,
+        "gamma": 0.01
+      },
+      {
+        "alpha": 10,
+        "gamma": 0.1
+      }
+    ],
+    "boosting": [
+      {
+        "learning_rate": 0.03,
+        "max_depth": 2,
+        "n_estimators": 100
+      },
+      {
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "n_estimators": 100
+      },
+      {
+        "learning_rate": 0.1,
+        "max_depth": 2,
+        "n_estimators": 100
+      },
+      {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 100
+      }
+    ],
+    "forest": [
+      {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "min_samples_leaf": 1
+      },
+      {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "min_samples_leaf": 3
+      },
+      {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      },
+      {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3
+      }
+    ],
+    "mlp": [
+      {
+        "hidden_layer_sizes": [
+          8
+        ],
+        "alpha": 0.01
+      },
+      {
+        "hidden_layer_sizes": [
+          8
+        ],
+        "alpha": 1.0
+      },
+      {
+        "hidden_layer_sizes": [
+          16
+        ],
+        "alpha": 0.01
+      },
+      {
+        "hidden_layer_sizes": [
+          16
+        ],
+        "alpha": 1.0
+      }
+    ]
+  },
+  "mlp_seeds": [
+    113,
+    271,
+    509
+  ],
+  "other_seed": 113,
+  "metric": "equal-trial/run MAE; MLP mean of seed-wise errors, not ensemble errors",
+  "empirical": "primary 1 s only; original nested leave-width-out folds",
+  "synthetic": "both coordinated gain strata; original train/validation/evaluation blocks; no refit",
+  "selection": "four candidates per family, deterministic first tie; MLP mean inner/validation MAE across all three seeds",
+  "mlp": "one hidden layer, lbfgs, max_iter 2000, max_fun 50000; train-only input and target scaling",
+  "warning_policy": "record all convergence warnings; retain predictions; no retry or grid change",
+  "original_headlines_unchanged": true,
+  "runner_sha256": "5f75b5881737efa97e2bb08b4ef1e5b3ccadaf465b3d59e70a3860b5be93acb9",
+  "sklearn": "1.7.2",
+  "source_hashes": {
+    "research/data/forecast_bundle/features.csv": "c76870e63fd62e958bba2bdc9a15c6738469bafe3ded9ff471926c8db5311d3a",
+    "research/data/forecast_bundle/manifest.json": "5fa96b61db8d795b1366aba92698ab0f1c4a5c2c9bf1a38ecda9c8e4f2140a6d",
+    "output/linkage_benchmark_v1/features.csv": "e1e55504789bda0309a7094021229a4a7c0af4eb2fdae05ba9dfa90c5e5940de",
+    "research/assistance/linkage_features.py": "8c12341695f0c2185227d8471bda94b94cf955b8e83d865f6832d8ba814ee035"
+  }
+}

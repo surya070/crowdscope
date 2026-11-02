@@ -1,6 +1,8 @@
-# Active study update — 2 November 2026
+The 3 November update adds a five-family exploratory follow-up and private repository link. Saved predictions and independent metric reconstruction accompany the revised eight-page source.
 
-The current manuscript is `paper/real_and_linkage/main.tex`: seven pages and 18 references. The current root README and requirements describe this revised empirical-plus-escort study. Existing compound-study files remain historical; their prior environment is preserved in Git history. Raw human trajectories, participant mappings and local backups are excluded.
+# Active study update â€” 2 November 2026
+
+The current manuscript is `paper/real_and_linkage/main.tex`: eight pages and 18 references. The current root README and requirements describe this revised empirical-plus-escort study. Existing compound-study files remain historical; their prior environment is preserved in Git history. Raw human trajectories, participant mappings and local backups are excluded.
 
 ## Historical package notes
 

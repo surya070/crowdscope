@@ -1,0 +1,10 @@
+{
+  "predictions": 1806,
+  "metric_groups": 50,
+  "unique_keys": true,
+  "targets_and_evaluation_membership": true,
+  "input_and_runner_hashes_match": true,
+  "original_empirical_ridge_max_difference": 0.0,
+  "convergence_warnings": 0,
+  "predictions_sha256": "b1617dc8778d9e1d94fad98f7463cb4329e6570aceb80585d4fea9c5fb47b400"
+}
