@@ -64,6 +64,16 @@ These audits read saved inputs/predictions and rewrite derived metric/audit file
 
 The synthetic study includes 192 main runs and 48 finer replays from 48 matched blocks. Frozen generation/fitting commands deliberately reject existing admission/prediction outputs. Use a separate experimental copy for extensions and preserve the recorded protocol; do not delete a freeze to retune on reported evaluation data.
 
+## Interactive assistance demo
+
+Open the [side-by-side movement demo](output/assistance_live_demo/README.md) locally:
+
+```bash
+python research/assistance/launch_demo.py
+```
+
+The saved app needs only Python's standard library, or open `output/assistance_live_demo/replay.html` directly in a browser. Choose doorways, mixed queue or turn; compare coordination against independent movement with pause, speed, link and timeline controls. Blue circles are clients and orange circles are helpers. To rerun the eight JuPedSim movement cases, install the root requirements and add `--regenerate`. These are simulation replays, not ML forecasts or validated physical wheelchair pushing. GitHub displays the HTML source; clone/download the private repository to run it.
+
 ## Data and access
 
 SiME source: [Influence of individual characteristics](https://doi.org/10.34735/ped.2017.1). Credit remains with its investigators. Raw human trajectories and participant mappings are not mirrored. Backups, dependencies, temporary files and stale PDF exports are excluded from this update. No redistribution licence or new ethics exemption is inferred.
