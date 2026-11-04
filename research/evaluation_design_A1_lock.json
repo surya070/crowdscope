@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-04",
+  "execution_released": false,
+  "files": {
+    "research/evaluation_design_A1.md": "10782bae1ee380d05a290462d003b7f5bb7520735f998c4b6b2f204cdfdb2132",
+    "configs/evaluation_A1.json": "430481a48ba3c900139ca923446459201018aaa8a0181be4ee57be7d61b829ce",
+    "research/evaluation_manifest_A1.csv": "df473296bb0003ceb0f762aa2c5a129a1c63d461577290350216adfbfc1d9237",
+    "research/scope_amendment_A1.md": "8d70ee3186e2e123de8a8ab607c9053fda185e3f1070ea941f3a9e08522fabd3"
+  }
+}

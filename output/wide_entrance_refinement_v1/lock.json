@@ -1,0 +1,10 @@
+{
+  "purpose": "development extension after narrow fine-step failure; not independent confirmation",
+  "width": 1.2,
+  "dt": 0.0025,
+  "jitter_variants": [
+    false,
+    true
+  ],
+  "code_sha256": "bb0e5778e1634cf3f24c593b1b99c1ae2a50383895222e0879c4c417743bb654"
+}

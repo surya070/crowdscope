@@ -1,0 +1,44 @@
+[
+  {
+    "case": "room_w1.2_jitterFalse",
+    "routing": "waypoint",
+    "strength": 2.6,
+    "dt": 0.0025,
+    "exited": 80,
+    "clearance_s": 85.065,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 3.552713678800501e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      45,
+      30,
+      4
+    ],
+    "coarse_fine_spread_s": 1.9849999999999994,
+    "stable": false
+  },
+  {
+    "case": "room_w1.2_jitterTrue",
+    "routing": "waypoint",
+    "strength": 2.6,
+    "dt": 0.0025,
+    "exited": 80,
+    "clearance_s": 80.9375,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 3.552713678800501e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      29,
+      4
+    ],
+    "coarse_fine_spread_s": 4.137500000000003,
+    "stable": false
+  }
+]

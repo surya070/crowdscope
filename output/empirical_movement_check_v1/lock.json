@@ -1,0 +1,15 @@
+{
+  "purpose": "exposed-data descriptive diagnostics; no calibration or validation claim",
+  "planes_m": [
+    0,
+    2.4
+  ],
+  "crossing": "first forward head-centre crossing interpolated between adjacent frames",
+  "approach_band_x_m": [
+    -3,
+    -1
+  ],
+  "speed": "duration weighted adjacent-frame segment speed, midpoint in x band; no y filter",
+  "fps": 25,
+  "code_sha256": "075f9ae8d17f4cd4cf6526caf1b7c34d3234e7dca01e0ccc24c8243c8c1ac1be"
+}

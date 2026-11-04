@@ -1,0 +1,61 @@
+{
+  "policies": [
+    {
+      "policy": "hard_observed",
+      "mean_unmet": 2.975,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "hard_posterior",
+      "mean_unmet": 3.05,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "homogeneous",
+      "mean_unmet": 3.05,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "known_class",
+      "mean_unmet": 2.6,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "mean_demand",
+      "mean_unmet": 2.975,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "perfect_demand_reference",
+      "mean_unmet": 1.55,
+      "scenario_replicas": 40
+    },
+    {
+      "policy": "probabilistic",
+      "mean_unmet": 2.975,
+      "scenario_replicas": 40
+    }
+  ],
+  "block_effects": [
+    {
+      "block": 410000,
+      "prob_minus_hard_posterior": 0.20000000000000018,
+      "prob_minus_hard_observed": 0.0
+    },
+    {
+      "block": 410001,
+      "prob_minus_hard_posterior": -1.3000000000000003,
+      "prob_minus_hard_observed": 0.0
+    },
+    {
+      "block": 410002,
+      "prob_minus_hard_posterior": 0.19999999999999973,
+      "prob_minus_hard_observed": 0.0
+    },
+    {
+      "block": 410003,
+      "prob_minus_hard_posterior": 0.5999999999999996,
+      "prob_minus_hard_observed": 0.0
+    }
+  ]
+}

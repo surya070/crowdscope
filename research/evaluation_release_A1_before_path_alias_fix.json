@@ -1,0 +1,23 @@
+{
+  "client_date": "2026-11-04",
+  "recorded_at_utc": "2026-11-04T11:19:59.843403+00:00",
+  "approved_for_execution": true,
+  "authorised_scope": "User requested continuing the frozen final evaluation under accepted amendment A1",
+  "status_at_release": "No final scenario generated or outcome inspected",
+  "gate_evidence": [
+    "research/validation_A1_report.md",
+    "research/literature/closest_method_comparison_A1.md",
+    "research/recorded_occupancy_report.md"
+  ],
+  "limits": "Synthetic benchmark of established methods; no real demographic or staffing validation; all outcomes retained",
+  "hashes": {
+    "research/run_planning_manifest.py": "d5f9cb3932d4452a83459cac85c86a975a98378d959941e2609451278c49fb87",
+    "src/resource_planning.py": "effb05fcd9b399780671abdbc561be8a0db2a024d312bcb4289ecbddc3dcbfde",
+    "src/mobility_probability.py": "91b89dbd4555a1f2363b73e9cefb60d8f27a23d442fe9b75c9487db680d81dca",
+    "configs/evaluation_A1.json": "430481a48ba3c900139ca923446459201018aaa8a0181be4ee57be7d61b829ce",
+    "research/evaluation_manifest_A1.csv": "df473296bb0003ceb0f762aa2c5a129a1c63d461577290350216adfbfc1d9237",
+    "research/analyse_evaluation_A1.py": "842018e445690eda517970ee601db23972e3d05a49faded2312f49689581938e",
+    "research/evaluation_design_A1.md": "10782bae1ee380d05a290462d003b7f5bb7520735f998c4b6b2f204cdfdb2132",
+    "research/evaluation_design_A1_lock.json": "8a3fe1175072aeab31a22cd235720e02120d67199e697e21b1d8ffbd31ae2a55"
+  }
+}

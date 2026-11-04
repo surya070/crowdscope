@@ -1,37 +1,28 @@
-# Stage 1 search log
+# Focused search log — 4 November 2026
 
-Date: 2 November 2026 (Asia/Calcutta). Method: bounded exploratory web search, with primary publisher/repository pages inspected. No authenticated Scopus/Web of Science search or database export was performed. This is not a completed systematic review or a PRISMA flow count.
+Purpose: Stage 1 of the new probabilistic crowd-analysis plan. This is a scoped discovery search, not an exhaustive systematic review or an authenticated Scopus/Web of Science search. No date/language filters were applied. Source: web search plus primary publisher, institutional and author-repository pages. Search ranking is not a reproducible database export; no PRISMA record totals are claimed.
 
-Exact queries, in order (no date/language filters):
+Exact queries, executed in order:
 
-1. evacuation remaining time prediction heterogeneous crowd wheelchair machine learning
-2. crowd evacuation time prediction social groups mobility machine learning
-3. wheelchair trajectory classification pedestrian mobility evacuation prediction
-4. "evacuation time prediction" "mobility"
-5. "remaining evacuation time" prediction wheelchair
-6. wheelchair recognition trajectory movement classification pedestrian dataset
-7. "evacuation time" prediction "social" "features"
-8. "evacuation time prediction" machine learning wheelchair heterogeneous review
-9. "remaining evacuation time" neural network prediction -site:sciencedirect.com
+1. `crowd trajectory disability wheelchair classification probabilistic resource allocation evacuation mobility uncertainty`
+2. `SiME pedestrian bottleneck wheelchair dataset 2017 Geoerg`
+3. `Bayesian crowd evacuation resource allocation uncertainty mobility impairment`
+4. `site.ped.fz-juelich.de SiME 2017 wheelchair dataset`
+5. `trajectory wheelchair pedestrian classification movement machine learning disability`
+6. `site.arxiv.org 2010.03922 rescue guides CVaR`
 
-Selection: retain primary studies directly addressing clearance/remaining-time prediction, disability-aware movement, empirical social-group effects or mobility-aid inference. Retain closely related datasets as feasibility evidence. Exclude unrelated navigation/obstacle detection, regional traffic forecasting, aggregators and general model catalogues from the study matrix. Software documentation is background rather than an empirical study.
+Eligibility: direct crowd heterogeneity evidence, mobility recognition with relevant inputs, uncertainty-aware crowd models or allocation, and datasets useful for evaluating those components. Exclude unrelated accessibility/surface recognition from the core comparison; retain modality-mismatched recognition as context only. Deduplicate by DOI/arXiv identifier. The screening file is a selected candidate register, not every search hit.
 
-Deduplication for this working register: normalized title/DOI; repeated publisher/PMC versions treated as one record. The CSVs contain selected records, not every search-engine hit. No exhaustive retrieval count is claimed.
+Recovered eleven previous literature/data documents into `research/prior_evidence/`, with SHA-256 checks against the reset manifest. See `research/recovery_log.json`. Their findings are historical, not freshly reproduced. In particular, the recovered initial data audit predates the later eleven-trial analysis and must not be treated as the final inventory.
 
-Access: direct opens of three Elsevier articles returned HTTP 403; their publisher-indexed previews were available in search. Nature HAR direct access failed via login redirect; institutional repository and author code provide leads. These records remain at abstract/preview level. Full-text methodological absence must not be inferred from a preview.
+Access results:
 
-Temporal caution: the FCRR-Net record has a January 2027 issue date, beyond today's date, but a publisher preview is indexed now. Verify online-first date/version before citing it as published by the search cutoff. Search-engine relative publication ages are not authoritative.
+- Lin et al.: arXiv abstract and 15-page PDF retrieved; key preprocessing/label-creation methods inspected, not a complete independent replication.
+- Rescue-guide optimisation: author abstract inspected; full methods extraction pending.
+- Bayesian calibration: publisher abstract inspected; direct DOI follow-up returned 403.
+- HAR-PMD: PMC full text accessible; relevant modality/data-description sections inspected. The article is dated 3 January 2026 despite its DOI containing 2025.
+- Inclusive heterogeneous evacuation: primary article excerpts inspected; detailed validation audit remains pending.
+- SiME 2022: Nature retrieval failed; PMC returned a browser check. Previously inspected methods remain in the recovered ledger, explicitly historical.
+- SiME data DOI and attempted archive path unavailable through this retrieval. Current terms/access remain unresolved.
 
-Remaining work: retrieve closest full texts through legal institutional/open repositories, extract their actual splits/features/ablations, inspect their references and forward citations, then rerun targeted searches. Do not label the novelty gate passed before this work.
-
-## Follow-up searches
-
-Exact queries: "113346" "evacuation" Cao Zhang; "A deep spatiotemporal learning framework" evacuation pdf; "Real-time prediction of tunnel evacuation time" Uhlík pdf; "Application of the social force modelling method" disabilities pdf; "Real-time RSET prediction across three types" full text; "evacuation" "mobility labels" prediction; "evacuation time" "ablation" "heterogeneous"; "clearance time" prediction "wheelchair" machine learning; "Evacuation time estimation model in large buildings based on individual characteristics"; "FCRR-Net" evacuation github dataset.
-
-Four subsequent URL-restricted feature/age/ablation queries returned off-topic results and were excluded: site:mdpi.com/2571-6255/5/6/204 "features"; same URL with "age"; site:sciencedirect.com/science/article/abs/pii/S0951832026011555 "structural" "ablation"; site:sciencedirect.com/science/article/pii/S0957417426018105 "dataset" "input".
-
-Backward citation tracing from the accessible FEMTC paper identified Deng 2022 and Uhlík 2024. No complete citation graph or forward-citation census was constructed. Register now contains 15 selected sources.
-
-## Focused methods check
-
-2 November 2026: exact queries included: "Evacuation Time Estimation Model" "individual" "speed" Deng 2022; "FCRR-Net" "structural" evacuation; "Real-time RSET prediction across three types" "features"; "FCRR-Net" "features" "split"; "EvacuNet" "evacuation" "split"; "Real-time RSET prediction across three types" "cross-validation"; "S266616592400142X" "3.5"; "EvacuNet" "132898" features; "FCRR-Net" wheelchair mobility age; "fire5060204" "Table 2". Off-topic hits discarded. DOI resolution supplied the correct DIBE PII. Direct publisher XML and article endpoints remained blocked. SiME Methods lines 225–286 and Table 1 inspected. See focused_method_check.md for access-qualified conclusions.
+Next searches: citation tracing from the closest recognition and allocation studies; targeted combinations of probability calibration, crowd composition, decision regret and mobility; primary full-text retrieval of the closest optimisers. No claim of absence of matching prior work is justified yet.

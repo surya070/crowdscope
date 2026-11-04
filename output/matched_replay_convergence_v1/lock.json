@@ -1,0 +1,35 @@
+{
+  "purpose": "one additional predeclared development refinement after both trials complete at0.0025; no retuning",
+  "trials": [
+    "1501",
+    "1507"
+  ],
+  "exposure": "previous calibration trials, fully exposed",
+  "params": {
+    "speed": 1.6,
+    "radius": 0.18,
+    "time_gap": 1.0
+  },
+  "inherited_selection": "archived output/sime_replay_v2/selected_freeze.json candidate13",
+  "dt": [
+    0.00125
+  ],
+  "inlet_x": -6,
+  "measurement_x": 2.4,
+  "conditional_future_arrivals": true,
+  "spatial_tolerance_m": {
+    "overlap": 0.001,
+    "wall": 0.005
+  },
+  "checks": "every step; saved positions every0.1s",
+  "comparison": "individual head-crossing MAE and same-arrivals free-flight; passage and headways descriptive",
+  "selection": "none; retain failures; no additional parameter candidates",
+  "hashes": {
+    "research/check_matched_convergence.py": "bc09ff13d63924d1daccdfbb0cb856ea03f8dff551bb0495fe1c9bba6f026552",
+    "research/matched_replay_engine.py": "63b22ac4acaca59d91ae7a9ca2f4d25b49bc10b4262e35802fd17cbf1b140b11"
+  },
+  "inputs": {
+    "1501": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661",
+    "1507": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+  }
+}

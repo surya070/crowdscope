@@ -1,0 +1,77 @@
+[
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1301.txt",
+    "sha256": "1473a08627d571bfceb68df65b11b605c80ac99aca84f0356ec985fa2192928c"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1307.txt",
+    "sha256": "b6433282de4bcbcc82f69ac32137bf0698132d7333db1163ba05f4e65e44de54"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1501.txt",
+    "sha256": "eafceb223e1afe51df0d067b8b2b5bffea34092e213daed2aa5fd0c25aea3661"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1503.txt",
+    "sha256": "825be95760ebba137ec179fbd0ffde16b1b6a166f3010352743c6807acd0739c"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1505.txt",
+    "sha256": "5a956269ed95fc777c3581c78a6dc9ec03cc5f14297de4d1786c1013d5e23cc1"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/1507.txt",
+    "sha256": "9d66ddf597446351fc5fb7e314cb301d429eaf4b19649e5326733daa20bfd9cb"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/501.txt",
+    "sha256": "f2e2d973594303d56fcdc5c4bb71b14a1e213f9fdbdeada0dff82a5869ad8128"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "data/raw/sime2017/members/507.txt",
+    "sha256": "3635ea05ca192b99a15b27fe0f647163742f503d0b4775ff722999670fb63cda"
+  },
+  {
+    "archive": "project_before_research_reset_20261102_113200.zip",
+    "member": "research/data_search_20261030/sime_metadata_prefix.txt",
+    "sha256": "823872e63a3dfa227081efa48ea7434e5febfd0cae38de5abbf5af12eb6ad16f"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/502.txt",
+    "sha256": "a6448968c45043cfa0b5d287f2dc1ba22c191ebbcf15be9a3d05cc83494f6e8c"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/503.txt",
+    "sha256": "30d01aea82ff4d4031df3cc04be15a447288ee310fd82f8cccb29cc45db11380"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/504.txt",
+    "sha256": "9a65ad0b2a2214812b4e3150e6988d7538c06858fd038f9afeb856718f79de6d"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/505.txt",
+    "sha256": "b408b109811a2728807f4691d592e12c94c0e673cc68963e95c2c383f0567b31"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/506.txt",
+    "sha256": "4ae98badb2c54ffb488f06d781b1087544f855f86396d50223f335d87f89b823"
+  },
+  {
+    "archive": "project_before_probabilistic_reset_20261103_224341.zip",
+    "member": "data/raw/sime2017/members/508.txt",
+    "sha256": "722ee9eb09549c050e379e5b6d617bde0a9bcff84437cc71b9b767a518c6fe06"
+  }
+]

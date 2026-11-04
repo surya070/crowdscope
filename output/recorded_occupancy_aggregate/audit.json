@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checkpoints": 42,
+  "integrated": 42,
+  "empirical_demographic_recognition": false,
+  "empirical_demand_validation": false
+}

@@ -1,0 +1,1547 @@
+{
+  "source": "hand-authored measurement fixture; not JuPedSim or empirical evidence",
+  "zones": [
+    {
+      "id": 0,
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 2,
+      "ymax": 2
+    },
+    {
+      "id": 1,
+      "xmin": 2,
+      "ymin": 0,
+      "xmax": 4,
+      "ymax": 2
+    },
+    {
+      "id": 2,
+      "xmin": 0,
+      "ymin": 2,
+      "xmax": 2,
+      "ymax": 4
+    },
+    {
+      "id": 3,
+      "xmin": 2,
+      "ymin": 2,
+      "xmax": 4,
+      "ymax": 4
+    }
+  ],
+  "frames": [
+    {
+      "time_s": 0.0,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 0.5,
+          "y": 1.0,
+          "mean_speed_m_s": null,
+          "stopped_time_fraction": null,
+          "history_coverage": 0.0,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": null,
+          "stopped_time_fraction": null,
+          "history_coverage": 0.0,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 1
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 1
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.1,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 0.6,
+          "y": 1.0,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.1,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.1,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.2,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 0.7,
+          "y": 1.0,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.2,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.2,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.3,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 0.8,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.3,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.3,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.4,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 0.9,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.4,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.4,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.5,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.0,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.5,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.5,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.6,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.1,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.6,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.6,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.7,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.2,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.7,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.7,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.8,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.3,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.8,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.8,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 0.9,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.4,
+          "y": 1.0,
+          "mean_speed_m_s": 0.9999999999999999,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.9999999999999999,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.0,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.5,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.1,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.6,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9000000000000001,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9000000000000001,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.2,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.7,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.3,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.8,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.4,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 1.9,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9999999999999999,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9999999999999999,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 0,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.5,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 0,
+          "x": 2.0,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.6,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 1,
+          "x": 2.1,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9000000000000001,
+          "complete_history": false
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9000000000000001,
+          "complete_history": false
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.7,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 1,
+          "x": 2.2,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.8,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 1,
+          "x": 2.3,
+          "y": 1.0,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.9999999999999998,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 1.9,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 1,
+          "x": 2.4,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 0.9999999999999999,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 0.9999999999999999,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0000000000000002,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    },
+    {
+      "time_s": 2.0,
+      "history_s": 1,
+      "occupants": [
+        {
+          "person_id": "a",
+          "zone": 1,
+          "x": 2.5,
+          "y": 1.0,
+          "mean_speed_m_s": 1.0,
+          "stopped_time_fraction": 0.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        },
+        {
+          "person_id": "b",
+          "zone": 3,
+          "x": 3.0,
+          "y": 3.0,
+          "mean_speed_m_s": 0.0,
+          "stopped_time_fraction": 1.0,
+          "history_coverage": 1.0,
+          "complete_history": true
+        }
+      ],
+      "zones": [
+        {
+          "zone": 0,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 1,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 1.0,
+          "stopped_fraction": 0.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 2,
+          "area_m2": 4,
+          "count": 0,
+          "density_people_m2": 0.0,
+          "mean_speed_m_s": null,
+          "stopped_fraction": null,
+          "motion_observed_count": 0,
+          "missing_motion_count": 0
+        },
+        {
+          "zone": 3,
+          "area_m2": 4,
+          "count": 1,
+          "density_people_m2": 0.25,
+          "mean_speed_m_s": 0.0,
+          "stopped_fraction": 1.0,
+          "motion_observed_count": 1,
+          "missing_motion_count": 0
+        }
+      ],
+      "forward_crossing_events": 1,
+      "reverse_crossing_events": 0,
+      "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+      "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+    }
+  ]
+}

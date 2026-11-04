@@ -1,0 +1,1000 @@
+{
+  "state": {
+    "time_s": 10,
+    "history_s": 2,
+    "occupants": [
+      {
+        "person_id": "1",
+        "zone": 1,
+        "x": -5.480090294335496,
+        "y": -2.2442027131155844,
+        "mean_speed_m_s": 0.7554207538055941,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "10",
+        "zone": 1,
+        "x": -4.9483196249929104,
+        "y": -1.5815968873142847,
+        "mean_speed_m_s": 0.6346594751686399,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "11",
+        "zone": 1,
+        "x": -5.1070244904371656,
+        "y": -0.9089149835316237,
+        "mean_speed_m_s": 0.5928948523093346,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "12",
+        "zone": 1,
+        "x": -4.2263999749339884,
+        "y": -0.28718235391522073,
+        "mean_speed_m_s": 0.8224580014668079,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "13",
+        "zone": 1,
+        "x": -4.059536094741061,
+        "y": 0.3317292616444853,
+        "mean_speed_m_s": 0.82148578305524,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "14",
+        "zone": 1,
+        "x": -4.427691016467241,
+        "y": 0.8909657322770077,
+        "mean_speed_m_s": 0.6788302979652472,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "15",
+        "zone": 1,
+        "x": -4.5271620893937365,
+        "y": 1.5545046975876522,
+        "mean_speed_m_s": 0.6528680490626318,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "16",
+        "zone": 1,
+        "x": -4.436753982933146,
+        "y": 2.261898369742611,
+        "mean_speed_m_s": 0.7842614469078324,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "17",
+        "zone": 1,
+        "x": -3.2294129016570143,
+        "y": -2.1703292558837277,
+        "mean_speed_m_s": 0.8702383678080018,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "18",
+        "zone": 1,
+        "x": -3.9932989126895895,
+        "y": -1.573882458526899,
+        "mean_speed_m_s": 0.6442374447757353,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "19",
+        "zone": 1,
+        "x": -4.188930090063333,
+        "y": -0.930748008549238,
+        "mean_speed_m_s": 0.6005653184513781,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "2",
+        "zone": 1,
+        "x": -5.896347126757899,
+        "y": -1.5592117449116325,
+        "mean_speed_m_s": 0.6151510432578472,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "20",
+        "zone": 1,
+        "x": -3.1832494685452293,
+        "y": -0.27925085819398127,
+        "mean_speed_m_s": 0.7967695625505332,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "21",
+        "zone": 1,
+        "x": -2.977605849370301,
+        "y": 0.32189778373721467,
+        "mean_speed_m_s": 0.8203692205358425,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "22",
+        "zone": 1,
+        "x": -3.502136819269641,
+        "y": 0.8506242628572135,
+        "mean_speed_m_s": 0.6259833023697324,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "23",
+        "zone": 1,
+        "x": -3.2348402010093977,
+        "y": 1.4975739045936356,
+        "mean_speed_m_s": 0.732376245247108,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "24",
+        "zone": 1,
+        "x": -3.3518079867103343,
+        "y": 2.1987247655581243,
+        "mean_speed_m_s": 0.8094153566598604,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "25",
+        "zone": 1,
+        "x": -2.0603325136824315,
+        "y": -2.1499754178310986,
+        "mean_speed_m_s": 0.9104829644555967,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "26",
+        "zone": 1,
+        "x": -3.0341369468459187,
+        "y": -1.5287162839294375,
+        "mean_speed_m_s": 0.6483896234960289,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "27",
+        "zone": 1,
+        "x": -3.2703608304256147,
+        "y": -0.9184985095152899,
+        "mean_speed_m_s": 0.5995437187566451,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "28",
+        "zone": 1,
+        "x": -2.2205267232810884,
+        "y": -0.27703079244847306,
+        "mean_speed_m_s": 0.704795661122003,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "29",
+        "zone": 1,
+        "x": -1.9223676965988459,
+        "y": 0.28659462719029183,
+        "mean_speed_m_s": 0.789448546871252,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "3",
+        "zone": 0,
+        "x": -6.063082598698943,
+        "y": -0.812228749962405,
+        "mean_speed_m_s": 0.5570781760433446,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "30",
+        "zone": 1,
+        "x": -2.6112430293189006,
+        "y": 0.8369139213616418,
+        "mean_speed_m_s": 0.5620590285913493,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "31",
+        "zone": 1,
+        "x": -2.1875750719389973,
+        "y": 1.4219376328375206,
+        "mean_speed_m_s": 0.7499782687997557,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "32",
+        "zone": 1,
+        "x": -2.2590526757226375,
+        "y": 2.126436367513942,
+        "mean_speed_m_s": 0.8206037936824345,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "33",
+        "zone": 1,
+        "x": -0.8942685984755376,
+        "y": -2.067708208709051,
+        "mean_speed_m_s": 0.9301267079499045,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "34",
+        "zone": 1,
+        "x": -2.0705134719543676,
+        "y": -1.4718652169569377,
+        "mean_speed_m_s": 0.6537091594403289,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "35",
+        "zone": 1,
+        "x": -2.354026860449466,
+        "y": -0.8950981226455483,
+        "mean_speed_m_s": 0.5944755978721717,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "36",
+        "zone": 1,
+        "x": -1.3736936703225566,
+        "y": -0.23852652109684166,
+        "mean_speed_m_s": 0.5520439426274532,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "37",
+        "zone": 1,
+        "x": -0.8994491545542925,
+        "y": 0.2871255624741726,
+        "mean_speed_m_s": 0.7354429973667715,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "38",
+        "zone": 1,
+        "x": -1.7390798921781923,
+        "y": 0.8896704169397635,
+        "mean_speed_m_s": 0.5214646871825753,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "39",
+        "zone": 1,
+        "x": -1.1152807441663208,
+        "y": 1.4192375146766751,
+        "mean_speed_m_s": 0.7822761280020614,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "4",
+        "zone": 1,
+        "x": -5.310891331812713,
+        "y": -0.3032208455692763,
+        "mean_speed_m_s": 0.7929791023018277,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "40",
+        "zone": 1,
+        "x": -1.1619854718418394,
+        "y": 2.0745850919876614,
+        "mean_speed_m_s": 0.8235213307840977,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "41",
+        "zone": 2,
+        "x": 0.21071666613411497,
+        "y": -1.9254588471220164,
+        "mean_speed_m_s": 0.9009891134029824,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "42",
+        "zone": 1,
+        "x": -1.1042126371898104,
+        "y": -1.414429504399841,
+        "mean_speed_m_s": 0.6605828989629694,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "43",
+        "zone": 1,
+        "x": -1.440245335216951,
+        "y": -0.8682318960855857,
+        "mean_speed_m_s": 0.5909429535365027,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "44",
+        "zone": 1,
+        "x": -0.5897553513276823,
+        "y": -0.22291128283608588,
+        "mean_speed_m_s": 0.4171566393612544,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "45",
+        "zone": 2,
+        "x": 0.07354674564362348,
+        "y": 0.14421493612714792,
+        "mean_speed_m_s": 0.6751446506014347,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "46",
+        "zone": 1,
+        "x": -0.8538215007460195,
+        "y": 0.8827857020090817,
+        "mean_speed_m_s": 0.5264381448923452,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "47",
+        "zone": 1,
+        "x": -0.02884495020478563,
+        "y": 1.391752436594772,
+        "mean_speed_m_s": 0.8141556082892526,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "48",
+        "zone": 2,
+        "x": 0.263281171743049,
+        "y": 1.978813058955905,
+        "mean_speed_m_s": 0.9164233357430133,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "49",
+        "zone": 2,
+        "x": 1.153424322784091,
+        "y": -1.6809968022175812,
+        "mean_speed_m_s": 0.7747772092588335,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "5",
+        "zone": 1,
+        "x": -5.149351224517585,
+        "y": 0.3179993780559599,
+        "mean_speed_m_s": 0.7942015474178589,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "50",
+        "zone": 1,
+        "x": -0.14531522293266352,
+        "y": -1.3438595672556783,
+        "mean_speed_m_s": 0.6631023923475642,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "51",
+        "zone": 1,
+        "x": -0.5378359984188531,
+        "y": -0.8447168392883998,
+        "mean_speed_m_s": 0.5909037759470425,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "52",
+        "zone": 2,
+        "x": 0.9087189268612641,
+        "y": -0.1329649388669486,
+        "mean_speed_m_s": 0.5010623922645036,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "53",
+        "zone": 2,
+        "x": 0.952441561224856,
+        "y": 0.5115999434561915,
+        "mean_speed_m_s": 0.6192692707880408,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "54",
+        "zone": 2,
+        "x": 0.060377834413388225,
+        "y": 0.7815248460935456,
+        "mean_speed_m_s": 0.5278540108092296,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "55",
+        "zone": 2,
+        "x": 1.0188182988243468,
+        "y": 1.1357705592260678,
+        "mean_speed_m_s": 0.8132654521309369,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "56",
+        "zone": 2,
+        "x": 1.3680126979548104,
+        "y": 1.6916344114156336,
+        "mean_speed_m_s": 0.8955799610713286,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "57",
+        "zone": 2,
+        "x": 2.431572702033578,
+        "y": -1.3748018151341383,
+        "mean_speed_m_s": 0.8012258250631172,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "58",
+        "zone": 2,
+        "x": 0.7663831432534086,
+        "y": -1.0938148512168093,
+        "mean_speed_m_s": 0.6461638958574839,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "59",
+        "zone": 2,
+        "x": 0.2744972552354562,
+        "y": -0.5606096572944039,
+        "mean_speed_m_s": 0.5553367181120485,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "6",
+        "zone": 1,
+        "x": -5.391237464886,
+        "y": 0.9335845119800082,
+        "mean_speed_m_s": 0.7010370018973937,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "60",
+        "zone": 2,
+        "x": 2.4982687661864293,
+        "y": -0.6238191142481214,
+        "mean_speed_m_s": 0.6177855006751541,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "61",
+        "zone": 2,
+        "x": 1.7113304328868892,
+        "y": 0.1345680755175444,
+        "mean_speed_m_s": 0.46718549272397103,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "62",
+        "zone": 2,
+        "x": 2.916165562828868,
+        "y": 0.6455428909256141,
+        "mean_speed_m_s": 0.6804264706503677,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "63",
+        "zone": 2,
+        "x": 1.981884216826268,
+        "y": 0.7616344768678164,
+        "mean_speed_m_s": 0.7724188379144252,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "64",
+        "zone": 2,
+        "x": 2.3483184070630085,
+        "y": 1.3056481008300183,
+        "mean_speed_m_s": 0.8303258508829311,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "65",
+        "zone": 2,
+        "x": 3.5309674581369483,
+        "y": -0.9679445447065378,
+        "mean_speed_m_s": 0.9154470645699875,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "66",
+        "zone": 2,
+        "x": 1.6898040681692772,
+        "y": -1.13004117214843,
+        "mean_speed_m_s": 0.6071159615810156,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "67",
+        "zone": 2,
+        "x": 1.516914305298283,
+        "y": -0.5271726239076595,
+        "mean_speed_m_s": 0.6833288308194205,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "68",
+        "zone": 2,
+        "x": 3.2580728933029377,
+        "y": -0.4270536329716493,
+        "mean_speed_m_s": 0.39107654501748507,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "69",
+        "zone": 2,
+        "x": 2.423400380361536,
+        "y": 0.06604090226214554,
+        "mean_speed_m_s": 0.39679219402300225,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "7",
+        "zone": 1,
+        "x": -5.487892384811484,
+        "y": 1.600287514168477,
+        "mean_speed_m_s": 0.6502157907012978,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "70",
+        "zone": 2,
+        "x": 3.0730123489994843,
+        "y": 0.11642361589832961,
+        "mean_speed_m_s": 0.2838094800073759,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "71",
+        "zone": 2,
+        "x": 3.7433300340064326,
+        "y": 0.22984312594643927,
+        "mean_speed_m_s": 0.48465538739105785,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "72",
+        "zone": 2,
+        "x": 3.2223657377627157,
+        "y": 1.1255315362163496,
+        "mean_speed_m_s": 0.6951370455817995,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "73",
+        "zone": 2,
+        "x": 3.8748165030493724,
+        "y": -0.3659121026773134,
+        "mean_speed_m_s": 0.6426449128641941,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "74",
+        "zone": 2,
+        "x": 5.952011854657592,
+        "y": -0.3039188059936739,
+        "mean_speed_m_s": 1.0819677654707827,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "75",
+        "zone": 3,
+        "x": 7.7779635812743235,
+        "y": -0.37952321553349605,
+        "mean_speed_m_s": 1.292266821483295,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "76",
+        "zone": 2,
+        "x": 4.7154125429384015,
+        "y": 0.018748972958379434,
+        "mean_speed_m_s": 0.6562214049672581,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "77",
+        "zone": 3,
+        "x": 9.225999825682845,
+        "y": 0.005869986459125015,
+        "mean_speed_m_s": 1.335852454824424,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "78",
+        "zone": 3,
+        "x": 6.250494884907805,
+        "y": 0.31644510804456705,
+        "mean_speed_m_s": 1.1415204850685685,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "79",
+        "zone": 3,
+        "x": 7.775724129821172,
+        "y": 0.37905007324593426,
+        "mean_speed_m_s": 1.2975995933866373,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "8",
+        "zone": 1,
+        "x": -5.504298182078582,
+        "y": 2.313707530737131,
+        "mean_speed_m_s": 0.741874847283912,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "80",
+        "zone": 2,
+        "x": 3.7424974692587143,
+        "y": 0.7826968679037773,
+        "mean_speed_m_s": 0.4111537761444763,
+        "stopped_time_fraction": 0.1999999999999993,
+        "history_coverage": 1.0,
+        "complete_history": true
+      },
+      {
+        "person_id": "9",
+        "zone": 1,
+        "x": -4.371753898181021,
+        "y": -2.1949354312262632,
+        "mean_speed_m_s": 0.8188842155207428,
+        "stopped_time_fraction": 0.0,
+        "history_coverage": 1.0,
+        "complete_history": true
+      }
+    ],
+    "zones": [
+      {
+        "zone": 0,
+        "area_m2": 48.0,
+        "count": 1,
+        "density_people_m2": 0.020833333333333332,
+        "mean_speed_m_s": 0.5570781760433446,
+        "stopped_fraction": 0.0,
+        "motion_observed_count": 1,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 1,
+        "area_m2": 48.0,
+        "count": 46,
+        "density_people_m2": 0.9583333333333334,
+        "mean_speed_m_s": 0.7043222086273425,
+        "stopped_fraction": 0.0,
+        "motion_observed_count": 46,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 2,
+        "area_m2": 34.4,
+        "count": 29,
+        "density_people_m2": 0.8430232558139535,
+        "mean_speed_m_s": 0.6636063571168158,
+        "stopped_fraction": 0.0,
+        "motion_observed_count": 29,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 3,
+        "area_m2": 48.0,
+        "count": 4,
+        "density_people_m2": 0.08333333333333333,
+        "mean_speed_m_s": 1.2668098386907312,
+        "stopped_fraction": 0.0,
+        "motion_observed_count": 4,
+        "missing_motion_count": 0
+      }
+    ],
+    "forward_crossing_events": 0,
+    "reverse_crossing_events": 0,
+    "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+    "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+  },
+  "composition": [
+    {
+      "zone": 0,
+      "missing_metadata_count": 0,
+      "observed_count": 1,
+      "expected_count": 0.058823529411764705,
+      "variance_independence": 0.05536332179930796,
+      "interval": [
+        0,
+        1
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        0.9411764705882353,
+        0.058823529411764705
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 1,
+      "missing_metadata_count": 0,
+      "observed_count": 46,
+      "expected_count": 9.323529411764707,
+      "variance_independence": 5.466262975778546,
+      "interval": [
+        6,
+        13
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        4.659646436463624e-06,
+        7.892276151760261e-05,
+        0.0006331476612983872,
+        0.0032001566665835397,
+        0.011435827558523558,
+        0.030738496638042172,
+        0.06455901179306076,
+        0.10866742281416962,
+        0.14921725577715791,
+        0.16932193763658981,
+        0.16031402725406,
+        0.1275944798023516,
+        0.08588146502366507,
+        0.04913396610417243,
+        0.024002982660773366,
+        0.010056330455180045,
+        0.003628893486045423,
+        0.0011327843772960884,
+        0.0003072107145487261,
+        7.269201293546429e-05,
+        1.5068485421000583e-05,
+        2.74690135478719e-06,
+        4.4189518305203657e-07,
+        6.292752721554345e-08,
+        7.95359668589496e-09,
+        8.942259499747256e-10,
+        8.958733363841675e-11,
+        8.00766411412031e-12,
+        6.390754895395468e-13,
+        4.554987675146292e-14,
+        2.898512860181405e-15,
+        1.6452284514418094e-16,
+        8.317104308578435e-18,
+        3.7362348659242604e-19,
+        1.4868840456423802e-20,
+        5.220916171061261e-22,
+        1.6090974886633233e-23,
+        4.324076888943525e-25,
+        1.004571750354302e-26,
+        1.9955951317394224e-28,
+        3.3412669752481285e-30,
+        4.6247559971206083e-32,
+        5.15091225825858e-34,
+        4.4366087429874076e-36,
+        2.7734206717648316e-38,
+        1.1195781200551643e-40,
+        2.1909552251568772e-43
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 2,
+      "missing_metadata_count": 0,
+      "observed_count": 29,
+      "expected_count": 8.323529411764707,
+      "variance_independence": 4.525086505190312,
+      "interval": [
+        5,
+        12
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        1.3060052505050128e-05,
+        0.00020732833351767076,
+        0.0015473611426979506,
+        0.007213013431917582,
+        0.023531569961439285,
+        0.057055129525719554,
+        0.1065688139466936,
+        0.15685520382602405,
+        0.18458230654130622,
+        0.17521893511143516,
+        0.1348333805226399,
+        0.0842635378757412,
+        0.04274735035210843,
+        0.017567842304657515,
+        0.005832338178747952,
+        0.001560012032227031,
+        0.00033564476816012596,
+        5.808295082461827e-05,
+        8.091939955624997e-06,
+        9.086004348780248e-07,
+        8.224346720403515e-08,
+        5.991268360813167e-09,
+        3.4968910134250036e-10,
+        1.621590957990571e-11,
+        5.891773358083878e-13,
+        1.6405369412356364e-14,
+        3.379050709831738e-16,
+        4.850287742103703e-18,
+        4.3317468344336313e-20,
+        1.8124463742400132e-22
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 3,
+      "missing_metadata_count": 0,
+      "observed_count": 4,
+      "expected_count": 0.6764705882352942,
+      "variance_independence": 0.41608996539792387,
+      "interval": [
+        0,
+        2
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        0.416853246488907,
+        0.4950132302055771,
+        0.08304498269896193,
+        0.00498676979442296,
+        0.0001017708121310808
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    }
+  ]
+}

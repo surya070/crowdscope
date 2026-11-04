@@ -1,9 +1,4 @@
-# Active real-data extraction, plotting and modelling environment.
 numpy==2.3.5
-matplotlib==3.11.2
-scipy==1.16.1
-scikit-learn==1.7.2
-joblib==1.5.2
-threadpoolctl==3.6.0
-jupedsim==1.4.2
 shapely==2.1.2
+jupedsim==1.4.2
+matplotlib==3.10.8

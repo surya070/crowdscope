@@ -1,0 +1,13 @@
+{
+  "pass_checks": true,
+  "scenario_replicas": 2240,
+  "policy_records": 15680,
+  "independent_development_blocks": 16,
+  "conditions": 14,
+  "negative_controls": [
+    "uninformative",
+    "perfect_observation",
+    "equal_demand_control"
+  ],
+  "final_evaluation_access": false
+}

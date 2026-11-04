@@ -1,0 +1,354 @@
+{
+  "purpose": "development stress suite, not confirmatory evidence",
+  "seeds": [
+    410004,
+    410005,
+    410006,
+    410007,
+    410008,
+    410009,
+    410010,
+    410011,
+    410012,
+    410013,
+    410014,
+    410015,
+    410016,
+    410017,
+    410018,
+    410019
+  ],
+  "replicas": 10,
+  "cases": [
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "base"
+    },
+    {
+      "counts": [
+        40,
+        24,
+        12,
+        4
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "unequal_zones"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 3,
+      "temperature": 1.0,
+      "name": "scarce"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 9,
+      "temperature": 1.0,
+      "name": "abundant"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0,
+      "working_error": 0,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "perfect_observation"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.5,
+      "working_error": 0.5,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "uninformative"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.05,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_low"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.5,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_high"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.3,
+      "working_error": 0.1,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "noise_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 0.5,
+      "name": "overconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 2.0,
+      "name": "underconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.1
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "equal_demand_control"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "demand_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.05,
+        0.6
+      ],
+      "working_rates": [
+        0.05,
+        0.6
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "high_demand_contrast"
+    }
+  ],
+  "common_random_numbers": "same class/noise/request uniform streams across cases; zone slot regrouping is explicit",
+  "primary_comparator_unchanged": true,
+  "selection": "none; retain all cells and policies",
+  "hashes": {
+    "research/run_planning_stress.py": "8a6dda1113d9197d3a3499cfe4810290a1cffaae2374216882919a11578fd522",
+    "src/resource_planning.py": "effb05fcd9b399780671abdbc561be8a0db2a024d312bcb4289ecbddc3dcbfde",
+    "src/mobility_probability.py": "91b89dbd4555a1f2363b73e9cefb60d8f27a23d442fe9b75c9487db680d81dca"
+  }
+}

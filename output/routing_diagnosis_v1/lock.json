@@ -1,0 +1,28 @@
+{
+  "purpose": "development routing ablation; not empirical calibration",
+  "seed": 410000,
+  "candidates": [
+    [
+      "direct",
+      8.0
+    ],
+    [
+      "waypoint",
+      2.6
+    ],
+    [
+      "waypoint",
+      8.0
+    ]
+  ],
+  "baseline": "crowd_development_v1 direct strength2.6 dt0.005",
+  "primary_dt": 0.005,
+  "predeclared_refinement": {
+    "routing": "waypoint",
+    "strength": 8.0,
+    "dt": 0.0025
+  },
+  "fixed": "same 80-person roster geometry speeds radius timegap and tolerances as crowd_development_v1",
+  "inherited_source_sha256": "fb75193c7792f8a08d21890180856d9f6fd77135e821e18064cac68a6a156c79",
+  "code_sha256": "cca2e173ad7cfb5aa4c444094f4b99aa93dc3b737a37c726045c595264fe4b7b"
+}

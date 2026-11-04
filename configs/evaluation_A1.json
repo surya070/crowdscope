@@ -1,0 +1,435 @@
+{
+  "status": "design_frozen_execution_not_released",
+  "scope_amendment": "A1",
+  "cases": [
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "base"
+    },
+    {
+      "counts": [
+        40,
+        24,
+        12,
+        4
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "unequal_zones"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 3,
+      "temperature": 1.0,
+      "name": "scarce"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 9,
+      "temperature": 1.0,
+      "name": "abundant"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0,
+      "working_error": 0,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "perfect_observation"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.5,
+      "working_error": 0.5,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "uninformative"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.05,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_low"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.5,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_high"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.3,
+      "working_error": 0.1,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "noise_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 0.5,
+      "name": "overconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 2.0,
+      "name": "underconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.1
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "equal_demand_control"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "demand_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.05,
+        0.6
+      ],
+      "working_rates": [
+        0.05,
+        0.6
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "high_demand_contrast"
+    }
+  ],
+  "validation_seeds": [
+    410040,
+    410041,
+    410042,
+    410043,
+    410044,
+    410045,
+    410046,
+    410047,
+    410048,
+    410049,
+    410050,
+    410051,
+    410052,
+    410053,
+    410054,
+    410055,
+    410056,
+    410057,
+    410058,
+    410059
+  ],
+  "evaluation_seeds": [
+    410060,
+    410061,
+    410062,
+    410063,
+    410064,
+    410065,
+    410066,
+    410067,
+    410068,
+    410069,
+    410070,
+    410071,
+    410072,
+    410073,
+    410074,
+    410075,
+    410076,
+    410077,
+    410078,
+    410079,
+    410080,
+    410081,
+    410082,
+    410083,
+    410084,
+    410085,
+    410086,
+    410087,
+    410088,
+    410089,
+    410090,
+    410091,
+    410092,
+    410093,
+    410094,
+    410095,
+    410096,
+    410097,
+    410098,
+    410099,
+    410100,
+    410101,
+    410102,
+    410103,
+    410104,
+    410105,
+    410106,
+    410107,
+    410108,
+    410109,
+    410110,
+    410111,
+    410112,
+    410113,
+    410114,
+    410115,
+    410116,
+    410117,
+    410118,
+    410119
+  ],
+  "replicas": 10,
+  "primary_case": "base",
+  "primary_comparator": "hard_posterior",
+  "endpoint": "realised_unmet_requests",
+  "policies": [
+    "homogeneous",
+    "hard_observed",
+    "hard_posterior",
+    "probabilistic",
+    "mean_demand",
+    "known_class",
+    "perfect_demand_reference"
+  ],
+  "bootstrap": {
+    "unit": "seed_block",
+    "replicates": 10000,
+    "seed": 9041
+  },
+  "release_blockers": [
+    "manifest_runner_and_validation_audit",
+    "closest_method_comparison",
+    "dated_evaluation_release_record"
+  ]
+}

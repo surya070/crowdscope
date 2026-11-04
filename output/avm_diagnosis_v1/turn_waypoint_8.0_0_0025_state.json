@@ -1,0 +1,119 @@
+{
+  "state": {
+    "time_s": 10,
+    "history_s": 2,
+    "occupants": [],
+    "zones": [
+      {
+        "zone": 0,
+        "area_m2": 36.0,
+        "count": 0,
+        "density_people_m2": 0.0,
+        "mean_speed_m_s": null,
+        "stopped_fraction": null,
+        "motion_observed_count": 0,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 1,
+        "area_m2": 36.0,
+        "count": 0,
+        "density_people_m2": 0.0,
+        "mean_speed_m_s": null,
+        "stopped_fraction": null,
+        "motion_observed_count": 0,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 2,
+        "area_m2": 12.0,
+        "count": 0,
+        "density_people_m2": 0.0,
+        "mean_speed_m_s": null,
+        "stopped_fraction": null,
+        "motion_observed_count": 0,
+        "missing_motion_count": 0
+      },
+      {
+        "zone": 3,
+        "area_m2": 68.0,
+        "count": 0,
+        "density_people_m2": 0.0,
+        "mean_speed_m_s": null,
+        "stopped_fraction": null,
+        "motion_observed_count": 0,
+        "missing_motion_count": 0
+      }
+    ],
+    "forward_crossing_events": 0,
+    "reverse_crossing_events": 0,
+    "crossing_observation": "events on contiguous observed segments only; not unique-person clearance",
+    "snapshot_policy": "exact timestamps only; absent tracks excluded, no future interpolation"
+  },
+  "composition": [
+    {
+      "zone": 0,
+      "missing_metadata_count": 0,
+      "observed_count": 0,
+      "expected_count": 0,
+      "variance_independence": 0,
+      "interval": [
+        0,
+        0
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        1.0
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 1,
+      "missing_metadata_count": 0,
+      "observed_count": 0,
+      "expected_count": 0,
+      "variance_independence": 0,
+      "interval": [
+        0,
+        0
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        1.0
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 2,
+      "missing_metadata_count": 0,
+      "observed_count": 0,
+      "expected_count": 0,
+      "variance_independence": 0,
+      "interval": [
+        0,
+        0
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        1.0
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    },
+    {
+      "zone": 3,
+      "missing_metadata_count": 0,
+      "observed_count": 0,
+      "expected_count": 0,
+      "variance_independence": 0,
+      "interval": [
+        0,
+        0
+      ],
+      "nominal_coverage": 0.9,
+      "pmf": [
+        1.0
+      ],
+      "assumption": "independent memberships; working approximation after crowd selection"
+    }
+  ]
+}

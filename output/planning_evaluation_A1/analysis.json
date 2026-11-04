@@ -1,0 +1,1268 @@
+{
+  "analysis": "paired block-bootstrap; secondary comparisons descriptive, not multiplicity-adjusted",
+  "independent_seed_blocks": 60,
+  "replicas_per_block": 10,
+  "conditions": 14,
+  "results": [
+    {
+      "case": "base",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 3.175,
+          "block_sd": 0.9745272647958642
+        },
+        "hard_posterior": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "probabilistic": {
+          "mean": 3.1766666666666667,
+          "block_sd": 0.9765672612878281
+        },
+        "mean_demand": {
+          "mean": 3.1766666666666667,
+          "block_sd": 0.9765672612878281
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "hard_observed": {
+          "mean_difference": 0.0016666666666666754,
+          "percentile_95_interval": [
+            0.0,
+            0.005000000000000027
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 59,
+          "worse_blocks": 1,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.21500000000000002,
+          "percentile_95_interval": [
+            0.13333333333333333,
+            0.2933333333333334
+          ],
+          "better_blocks": 13,
+          "tied_blocks": 7,
+          "worse_blocks": 40,
+          "identical_allocation_fraction": 0.3883333333333333
+        }
+      }
+    },
+    {
+      "case": "unequal_zones",
+      "policies": {
+        "homogeneous": {
+          "mean": 2.8416666666666663,
+          "block_sd": 0.9760334230639097
+        },
+        "hard_observed": {
+          "mean": 2.9066666666666663,
+          "block_sd": 0.9262401977644903
+        },
+        "hard_posterior": {
+          "mean": 2.8416666666666663,
+          "block_sd": 0.9760334230639097
+        },
+        "probabilistic": {
+          "mean": 2.8416666666666663,
+          "block_sd": 0.9760334230639097
+        },
+        "mean_demand": {
+          "mean": 2.8416666666666663,
+          "block_sd": 0.9760334230639097
+        },
+        "known_class": {
+          "mean": 2.816666666666666,
+          "block_sd": 0.9545904555635926
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9500000000000002,
+          "block_sd": 0.9507356652007674
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "hard_observed": {
+          "mean_difference": -0.06499999999999997,
+          "percentile_95_interval": [
+            -0.1,
+            -0.029999999999999947
+          ],
+          "better_blocks": 28,
+          "tied_blocks": 23,
+          "worse_blocks": 9,
+          "identical_allocation_fraction": 0.79
+        },
+        "homogeneous": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.025000000000000005,
+          "percentile_95_interval": [
+            -0.0033333333333333214,
+            0.06000000000000001
+          ],
+          "better_blocks": 2,
+          "tied_blocks": 54,
+          "worse_blocks": 4,
+          "identical_allocation_fraction": 0.8983333333333333
+        }
+      }
+    },
+    {
+      "case": "scarce",
+      "policies": {
+        "homogeneous": {
+          "mean": 7.293333333333333,
+          "block_sd": 1.361562744549304
+        },
+        "hard_observed": {
+          "mean": 7.220000000000001,
+          "block_sd": 1.3495510866926157
+        },
+        "hard_posterior": {
+          "mean": 7.293333333333333,
+          "block_sd": 1.361562744549304
+        },
+        "probabilistic": {
+          "mean": 7.220000000000001,
+          "block_sd": 1.3495510866926157
+        },
+        "mean_demand": {
+          "mean": 7.293333333333333,
+          "block_sd": 1.361562744549304
+        },
+        "known_class": {
+          "mean": 7.135000000000001,
+          "block_sd": 1.3594396901615167
+        },
+        "perfect_demand_reference": {
+          "mean": 6.798333333333334,
+          "block_sd": 1.449429071313378
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.0733333333333333,
+          "percentile_95_interval": [
+            -0.12499999999999999,
+            -0.023333333333333237
+          ],
+          "better_blocks": 27,
+          "tied_blocks": 17,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.31833333333333336
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.0733333333333333,
+          "percentile_95_interval": [
+            -0.12499999999999999,
+            -0.023333333333333237
+          ],
+          "better_blocks": 27,
+          "tied_blocks": 17,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.31833333333333336
+        },
+        "mean_demand": {
+          "mean_difference": -0.0733333333333333,
+          "percentile_95_interval": [
+            -0.12499999999999999,
+            -0.023333333333333237
+          ],
+          "better_blocks": 27,
+          "tied_blocks": 17,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.315
+        },
+        "known_class": {
+          "mean_difference": 0.085,
+          "percentile_95_interval": [
+            0.034999999999999934,
+            0.13500000000000006
+          ],
+          "better_blocks": 11,
+          "tied_blocks": 18,
+          "worse_blocks": 31,
+          "identical_allocation_fraction": 0.5033333333333333
+        }
+      }
+    },
+    {
+      "case": "abundant",
+      "policies": {
+        "homogeneous": {
+          "mean": 1.045,
+          "block_sd": 0.5935886265985213
+        },
+        "hard_observed": {
+          "mean": 0.9483333333333336,
+          "block_sd": 0.5222155106352382
+        },
+        "hard_posterior": {
+          "mean": 1.045,
+          "block_sd": 0.5935886265985213
+        },
+        "probabilistic": {
+          "mean": 0.9416666666666669,
+          "block_sd": 0.5257090987391936
+        },
+        "mean_demand": {
+          "mean": 1.0466666666666666,
+          "block_sd": 0.5955958892376912
+        },
+        "known_class": {
+          "mean": 0.8849999999999998,
+          "block_sd": 0.509178467596978
+        },
+        "perfect_demand_reference": {
+          "mean": 0.1683333333333333,
+          "block_sd": 0.19088701660234683
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.10333333333333335,
+          "percentile_95_interval": [
+            -0.17333333333333337,
+            -0.03333333333333333
+          ],
+          "better_blocks": 30,
+          "tied_blocks": 14,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.30833333333333335
+        },
+        "hard_observed": {
+          "mean_difference": -0.006666666666666667,
+          "percentile_95_interval": [
+            -0.015000000000000005,
+            0.0
+          ],
+          "better_blocks": 3,
+          "tied_blocks": 57,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 0.9933333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.10333333333333335,
+          "percentile_95_interval": [
+            -0.17333333333333337,
+            -0.03333333333333333
+          ],
+          "better_blocks": 30,
+          "tied_blocks": 14,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.30833333333333335
+        },
+        "mean_demand": {
+          "mean_difference": -0.10500000000000001,
+          "percentile_95_interval": [
+            -0.1766666666666667,
+            -0.03500000000000001
+          ],
+          "better_blocks": 29,
+          "tied_blocks": 15,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.32
+        },
+        "known_class": {
+          "mean_difference": 0.05666666666666665,
+          "percentile_95_interval": [
+            0.0033333333333333288,
+            0.11
+          ],
+          "better_blocks": 17,
+          "tied_blocks": 13,
+          "worse_blocks": 30,
+          "identical_allocation_fraction": 0.47333333333333333
+        }
+      }
+    },
+    {
+      "case": "perfect_observation",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "hard_posterior": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "probabilistic": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "mean_demand": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "homogeneous": {
+          "mean_difference": -0.47,
+          "percentile_95_interval": [
+            -0.6,
+            -0.3483333333333334
+          ],
+          "better_blocks": 41,
+          "tied_blocks": 14,
+          "worse_blocks": 5,
+          "identical_allocation_fraction": 0.16666666666666666
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        }
+      }
+    },
+    {
+      "case": "uninformative",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 3.4199999999999995,
+          "block_sd": 1.011761343869765
+        },
+        "hard_posterior": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "probabilistic": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "mean_demand": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "hard_observed": {
+          "mean_difference": 0.011666666666666704,
+          "percentile_95_interval": [
+            -0.10499999999999998,
+            0.13000000000000006
+          ],
+          "better_blocks": 24,
+          "tied_blocks": 5,
+          "worse_blocks": 31,
+          "identical_allocation_fraction": 0.225
+        },
+        "homogeneous": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.47,
+          "percentile_95_interval": [
+            0.3483333333333334,
+            0.6
+          ],
+          "better_blocks": 5,
+          "tied_blocks": 14,
+          "worse_blocks": 41,
+          "identical_allocation_fraction": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "case": "prior_shift_low",
+      "policies": {
+        "homogeneous": {
+          "mean": 1.5016666666666665,
+          "block_sd": 0.580908600607606
+        },
+        "hard_observed": {
+          "mean": 1.4066666666666665,
+          "block_sd": 0.506856937214299
+        },
+        "hard_posterior": {
+          "mean": 1.5016666666666665,
+          "block_sd": 0.580908600607606
+        },
+        "probabilistic": {
+          "mean": 1.4066666666666665,
+          "block_sd": 0.506856937214299
+        },
+        "mean_demand": {
+          "mean": 1.4066666666666665,
+          "block_sd": 0.506856937214299
+        },
+        "known_class": {
+          "mean": 1.2783333333333333,
+          "block_sd": 0.4923453613087666
+        },
+        "perfect_demand_reference": {
+          "mean": 0.4333333333333333,
+          "block_sd": 0.3281518182476048
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.09500000000000004,
+          "percentile_95_interval": [
+            -0.18000000000000002,
+            -0.015000000000000046
+          ],
+          "better_blocks": 33,
+          "tied_blocks": 8,
+          "worse_blocks": 19,
+          "identical_allocation_fraction": 0.22666666666666666
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "homogeneous": {
+          "mean_difference": -0.09500000000000004,
+          "percentile_95_interval": [
+            -0.18000000000000002,
+            -0.015000000000000046
+          ],
+          "better_blocks": 33,
+          "tied_blocks": 8,
+          "worse_blocks": 19,
+          "identical_allocation_fraction": 0.22666666666666666
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.12833333333333333,
+          "percentile_95_interval": [
+            0.06162500000000001,
+            0.19666666666666668
+          ],
+          "better_blocks": 17,
+          "tied_blocks": 10,
+          "worse_blocks": 33,
+          "identical_allocation_fraction": 0.30333333333333334
+        }
+      }
+    },
+    {
+      "case": "prior_shift_high",
+      "policies": {
+        "homogeneous": {
+          "mean": 8.786666666666667,
+          "block_sd": 1.39557006961637
+        },
+        "hard_observed": {
+          "mean": 8.698333333333332,
+          "block_sd": 1.5002250302014486
+        },
+        "hard_posterior": {
+          "mean": 8.786666666666667,
+          "block_sd": 1.39557006961637
+        },
+        "probabilistic": {
+          "mean": 8.698333333333332,
+          "block_sd": 1.5002250302014486
+        },
+        "mean_demand": {
+          "mean": 8.698333333333332,
+          "block_sd": 1.5002250302014486
+        },
+        "known_class": {
+          "mean": 8.6,
+          "block_sd": 1.4352700094407325
+        },
+        "perfect_demand_reference": {
+          "mean": 8.106666666666666,
+          "block_sd": 1.58283875713019
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.08833333333333333,
+          "percentile_95_interval": [
+            -0.1733333333333334,
+            -0.006666666666666643
+          ],
+          "better_blocks": 28,
+          "tied_blocks": 11,
+          "worse_blocks": 21,
+          "identical_allocation_fraction": 0.225
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "homogeneous": {
+          "mean_difference": -0.08833333333333333,
+          "percentile_95_interval": [
+            -0.1733333333333334,
+            -0.006666666666666643
+          ],
+          "better_blocks": 28,
+          "tied_blocks": 11,
+          "worse_blocks": 21,
+          "identical_allocation_fraction": 0.225
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.09833333333333333,
+          "percentile_95_interval": [
+            0.03833333333333336,
+            0.15833333333333346
+          ],
+          "better_blocks": 14,
+          "tied_blocks": 15,
+          "worse_blocks": 31,
+          "identical_allocation_fraction": 0.38333333333333336
+        }
+      }
+    },
+    {
+      "case": "noise_misspecification",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 3.2516666666666665,
+          "block_sd": 0.9338260402485721
+        },
+        "hard_posterior": {
+          "mean": 3.2516666666666665,
+          "block_sd": 0.9338260402485721
+        },
+        "probabilistic": {
+          "mean": 3.2516666666666665,
+          "block_sd": 0.9338260402485721
+        },
+        "mean_demand": {
+          "mean": 3.265,
+          "block_sd": 0.93949589800748
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "homogeneous": {
+          "mean_difference": -0.18,
+          "percentile_95_interval": [
+            -0.3116666666666667,
+            -0.053333333333333274
+          ],
+          "better_blocks": 36,
+          "tied_blocks": 3,
+          "worse_blocks": 21,
+          "identical_allocation_fraction": 0.245
+        },
+        "mean_demand": {
+          "mean_difference": -0.013333333333333324,
+          "percentile_95_interval": [
+            -0.02999999999999999,
+            1.4802973661668754e-17
+          ],
+          "better_blocks": 4,
+          "tied_blocks": 55,
+          "worse_blocks": 1,
+          "identical_allocation_fraction": 0.985
+        },
+        "known_class": {
+          "mean_difference": 0.29000000000000004,
+          "percentile_95_interval": [
+            0.1933333333333333,
+            0.39
+          ],
+          "better_blocks": 12,
+          "tied_blocks": 4,
+          "worse_blocks": 44,
+          "identical_allocation_fraction": 0.28
+        }
+      }
+    },
+    {
+      "case": "overconfident",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 3.175,
+          "block_sd": 0.9745272647958642
+        },
+        "hard_posterior": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "probabilistic": {
+          "mean": 3.1766666666666667,
+          "block_sd": 0.9765672612878281
+        },
+        "mean_demand": {
+          "mean": 3.1766666666666667,
+          "block_sd": 0.9765672612878281
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "hard_observed": {
+          "mean_difference": 0.0016666666666666754,
+          "percentile_95_interval": [
+            0.0,
+            0.005000000000000027
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 59,
+          "worse_blocks": 1,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.21500000000000002,
+          "percentile_95_interval": [
+            0.13333333333333333,
+            0.2933333333333334
+          ],
+          "better_blocks": 13,
+          "tied_blocks": 7,
+          "worse_blocks": 40,
+          "identical_allocation_fraction": 0.3883333333333333
+        }
+      }
+    },
+    {
+      "case": "underconfident",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "hard_observed": {
+          "mean": 3.175,
+          "block_sd": 0.9745272647958642
+        },
+        "hard_posterior": {
+          "mean": 3.4316666666666666,
+          "block_sd": 1.1043046230841251
+        },
+        "probabilistic": {
+          "mean": 3.1766666666666667,
+          "block_sd": 0.9765672612878281
+        },
+        "mean_demand": {
+          "mean": 3.18,
+          "block_sd": 0.9778565282445624
+        },
+        "known_class": {
+          "mean": 2.961666666666667,
+          "block_sd": 1.008790459952113
+        },
+        "perfect_demand_reference": {
+          "mean": 1.9633333333333334,
+          "block_sd": 0.9619835910131374
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "hard_observed": {
+          "mean_difference": 0.0016666666666666754,
+          "percentile_95_interval": [
+            0.0,
+            0.005000000000000027
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 59,
+          "worse_blocks": 1,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.255,
+          "percentile_95_interval": [
+            -0.39,
+            -0.12666666666666665
+          ],
+          "better_blocks": 35,
+          "tied_blocks": 7,
+          "worse_blocks": 18,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "mean_demand": {
+          "mean_difference": -0.003333333333333336,
+          "percentile_95_interval": [
+            -0.011666666666666678,
+            0.003333333333333336
+          ],
+          "better_blocks": 2,
+          "tied_blocks": 57,
+          "worse_blocks": 1,
+          "identical_allocation_fraction": 0.995
+        },
+        "known_class": {
+          "mean_difference": 0.21500000000000002,
+          "percentile_95_interval": [
+            0.13333333333333333,
+            0.2933333333333334
+          ],
+          "better_blocks": 13,
+          "tied_blocks": 7,
+          "worse_blocks": 40,
+          "identical_allocation_fraction": 0.3883333333333333
+        }
+      }
+    },
+    {
+      "case": "equal_demand_control",
+      "policies": {
+        "homogeneous": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "hard_observed": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "hard_posterior": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "probabilistic": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "mean_demand": {
+          "mean": 1.49,
+          "block_sd": 0.5078035119804323
+        },
+        "known_class": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "perfect_demand_reference": {
+          "mean": 0.2,
+          "block_sd": 0.19397710855682893
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "homogeneous": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "mean_demand": {
+          "mean_difference": -0.39333333333333337,
+          "percentile_95_interval": [
+            -0.4549999999999999,
+            -0.33166666666666667
+          ],
+          "better_blocks": 55,
+          "tied_blocks": 3,
+          "worse_blocks": 2,
+          "identical_allocation_fraction": 0.0
+        },
+        "known_class": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        }
+      }
+    },
+    {
+      "case": "demand_misspecification",
+      "policies": {
+        "homogeneous": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "hard_observed": {
+          "mean": 1.0516666666666667,
+          "block_sd": 0.398935731057177
+        },
+        "hard_posterior": {
+          "mean": 1.0966666666666667,
+          "block_sd": 0.41414263761871384
+        },
+        "probabilistic": {
+          "mean": 1.0516666666666667,
+          "block_sd": 0.398935731057177
+        },
+        "mean_demand": {
+          "mean": 1.0516666666666667,
+          "block_sd": 0.398935731057177
+        },
+        "known_class": {
+          "mean": 1.0583333333333333,
+          "block_sd": 0.40601063134893595
+        },
+        "perfect_demand_reference": {
+          "mean": 0.2,
+          "block_sd": 0.19397710855682893
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.045000000000000005,
+          "percentile_95_interval": [
+            -0.12666666666666665,
+            0.031666666666666655
+          ],
+          "better_blocks": 29,
+          "tied_blocks": 8,
+          "worse_blocks": 23,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "hard_observed": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 0.9983333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.045000000000000005,
+          "percentile_95_interval": [
+            -0.12666666666666665,
+            0.031666666666666655
+          ],
+          "better_blocks": 29,
+          "tied_blocks": 8,
+          "worse_blocks": 23,
+          "identical_allocation_fraction": 0.21666666666666667
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": -0.006666666666666669,
+          "percentile_95_interval": [
+            -0.07166666666666668,
+            0.05833333333333332
+          ],
+          "better_blocks": 26,
+          "tied_blocks": 13,
+          "worse_blocks": 21,
+          "identical_allocation_fraction": 0.3883333333333333
+        }
+      }
+    },
+    {
+      "case": "high_demand_contrast",
+      "policies": {
+        "homogeneous": {
+          "mean": 3.51,
+          "block_sd": 1.5008133388153577
+        },
+        "hard_observed": {
+          "mean": 3.1599999999999997,
+          "block_sd": 1.3727616604025574
+        },
+        "hard_posterior": {
+          "mean": 3.51,
+          "block_sd": 1.5008133388153577
+        },
+        "probabilistic": {
+          "mean": 3.115,
+          "block_sd": 1.3713564978034694
+        },
+        "mean_demand": {
+          "mean": 3.115,
+          "block_sd": 1.3713564978034694
+        },
+        "known_class": {
+          "mean": 2.7966666666666664,
+          "block_sd": 1.3620730295593946
+        },
+        "perfect_demand_reference": {
+          "mean": 2.0000000000000004,
+          "block_sd": 1.3605831252363694
+        }
+      },
+      "comparisons": {
+        "hard_posterior": {
+          "mean_difference": -0.39499999999999996,
+          "percentile_95_interval": [
+            -0.5533333333333333,
+            -0.245
+          ],
+          "better_blocks": 42,
+          "tied_blocks": 2,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.215
+        },
+        "hard_observed": {
+          "mean_difference": -0.04500000000000002,
+          "percentile_95_interval": [
+            -0.07333333333333339,
+            -0.016666666666666687
+          ],
+          "better_blocks": 18,
+          "tied_blocks": 35,
+          "worse_blocks": 7,
+          "identical_allocation_fraction": 0.9083333333333333
+        },
+        "homogeneous": {
+          "mean_difference": -0.39499999999999996,
+          "percentile_95_interval": [
+            -0.5533333333333333,
+            -0.245
+          ],
+          "better_blocks": 42,
+          "tied_blocks": 2,
+          "worse_blocks": 16,
+          "identical_allocation_fraction": 0.215
+        },
+        "mean_demand": {
+          "mean_difference": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "better_blocks": 0,
+          "tied_blocks": 60,
+          "worse_blocks": 0,
+          "identical_allocation_fraction": 1.0
+        },
+        "known_class": {
+          "mean_difference": 0.3183333333333333,
+          "percentile_95_interval": [
+            0.24333333333333335,
+            0.39333333333333337
+          ],
+          "better_blocks": 5,
+          "tied_blocks": 7,
+          "worse_blocks": 48,
+          "identical_allocation_fraction": 0.32
+        }
+      }
+    }
+  ]
+}

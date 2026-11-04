@@ -1,0 +1,30 @@
+{
+  "purpose": "development smoke pilot; not locked final hypothesis test",
+  "block_seeds": [
+    410000,
+    410001,
+    410002,
+    410003
+  ],
+  "replicas": 10,
+  "zone_counts": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "prevalence": 0.2,
+  "error": 0.2,
+  "request_rates": [
+    0.1,
+    0.4
+  ],
+  "budget": 6,
+  "capacity": 2,
+  "scenario": "fixed zone rosters independent of movement; not a JuPedSim result",
+  "hashes": {
+    "src/resource_planning.py": "effb05fcd9b399780671abdbc561be8a0db2a024d312bcb4289ecbddc3dcbfde",
+    "src/mobility_probability.py": "91b89dbd4555a1f2363b73e9cefb60d8f27a23d442fe9b75c9487db680d81dca",
+    "research/run_planning_pilot.py": "1a8fb35a9e47b54bf1fe8db6cb1e3ba6ee61c560766ee6797fea0f43d767bbff"
+  }
+}

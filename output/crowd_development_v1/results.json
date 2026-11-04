@@ -1,0 +1,112 @@
+[
+  {
+    "case": "room",
+    "dt": 0.01,
+    "exited": 27,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0022396036570857814,
+    "max_speed_excess": 8.881784197001252e-14,
+    "failures": [
+      "noncompletion"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      30,
+      3
+    ]
+  },
+  {
+    "case": "room",
+    "dt": 0.005,
+    "exited": 27,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.7763568394002505e-13,
+    "failures": [
+      "noncompletion"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      30,
+      3
+    ]
+  },
+  {
+    "case": "corridor",
+    "dt": 0.01,
+    "exited": 27,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0028233117454641576,
+    "max_speed_excess": 8.881784197001252e-14,
+    "failures": [
+      "noncompletion"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      30,
+      3
+    ]
+  },
+  {
+    "case": "corridor",
+    "dt": 0.005,
+    "exited": 40,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.7774670624248756e-13,
+    "failures": [
+      "noncompletion"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      30,
+      3
+    ]
+  },
+  {
+    "case": "turn",
+    "dt": 0.01,
+    "exited": 80,
+    "clearance_s": 67.26,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 9.214851104388799e-14,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      4,
+      55,
+      13,
+      8
+    ]
+  },
+  {
+    "case": "turn",
+    "dt": 0.005,
+    "exited": 80,
+    "clearance_s": 70.205,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.8607337892717624e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      4,
+      55,
+      13,
+      8
+    ]
+  }
+]

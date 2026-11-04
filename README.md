@@ -1,81 +1,96 @@
-# Crowd Clearance Forecasting
+# CrowdScope
 
-**Do mobility information and assistance relationships improve forecasts beyond observed movement?**
+### A modular framework for crowd-state analysis and uncertainty-aware resource planning
 
-A Research Methodology project at RV University combining recorded SiME bottleneck trajectories with a separate JuPedSim assistance-link experiment.
+**Trajectories → spatial crowd state → uncertain composition → explicit decisions.**
 
-[Current paper](paper/real_and_linkage/main.tex) · [Empirical results](output/empirical_comparison_v1/report.md) · [Assistance-link results](output/linkage_benchmark_v1/report.md) · [Research plan](plan.md)
+[Paper PDF](paper/framework/CrowdScope_Paper.pdf) · [LaTeX source](paper/framework/main.tex) · [Demo guide](app/README.md) · [Final results](research/final_evaluation_A1_report.md)
 
-## Current paper
+![CrowdScope demonstration](app/preview.png)
 
-*Mobility and Assistance-Link Information for Crowd Passage-Time Forecasting: An Exploratory Empirical and Simulation Study*
+A Research Methodology project at RV University by **Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Seema B. Hegde**.
 
-Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Seema B. Hegde.
+CrowdScope connects geometry-aware density measurement, causal movement summaries, conditional probabilities and finite-capacity allocation through a common crowd-state interface. New applications can consume that state when their decision models and validation data are supplied. The evaluated decision module is static allocation of abstract support capacity. CCTV, automatic wheelchair/child recognition, dynamic dispatch and reliable evacuation timing remain extensions.
 
-The IEEE-style course draft has eight pages, 18 cited references and the seven required course sections. Compile `paper/real_and_linkage/main.tex` with its supporting `images/` folder. Author declarations and data-use requirements still need confirmation before submission.
+## Implemented modules
 
-## Findings
+- **Observe:** canonical trajectories, explicit units and track-quality checks.
+- **Measure:** polygon/obstacle-aware counts, density, past-only motion and crossings.
+- **Estimate:** conditional probabilities, expected composition and count distributions.
+- **Decide:** exact allocation with population, hard-label, probability and information-reference controls.
+- **Audit:** fixed configurations, grouped partitions, paired uncertainty and negative controls.
+- **Demonstrate:** an offline synthetic replay with interactive assumptions and decisions.
 
-The [five-family exploratory follow-up](output/model_followup_v1/report.md) compares ridge, RBF kernel ridge, boosting, random forest and a small MLP. All five retain the empirical H-to-M benefit; ridge remains lowest on real-data evaluation. MLP is strongest for synthetic mobility-only forecasts, but correct-link benefits are small and condition-dependent. Three MLP seeds and all family results are retained.
+## Paper and evidence
 
+**CrowdScope: A Modular Framework for Crowd-State Analysis and Uncertainty-Aware Resource Planning**
 
-- **Recorded SiME data:** supplied wheelchair information reduced primary one-second-history MAE from **4.278 s to 2.591 s** across eleven selected trials. Seven wheelchair users repeat across configurations; this is exploratory configuration transfer within a shared population.
-- **Label quality:** artificial label flips sharply worsened predictions. Supplied labels are not a tested recognition system. [Report](output/label_sensitivity_v1/report.md)
-- **Composition:** crowd-condition information explains part of the predictive benefit; this does not isolate a causal individual-mobility effect. [Report](output/composition_check_v1/report.md)
-- **Separate synthetic benchmark:** at zero assumed assistance speed gain, mobility/history MAE was **0.198 s** and correct-link MAE **0.208 s**. Correct assignments showed no consistent advantage over mobility/history, counts and shuffled controls. Negative results are retained.
+The IEEE-style course paper has **seven pages, eighteen references and seven required major sections**.
 
-![Empirical errors across held-out width configurations](paper/real_and_linkage/images/empirical_width.png)
+- Recorded SiME trajectories integrate at **42 checkpoints from fourteen trials**. This verifies occupancy processing, not real profile recognition or service demand.
+- The fixed synthetic evaluation covers **60 independent seed blocks, fourteen conditions and 58,800 policy records**.
+- Probabilities reduce base unmet requests by **0.255** versus hard posterior, paired 95% interval **[−0.390, −0.127]**. The paper identifies that comparator's threshold weakness.
+- Against hard observed labels, base allocations match in **599/600 replicas**, with no probability advantage. Small secondary gains depend on zone balance and demand contrast.
+- Dense-crowd jams and timestep sensitivity remain in the JuPedSim record. No general evacuation or safety validation is claimed.
 
-The empirical target is the last downstream **head-centre passage of an observed cohort**. The synthetic target is the last **full-circle exit of a known roster**. Their errors cannot be pooled. The circular-agent escort prototype does not represent mechanical wheelchair pushing. Numerical checks do not establish behavioural realism or operational evacuation safety.
+[Full interpretation and limitations](research/final_evaluation_A1_report.md). Established mathematical tools support a transparent information-to-decision benchmark; no invented Bayesian algorithm or verified first-framework claim is made.
 
-## Repository guide
+## Try the demo
 
-- `paper/real_and_linkage/`: active manuscript, figure and guideline audit.
-- `research/`: modelling, saved-output audits and protocols.
-- `research/assistance/`: JuPedSim escort controller, frozen benchmark and audits.
-- `research/data/forecast_bundle/`: aggregate model inputs and manifest.
-- `research/literature/`: scoped searches, evidence status and reference checks.
-- Current result folders: `output/empirical_comparison_v1/`, `output/label_sensitivity_v1/`, `output/composition_check_v1/` and `output/linkage_benchmark_v1/`.
-- `requirements.txt`: one dependency file for the current study.
+```bash
+python app/launch.py
+```
 
-The private repository also retains the **historical compound study** under `src/`, `scripts/`, `tests_compound/`, `research/compound/`, `research/recovery/`, `paper/compound/`, `output/compound/` and `output/sime_replay_v2/`. Those results and environments are separate from the current manuscript. Historical dependency pins are available in Git history before this update. Other older literature records remain historical.
+Or open `app/index.html` directly. No external service is needed. Play/scrub the crowd replay; adjust budget, assumed prevalence, assumed error and policy. Optional colours show simulation truth, not recognised disability. Each unit serves two hypothetical requests. [Demo details](app/README.md).
 
-## Inspect and reproduce
+## Reproduce
 
-Python 3.12 is recommended. From the repository root:
+Python 3.12 is recommended. Core planning uses the standard library; geometry, simulation and figures use the single root requirements file.
 
 ```bash
 python -m venv .venv
-# Activate the environment for your operating system.
+# Activate the environment for your operating system, then:
 python -m pip install -r requirements.txt
+python -m unittest discover -s tests
+python research/audit_planning_evaluation.py
+python research/analyse_evaluation_A1.py
 ```
 
-Reconstruct saved comparisons:
+The guard denies evaluation by default. The dated release permits the fixed final run. Saved experiment folders refuse overwrite: regenerate in a clean source/configuration copy without that experiment's pre-existing output folder.
 
 ```bash
-python research/audit_empirical_comparison.py
-python research/audit_label_sensitivity.py
-python research/audit_composition_check.py
-python research/assistance/audit_linkage.py
-python research/audit_model_followup.py
+python research/run_planning_manifest.py --partition evaluation --enable-evaluation
 ```
 
-These audits read saved inputs/predictions and rewrite derived metric/audit files. They do not retrain models. Aggregate empirical inputs support saved-output reconstruction; rebuilding features requires obtaining the original SiME release and configuring local source paths. Some extraction scripts refer to the original local backup, which is intentionally not distributed.
+The release binds original source/configuration bytes. `.gitattributes` disables line-ending conversion so hash checks remain reproducible. Analysis averages replicas within seed and uses a paired block bootstrap; frames, replicas and cells are not independent crowds.
 
-The synthetic study includes 192 main runs and 48 finer replays from 48 matched blocks. Frozen generation/fitting commands deliberately reject existing admission/prediction outputs. Use a separate experimental copy for extensions and preserve the recorded protocol; do not delete a freeze to retune on reported evaluation data.
-
-## Interactive assistance demo
-
-Open the [side-by-side movement demo](output/assistance_live_demo/README.md) locally:
+## Build the paper
 
 ```bash
-python research/assistance/launch_demo.py
+python paper/framework/make_figures.py
+tectonic paper/framework/main.tex
 ```
 
-The saved app needs only Python's standard library, or open `output/assistance_live_demo/replay.html` directly in a browser. Choose doorways, mixed queue or turn; compare coordination against independent movement with pause, speed, link and timeline controls. Blue circles are clients and orange circles are helpers. To rerun the eight JuPedSim movement cases, install the root requirements and add `--regenerate`. These are simulation replays, not ML forecasts or validated physical wheelchair pushing. GitHub displays the HTML source; clone/download the private repository to run it.
+The [compiled PDF](paper/framework/CrowdScope_Paper.pdf) and figures are included. Figures use aggregate results only. The paper links this private repository; reviewers need access permission.
 
-## Data and access
+## Repository guide
 
-SiME source: [Influence of individual characteristics](https://doi.org/10.34735/ped.2017.1). Credit remains with its investigators. Raw human trajectories and participant mappings are not mirrored. Backups, dependencies, temporary files and stale PDF exports are excluded from this update. No redistribution licence or new ethics exemption is inferred.
+- `src/crowd_state.py`, `polygon_zones.py`: observed state and geometry.
+- `src/mobility_probability.py`, `resource_planning.py`: uncertainty and allocation.
+- `app/`: self-contained demonstration and launcher.
+- `configs/`, `research/evaluation_*`: design, partitions and release record.
+- `output/planning_evaluation_A1/`: synthetic outcomes, analysis and audit.
+- `research/literature/`: scoped evidence and closest-method comparison.
+- `paper/framework/`: current manuscript and verification record.
 
-This repository remains **private**. This is an exploratory research artifact, not a validated crowd-safety product or an accepted publication.
+## Data boundaries
+
+The final benchmark and demo are synthetic. Raw SiME tracks, identity registries and derived participant-level integration/replay files are excluded from this update pending confirmation of redistribution terms. Aggregate summaries are included where appropriate.
+
+Raw-data audit/replay scripts require the local verified archives documented in `plan.md`; those archives are not uploaded. A fresh clone reproduces synthetic planning and its audits but needs separately acquired source data to reproduce raw-data measurements. Hypothetical profiles and request rates are not real demographic or staffing labels.
+
+## History
+
+Earlier studies remain under `paper/real_and_linkage/`, `paper/compound/`, `research/compound/`, `research/assistance/` and related historical source/output folders. Their targets, environments and results differ from CrowdScope. Current entry points are listed above; historical dependency pins remain in Git history.
+
+No external funding was received. Third-party data retain their source terms; no new blanket licence is asserted. Author and venue declarations need confirmation before formal submission.

@@ -1,0 +1,20 @@
+[
+  {
+    "case": "room",
+    "pass_checks": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "case": "corridor",
+    "pass_checks": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "case": "turn",
+    "pass_checks": true,
+    "spread_s": 2.944999999999993,
+    "stable": false
+  }
+]

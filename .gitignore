@@ -31,3 +31,8 @@ research/data/label_audit.csv
 research/data/track_coverage.csv
 research/data/expansion/labels.csv
 research/data/queries/cohort_records.json
+
+*.pyc
+
+# Derived participant-level observations: local until source terms are confirmed
+/output/recorded_occupancy_integration_v1/

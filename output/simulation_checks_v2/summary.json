@@ -1,0 +1,43 @@
+{
+  "gates": [
+    {
+      "case": "single",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": 0.005000000000000782
+    },
+    {
+      "case": "following_pair",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": 0.0
+    },
+    {
+      "case": "doorway",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": 0.005000000000000782
+    },
+    {
+      "case": "mixed_queue",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": 0.005000000000000782
+    },
+    {
+      "case": "turn",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": 0.0
+    },
+    {
+      "case": "blocked_target",
+      "movement_pass": true,
+      "timestep_stable": true,
+      "clearance_difference_s": null
+    }
+  ],
+  "repeatability_pass": true,
+  "all_pass": true,
+  "empirical_validation": false
+}

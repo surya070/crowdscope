@@ -1,0 +1,22 @@
+{
+  "purpose": "development alternative; tested after CFS jam evidence, not calibrated",
+  "engine": "JuPedSim 1.4.2 AnticipationVelocityModel",
+  "model_seed": 113,
+  "roster_seed": 410000,
+  "settings": {
+    "time_gap": 1.06,
+    "strength_neighbor_repulsion": 8.0,
+    "radius": 0.22,
+    "other_parameters": "pinned AVM defaults"
+  },
+  "dt": [
+    0.005,
+    0.0025
+  ],
+  "layouts": [
+    "room",
+    "turn"
+  ],
+  "checks": "same spatial speed count and stability tolerances",
+  "code_sha256": "221f096c15f2ed10fcaaf0be859259ab725bb999bddc993c0e178ee873c8665b"
+}

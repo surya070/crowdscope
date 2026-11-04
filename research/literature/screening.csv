@@ -1,20 +1,14 @@
-id,decision,reason,full_text_status
-S01,retain,Primary empirical mobility evidence,Relevant sections inspected; complete structured extraction pending
-S02,retain,Primary empirical interaction evidence,Relevant sections inspected; supplements pending
-S03,retain,Close disability-model competitor,Full text pending
-S04,retain,Close group-clearance competitor,Full text pending
-S05,retain_provisionally,Closest remaining-time forecasting competitor,Full text and chronological eligibility pending
-S06,retain,Close neural-surrogate competitor,Full text pending
-S07,retain,Speed-aware surrogate competitor,Full text and metadata pending
-S08,retain,Related dynamic-flow predictor,Full text extraction pending
-S09,retain,Recognition prior art,Abstract inspected; full methods pending
-S10,retain_provisionally,Sensor-based classification prior art,Full text pending
-S11,retain_dataset,Official perception dataset,Timing and trajectory suitability pending
-S12,retain_provisionally,Heterogeneous model competitor,Full-text quality audit pending
-IMPTC,exclude_for_wheelchair_training,Official released dataset reports zero wheelchair tracks,Author README inspected
-MIUN_feet,exclude_for_current_target,Caregiver feet recognition lacks crowd-clearance target,Official catalogue description inspected
-NoonGil,exclude,Obstacle and slope detection rather than crowd forecasting,Search-level screening
-Regional_hurricane_traffic,exclude,Regional vehicle demand differs from pedestrian cohort clearance,Search-level screening
-S13,retain,Close methods predecessor,Partial indexed institutional text; direct access denied
-S14,retain,Close methods predecessor,Full text methods and results inspected
-S15,retain,Close methods predecessor,Publisher access 429; primary citing paper inspected
+id,decision,reason
+N01,core,Closest recognition-plus-prediction framework
+N02,core,Closest crowd guide allocation under uncertainty
+N03,core,Bayesian crowd uncertainty predecessor
+N04,core,Uncertain demand and resource planning predecessor at different scale
+N05,core,Heterogeneous simulation and density maps already exist
+N06,context,Useful recognition data but wearable modality differs
+N07,core,Empirical heterogeneous bottleneck predecessor
+N08,core,Current project's principal empirical source
+N09,context,Appearance-based recognition differs from proposed input
+N10,data_candidate,Aggregate validation only unless schema supports more
+X01,exclude_core,SmartWheels studies surface features rather than crowd mobility composition
+X02,exclude_core,Shoulder-loading activity recognition uses wearable sensors and a different target
+X03,exclude_core,Curb-ramp classification is infrastructure recognition

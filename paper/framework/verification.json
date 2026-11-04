@@ -1,0 +1,28 @@
+{
+  "pages": 7,
+  "references": 18,
+  "abstract_words": 208,
+  "sections": [
+    "Introduction",
+    "Literature Review and Related Work",
+    "Research Problem, Objectives and Hypotheses",
+    "Research Methodology",
+    "Results",
+    "Discussion",
+    "Conclusion and Future Work"
+  ],
+  "built_in_compilation": "passed",
+  "overfull_boxes": 0,
+  "undefined_citations_or_refs": 0,
+  "github_link_clickable": true,
+  "source_sha256": "3d49392ebb5815cbe1df296e6b47cefbabcf6a3355dfbc4bfe513d9792317cce",
+  "pdf_sha256": "86e6304bbbd2d8af14ec63b9d98d65273f803de9a5348ba340b7aa38eb1ada9a",
+  "visual_review": "seven-page layout reviewed; final architecture, full effects figure and final-page references checked",
+  "python_tests": 42,
+  "javascript_cross_language_fixtures": 100,
+  "limitations": "Conditional synthetic benchmark; no universal-use or novel-algorithm claim; no real demographic recognition",
+  "figure_sha256": {
+    "architecture.pdf": "7fe6dff70664cdefedcd2eef520b681921becc719d3b49119bb384a33a47284b",
+    "effects.pdf": "c73ac7360921729ba35d74b771e7b8138dbf6da88758ed4f250344b25b3fb46b"
+  }
+}

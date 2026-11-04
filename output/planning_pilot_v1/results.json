@@ -1,0 +1,3922 @@
+[
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.635988363855528,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 2.7379635472144264,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 1.5,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 0,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 5.310231621767328,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.3354789419278186,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 1,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 4.586579627809925,
+    "realised_unmet": 3,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.1622332832975286,
+    "realised_unmet": 3,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.1617647058823537,
+    "realised_unmet": 3,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 1,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 2,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 5.1730077386536735,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.36488182057223,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.2941176470588243,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 3,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      0,
+      2,
+      2,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.219628101987338,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.9974652075340265,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 1.8970588235294126,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 4,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 6.108469816945228,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.5631160430478976,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 5,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 8
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 5.416229553062931,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.3699971016441257,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 6,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 6,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 6.012142503943333,
+    "realised_unmet": 6,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 6,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.635231397589918,
+    "realised_unmet": 6,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.426470588235295,
+    "realised_unmet": 6,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 4,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 7,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      3,
+      1,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 5.715860853227857,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.451983394790098,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 8,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 4.358340208003342,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.004322511088528,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 1.7647058823529416,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.2009826573428635,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410000,
+    "replica": 9,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 6,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 6.790915974424844,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 6,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.9191629014679883,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.691176470588236,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 0,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 6.991538374603429,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.975372619584177,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.691176470588236,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 1,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 5.466497762816321,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.4171202941211427,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 2.1617647058823537,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 2,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 2,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 11
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.51726787462668,
+    "realised_unmet": 0,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.0518132969215293,
+    "realised_unmet": 0,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 1.7647058823529416,
+    "realised_unmet": 0,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 0,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 3,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 12
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 4.827848746998315,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.2044708194964393,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 4,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 6.230447071787017,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.6957751707216016,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.426470588235295,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 5,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 5.486263311497407,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 6,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.422972535993415,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.1617647058823537,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 6,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.9044349610566025,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.257214854963529,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.1617647058823537,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 7,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 13
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 7,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 6.094917042872638,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 7,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 3.69196527236004,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": 2.5588235294117654,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 8,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 5,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 6.006304843584811,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 5,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.5983036589782205,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.2941176470588243,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.180545999805081,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410001,
+    "replica": 9,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 4.997302585040664,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.2532436103962525,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 0,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 8,
+    "total_requests": 20
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.600970702956489,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.105522786170927,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 1.8970588235294126,
+    "realised_unmet": 3,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 1,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 11
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 4.060700435363999,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.9499744217010258,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.8970588235294126,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 2,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 4.378555768610675,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.0449559933670267,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.8970588235294126,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 3,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 13
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 4.997302585040663,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.2532436103962525,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 4,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.404498051254601,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 3.0514226838933283,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 1.8970588235294121,
+    "realised_unmet": 3,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 5,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 5,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 5,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 5.019680765094739,
+    "realised_unmet": 7,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 5,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.2242961185874908,
+    "realised_unmet": 7,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 1.8970588235294121,
+    "realised_unmet": 7,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 5,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 6,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 3,
+    "total_requests": 15
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 6.012142503943333,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.635231397589918,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.426470588235295,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 7,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 5.362227125377109,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.4195068533443163,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.2941176470588243,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 8,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 5
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.6675652037455313,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.8022088813721635,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.764705882352942,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "known_class",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.934204186098429,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410002,
+    "replica": 9,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 8,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 5.310231621767328,
+    "realised_unmet": 10,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 8,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.3354789419278186,
+    "realised_unmet": 10,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 10,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 8,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 0,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 7,
+    "total_requests": 19
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 5.416229553062932,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.3699971016441252,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 0,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 1,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.9769976070341904,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.896264932451627,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 1.7647058823529416,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 2,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 2,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 4.476934516836192,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.1020571035218287,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 1,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 3,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 5.742106991558937,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.426958805862056,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 1.9705882352941178,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 4,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 4,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 2,
+    "total_requests": 14
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 4.400348302777904,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.0493130680547385,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 1.8970588235294126,
+    "realised_unmet": 4,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 3,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 5,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 1,
+    "total_requests": 13
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 5.173007738653674,
+    "realised_unmet": 5,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 3.36488182057223,
+    "realised_unmet": 5,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_loss": 2.2941176470588243,
+    "realised_unmet": 5,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 6,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 4,
+    "total_requests": 16
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 4.157717807824758,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 2.948112792972339,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": 1.7647058823529416,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 2,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 7,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 9
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "hard_observed",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 4.63586218345953,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "probabilistic",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 3.1495478893548285,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "mean_demand",
+    "allocation": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "expected_loss": 2.029411764705883,
+    "realised_unmet": 2,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 1,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 8,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 10
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "homogeneous",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 3.4248519800131794,
+    "realised_unmet": 0,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "hard_observed",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 5.74356972634626,
+    "realised_unmet": 1,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "hard_posterior",
+    "allocation": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "expected_loss": 1.141241574373211,
+    "realised_unmet": 0,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "probabilistic",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.527564431981217,
+    "realised_unmet": 1,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "mean_demand",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 2.2941176470588243,
+    "realised_unmet": 1,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "known_class",
+    "allocation": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "expected_loss": 3.0651538405732492,
+    "realised_unmet": 1,
+    "total_requests": 7
+  },
+  {
+    "block": 410003,
+    "replica": 9,
+    "policy": "perfect_demand_reference",
+    "allocation": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "expected_loss": null,
+    "realised_unmet": 0,
+    "total_requests": 7
+  }
+]

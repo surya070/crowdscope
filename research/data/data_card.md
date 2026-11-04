@@ -1,25 +1,30 @@
-# SiME saved-data audit
+# SiME feasibility audit — 4 November 2026
 
-Date: 2 November 2026. Source DOI: https://doi.org/10.34735/ped.2017.1 . This stage audits the saved snapshot, without downloading or inspecting any new trial outcomes. It does not fit or calibrate a model.
+## Source and reproducibility
 
-Inputs were read directly from the verified pre-reset ZIP and checked against its per-file SHA-256 manifest. Raw files were not restored into the active project. `audit_saved_sime.py` reproduces the inventory with standard Python.
+Dataset identifier: https://doi.org/10.34735/ped.2017.1 . Audit script: `research/data/audit_stage2.py`. Run with standard-library Python from any directory. It reads both verified local backup ZIPs directly, validates each selected input against its backup SHA-256 record, and writes `research/data/stage2/`. No raw files were extracted and no classifier, predictor or simulator was fitted.
 
-The official saved metadata contains 119 run entries; eight raw trial files are locally available. This metadata count does not resolve differing whole-project run totals in older documents. Units in raw headers are metres and 25 frames/s, with x already inverted toward the downstream direction. Coordinates represent tracked head positions, not full-body footprints. Avoid treating the z coordinate as an age or disability detector.
+The two snapshots supply eight original and six later-acquired trial files. These are the fourteen files behind the previous study, resolving the apparent eight-versus-fourteen discrepancy in old notes. The former primary forecasting analysis selected eleven; the current inventory deliberately retains excluded/problematic trials as diagnostics.
 
-Eight trials contain 619 person-trial tracks. These are not 619 independent people. No missing internal frames or duplicate ID/frame records were found within the saved tracks; that does not rule out smoothing artifacts, identity errors or missing track ends.
+## Observations
 
-Every saved trial was previously accessed and inspected. Reference trials 1501/1507 were used for calibration; 1503/1505 were tested and reported previously. All eight are exposed development evidence for a new study. Unavailable trials in metadata are not automatically independent or eligible tests; check prior exposure and participant reuse first.
+- Fourteen trials, 1,151 person-trial tracks. These are not 1,151 independent people.
+- Headers declare 25 fps, metre positions and an already inverted x-axis. Coordinates are tracked head positions. The z field is explicitly ambiguous in the source header and is excluded from proposed movement-only recognition.
+- Fifty-six documented wheelchair person-trial observations correspond to seven persistent wheelchair IDs repeated across trials 501–508. The historical positive registry is preserved as such; its absence does not establish a negative disability label.
+- 928 of 1,151 tracks lack a persistent ID in header comments. Consequently the number of unique people across all tracks cannot be established from these comments alone.
+- Known persistent-ID connections place all fourteen trials in one connected component. This assumes the archived interpretation of numeric comments as cross-run identifiers; reconfirm namespace semantics before using them for splits. Missing identities could add dependence, not demonstrate independence.
+- No internal missing frames or duplicate ID/frame pairs were found. This does not rule out tracking errors, interpolation, incomplete ends or ID switches.
+- Trial 1307 has a metadata/track count mismatch. Trial 507 contains a track without an observed forward head crossing of x=2.4 m. Those diagnostics match the earlier audit.
+- No verified per-track age, helper, family or assistance-demand annotations were established by this audit.
 
-Official documentation describes repeated runs and partial persistent identifiers in headers. Many header comments are empty, so a complete identity-disjoint partition is not established. The metadata `persons` field names researchers, not a participant age registry.
+## Exposure and terms
 
-Labels: wheelchair persistent identifiers 34–40 are supported by archived documentation and map to seven tracks in each of 501/507. Those are seven unique documented wheelchair users, not 14. Other tracks are marked unestablished by this particular registry; absence from that registry is not a universal non-disabled label. No helper-track, family or age mapping is established here. Published individual ages must be linked through verified identifiers before use; matching article row order is insufficient.
+All fourteen trial outcomes were previously inspected. None is a fresh independent test. New targets or code do not reset that exposure.
 
-Licensing and redistribution terms require a fresh source check before release. This audit uses locally saved evidence and does not establish current access/licence terms. New files contain no medical narratives. Do not upload raw tracks or participant mappings without checking source permissions.
+Current access/licensing remains unresolved: the attempted current archive documentation page failed to retrieve. The saved original source identity and integrity are documented, but do not constitute redistribution permission. Keep raw trajectories and identity mappings local. Check the authoritative current dataset terms before distributing derived person-level data.
 
-Data quality issues:
+## Intended use
 
-- Trial 1307: metadata 83 versus 85 tracks. All 85 cross x=2.4 m; cohort membership must be reconciled.
-- Trial 507: metadata and tracks both 92, but only 91 have observed forward crossings of x=2.4 m. Track 32 (documented wheelchair ID 36) ends at frame 938, x=-2.08068 m, upstream. Its later outcome is unobserved; do not impute its passage from the last recorded frame.
-- Five trials have no common time interval shared by all tracks (latest first frame exceeds earliest last frame). A complete cohort snapshot/history is therefore not universally observed. Entrants can appear after others leave the field of view.
+Suitable for exploratory movement/zone-state checks, bounded simulator comparisons under matched geometry, and auditing whether a small mobility-inference pilot is possible. Insufficient by itself for broad unseen-population demographic recognition, operational staffing validation or full-building evacuation claims.
 
-Files: `trial_inventory.csv`, `track_coverage.csv`, `label_audit.csv`, `metadata_inventory.csv`, `exposure_ledger.csv`, `audit_summary.json`. These are audit outputs, not trained-model data partitions.
+The generated label inventory contains local historical mappings and should not be published by default. The audit JSON lists exact input archive members and hashes.

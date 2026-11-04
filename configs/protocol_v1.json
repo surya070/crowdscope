@@ -1,0 +1,39 @@
+{
+  "version": "v1-development",
+  "evaluation_release": false,
+  "engine": {
+    "package": "jupedsim",
+    "version": "1.4.2",
+    "model": "CollisionFreeSpeedModelV2"
+  },
+  "agents": 80,
+  "zones": 4,
+  "checkpoint_s": 10,
+  "history_s": 2,
+  "prevalence": 0.2,
+  "metadata_error": 0.2,
+  "request_probabilities": [
+    0.1,
+    0.4
+  ],
+  "budget": 6,
+  "capacity_per_unit": 2,
+  "replicates_per_block": 10,
+  "primary_comparator": "hard_posterior",
+  "primary_metric": "paired_realised_unmet_requests",
+  "bootstrap": {
+    "unit": "crowd_seed_block",
+    "samples": 10000,
+    "seed": 9041
+  },
+  "release_blockers": [
+    "exact_geometry_and_zones",
+    "spawn_rules",
+    "full_engine_parameters",
+    "numerical_verification",
+    "closest_literature_checks",
+    "empirical_source_terms_status"
+  ],
+  "seeds": "research/split_manifest.csv",
+  "scope": "synthetic metadata channel; not movement recognition"
+}

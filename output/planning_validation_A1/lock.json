@@ -1,0 +1,360 @@
+{
+  "purpose": "frozen manifest-based validation execution; synthetic benchmark",
+  "seeds": [
+    410040,
+    410041,
+    410042,
+    410043,
+    410044,
+    410045,
+    410046,
+    410047,
+    410048,
+    410049,
+    410050,
+    410051,
+    410052,
+    410053,
+    410054,
+    410055,
+    410056,
+    410057,
+    410058,
+    410059
+  ],
+  "replicas": 10,
+  "cases": [
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "base"
+    },
+    {
+      "counts": [
+        40,
+        24,
+        12,
+        4
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "unequal_zones"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 3,
+      "temperature": 1.0,
+      "name": "scarce"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 9,
+      "temperature": 1.0,
+      "name": "abundant"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0,
+      "working_error": 0,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "perfect_observation"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.5,
+      "working_error": 0.5,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "uninformative"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.05,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_low"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.5,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "prior_shift_high"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.3,
+      "working_error": 0.1,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "noise_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 0.5,
+      "name": "overconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.4
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 2.0,
+      "name": "underconfident"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.1
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "equal_demand_control"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.1,
+        0.1
+      ],
+      "working_rates": [
+        0.1,
+        0.4
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "demand_misspecification"
+    },
+    {
+      "counts": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "true_prior": 0.2,
+      "working_prior": 0.2,
+      "true_error": 0.2,
+      "working_error": 0.2,
+      "true_rates": [
+        0.05,
+        0.6
+      ],
+      "working_rates": [
+        0.05,
+        0.6
+      ],
+      "budget": 6,
+      "temperature": 1.0,
+      "name": "high_demand_contrast"
+    }
+  ],
+  "common_random_numbers": "same class/noise/request uniform streams across cases; zone slot regrouping is explicit",
+  "primary_comparator_unchanged": true,
+  "selection": "none; retain all cells and policies",
+  "hashes": {
+    "research/run_planning_manifest.py": "d5f9cb3932d4452a83459cac85c86a975a98378d959941e2609451278c49fb87",
+    "src/resource_planning.py": "effb05fcd9b399780671abdbc561be8a0db2a024d312bcb4289ecbddc3dcbfde",
+    "src/mobility_probability.py": "91b89dbd4555a1f2363b73e9cefb60d8f27a23d442fe9b75c9487db680d81dca",
+    "configs/evaluation_A1.json": "430481a48ba3c900139ca923446459201018aaa8a0181be4ee57be7d61b829ce",
+    "research/evaluation_manifest_A1.csv": "df473296bb0003ceb0f762aa2c5a129a1c63d461577290350216adfbfc1d9237"
+  }
+}

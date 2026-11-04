@@ -1,0 +1,6 @@
+{
+  "release_hashes_match": true,
+  "base_replicas": 600,
+  "identical_probabilistic_hard_observed_allocations": 599,
+  "primary_difference": -0.255
+}

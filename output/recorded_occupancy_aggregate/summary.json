@@ -1,0 +1,968 @@
+[
+  {
+    "trial": "501",
+    "time_s": 10,
+    "visible_all": 75,
+    "inside_roi_box": 25,
+    "outside_roi_box": 50,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      11,
+      9,
+      3,
+      2
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.036948808424700434
+  },
+  {
+    "trial": "501",
+    "time_s": 20,
+    "visible_all": 72,
+    "inside_roi_box": 26,
+    "outside_roi_box": 46,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      7,
+      3,
+      4
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.052376998254704654
+  },
+  {
+    "trial": "501",
+    "time_s": 30,
+    "visible_all": 60,
+    "inside_roi_box": 25,
+    "outside_roi_box": 35,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      16,
+      5,
+      2,
+      2
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.06663848240704606
+  },
+  {
+    "trial": "502",
+    "time_s": 10,
+    "visible_all": 78,
+    "inside_roi_box": 18,
+    "outside_roi_box": 60,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      10,
+      4,
+      1,
+      3
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.013631264228901966
+  },
+  {
+    "trial": "502",
+    "time_s": 20,
+    "visible_all": 78,
+    "inside_roi_box": 27,
+    "outside_roi_box": 51,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      13,
+      6,
+      5,
+      3
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.07050428519425014
+  },
+  {
+    "trial": "502",
+    "time_s": 30,
+    "visible_all": 65,
+    "inside_roi_box": 30,
+    "outside_roi_box": 35,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      19,
+      10,
+      0,
+      1
+    ],
+    "allocation": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.03383547486133597
+  },
+  {
+    "trial": "503",
+    "time_s": 10,
+    "visible_all": 81,
+    "inside_roi_box": 28,
+    "outside_roi_box": 53,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      15,
+      6,
+      4,
+      3
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.07079603918469826
+  },
+  {
+    "trial": "503",
+    "time_s": 20,
+    "visible_all": 73,
+    "inside_roi_box": 41,
+    "outside_roi_box": 32,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      17,
+      14,
+      5,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.33847929980606994
+  },
+  {
+    "trial": "503",
+    "time_s": 30,
+    "visible_all": 58,
+    "inside_roi_box": 41,
+    "outside_roi_box": 17,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      21,
+      10,
+      4,
+      6
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.30978222851896803
+  },
+  {
+    "trial": "504",
+    "time_s": 10,
+    "visible_all": 87,
+    "inside_roi_box": 28,
+    "outside_roi_box": 59,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      17,
+      8,
+      0,
+      3
+    ],
+    "allocation": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.026471331833796484
+  },
+  {
+    "trial": "504",
+    "time_s": 20,
+    "visible_all": 75,
+    "inside_roi_box": 44,
+    "outside_roi_box": 31,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      19,
+      14,
+      5,
+      6
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.4857084514343662
+  },
+  {
+    "trial": "504",
+    "time_s": 30,
+    "visible_all": 58,
+    "inside_roi_box": 42,
+    "outside_roi_box": 16,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      22,
+      11,
+      3,
+      6
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.5673681605792684
+  },
+  {
+    "trial": "505",
+    "time_s": 10,
+    "visible_all": 86,
+    "inside_roi_box": 13,
+    "outside_roi_box": 73,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      7,
+      5,
+      0,
+      1
+    ],
+    "allocation": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "expected_hypothetical_unmet": 4.9300739440662e-05
+  },
+  {
+    "trial": "505",
+    "time_s": 20,
+    "visible_all": 82,
+    "inside_roi_box": 34,
+    "outside_roi_box": 48,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      21,
+      8,
+      2,
+      3
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.15782931937194508
+  },
+  {
+    "trial": "505",
+    "time_s": 30,
+    "visible_all": 71,
+    "inside_roi_box": 42,
+    "outside_roi_box": 29,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      24,
+      15,
+      2,
+      1
+    ],
+    "allocation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "expected_hypothetical_unmet": 0.33136358577244956
+  },
+  {
+    "trial": "506",
+    "time_s": 10,
+    "visible_all": 86,
+    "inside_roi_box": 28,
+    "outside_roi_box": 58,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      9,
+      3,
+      4
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.046820796192037085
+  },
+  {
+    "trial": "506",
+    "time_s": 20,
+    "visible_all": 74,
+    "inside_roi_box": 37,
+    "outside_roi_box": 37,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      13,
+      13,
+      5,
+      6
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.20045179047403106
+  },
+  {
+    "trial": "506",
+    "time_s": 30,
+    "visible_all": 57,
+    "inside_roi_box": 30,
+    "outside_roi_box": 27,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      8,
+      5,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.09155714515431274
+  },
+  {
+    "trial": "507",
+    "time_s": 10,
+    "visible_all": 80,
+    "inside_roi_box": 10,
+    "outside_roi_box": 70,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      9,
+      1,
+      0,
+      0
+    ],
+    "allocation": [
+      5,
+      1,
+      0,
+      0
+    ],
+    "expected_hypothetical_unmet": 0.0
+  },
+  {
+    "trial": "507",
+    "time_s": 20,
+    "visible_all": 84,
+    "inside_roi_box": 29,
+    "outside_roi_box": 55,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      13,
+      9,
+      5,
+      2
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.09312805065680302
+  },
+  {
+    "trial": "507",
+    "time_s": 30,
+    "visible_all": 74,
+    "inside_roi_box": 44,
+    "outside_roi_box": 30,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      24,
+      12,
+      4,
+      4
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.41123374181614425
+  },
+  {
+    "trial": "508",
+    "time_s": 10,
+    "visible_all": 88,
+    "inside_roi_box": 25,
+    "outside_roi_box": 63,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      8,
+      8,
+      5,
+      4
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.06893219484426955
+  },
+  {
+    "trial": "508",
+    "time_s": 20,
+    "visible_all": 70,
+    "inside_roi_box": 29,
+    "outside_roi_box": 41,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      15,
+      6,
+      3,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.1276193104044606
+  },
+  {
+    "trial": "508",
+    "time_s": 30,
+    "visible_all": 56,
+    "inside_roi_box": 36,
+    "outside_roi_box": 20,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      22,
+      9,
+      4,
+      1
+    ],
+    "allocation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "expected_hypothetical_unmet": 0.2135529397515303
+  },
+  {
+    "trial": "1301",
+    "time_s": 10,
+    "visible_all": 80,
+    "inside_roi_box": 26,
+    "outside_roi_box": 54,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      14,
+      8,
+      3,
+      1
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.06127477664400067
+  },
+  {
+    "trial": "1301",
+    "time_s": 20,
+    "visible_all": 72,
+    "inside_roi_box": 48,
+    "outside_roi_box": 24,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      22,
+      18,
+      3,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.674731948457422
+  },
+  {
+    "trial": "1301",
+    "time_s": 30,
+    "visible_all": 59,
+    "inside_roi_box": 47,
+    "outside_roi_box": 12,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      24,
+      14,
+      4,
+      5
+    ],
+    "allocation": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.7065814543475718
+  },
+  {
+    "trial": "1307",
+    "time_s": 10,
+    "visible_all": 81,
+    "inside_roi_box": 33,
+    "outside_roi_box": 48,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": false,
+    "status": "integrated",
+    "zone_counts": [
+      17,
+      7,
+      3,
+      6
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.1425909226832388
+  },
+  {
+    "trial": "1307",
+    "time_s": 20,
+    "visible_all": 66,
+    "inside_roi_box": 45,
+    "outside_roi_box": 21,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": false,
+    "status": "integrated",
+    "zone_counts": [
+      19,
+      17,
+      4,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.4500588570956567
+  },
+  {
+    "trial": "1307",
+    "time_s": 30,
+    "visible_all": 50,
+    "inside_roi_box": 44,
+    "outside_roi_box": 6,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": false,
+    "status": "integrated",
+    "zone_counts": [
+      17,
+      13,
+      9,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.5534953926652785
+  },
+  {
+    "trial": "1501",
+    "time_s": 10,
+    "visible_all": 65,
+    "inside_roi_box": 28,
+    "outside_roi_box": 37,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      16,
+      8,
+      1,
+      3
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.11051662748611424
+  },
+  {
+    "trial": "1501",
+    "time_s": 20,
+    "visible_all": 54,
+    "inside_roi_box": 38,
+    "outside_roi_box": 16,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      19,
+      11,
+      5,
+      3
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.22674278101264306
+  },
+  {
+    "trial": "1501",
+    "time_s": 30,
+    "visible_all": 42,
+    "inside_roi_box": 35,
+    "outside_roi_box": 7,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      15,
+      12,
+      3,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.16413982981375094
+  },
+  {
+    "trial": "1503",
+    "time_s": 10,
+    "visible_all": 66,
+    "inside_roi_box": 25,
+    "outside_roi_box": 41,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      8,
+      2,
+      3
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.04028587371183224
+  },
+  {
+    "trial": "1503",
+    "time_s": 20,
+    "visible_all": 50,
+    "inside_roi_box": 39,
+    "outside_roi_box": 11,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      21,
+      10,
+      4,
+      4
+    ],
+    "allocation": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.2742887294731626
+  },
+  {
+    "trial": "1503",
+    "time_s": 30,
+    "visible_all": 36,
+    "inside_roi_box": 35,
+    "outside_roi_box": 1,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      14,
+      4,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.1640642516872045
+  },
+  {
+    "trial": "1505",
+    "time_s": 10,
+    "visible_all": 69,
+    "inside_roi_box": 27,
+    "outside_roi_box": 42,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      16,
+      7,
+      3,
+      1
+    ],
+    "allocation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "expected_hypothetical_unmet": 0.13538645494164817
+  },
+  {
+    "trial": "1505",
+    "time_s": 20,
+    "visible_all": 54,
+    "inside_roi_box": 43,
+    "outside_roi_box": 11,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      20,
+      12,
+      5,
+      6
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.3784631265692865
+  },
+  {
+    "trial": "1505",
+    "time_s": 30,
+    "visible_all": 37,
+    "inside_roi_box": 35,
+    "outside_roi_box": 2,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      14,
+      13,
+      4,
+      4
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.09470182292202838
+  },
+  {
+    "trial": "1507",
+    "time_s": 10,
+    "visible_all": 67,
+    "inside_roi_box": 25,
+    "outside_roi_box": 42,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      12,
+      8,
+      2,
+      3
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.03259514443154554
+  },
+  {
+    "trial": "1507",
+    "time_s": 20,
+    "visible_all": 52,
+    "inside_roi_box": 43,
+    "outside_roi_box": 9,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      20,
+      10,
+      6,
+      7
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.6183118302324507
+  },
+  {
+    "trial": "1507",
+    "time_s": 30,
+    "visible_all": 34,
+    "inside_roi_box": 31,
+    "outside_roi_box": 3,
+    "geometry_mismatch": 0,
+    "metadata_count_matches": true,
+    "status": "integrated",
+    "zone_counts": [
+      8,
+      13,
+      5,
+      5
+    ],
+    "allocation": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "expected_hypothetical_unmet": 0.17171151636568446
+  }
+]

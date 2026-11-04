@@ -1,0 +1,1640 @@
+[
+  {
+    "case": "base",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.135,
+      "hard_posterior": 3.33,
+      "probabilistic": 3.135,
+      "mean_demand": 3.135,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -1.2999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.7000000000000002,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.10000000000000053,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -1.3000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.19500000000000028,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "unequal_zones",
+    "means": {
+      "homogeneous": 2.795,
+      "hard_observed": 2.87,
+      "hard_posterior": 2.795,
+      "probabilistic": 2.795,
+      "mean_demand": 2.795,
+      "known_class": 2.725,
+      "perfect_demand_reference": 1.905
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.20000000000000018
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.10000000000000009
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.3999999999999999
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.10000000000000009
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.2999999999999998
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.39999999999999947
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.09999999999999987
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.30000000000000004
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.19999999999999973
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": -0.2999999999999998
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.2999999999999998
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.19999999999999973
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.10000000000000009
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.09999999999999987
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.0,
+    "probabilistic_minus_hard_observed": -0.07500000000000018,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "scarce",
+    "means": {
+      "homogeneous": 7.14,
+      "hard_observed": 7.05,
+      "hard_posterior": 7.14,
+      "probabilistic": 7.05,
+      "mean_demand": 7.14,
+      "known_class": 7.075,
+      "perfect_demand_reference": 6.595
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.10000000000000053,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": -0.20000000000000107,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -0.1999999999999993,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": -0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.20000000000000107,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": -0.5999999999999996,
+        "vs_hard_observed": 0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.08999999999999986,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "abundant",
+    "means": {
+      "homogeneous": 0.98,
+      "hard_observed": 0.93,
+      "hard_posterior": 0.98,
+      "probabilistic": 0.93,
+      "mean_demand": 0.99,
+      "known_class": 0.83,
+      "perfect_demand_reference": 0.18
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -0.20000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.39999999999999997,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": -0.7,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.4999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -0.6999999999999997,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.09999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.5000000000000001,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.20000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.19999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": -0.09999999999999987,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.2,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.04999999999999993,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "perfect_observation",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.06,
+      "hard_posterior": 3.06,
+      "probabilistic": 3.06,
+      "mean_demand": 3.06,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.0,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.0
+  },
+  {
+    "case": "uninformative",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.32,
+      "hard_posterior": 3.33,
+      "probabilistic": 3.33,
+      "mean_demand": 3.33,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.7999999999999998
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.7000000000000002
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.5
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": -0.20000000000000018
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.09999999999999964
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.3000000000000007
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.7000000000000002
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.20000000000000018
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.10000000000000009
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.2999999999999998
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.6000000000000001
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.19999999999999973
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.19999999999999973
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.40000000000000013
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.7000000000000002
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0.10000000000000009
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.5999999999999999
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.3000000000000007
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.1999999999999993
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.19999999999999973
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.0,
+    "probabilistic_minus_hard_observed": 0.010000000000000231,
+    "mean_brier": 0.16075000000000003
+  },
+  {
+    "case": "prior_shift_low",
+    "means": {
+      "homogeneous": 1.35,
+      "hard_observed": 1.35,
+      "hard_posterior": 1.35,
+      "probabilistic": 1.35,
+      "mean_demand": 1.35,
+      "known_class": 1.19,
+      "perfect_demand_reference": 0.355
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -0.6000000000000001,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.5000000000000002,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.30000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.5999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.2999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.40000000000000013,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.09999999999999987,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.20000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.09999999999999998,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.30000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.10000000000000003,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": -0.09999999999999987,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": -0.19999999999999996,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.0,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.06778844074394463
+  },
+  {
+    "case": "prior_shift_high",
+    "means": {
+      "homogeneous": 8.215,
+      "hard_observed": 8.075,
+      "hard_posterior": 8.215,
+      "probabilistic": 8.075,
+      "mean_demand": 8.075,
+      "known_class": 8.045,
+      "perfect_demand_reference": 7.445
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.9000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.20000000000000107,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.10000000000000142,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": -0.10000000000000053,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.5999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.2999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.20000000000000107,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.14000000000000057,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.21338478589965398
+  },
+  {
+    "case": "noise_misspecification",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.265,
+      "hard_posterior": 3.265,
+      "probabilistic": 3.255,
+      "mean_demand": 3.25,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": -0.1999999999999993,
+        "vs_hard_observed": -0.1999999999999993
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.010000000000000231,
+    "probabilistic_minus_hard_observed": -0.010000000000000231,
+    "mean_brier": 0.18800683239612556
+  },
+  {
+    "case": "overconfident",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.135,
+      "hard_posterior": 3.33,
+      "probabilistic": 3.135,
+      "mean_demand": 3.135,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -1.2999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.7000000000000002,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.10000000000000053,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -1.3000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.19500000000000028,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.12183033737263244
+  },
+  {
+    "case": "underconfident",
+    "means": {
+      "homogeneous": 3.33,
+      "hard_observed": 3.135,
+      "hard_posterior": 3.33,
+      "probabilistic": 3.135,
+      "mean_demand": 3.135,
+      "known_class": 3.06,
+      "perfect_demand_reference": 1.92
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -1.2999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.7000000000000002,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.10000000000000053,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -1.3000000000000007,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.40000000000000036,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.09999999999999964,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.19500000000000028,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.13271312500000002
+  },
+  {
+    "case": "equal_demand_control",
+    "means": {
+      "homogeneous": 0.985,
+      "hard_observed": 0.985,
+      "hard_posterior": 0.985,
+      "probabilistic": 0.985,
+      "mean_demand": 1.28,
+      "known_class": 0.985,
+      "perfect_demand_reference": 0.18
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.0,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "demand_misspecification",
+    "means": {
+      "homogeneous": 0.985,
+      "hard_observed": 1.01,
+      "hard_posterior": 0.985,
+      "probabilistic": 1.01,
+      "mean_demand": 1.01,
+      "known_class": 1.04,
+      "perfect_demand_reference": 0.18
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -0.30000000000000004,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.3999999999999999,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.5,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.7000000000000001,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": 0.29999999999999993,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.30000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.09999999999999998,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.30000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.19999999999999996,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.2,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": 0.30000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.7,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": -0.29999999999999993,
+        "vs_hard_observed": 0.0
+      }
+    ],
+    "probabilistic_minus_hard_posterior": 0.025000000000000022,
+    "probabilistic_minus_hard_observed": 0.0,
+    "mean_brier": 0.11963478589965398
+  },
+  {
+    "case": "high_demand_contrast",
+    "means": {
+      "homogeneous": 3.27,
+      "hard_observed": 3.045,
+      "hard_posterior": 3.27,
+      "probabilistic": 3.015,
+      "mean_demand": 3.015,
+      "known_class": 2.66,
+      "perfect_demand_reference": 1.935
+    },
+    "block_effects": [
+      {
+        "block": 410040,
+        "vs_hard_posterior": -1.9000000000000004,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410041,
+        "vs_hard_posterior": -0.2999999999999998,
+        "vs_hard_observed": -0.2999999999999998
+      },
+      {
+        "block": 410042,
+        "vs_hard_posterior": -0.8999999999999999,
+        "vs_hard_observed": 0.10000000000000009
+      },
+      {
+        "block": 410043,
+        "vs_hard_posterior": 0.2999999999999998,
+        "vs_hard_observed": 0.2999999999999998
+      },
+      {
+        "block": 410044,
+        "vs_hard_posterior": 0.30000000000000004,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410045,
+        "vs_hard_posterior": -0.2999999999999998,
+        "vs_hard_observed": -0.20000000000000018
+      },
+      {
+        "block": 410046,
+        "vs_hard_posterior": -1.7000000000000002,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410047,
+        "vs_hard_posterior": -0.10000000000000009,
+        "vs_hard_observed": -0.10000000000000009
+      },
+      {
+        "block": 410048,
+        "vs_hard_posterior": -0.2999999999999998,
+        "vs_hard_observed": 0
+      },
+      {
+        "block": 410049,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410050,
+        "vs_hard_posterior": 0.3999999999999999,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410051,
+        "vs_hard_posterior": -0.7000000000000002,
+        "vs_hard_observed": -0.20000000000000018
+      },
+      {
+        "block": 410052,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410053,
+        "vs_hard_posterior": 0.0,
+        "vs_hard_observed": -0.09999999999999998
+      },
+      {
+        "block": 410054,
+        "vs_hard_posterior": 0.6000000000000001,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410055,
+        "vs_hard_posterior": 0.10000000000000009,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410056,
+        "vs_hard_posterior": -0.09999999999999987,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410057,
+        "vs_hard_posterior": -0.20000000000000018,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410058,
+        "vs_hard_posterior": -0.6000000000000005,
+        "vs_hard_observed": 0.0
+      },
+      {
+        "block": 410059,
+        "vs_hard_posterior": 0.5,
+        "vs_hard_observed": -0.09999999999999987
+      }
+    ],
+    "probabilistic_minus_hard_posterior": -0.2549999999999999,
+    "probabilistic_minus_hard_observed": -0.029999999999999805,
+    "mean_brier": 0.11963478589965398
+  }
+]

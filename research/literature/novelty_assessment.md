@@ -1,41 +1,39 @@
-# Stage 1 checkpoint: conditional research direction
+# Stage 1 assessment — 4 November 2026
 
-Date: 2 November 2026. Decision: **conditional go for data feasibility; hold the final novelty claim and simulator rebuild.** The accessible scoping pass and follow-up are recorded in `methods_followup.md`; unavailable full texts and systematic-search tasks remain explicit prerequisites before protocol freeze.
+## Proposed narrow contribution
 
-## What is already covered
+**When does calibrated uncertainty about crowd mobility composition improve zone-level estimates and finite-budget support allocation over hard classifications?**
 
-SiME provides empirical evidence for heterogeneous movement and interactions. Modified social-force disability models and controlled social-group clearance experiments also exist. Neural evacuation surrogates, graph flow predictors, and mobility-aid recognition already exist. Consequently none of the following suffices as our contribution: different speeds by category; family/group effects; a JuPedSim implementation; adding a neural model; or wheelchair recognition alone. See the linked primary-source records in `evidence_matrix.csv`.
+The framework should connect observation quality, conditional mobility probabilities, composition estimates and a capacity-limited decision, with matched baselines and calibration/shift stress tests. Density maps and passage forecasting provide context and secondary evaluation.
 
-The most direct forecasting competitor found is FCRR-Net (S05): its indexed publisher description explicitly concerns remaining evacuation time from short video sequences, with real and simulated videos. The full methods and online publication date require verification. We cannot claim first remaining-time forecasting, or assume it lacks mobility/group cues from the abstract.
+The contribution is the tested information-to-decision comparison, not inventing Bayes' rule, inventing heterogeneous simulation or creating a dashboard. A reasonable working title is *Uncertainty-Aware Mobility Composition Estimation for Zone-Based Crowd Resource Planning*.
 
-S07 is also significant: its indexed publisher description includes walking-speed statistics and explicitly distinguishes fixed geometry, detectable states and assumed population properties. Thus merely including speed statistics or uncertainty is unlikely to distinguish our work.
+## Why this fits the previous project
 
-## Candidate contribution worth checking
+Supplied mobility labels helped previous exploratory passage forecasts, while artificial label errors harmed them. That motivates measuring uncertainty rather than assuming perfect recognition. Assistance-link benefit was inconsistent, so a large assistance simulator should not be the new primary hypothesis. Existing geometry, trajectory and movement checks remain reusable with provenance.
 
-**Measure the incremental forecasting value of explicit mobility information beyond the same recent movement history, under changes in crowd composition, and quantify the loss when that information is uncertain.**
+## Evidence status and gate
 
-Suggested narrow question: At a fixed observation horizon, do mobility labels or estimated motion-capacity features improve held-out cohort passage-time predictions relative to a strong trajectory-history baseline?
+**Conditional go for Stage 2 data/identifiability audit; no-go for a confirmatory protocol freeze or a novelty claim yet.** The scoped search identifies direct overlap in recognition-plus-time prediction, heterogeneous simulation, Bayesian calibration and uncertainty-aware resource allocation. See the evidence matrix and source ledger.
 
-This is our inference about a possible gap, not an established absence from prior literature. The closest full texts must be checked for exactly this comparison. Use the same learners/tuning budgets for information ablations, and also compare validation-selected learners fairly. Distinguish labels from actual capability: a wheelchair label does not uniquely determine speed.
+The exact integrated comparison is a candidate gap. It is not established as absent from the literature. Full methods/citation tracing for the nearest allocation papers and targeted calibration-to-decision searches remain open. No authenticated Scopus search, exhaustive PRISMA process or acceptance assessment was performed.
 
-Assistance links are conditional secondary scope. Without verified helper trajectories and enough independent pairs, make no real-data relationship claim. Family coordination is a separate mechanism with no established family labels in SiME. Avoid expanding one small project into three unsupported tasks.
+Recommended minimal scope:
 
-## Why a simulator rebuild is conditional
+1. Real-trajectory occupancy/density analysis and a carefully bounded mobility-inference feasibility study.
+2. Calibrated probabilities or explicitly uncertain supplied metadata, depending on feasibility.
+3. One static allocation problem with homogeneous, hard-label, probabilistic and oracle-information controls.
+4. Separate synthetic demand evaluation with sensitivity to misspecification.
+5. Optional passage forecasting after the primary comparison is well defined.
 
-An established engine can improve credibility but cannot by itself establish novelty. First determine whether SiME already provides enough complete trajectories and targets for a direct empirical forecast comparison. If yes, that can be the primary experiment; a calibrated simulator can support controlled robustness analyses. If not, use explicitly limited conditional replay or simulation evidence and narrow the claim accordingly.
+Defer child recognition, CCTV, dynamic dispatch, physical wheelchair assistance and large neural-model catalogues. Restore them only when evidence and time justify the additional claims.
 
-Any new simulator needs calibration and numerical checks. Do not presume its outputs are realistic because it can reproduce a published average speed or aggregate clearance time. Do not tune interactions until the preferred feature set wins.
+## Questions to resolve before Stage 3
 
-## Full-text questions that decide the gate
+- Is there enough independently labelled person-level evidence for a non-circular classifier?
+- Does the intended resource have a defensible service definition and demand mechanism?
+- Does uncertainty change decisions under realistic capacities and budgets?
+- Can a genuine independent evaluation unit be formed?
+- Does the closest prior work already test the same uncertainty-to-decision mechanism?
 
-1. Does S05 compare history alone against demographic/mobility/group inputs? What real data and participant/scenario splits does it use?
-2. What population inputs and test independence do S06/S07 use? Is their output total RSET or remaining time at an observed checkpoint?
-3. Does S03 validate mobility-specific trajectories, spacing and crossings, and does it compare information availability?
-4. Can S04 or SiME supply reliable companion/group identity and independent repeat groups?
-5. Has trajectory-only wheelchair recognition been tested on unseen people in comparable congestion? RGB-D appearance and wearable sensor recognition do not answer that question directly.
-
-## Practical recommendation
-
-Keep mobility-aware forecasting as the primary direction. Treat relationship features and recognition as optional extensions. First audit real data, with complete-cohort targets and a prior-exposure ledger. Prefer grouped validation over frame-level random splits. If no unique contribution survives full-text checks, consider a focused reproducibility/benchmark study and assess venue suitability honestly rather than advertising a novel model.
-
-No new models were built or fitted at this checkpoint. No publication acceptance or final novelty is established. Next work within Stage 1 is full-text retrieval/extraction and citation tracing; Stage 2 begins only after review of this checkpoint.
+If these gates fail, choose an explicit feasibility/benchmark paper or revise the question. Neither software completeness nor a favourable synthetic result guarantees course approval or publication.

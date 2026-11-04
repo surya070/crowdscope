@@ -1,0 +1,165 @@
+[
+  {
+    "case": "room",
+    "routing": "direct",
+    "strength": 8.0,
+    "dt": 0.005,
+    "exited": 4,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.005214126500729749,
+    "max_speed_excess": 1.7696955012524995e-13,
+    "failures": [
+      "noncompletion",
+      "wall_penetration"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      0,
+      41,
+      36,
+      3
+    ]
+  },
+  {
+    "case": "room",
+    "routing": "waypoint",
+    "strength": 2.6,
+    "dt": 0.005,
+    "exited": 27,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.7763568394002505e-13,
+    "failures": [
+      "noncompletion"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      1,
+      46,
+      30,
+      3
+    ]
+  },
+  {
+    "case": "room",
+    "routing": "waypoint",
+    "strength": 8.0,
+    "dt": 0.005,
+    "exited": 4,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.005214126500729749,
+    "max_speed_excess": 1.7696955012524995e-13,
+    "failures": [
+      "noncompletion",
+      "wall_penetration"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      0,
+      41,
+      36,
+      3
+    ]
+  },
+  {
+    "case": "room",
+    "routing": "waypoint",
+    "strength": 8.0,
+    "dt": 0.0025,
+    "exited": 11,
+    "clearance_s": null,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.005005216753227321,
+    "max_speed_excess": 3.6148861681795097e-13,
+    "failures": [
+      "noncompletion",
+      "wall_penetration"
+    ],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      0,
+      41,
+      36,
+      3
+    ]
+  },
+  {
+    "case": "turn",
+    "routing": "direct",
+    "strength": 8.0,
+    "dt": 0.005,
+    "exited": 80,
+    "clearance_s": 51.915,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.9384494009955233e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      4,
+      51,
+      15,
+      10
+    ]
+  },
+  {
+    "case": "turn",
+    "routing": "waypoint",
+    "strength": 2.6,
+    "dt": 0.005,
+    "exited": 80,
+    "clearance_s": 70.205,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.8607337892717624e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      4,
+      55,
+      13,
+      8
+    ]
+  },
+  {
+    "case": "turn",
+    "routing": "waypoint",
+    "strength": 8.0,
+    "dt": 0.005,
+    "exited": 80,
+    "clearance_s": 51.915,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 1.9384494009955233e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      4,
+      51,
+      15,
+      10
+    ]
+  },
+  {
+    "case": "turn",
+    "routing": "waypoint",
+    "strength": 8.0,
+    "dt": 0.0025,
+    "exited": 80,
+    "clearance_s": 52.4325,
+    "max_overlap_m": 0.0,
+    "max_wall_m": 0.0,
+    "max_speed_excess": 3.950173521616307e-13,
+    "failures": [],
+    "checkpoint_occupants": 80,
+    "zone_counts": [
+      3,
+      53,
+      13,
+      11
+    ]
+  }
+]

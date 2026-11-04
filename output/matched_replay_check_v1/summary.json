@@ -1,0 +1,153 @@
+[
+  {
+    "status": "failed",
+    "failure": "Wall penetration 0.007780 m",
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.01,
+    "origin_s": 4.05561632309634,
+    "scheduled": 67,
+    "inserted": 54,
+    "removed": 11,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 0.007780148434073292,
+    "mapping_max_m": 0.0,
+    "mapping_mean_m": 0.0,
+    "mapping_changed_count": 0,
+    "admission_delay_max_s": 4.322137699094668,
+    "admission_delay_mean_s": 0.316684192319241,
+    "metrics": null,
+    "baseline_metrics": {
+      "n": 67,
+      "crossing_mae_s": 16.19486580223385,
+      "crossing_rmse_s": 18.07590557809733,
+      "crossing_bias_s": -16.19486580223385,
+      "observed_passage_s": 53.28382803213299,
+      "simulated_passage_s": 30.04139092029333,
+      "passage_error_s": -23.242437111839656,
+      "last_crossing_error_s": -23.281869368028374,
+      "curve_mae_people": 20.253731343283583,
+      "crossing_rank_correlation": 0.9956101843722565
+    },
+    "trial": "1501"
+  },
+  {
+    "status": "failed",
+    "failure": "Wall penetration 0.005917 m",
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.005,
+    "origin_s": 4.05561632309634,
+    "scheduled": 67,
+    "inserted": 67,
+    "removed": 34,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 0.005917032806908168,
+    "mapping_max_m": 0.0,
+    "mapping_mean_m": 0.0,
+    "mapping_changed_count": 0,
+    "admission_delay_max_s": 2.717720548448451,
+    "admission_delay_mean_s": 0.2586802082145909,
+    "metrics": null,
+    "baseline_metrics": {
+      "n": 67,
+      "crossing_mae_s": 16.19486580223385,
+      "crossing_rmse_s": 18.07590557809733,
+      "crossing_bias_s": -16.19486580223385,
+      "observed_passage_s": 53.28382803213299,
+      "simulated_passage_s": 30.04139092029333,
+      "passage_error_s": -23.242437111839656,
+      "last_crossing_error_s": -23.281869368028374,
+      "curve_mae_people": 20.253731343283583,
+      "crossing_rank_correlation": 0.9956101843722565
+    },
+    "trial": "1501"
+  },
+  {
+    "status": "failed",
+    "failure": "Wall penetration 0.005969 m",
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.01,
+    "origin_s": 4.987384395754454,
+    "scheduled": 69,
+    "inserted": 69,
+    "removed": 31,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 0.005968911002090627,
+    "mapping_max_m": 0.029644469933959305,
+    "mapping_mean_m": 0.00042962999904288846,
+    "mapping_changed_count": 1,
+    "admission_delay_max_s": 2.292894887234528,
+    "admission_delay_mean_s": 0.13056516159785836,
+    "metrics": null,
+    "baseline_metrics": {
+      "n": 69,
+      "crossing_mae_s": 10.655696788240933,
+      "crossing_rmse_s": 12.21604076018654,
+      "crossing_bias_s": -10.655696788240933,
+      "observed_passage_s": 40.03664472586184,
+      "simulated_passage_s": 25.123956576682836,
+      "passage_error_s": -14.912688149179004,
+      "last_crossing_error_s": -15.415418089396404,
+      "curve_mae_people": 18.029411764705884,
+      "crossing_rank_correlation": 0.9979539641943735
+    },
+    "trial": "1507"
+  },
+  {
+    "status": "completed",
+    "failure": null,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.005,
+    "origin_s": 4.987384395754454,
+    "scheduled": 69,
+    "inserted": 69,
+    "removed": 69,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 8.876383693637302e-05,
+    "mapping_max_m": 0.029644469933959305,
+    "mapping_mean_m": 0.00042962999904288846,
+    "mapping_changed_count": 1,
+    "admission_delay_max_s": 2.0228948872345285,
+    "admission_delay_mean_s": 0.08368110362684407,
+    "metrics": {
+      "n": 69,
+      "crossing_mae_s": 2.704193261563788,
+      "crossing_rmse_s": 3.574721846340115,
+      "crossing_bias_s": 2.4071451436789055,
+      "observed_passage_s": 40.03664472586184,
+      "simulated_passage_s": 41.71193950641382,
+      "passage_error_s": 1.6752947805519796,
+      "last_crossing_error_s": 1.1989200643467868,
+      "curve_mae_people": 4.095238095238095,
+      "crossing_rank_correlation": 0.9815491413956888
+    },
+    "baseline_metrics": {
+      "n": 69,
+      "crossing_mae_s": 10.655696788240933,
+      "crossing_rmse_s": 12.21604076018654,
+      "crossing_bias_s": -10.655696788240933,
+      "observed_passage_s": 40.03664472586184,
+      "simulated_passage_s": 25.123956576682836,
+      "passage_error_s": -14.912688149179004,
+      "last_crossing_error_s": -15.415418089396404,
+      "curve_mae_people": 18.029411764705884,
+      "crossing_rank_correlation": 0.9979539641943735
+    },
+    "trial": "1507"
+  }
+]

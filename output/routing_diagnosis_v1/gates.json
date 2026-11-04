@@ -1,0 +1,14 @@
+[
+  {
+    "case": "room",
+    "movement_pass": false,
+    "spread_s": null,
+    "stable": false
+  },
+  {
+    "case": "turn",
+    "movement_pass": true,
+    "spread_s": 0.5174999999999983,
+    "stable": true
+  }
+]

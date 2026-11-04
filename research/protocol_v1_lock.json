@@ -1,0 +1,10 @@
+{
+  "status": "development_design_only_not_evaluation_release",
+  "date": "2026-11-04",
+  "files": {
+    "research/protocol_v1.md": "fe3254e7bce353992f81543112b2757700b359653d3059bffc275046d87f505a",
+    "configs/protocol_v1.json": "2b881a5a2f7cac232febf3ebf5beacf776520af42ed4d9d5457a0ea102ea3e20",
+    "research/split_manifest.csv": "844b8cc21eb3e0fdea448b299d3ae113f843b4862f58054950e616127bc82f9a",
+    "research/amendments.md": "f456cdd39c8b59eca78cf38e9e5978907889a7649ab35157819bccfa8186d4e6"
+  }
+}

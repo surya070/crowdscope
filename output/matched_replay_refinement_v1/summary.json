@@ -1,0 +1,94 @@
+[
+  {
+    "status": "completed",
+    "failure": null,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.0025,
+    "origin_s": 4.05561632309634,
+    "scheduled": 67,
+    "inserted": 67,
+    "removed": 67,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 0.0017986142260015825,
+    "mapping_max_m": 0.0,
+    "mapping_mean_m": 0.0,
+    "mapping_changed_count": 0,
+    "admission_delay_max_s": 1.5244197908478299,
+    "admission_delay_mean_s": 0.23203841716981502,
+    "metrics": {
+      "n": 67,
+      "crossing_mae_s": 4.23721541597486,
+      "crossing_rmse_s": 6.51952249695349,
+      "crossing_bias_s": 2.1769692477781186,
+      "observed_passage_s": 53.28382803213299,
+      "simulated_passage_s": 58.338432859994214,
+      "passage_error_s": 5.054604827861226,
+      "last_crossing_error_s": 5.019348660593785,
+      "curve_mae_people": 2.5426621160409555,
+      "crossing_rank_correlation": 0.9321973022587597
+    },
+    "baseline_metrics": {
+      "n": 67,
+      "crossing_mae_s": 16.19486580223385,
+      "crossing_rmse_s": 18.07590557809733,
+      "crossing_bias_s": -16.19486580223385,
+      "observed_passage_s": 53.28382803213299,
+      "simulated_passage_s": 30.04139092029333,
+      "passage_error_s": -23.242437111839656,
+      "last_crossing_error_s": -23.281869368028374,
+      "curve_mae_people": 20.253731343283583,
+      "crossing_rank_correlation": 0.9956101843722565
+    },
+    "trial": "1501"
+  },
+  {
+    "status": "completed",
+    "failure": null,
+    "params": {
+      "speed": 1.6,
+      "radius": 0.18,
+      "time_gap": 1.0
+    },
+    "dt": 0.0025,
+    "origin_s": 4.987384395754454,
+    "scheduled": 69,
+    "inserted": 69,
+    "removed": 69,
+    "max_sampled_overlap_m": 0.0,
+    "max_sampled_wall_penetration_m": 0.0,
+    "mapping_max_m": 0.029644469933959305,
+    "mapping_mean_m": 0.00042962999904288846,
+    "mapping_changed_count": 1,
+    "admission_delay_max_s": 1.8978948872345285,
+    "admission_delay_mean_s": 0.08741298768481508,
+    "metrics": {
+      "n": 69,
+      "crossing_mae_s": 2.720428546287899,
+      "crossing_rmse_s": 3.6391560558033964,
+      "crossing_bias_s": 2.157940782709526,
+      "observed_passage_s": 40.03664472586184,
+      "simulated_passage_s": 41.62847987808493,
+      "passage_error_s": 1.5918351522230907,
+      "last_crossing_error_s": 1.1155753481070647,
+      "curve_mae_people": 3.7177033492822966,
+      "crossing_rank_correlation": 0.9751552795031057
+    },
+    "baseline_metrics": {
+      "n": 69,
+      "crossing_mae_s": 10.655696788240933,
+      "crossing_rmse_s": 12.21604076018654,
+      "crossing_bias_s": -10.655696788240933,
+      "observed_passage_s": 40.03664472586184,
+      "simulated_passage_s": 25.123956576682836,
+      "passage_error_s": -14.912688149179004,
+      "last_crossing_error_s": -15.415418089396404,
+      "curve_mae_people": 18.029411764705884,
+      "crossing_rank_correlation": 0.9979539641943735
+    },
+    "trial": "1507"
+  }
+]
