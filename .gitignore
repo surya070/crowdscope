@@ -36,3 +36,7 @@ research/data/queries/cohort_records.json
 
 # Derived participant-level observations: local until source terms are confirmed
 /output/recorded_occupancy_integration_v1/
+*_LOCAL_ONLY.csv
+/output/detector_v1/
+/output/calibrated_framework_v1/
+/app/framework_data_LOCAL_ONLY.js

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "outer_folds": 63,
+  "inner_folds": 2324,
+  "replay_frames": 759,
+  "checks": [
+    "locked source hashes",
+    "nested trial/person exclusions",
+    "independent Brier/logloss",
+    "probability bounds",
+    "count conservation",
+    "causal estimate timestamps",
+    "capacity-budget conservation"
+  ],
+  "limitation": "Unknown control identities; whole-trial replay has repeated participants; request outcomes are hypothetical"
+}

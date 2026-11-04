@@ -1,6 +1,8 @@
 # Research plan: probabilistic mobility-aware crowd analysis
 
 Date: 3 November 2026  
+Update (5 November 2026): Implemented the exploratory calibrated detector and connected streaming framework. Nested person/trial calibration, separate coherent held-trial replay, local demo and 46 tests are complete. See `docs/calibrated_framework.md` and `research/calibrated_framework_results_v1.md`. Calibration and composition errors improve; the default planning outcome does not. The current seven-page manuscript now incorporates this extension and explains crowd-management use. Aggregate results, source and the privacy-preserving demo interface are prepared for the private GitHub update.
+
 Status (4 November 2026): Seven-page IEEE-style CrowdScope manuscript and offline interactive demo prepared. All final outcomes retained;18 references,208-word abstract and7 required sections. See `paper/framework/main.tex`, `paper/framework/verification.json` and `app/README.md`. Framework extensibility is distinguished from use-case validation.  
 Working title: **A Probabilistic Framework for Mobility-Aware Crowd Analysis and Resource Planning**.
 

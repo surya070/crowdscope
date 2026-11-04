@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "families": 15,
+  "folds": 55,
+  "prediction_records": 68430,
+  "effective_tracks": 711,
+  "checks": [
+    "source hashes",
+    "weighted track coverage",
+    "known-identity/trial separation",
+    "independent weighted AP",
+    "independent pairwise ROC-AUC"
+  ],
+  "unresolved": "Unknown persistent identities among controls; no unseen-control-person guarantee."
+}

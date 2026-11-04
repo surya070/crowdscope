@@ -2,3 +2,7 @@ numpy==2.3.5
 shapely==2.1.2
 jupedsim==1.4.2
 matplotlib==3.10.8
+scikit-learn==1.7.2
+scipy==1.16.1
+torch==2.7.1
+mpmath==1.3.0

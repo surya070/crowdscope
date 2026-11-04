@@ -1,0 +1,160 @@
+{
+  "target": "Wheelchair-associated membership in audited SiME trials 501\u2013508",
+  "input": "101 contiguous XY positions at 25Hz, four seconds, ending at first forward x=-1 crossing in passage-aligned metres",
+  "base": "Full logistic, C=.2, balanced; 54 past-only features; training-only standardisation",
+  "calibration": "Fixed regularised sigmoid, C=1; natural prevalence; original crossed out-of-fold decisions for final calibrator",
+  "calibration_evaluation": "Separate nested 55 crossed trial/person outer folds; all outer test data excluded from calibration",
+  "data": "711 track windows, 55 positive repeated observations of seven wheelchair people; conditional roster-complement controls",
+  "scope": "All-development refit; not a held-out demonstration model; use the saved held-trial artifacts for replay evaluation",
+  "unseen_control_people_guaranteed": false,
+  "independent_external_validation": false,
+  "assistance_demand_validated": false,
+  "age_recognition": false,
+  "calibration_under_population_shift_validated": false,
+  "hashes": {
+    "output/calibrated_framework_v1/calibrated_model_LOCAL_ONLY.joblib": "22a82e9d0f9dd5edf912fe6b05296a8054adf1bf8adc2ac07737ab9281f5e158",
+    "research/build_detector_data.py": "c46974de402d411bb25a41ae635f09cd6cfad6004179f08bfa5d5c67b5a85f0c",
+    "src/calibrated_detector.py": "7e1b4df0f8e42d999a550c9ee2843bf30376f7f19f42d752aac34129a1368a51",
+    "research/calibrated_framework_protocol_v1.md": "bbfd87950f3a81f83f4cba79daa8fb817d6a20a9cac93592d189df100f0970e4"
+  },
+  "evaluation": {
+    "folds": 55,
+    "prior": {
+      "Brier": 0.07138083134233798,
+      "log_loss": 0.27232457961878886,
+      "AP": 0.07445977522468418,
+      "ROC_AUC": 0.4872683718720156,
+      "mean_probability": 0.07869350709064603,
+      "prevalence": 0.07735583684950777,
+      "precision": 0,
+      "recall": 0.0,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "weight": 710.9999999999998,
+          "mean_probability": 0.07869350709064603,
+          "observed_fraction": 0.07735583684950777
+        }
+      ],
+      "ECE_fixed_bins": 0.0013376702411382725
+    },
+    "raw": {
+      "Brier": 0.03622619362797175,
+      "log_loss": 0.12321722092591304,
+      "AP": 0.9074464017075524,
+      "ROC_AUC": 0.9867576021539437,
+      "mean_probability": 0.13451835923623134,
+      "prevalence": 0.07735583684950777,
+      "precision": 0.6423529411764707,
+      "recall": 0.9454545454545454,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "weight": 554.6666666666665,
+          "mean_probability": 0.013175780706377814,
+          "observed_fraction": 0.001802884615384616
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "weight": 34.119047619047606,
+          "mean_probability": 0.14342028853164152,
+          "observed_fraction": 0.05861828332170274
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "weight": 30.14285714285713,
+          "mean_probability": 0.299013145997556,
+          "observed_fraction": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.6,
+          "weight": 23.190476190476186,
+          "mean_probability": 0.5013647038444838,
+          "observed_fraction": 0.1724845995893224
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "weight": 12.166666666666664,
+          "mean_probability": 0.6889371950242678,
+          "observed_fraction": 0.16438356164383564
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "weight": 56.71428571428572,
+          "mean_probability": 0.9595282164886169,
+          "observed_fraction": 0.8110831234256926
+        }
+      ],
+      "ECE_fixed_bins": 0.057162522386724056
+    },
+    "calibrated": {
+      "Brier": 0.021003449221689258,
+      "log_loss": 0.07311540831118178,
+      "AP": 0.9083612976893654,
+      "ROC_AUC": 0.9866401383169676,
+      "mean_probability": 0.08452954003210796,
+      "prevalence": 0.07735583684950777,
+      "precision": 0.8429319371727749,
+      "recall": 0.8363636363636363,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.1,
+          "weight": 615.3571428571428,
+          "mean_probability": 0.006848180552643908,
+          "observed_fraction": 0.004875217643644806
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "weight": 25.02380952380952,
+          "mean_probability": 0.14733717014844014,
+          "observed_fraction": 0.15984776403425313
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "weight": 13.190476190476188,
+          "mean_probability": 0.28101222134902853,
+          "observed_fraction": 0.1516245487364621
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.6,
+          "weight": 11.428571428571427,
+          "mean_probability": 0.5199699812813667,
+          "observed_fraction": 0.525
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "weight": 4.8809523809523805,
+          "mean_probability": 0.7565777523685249,
+          "observed_fraction": 0.6146341463414635
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "weight": 41.11904761904762,
+          "mean_probability": 0.9449992654034454,
+          "observed_fraction": 0.8998262883613202
+        }
+      ],
+      "ECE_fixed_bins": 0.008216034115487138
+    }
+  },
+  "limits": [
+    "Head-motion and tracking confounding",
+    "Very small repeated-participant cohort",
+    "Prior until first qualifying trigger",
+    "Unknown repeat controls",
+    "Cached estimates and scene transfer require validation"
+  ]
+}

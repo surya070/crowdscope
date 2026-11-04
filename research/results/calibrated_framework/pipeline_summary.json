@@ -1,0 +1,54 @@
+{
+  "scope": "Coherent leave-one-trial-out replay; participants can repeat across training/test; not unseen-person whole-crowd validation",
+  "checkpoints": 48,
+  "zone_records": 192,
+  "nonempty_zone_records": 187,
+  "geometry_withheld": 0,
+  "streamed_predictions_matching_offline": 711,
+  "count_errors_all": {
+    "prior": {
+      "MAE": 0.5862497427936549,
+      "bias": -0.029099181125541024
+    },
+    "raw": {
+      "MAE": 0.5021774729444186,
+      "bias": 0.053001423005189674
+    },
+    "calibrated": {
+      "MAE": 0.4402434997198075,
+      "bias": -0.039769820111952736
+    },
+    "hard": {
+      "MAE": 0.5572916666666666,
+      "bias": -0.5364583333333334
+    }
+  },
+  "count_errors_nonempty": {
+    "prior": {
+      "MAE": 0.6019248696063195,
+      "bias": -0.029877234096812165
+    },
+    "raw": {
+      "MAE": 0.5156046781033604,
+      "bias": 0.05441857335292203
+    },
+    "calibrated": {
+      "MAE": 0.4520147162898558,
+      "bias": -0.04083318428606912
+    },
+    "hard": {
+      "MAE": 0.5721925133689839,
+      "bias": -0.5508021390374331
+    }
+  },
+  "working_interval_coverage_nonempty": 0.9786096256684492,
+  "mean_detector_coverage_nonempty_snapshots": 0.21462885098378234,
+  "hypothetical_planning": {
+    "prior": 0.08540795317973054,
+    "raw": 0.08549439953198053,
+    "calibrated": 0.08549439953198053,
+    "hard": 0.08400421743573551,
+    "known_class": 0.07472263878937893
+  },
+  "caveat": "Planning loss is conditional on assumed independent request rates .1/.4; human service outcomes were not observed."
+}

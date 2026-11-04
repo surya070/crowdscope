@@ -1,0 +1,253 @@
+{
+  "scope": "Exploratory crossed trial/wheelchair-person holdouts; unknown repeat controls remain",
+  "rows": 711,
+  "positives": 55,
+  "folds": 55,
+  "effective_prevalence": 0.07735583684950774,
+  "best_observed_AP": "Full logistic",
+  "results": {
+    "Prior": {
+      "AP": 0.07445977522468418,
+      "ROC_AUC": 0.4872683718720156,
+      "precision": 0.0,
+      "recall": 0.0,
+      "F1": 0.0,
+      "balanced_accuracy": 0.5,
+      "false_positive_rate": 0.0,
+      "weighted_confusion": {
+        "TN": 656.0000000000047,
+        "FP": 0.0,
+        "FN": 55.0,
+        "TP": 0.0
+      },
+      "mean_training_AP": 0.0786527124154695
+    },
+    "Speed logistic": {
+      "AP": 0.10235532522374802,
+      "ROC_AUC": 0.5255094498996824,
+      "precision": 0.10495229441163277,
+      "recall": 0.4,
+      "F1": 0.16627676804031163,
+      "balanced_accuracy": 0.5569976771196361,
+      "false_positive_rate": 0.28600464576072765,
+      "weighted_confusion": {
+        "TN": 468.3809523809798,
+        "FP": 187.61904761904424,
+        "FN": 33.0,
+        "TP": 22.0
+      },
+      "mean_training_AP": 0.15953102600968477
+    },
+    "Lateral logistic": {
+      "AP": 0.7047463737127094,
+      "ROC_AUC": 0.9133559022278522,
+      "precision": 0.300572519083969,
+      "recall": 0.8181818181818182,
+      "F1": 0.43963712491276985,
+      "balanced_accuracy": 0.8292781913208773,
+      "false_positive_rate": 0.15962543554006373,
+      "weighted_confusion": {
+        "TN": 551.28571428574,
+        "FP": 104.71428571428595,
+        "FN": 10.0,
+        "TP": 45.0
+      },
+      "mean_training_AP": 0.740235568968702
+    },
+    "Full logistic": {
+      "AP": 0.9074464017075524,
+      "ROC_AUC": 0.9867576021539437,
+      "precision": 0.6423529411764707,
+      "recall": 0.9454545454545454,
+      "F1": 0.7649737302977233,
+      "balanced_accuracy": 0.9506599091964949,
+      "false_positive_rate": 0.04413472706155564,
+      "weighted_confusion": {
+        "TN": 627.0476190476289,
+        "FP": 28.95238095238094,
+        "FN": 3.0,
+        "TP": 52.0
+      },
+      "mean_training_AP": 0.9735406351133625
+    },
+    "Gaussian NB": {
+      "AP": 0.6294249007580736,
+      "ROC_AUC": 0.9400634172737832,
+      "precision": 0.45330830595964294,
+      "recall": 0.8363636363636363,
+      "F1": 0.5879488740109553,
+      "balanced_accuracy": 0.87589813641643,
+      "false_positive_rate": 0.08456736353077639,
+      "weighted_confusion": {
+        "TN": 600.5238095238243,
+        "FP": 55.47619047619057,
+        "FN": 9.0,
+        "TP": 46.0
+      },
+      "mean_training_AP": 0.7188662278139067
+    },
+    "kNN": {
+      "AP": 0.8087404496877609,
+      "ROC_AUC": 0.9577664713335444,
+      "precision": 0.8787878787878788,
+      "recall": 0.5272727272727272,
+      "F1": 0.6590909090909091,
+      "balanced_accuracy": 0.7605875831485588,
+      "false_positive_rate": 0.006097560975609702,
+      "weighted_confusion": {
+        "TN": 652.0000000000055,
+        "FP": 3.999999999999998,
+        "FN": 26.0,
+        "TP": 29.0
+      },
+      "mean_training_AP": 1.0
+    },
+    "RBF SVM": {
+      "AP": 0.860696261214255,
+      "ROC_AUC": 0.9843812691373668,
+      "precision": 0.638733705772812,
+      "recall": 0.8909090909090909,
+      "F1": 0.7440347071583515,
+      "balanced_accuracy": 0.9243308520747548,
+      "false_positive_rate": 0.04224738675958125,
+      "weighted_confusion": {
+        "TN": 628.285714285724,
+        "FP": 27.714285714285708,
+        "FN": 6.0,
+        "TP": 49.0
+      },
+      "mean_training_AP": 0.9972015607810258
+    },
+    "Random forest": {
+      "AP": 0.8656100874964552,
+      "ROC_AUC": 0.9838276053215079,
+      "precision": 0.8359133126934984,
+      "recall": 0.8181818181818182,
+      "F1": 0.8269525267993875,
+      "balanced_accuracy": 0.9023581855136733,
+      "false_positive_rate": 0.01346544715447142,
+      "weighted_confusion": {
+        "TN": 647.166666666673,
+        "FP": 8.833333333333337,
+        "FN": 10.0,
+        "TP": 45.0
+      },
+      "mean_training_AP": 0.9937412664798159
+    },
+    "Extra trees": {
+      "AP": 0.8916969467518853,
+      "ROC_AUC": 0.9884476296061662,
+      "precision": 0.7985436893203884,
+      "recall": 0.8545454545454545,
+      "F1": 0.8255959849435384,
+      "balanced_accuracy": 0.9182352708267343,
+      "false_positive_rate": 0.018074912891985866,
+      "weighted_confusion": {
+        "TN": 644.142857142864,
+        "FP": 11.857142857142852,
+        "FN": 8.0,
+        "TP": 47.0
+      },
+      "mean_training_AP": 0.9998747467640569
+    },
+    "Gradient boosting": {
+      "AP": 0.9013739758007066,
+      "ROC_AUC": 0.973042049414,
+      "precision": 0.7603305785123968,
+      "recall": 0.8363636363636363,
+      "F1": 0.7965367965367965,
+      "balanced_accuracy": 0.9071299889135256,
+      "false_positive_rate": 0.022103658536585098,
+      "weighted_confusion": {
+        "TN": 641.5000000000073,
+        "FP": 14.499999999999986,
+        "FN": 9.0,
+        "TP": 46.0
+      },
+      "mean_training_AP": 1.0
+    },
+    "MLP": {
+      "AP": 0.851677184727513,
+      "ROC_AUC": 0.9741216608594662,
+      "precision": 0.758731433159374,
+      "recall": 0.8181818181818182,
+      "F1": 0.7873359716725684,
+      "balanced_accuracy": 0.8981842598458454,
+      "false_positive_rate": 0.021813298490127496,
+      "weighted_confusion": {
+        "TN": 641.6904761904835,
+        "FP": 14.309523809523796,
+        "FN": 10.0,
+        "TP": 45.0
+      },
+      "mean_training_AP": 0.9979905771314145
+    },
+    "CNN": {
+      "AP": 0.7687153402582403,
+      "ROC_AUC": 0.9335491236405861,
+      "precision": 0.48698532891623286,
+      "recall": 0.8909090909090909,
+      "F1": 0.6297429620563035,
+      "balanced_accuracy": 0.9061107591595405,
+      "false_positive_rate": 0.07868757259000993,
+      "weighted_confusion": {
+        "TN": 604.3809523809666,
+        "FP": 51.61904761904763,
+        "FN": 6.0,
+        "TP": 49.0
+      },
+      "mean_training_AP": 0.9206772957275459
+    },
+    "GRU": {
+      "AP": 0.5693163291666983,
+      "ROC_AUC": 0.9052687150248122,
+      "precision": 0.344692239072256,
+      "recall": 0.8363636363636363,
+      "F1": 0.4881869867340483,
+      "balanced_accuracy": 0.8515260400168956,
+      "false_positive_rate": 0.1333115563298451,
+      "weighted_confusion": {
+        "TN": 568.5476190476405,
+        "FP": 87.45238095238129,
+        "FN": 9.0,
+        "TP": 46.0
+      },
+      "mean_training_AP": 0.7023167019818509
+    },
+    "Coarse logistic": {
+      "AP": 0.5556068746779514,
+      "ROC_AUC": 0.9133394044979414,
+      "precision": 0.28767123287671226,
+      "recall": 0.7636363636363637,
+      "F1": 0.41791044776119396,
+      "balanced_accuracy": 0.802549889135258,
+      "false_positive_rate": 0.15853658536584758,
+      "weighted_confusion": {
+        "TN": 552.0000000000254,
+        "FP": 104.00000000000003,
+        "FN": 13.0,
+        "TP": 42.0
+      },
+      "mean_training_AP": 0.6918882148872647
+    },
+    "Permuted logistic": {
+      "AP": 0.12705785001626646,
+      "ROC_AUC": 0.5796754566571555,
+      "precision": 0.10826735407844065,
+      "recall": 0.509090909090909,
+      "F1": 0.1785605830549679,
+      "balanced_accuracy": 0.5787687414211884,
+      "false_positive_rate": 0.3515534262485322,
+      "weighted_confusion": {
+        "TN": 425.38095238097316,
+        "FP": 230.61904761904268,
+        "FN": 27.0,
+        "TP": 28.0
+      },
+      "mean_training_AP": 0.12324872611130223
+    }
+  },
+  "elapsed_s": 203.08159470558167,
+  "caution": "Scores are not calibrated probabilities; model-family selection uses this exploratory comparison; no pristine external test.",
+  "publication_note": "Participant-specific recalls excluded; aggregate metrics only."
+}
