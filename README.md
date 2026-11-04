@@ -1,126 +1,129 @@
 # CrowdScope
 
-### A modular framework for crowd-state analysis and uncertainty-aware resource planning
+### Trajectory-based crowd analysis with calibrated mobility estimates
 
-**Trajectories → spatial crowd state → uncertain composition → explicit decisions.**
+**Observe movement → measure crowd state → estimate composition → explore decisions.**
 
-**Updated paper and framework:** a calibrated movement detector is connected to
-the complete streaming pipeline and documented in the current manuscript. See
-the [framework guide](docs/calibrated_framework.md) and
-[calibrated results](research/calibrated_framework_results_v1.md).
+CrowdScope is a Research Methodology project at RV University. It connects
+geometry-aware occupancy and density, past-only movement features, an exploratory
+wheelchair-associated motion detector, calibrated probabilities, and a configurable
+resource-planning example.
 
-Define walkable zones, feed time-stamped trajectories, inspect density and
-uncertain composition, then attach a management decision model. Current evidence
-supports an exploratory SiME-domain recogniser; new scenes and service models
-need their own validation.
+[Read the paper](paper/framework/CrowdScope_Paper.pdf) ·
+[LaTeX source](paper/framework/main.tex) ·
+[Framework guide](docs/calibrated_framework.md) ·
+[Results and limitations](research/calibrated_framework_results_v1.md)
 
-[Paper PDF](paper/framework/CrowdScope_Paper.pdf) · [LaTeX source](paper/framework/main.tex) · [Demo guide](app/README.md) · [Final results](research/final_evaluation_A1_report.md)
+## Quick start
 
-![CrowdScope demonstration](app/preview.png)
-
-A Research Methodology project at RV University by **Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Seema B. Hegde**.
-
-CrowdScope connects geometry-aware density measurement, causal movement summaries, calibrated wheelchair-associated motion probabilities and finite-capacity allocation through a common crowd-state interface. New applications can consume that state when their decision models and validation data are supplied. The current recognition component is exploratory and limited to the studied SiME domain. CCTV, child/age recognition, arbitrary-scene transfer, dynamic dispatch and reliable evacuation timing remain extensions.
-
-## Implemented modules
-
-- **Observe:** canonical trajectories, explicit units and track-quality checks.
-- **Measure:** polygon/obstacle-aware counts, density, past-only motion and crossings.
-- **Estimate:** calibrated trajectory-detector probabilities, flagged prior fallback, expected composition and count distributions.
-- **Decide:** exact allocation with population, hard-label, probability and information-reference controls.
-- **Audit:** fixed configurations, grouped partitions, paired uncertainty and negative controls.
-- **Demonstrate:** the original shareable synthetic replay and a separate local recorded-SiME framework replay with held-trial detector probabilities.
-
-## New detection and connected-framework evidence
-
-- **711 eligible four-second windows**, including 55 wheelchair-associated observations of **seven repeated people**.
-- Fifteen fixed models/controls, including an MLP, temporal CNN and GRU. Full logistic leads on exploratory crossed-holdout AP (**0.907**).
-- Nested person/trial calibration reduces Brier loss **0.0362 → 0.0210**; calibrated precision/recall are **84.3% / 83.6%** at the preset threshold.
-- A separate coherent held-trial replay reduces nonempty-zone count MAE **0.602 → 0.452 people/zone**. Participants may repeat in this weaker whole-crowd task.
-- **No improvement in default hypothetical resource-planning loss.** Better estimates do not automatically improve a discrete decision.
-- **46 tests**, nested-split and saved-output audits, and 100 recorded-state Python/JavaScript allocator checks pass.
-
-![Movement-model comparison and nested calibration](paper/framework/figures/detection_calibration.png)
-
-Run `python app/launch.py --page framework.html`. With the local recorded-data
-package, this opens the eight-trial replay. A clean GitHub checkout shows the
-included aggregate evidence view and links to the fully self-contained synthetic
-demo. Human replay data, individual predictions and fitted recognition weights
-are not bundled; see the guide for prerequisites and rebuilding.
-
-## Paper and retained earlier evidence
-
-**CrowdScope: A Modular Framework for Crowd-State Analysis and Uncertainty-Aware Resource Planning**
-
-The IEEE-style course paper has **seven pages, eighteen references and seven required major sections**.
-
-- Recorded SiME trajectories integrate at **42 checkpoints from fourteen trials**. This verifies occupancy processing, not real profile recognition or service demand.
-- The fixed synthetic evaluation covers **60 independent seed blocks, fourteen conditions and 58,800 policy records**.
-- Probabilities reduce base unmet requests by **0.255** versus hard posterior, paired 95% interval **[−0.390, −0.127]**. The paper identifies that comparator's threshold weakness.
-- Against hard observed labels, base allocations match in **599/600 replicas**, with no probability advantage. Small secondary gains depend on zone balance and demand contrast.
-- Dense-crowd jams and timestep sensitivity remain in the JuPedSim record. No general evacuation or safety validation is claimed.
-
-[Full interpretation and limitations](research/final_evaluation_A1_report.md). Established mathematical tools support a transparent information-to-decision benchmark; no invented Bayesian algorithm or verified first-framework claim is made.
-
-## Try the demonstrations
+Python 3.12 is recommended. The browser demonstrations need only Python's standard
+library; no account, external service or model download is required to view them.
 
 ```bash
+git clone https://github.com/surya070/crowdscope.git
+cd crowdscope
 python app/launch.py --page framework.html
 ```
 
-The framework page uses the local recorded replay when available and otherwise shows the included aggregate evidence. For the fully self-contained synthetic what-if app, use `python app/launch.py --page index.html` or open `app/index.html` directly. Its optional colours show simulation truth, not recognised disability. No external service is needed. [Demo details](app/README.md).
+Open the localhost address printed by the launcher.
 
-## Reproduce
+- **Framework page:** shows the recorded eight-trial replay when its local data
+  package is available; a clean checkout shows the included aggregate evidence
+  and usage guide.
+- **Self-contained synthetic demo:** run `python app/launch.py --page index.html`.
+  Play the replay and change information assumptions, budgets and capacity.
+  Its colours represent synthetic truth, not actual recognition.
 
-Python 3.12 is recommended. Core planning uses the standard library; geometry, recognition, neural comparisons, simulation and figures use the single root requirements file.
+The repository is **private**; cloning and reviewing require access permission.
+The recorded human replay and fitted recognition weights are not bundled.
+
+## What the framework does
+
+1. **Ingest:** timestamped person positions and walkable geometry, with explicit units.
+2. **Measure:** zone counts, usable area, density, recent speed and observation coverage.
+3. **Estimate:** calibrated wheelchair-associated probabilities, flagged prior
+   fallback, expected zone composition and working count intervals.
+4. **Explore:** allocate limited hypothetical service capacity under declared
+   request-rate assumptions.
+5. **Audit:** retain input hashes, group-aware splits, metric checks and negative findings.
+
+Users define observation zones and supply canonical CSV or streaming input. New
+management applications can consume the crowd-state interface, but need their own
+decision models and validation. See the [input schema and API guide](docs/calibrated_framework.md).
+
+## Evidence at a glance
+
+- **Eight SiME trials; 711 eligible movement windows.** The 55 positive observations
+  represent **seven repeated wheelchair participants**, not 55 independent people.
+- **Fifteen fixed models/controls**, including MLP, temporal CNN and GRU. Full
+  logistic has the highest observed exploratory AP (**0.907**); close model scores
+  do not establish statistically meaningful superiority. AP is not accuracy.
+- **Nested person/trial calibration:** Brier loss **0.0362 → 0.0210**; precision
+  **84.3%**, recall **83.6%** at the preset threshold.
+- **Separate whole-trial replay:** nonempty-zone count MAE **0.602 → 0.452 people**.
+  Participants may recur between training and test in this evaluation.
+- **No improvement in default hypothetical resource-planning loss.** Better
+  composition estimates do not automatically produce better decisions.
+- **46 tests**, detector/calibration audits and 100 Python/JavaScript planner
+  comparisons passed for the published study.
+
+![Model comparison and nested calibration](paper/framework/figures/detection_calibration.png)
+
+The current IEEE-style paper has **seven pages and eighteen references**.
+Recognition remains exploratory and specific to the studied trajectories. Only
+21.5% of visible occupants, on average across nonempty replay checkpoints, have
+detector evidence; the others retain flagged priors. Child/age recognition,
+arbitrary-scene transfer, real service demand and reliable evacuation forecasting
+are not established.
+
+## Install and verify
+
+Install the single dependency file for research scripts and model training:
 
 ```bash
 python -m venv .venv
 # Activate the environment for your operating system, then:
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests
-python research/audit_planning_evaluation.py
-python research/analyse_evaluation_A1.py
 ```
 
-The guard denies evaluation by default. The dated release permits the fixed final run. Saved experiment folders refuse overwrite: regenerate in a clean source/configuration copy without that experiment's pre-existing output folder.
+Synthetic planning outputs can be audited with
+`python research/audit_planning_evaluation.py`. Recognition/calibration audits and
+retraining require the separately obtained source data and local result files;
+see the [rebuild guide](docs/calibrated_framework.md). Frozen experiments refuse
+accidental overwrites, and source-byte hashes must remain intact.
 
-```bash
-python research/run_planning_manifest.py --partition evaluation --enable-evaluation
-```
-
-The release binds original source/configuration bytes. `.gitattributes` disables line-ending conversion so hash checks remain reproducible. Analysis averages replicas within seed and uses a paired block bootstrap; frames, replicas and cells are not independent crowds.
-
-## Build the paper
+To regenerate aggregate paper figures and compile the manuscript:
 
 ```bash
 python paper/framework/make_figures.py
 tectonic paper/framework/main.tex
 ```
 
-The [compiled PDF](paper/framework/CrowdScope_Paper.pdf) and figures are included. Figures use aggregate results only. The paper links this private repository; reviewers need access permission.
+## Repository layout
 
-## Repository guide
+- `src/` — crowd measurements, calibrated inference and planning API.
+- `app/` — framework evidence/replay interface and self-contained synthetic demo.
+- `docs/` — usage, input format and data prerequisites.
+- `paper/framework/` — current manuscript, figures and compiled PDF.
+- `research/results/` — aggregate recognition and calibration results.
+- `research/` — protocols, evaluation scripts and research reports.
+- `configs/`, `output/planning_*` — earlier controlled planning designs and outputs.
+- `tests/` — current automated checks.
 
-- `src/crowd_state.py`, `polygon_zones.py`: observed state and geometry.
-- `src/mobility_probability.py`, `resource_planning.py`: uncertainty and allocation.
-- `src/calibrated_detector.py`, `crowd_framework.py`: calibrated inference and connected streaming API.
-- `app/`: framework evidence/replay interface, synthetic demo and launcher.
-- `docs/calibrated_framework.md`: usage, schema and data prerequisites.
-- `research/results/`: publication-safe aggregate recognition/calibration results.
-- `configs/`, `research/evaluation_*`: design, partitions and release record.
-- `output/planning_evaluation_A1/`: synthetic outcomes, analysis and audit.
-- `research/literature/`: scoped evidence and closest-method comparison.
-- `paper/framework/`: current manuscript and verification record.
+## Data, privacy and earlier work
 
-## Data boundaries
+Raw SiME trajectories, identity registries, per-person predictions, fitted
+recognition weights, local replay packages, dependencies and backups are excluded.
+Aggregate evidence is included. External data retain their source terms; no
+blanket project-wide data licence or new consent is asserted. Predicted membership
+is not confirmed disability or a request for assistance.
 
-The original fixed planning benchmark and self-contained what-if demo are synthetic. The new detection/calibration results use recorded SiME trajectories, with aggregate results included. Raw tracks, identity registries, fitted recognition weights, and derived participant-level prediction/integration/replay files are excluded pending confirmation of redistribution terms. The framework UI therefore has an aggregate-only view for a clean checkout.
+Older compound-clearance, assistance-linkage and replay experiments remain under
+`paper/compound/`, `paper/real_and_linkage/`, `research/compound/`,
+`research/assistance/` and related output folders. They are historical evidence,
+not the current entry points. See [publication notes](PUBLICATION_NOTES.md) and
+[external-data provenance](data/README.md) for the distinction.
 
-Raw-data audit/replay scripts require the local verified archives documented in `plan.md`; those archives are not uploaded. A fresh clone reproduces synthetic planning and its audits but needs separately acquired source data to reproduce raw-data measurements. Hypothetical profiles and request rates are not real demographic or staffing labels.
-
-## History
-
-Earlier studies remain under `paper/real_and_linkage/`, `paper/compound/`, `research/compound/`, `research/assistance/` and related historical source/output folders. Their targets, environments and results differ from CrowdScope. Current entry points are listed above; historical dependency pins remain in Git history.
-
-No external funding was received. Third-party data retain their source terms; no new blanket licence is asserted. Author and venue declarations need confirmation before formal submission.
+**Authors:** Surya Maheswaran, Yashaswini Pawar, Sohan Kori and Dr. Seema B Hegde.
+No external funding was received.

@@ -1,3 +1,25 @@
+# Publication notes
+
+## Current study — CrowdScope, 5 November 2026
+
+Repository: https://github.com/surya070/crowdscope (private).
+
+The current manuscript is `paper/framework/main.tex`, with the seven-page PDF at
+`paper/framework/CrowdScope_Paper.pdf`. Current entry points are the root README,
+`docs/calibrated_framework.md` and `app/framework.html`.
+
+The package includes source, synthetic experiments and aggregate real-data
+recognition/calibration results. Participant-level trajectories, individual
+predictions, fitted recognition weights and the local recorded replay are not
+included. A clean checkout displays aggregate evidence; the synthetic demo works
+without those files. `requirements.txt` is the only dependency list.
+
+Earlier manuscripts and frozen experiments are preserved for provenance. The
+notes below describe those earlier versions; their references to a “current”
+paper or scope apply to their own date, not today's entry point.
+
+## Archived publication notes
+
 The 3 November update adds a five-family exploratory follow-up and private repository link. Saved predictions and independent metric reconstruction accompany the revised eight-page source.
 
 # Active study update — 2 November 2026

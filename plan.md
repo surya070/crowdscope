@@ -29,7 +29,7 @@ Crowd-passage forecasting is a secondary endpoint. Assistance-link inference, ag
 
 ## 2. Backup and reset record
 
-Only the local workspace was reset. The private GitHub repository remains unchanged at https://github.com/surya070/crowd-clearance-forecasting . Its existing contents describe the preceding study, not this proposed framework.
+Only the local workspace was reset. The private GitHub repository remains unchanged at https://github.com/surya070/crowdscope . Its existing contents describe the preceding study, not this proposed framework.
 
 - Current-study archive: `backups/project_before_probabilistic_reset_20261103_224341.zip`.
 - Verification: `backups/probabilistic_reset_verification_20261103_224341.json`.

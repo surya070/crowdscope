@@ -15,8 +15,8 @@
   "overfull_boxes": 0,
   "undefined_citations_or_refs": 0,
   "github_link_clickable": true,
-  "source_sha256": "935e0f931a147db245a3ee568086776f917168097a741baf057977fd33434097",
-  "pdf_sha256": "e5bc8a187e221218198280abdd613f391154361d6e80c8bad439d81fc2fc59b9",
+  "source_sha256": "f61a000de1fd070f198e78140c1ceff665d343fd60fbe2701a2b2031185eef6d",
+  "pdf_sha256": "8cce986a4b4f1fd7fa32a856a9afbc0d4ea9f33152a1cc5067a15de1ed4d3077",
   "python_tests": 46,
   "javascript_cross_language_fixtures": 100,
   "recognition_models_and_controls": 15,
@@ -28,5 +28,6 @@
     "architecture.pdf": "c2911602c4a64f2e5a95231ccf49d3fba4d9bd421fe069c78c494119a1076ccc",
     "detection_calibration.pdf": "5b4c543eb88270f0f7854ef14f91929e597415f32411a2b11f1877e710df2b04",
     "effects.pdf": "c73ac7360921729ba35d74b771e7b8138dbf6da88758ed4f250344b25b3fb46b"
-  }
+  },
+  "repository_url": "https://github.com/surya070/crowdscope"
 }

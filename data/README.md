@@ -1,5 +1,21 @@
 # External data provenance
 
+## Current CrowdScope recognition study
+
+The calibrated detector uses SiME trials 501–508: 711 eligible four-second
+windows, including 55 observations of seven repeated wheelchair participants.
+The whole-crowd replay and the stricter person/trial detector evaluation are
+separate tasks. Source-data and fitted-weight prerequisites are documented in
+[the framework guide](../docs/calibrated_framework.md).
+
+Raw human trajectories and participant-level derivatives are not mirrored here.
+The included archive index and hashes are provenance metadata, not trajectories.
+The four-file downloader described below belongs to an earlier reference replay;
+it does not acquire the full current recognition cohort.
+
+## Archived reference-replay provenance
+
+
 The original compound and broader prediction studies use generated synthetic trajectories, included under `output/compound/`. These are simulator outcomes, not measured human evacuation ground truth.
 
 The separate empirical replay uses **SiME 2017**:
